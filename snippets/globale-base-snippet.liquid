@@ -1,0 +1,64 @@
+<script>
+    var glegem = window["glegem"] || function () {
+        (window["glegem"].q = window["glegem"].q || []).push(arguments);
+    };
+
+    glegem("OnCheckoutStepLoaded",function(data){
+
+      switch(data.StepId){
+
+          case data.Steps.LOADED:
+              break;
+
+          case data.Steps.CONFIRMATION:
+              if (data.IsSuccess){
+                  if (typeof dataLayer !== "undefined") {
+
+                     let products = new Array();
+
+                     for (let temp = 0; temp < data.details.ProductInformation.length; temp++) {
+                          let tempProducts = {};
+                          tempProducts.id = data.details.ProductInformation[temp].ProductGroupCode;
+                          tempProducts.name = data.details.ProductInformation[temp].ProductName;
+                          tempProducts.price = data.details.ProductInformation[temp].ProductPrices.MerchantTransaction.SalePrice;
+                          tempProducts.quantity = data.details.ProductInformation[temp].Quantity;
+                          products.push(tempProducts);
+                      }
+
+                      dataLayer.push({
+                          'event': 'purchase_GE',
+                          'ecommerce': {
+                              'purchase': {
+                                  'actionField': {
+                                      'id': data.OrderId,
+                                      'revenue': data.details.OrderPrices.CustomerTransactionInMerchantCurrency.CustomerTotalPriceInMerchantCurrency,
+                                      'tax': data.details.OrderPrices.CustomerTransactionInMerchantCurrency.CustomerUSSalesTaxInMerchantCurrency,
+                                      'coupon': data.details.Discounts[0].CouponCode,
+                                      'discountAmount': data.details.OrderPrices.CustomerTransactionInMerchantCurrency.CustomerTotalDiscountedProductsPriceInMerchantCurrency,
+                                      'billingEmail': data.details.CustomerDetails.BillingAddress.BillingEmail,
+                                      'zipCode': data.details.CustomerDetails.BillingAddress.BillingZipCode,
+                                      'paymentMethod': data.details.PaymentMethods[0].PaymentMethodTypeName,
+                                  },
+                                  'products': products
+                              },
+                              "currencyCode": data.details.MerchantCurrencyCode,
+                          }
+                      });
+                    dataLayer.push({
+
+                      'transactionTotal': data.details.OrderPrices.CustomerTransaction.CustomerTotalPrice,
+                      'shipping': data.details.OrderPrices.CustomerTransaction.CustomerShippingPrice,
+                      'transactionCurrency': data.details.CustomerCurrencyCode,
+                      'transactionID': data.OrderId,
+                      'transactionPromoCode': data.details.Discounts[1].CouponCode,
+                      'event': 'awin.dl.ready'
+                      });
+
+                  }
+
+              }
+
+              break;
+      }
+  });
+</script>

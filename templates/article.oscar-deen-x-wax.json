@@ -1,0 +1,456 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_2_c958a2e7-ec38-4211-aebf-0f5e1ea97fb2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_15_36c5f7e5-002f-4c9e-889d-edfc3b5ccf91.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Oscar Deen x Wax<br><i>'Everybody Loves the Sunshine'<\/i>",
+        "blog_date": "April 30, 2024",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 850
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Wax London and Oscar Deen are proud to present our collaborative sunglasses collection ‘<em>Everybody Loves the Sunshine<\/em>’. <\/p><p>Our story is one of escapism and individuality set in the streets of Soho, London. Our two characters put their sunglasses on and enter their own dimension, that personal world that only exists behind a great pair of Sunglasses.<\/p><p>Life through our own lens.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 13,
+            "text_line_height": 23,
+            "text_line_height_mobile": 20,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ab5a4569-889c-44be-b320-5a4df900f602": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "63e97539-5cd6-415b-9191-774ba5149131": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/5quq4xKm7NQ?si=gpDMCmiW4c0vpmca\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/5quq4xKm7NQ?si=gpDMCmiW4c0vpmca\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 1000,
+            "mobile_block_width": 90
+          }
+        },
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "63e97539-5cd6-415b-9191-774ba5149131",
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6": {
+      "type": "double_image",
+      "blocks": {
+        "99b91a47-c927-49e0-9333-91ca49d56034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 5
+          }
+        }
+      },
+      "block_order": [
+        "99b91a47-c927-49e0-9333-91ca49d56034"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "single_text_cCG48t": {
+      "type": "single_text",
+      "blocks": {
+        "single_text_block_F7NzkU": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>The collection features two limited edition pairs of sunglasses in new unique combinations of colours and lenses, the <em>Nelson in Brushed Charcoal <\/em>and the <em>Morris in Truffle<\/em>. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 13,
+            "text_line_height": 23,
+            "text_line_height_mobile": 20,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "custom"
+          }
+        },
+        "spacer_RxKJRJ": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "single_text_block_F7NzkU",
+        "spacer_RxKJRJ"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_7_8c7526e0-3e67-4c71-84f0-3ce0eb30ef99.png",
+            "image_2": "shopify:\/\/shop_images\/Artboard_8_795381e4-a7af-45ce-98b4-b5e3f049a555.png",
+            "image_1_caption": "<p><a href=\"\/products\/nelson-sunglasses-brushed-charcoal\" title=\"Nelson Sunglasses Brushed Charcoal\">Nelson Sunglasses Brushed Charcoal<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/morris-sunglasses-truffle\" title=\"Morris Sunglasses Truffle\">Morris Sunglasses Truffle<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 0
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b": {
+      "type": "single_image",
+      "blocks": {
+        "37952dd8-6a28-4537-831c-777cca1e7cac": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_16_cc13c537-4b8f-4083-9428-37c2d6dca272.png",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard18-ezgif.com-png-to-jpg-converter.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "37952dd8-6a28-4537-831c-777cca1e7cac",
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1b8519ed-23ce-4876-b97a-21268876a684": {
+      "type": "double_image",
+      "blocks": {
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_9_3fa36570-22e5-4eb9-bc54-1dbe78174eec.png",
+            "image_2": "shopify:\/\/shop_images\/Artboard_10_894f1258-00f5-4267-bca7-b5d91d67337d.png",
+            "image_1_caption": "<p><a href=\"\/products\/nelson-sunglasses-brushed-charcoal\" title=\"Nelson Sunglasses Brushed Charcoal\">Nelson Sunglasses Brushed Charcoal<\/a>, <a href=\"\/products\/didcot-shirt-multi-ornate-squares\" title=\"Didcot Shirt Multi Ornate Squares\">Didcot Shirt Multi Ornate Squares<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/morris-sunglasses-truffle\" title=\"Morris Sunglasses Truffle\">Morris Sunglasses Truffle<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4",
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "sunglasses",
+        "grid_items_count": 32,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "new_blog_posts_m9MfTk": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_jDFtP6": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/ss24-launch-dinner",
+            "article_2": "journal\/ss24-drop-one-come-together",
+            "article_3": "journal\/ss24-drop-two-beside-the-seaside"
+          }
+        }
+      },
+      "block_order": [
+        "article_jDFtP6"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "ab5a4569-889c-44be-b320-5a4df900f602",
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6",
+    "single_text_cCG48t",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b",
+    "1b8519ed-23ce-4876-b97a-21268876a684",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "new_blog_posts_m9MfTk"
+  ]
+}

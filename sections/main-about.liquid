@@ -1,0 +1,201 @@
+
+
+<section id="section-{{ section.id }}" class="Section Section--spacingNormal" data-section-id="{{ section.id }}" data-section-type="icon-with-text">
+  <div class="Container">
+    <div class="about-block">
+        {% for block in section.blocks %}
+            <div class="about-block-{{block.id}}">
+                {% case block.type %}
+                {% when 'title-block' %}
+                <div class="about-block-text-part"><h2 class="features--heading-large Heading u-h1">{{ block.settings.title }}</h2></div>
+                {% when 'single-text-block' %}
+                <div class="about-block-text-part"><p class="Heading u-h6">{{ block.settings.text_content }}</p></div>
+                {% when 'single_image_block' %}
+                <img src="{{ block.settings.logo_image | img_url: 'master' }}" class="logo-bar-img">
+                {% when 'double_image_block' %}
+                  <div class="double__ImageWrapper">
+                    <div class="double__Image Image--fadeIn hide-no-js Image--lazyLoaded">
+                       <img src="{{ block.settings.image_one | img_url: 'master' }}" class="logo-bar-img">
+                    </div>
+                    <div class="double__Image Image--fadeIn hide-no-js Image--lazyLoaded">
+                       <img src="{{ block.settings.image_two | img_url: 'master' }}" class="logo-bar-img">
+                    </div>
+                  </div>
+                {% when 'text_block' %}
+                <div class="about-block-text-part"><h2 class="Heading u-h6">{{ block.settings.text_title }}</h2>
+                <p>{{ block.settings.content_text }}</p></div>
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+    </div>
+  </div>
+</section>
+  
+<style>	
+    #section-{{ section.id }} .about-block {
+        max-width: {{section.settings.section_width | append: "px"}};
+        margin: auto;
+
+    }
+    #section-{{ section.id }} .about-block-text-part {
+        max-width: {{section.settings.text_part_width | append: "px"}};
+        margin: auto;
+    }
+    .logo-bar-link {
+        display: block;
+    }
+      #section-{{ section.id }} .double__ImageWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+      #section-{{ section.id }} .double__ImageWrapper .double__Image {
+        width: 100%;
+    }
+  #section-{{ section.id }} .double__ImageWrapper .double__Image:last-child {
+        margin-top: 25px;
+    }
+  @media screen and (min-width: 641px){
+    
+    #section-{{ section.id }} .double__ImageWrapper {
+        flex-direction: row;
+      justify-content: space-between;
+    }
+      #section-{{ section.id }} .double__ImageWrapper .double__Image {
+        width: 49%;
+    }
+    #section-{{ section.id }} .double__ImageWrapper .double__Image:last-child {
+        margin-top: 0;
+    }
+  }
+
+    {% for block in section.blocks %}
+        #section-{{ section.id }} .about-block-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+    {% endfor %}
+
+</style> 
+  
+  {% schema %}
+  {
+    "name": "About Us",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_width",
+        "label": "Section width",
+        "min": 0,
+        "max": 1500,
+        "step": 50,
+        "unit": "px",
+        "default": 600
+      },
+      {
+        "type": "range",
+        "id": "text_part_width",
+        "label": "Text part width",
+        "min": 0,
+        "max": 1500,
+        "step": 50,
+        "unit": "px",
+        "default": 600
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "title-block",
+            "name": "Title block",
+              "settings":[
+                  {
+                      "type": "text",
+                      "id":  "title",
+                      "label": "Title",
+                    "default": "Everyday Elevated"
+                  }
+              ]
+          },
+          {
+           "type": "single-text-block",
+            "name": "Single text block",
+              "settings":[
+                  {
+                      "type": "text",
+                      "id":  "text_content",
+                      "label": "Single Text",
+                      "default": "Wax is a London-based family label established in 2015, inspired by the places, faces and stories that surround us. Keeping sustainability at our core, our clothing is made with carefully sourced materials, designed to be worn and reworn, time and time again. Here to celebrate and elevate the everyday."
+                  }
+              ]
+          },
+          {
+           "type": "text_block",
+            "name": "Text block",
+              "settings":[
+                  {
+                      "type": "text",
+                      "id":  "text_title",
+                      "label": "Title"
+                  },
+                  {
+                      "type": "richtext",
+                      "id":  "content_text",
+                      "label": "Content"
+                  }
+              ]
+          },
+          {
+           "type": "single_image_block",
+            "name": "Single image block",
+              "settings":[
+                  {
+                      "type": "image_picker",
+                      "id": "logo_image",
+                      "label": "Choose Image"
+                  }
+              ]
+          },
+          {
+           "type": "double_image_block",
+            "name": "Double image block",
+              "settings":[
+                  {
+                      "type": "image_picker",
+                      "id": "image_one",
+                      "label": "Choose Image"
+                  },
+                  {
+                      "type": "image_picker",
+                      "id": "image_two",
+                      "label": "Choose Image"
+                  }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Content",
+             "name": "About us"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

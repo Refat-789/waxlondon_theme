@@ -1,0 +1,618 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_01-Alt.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_f298c61c-e00d-4815-a37d-03c9ec3c0de1.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "SS23 Drop 3 Campaign: A Weekend In Seville",
+        "blog_date": "May 16, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Sunny weekends in Seville inspire Drop 3 of our SS23 Collection. This campaign combines the bolder colour palette and inspiration of Seville with the urban setting of London as its backdrop.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b": {
+      "type": "single_image",
+      "blocks": {
+        "37952dd8-6a28-4537-831c-777cca1e7cac": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_02.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2_91af0428-fcdf-400c-856c-3c1fcba15318.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-black-geo-lace\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-black-geo-lace\">Didcot Shirt Black Geo Lace<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-off-white-cotton-twill\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-off-white-cotton-twill\">Milo Trouser Off White Cotton Twill<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "1c9139bf-b7f7-4f2d-bb29-87f160245f12": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_03.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3_52fe96f6-bb80-4900-9763-f4f9520a531e.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/trin-shirt-light-khaki-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/trin-shirt-light-khaki-linen\">Trin Shirt Light Khaki Linen<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-trousers-light-khaki-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-trousers-light-khaki-linen\">Kurt Trousers Light Khaki Linen<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ab15bb1c-20f5-4482-9f74-38bd41685e5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "47715b23-733e-414c-a2dc-b254c473df1d": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_04.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4_9a14efe7-a91c-41a5-b01d-b49a27cf1fc2.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-white-geo-lace\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-white-geo-lace\">Didcot Shirt White Geo Lace<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\">Montague Vest Black<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\">Milo Trousers Black Cotton Twill<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c15114c7-83b2-495a-8254-e07211400f34": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "baefa0a6-408e-481d-97f8-bae7d697e396": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_05.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/5_7b1487ea-b5e1-4195-a106-36143a76feb2.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/dean-t-shirt-ecru-tonal-stripe\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/dean-t-shirt-ecru-tonal-stripe\">Dean T Shirt Ecru Tonal Stripe<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-trousers-navy-floral-jacquard\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-trousers-navy-floral-jacquard\">Kurt Trousers Navy Floral Jacquard<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "83b7ffcf-9d2b-446b-800d-f408eab1033b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "b281355b-4ae7-4ced-912e-eab275093616": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_06.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/6_8f469ce4-c9e8-4bb3-9b89-ba3c44ef696b.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-coral-trio-embroidery\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-coral-trio-embroidery\">Didcot Shirt Coral Trio Embroidery<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-stone-heavy-twill?_pos=1&_sid=e2e81f5ab&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-stone-heavy-twill?_pos=1&_sid=e2e81f5ab&_ss=r\">Kurt Trousers Stone Heavy Twill<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "48c0d943-928c-4035-af10-9237fb4ecdd2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "5507aba2-6473-4c60-b8d7-6394230936aa": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_07.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/7_508fc3d3-ebe1-437d-bef4-cd388fafbb1e.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-white\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-white\">Tellaro Shirt White<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\">Montague Vest Black<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\">Milo Trousers Black Cotton Twill<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "8874ca99-f480-44a3-95c1-1b4fd99c7719": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "1950d9e6-8f5b-4ba1-b766-9b06463d9527": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_08.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/8_44ef46b0-47ee-4e41-a87c-a95cf1d6d8a3.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/dean-t-shirt-brown-tonal-stripe\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/dean-t-shirt-brown-tonal-stripe\">Dean T Shirt Brown Tonal Stripe<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-navy-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-navy-linen\">Kurt Shorts Navy Linen<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "04740a67-6428-403a-8292-562afa32e791": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "df3f555a-48f6-41f3-a146-d8efe05844a6": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_09.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/9_a33520cb-66fe-4b34-9735-ebde6da90acc.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/naples-polo-white-wave?_pos=1&_sid=b9983475b&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/naples-polo-white-wave?_pos=1&_sid=b9983475b&_ss=r\">Naples Polo White Wave<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-navy-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-navy-linen\">Kurt Shorts Navy Linen<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "45eae900-8f76-4cc4-a9b6-fa0a33414300": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7ed3b1a9-9f58-4d65-827d-4afaecfd80a1": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_10.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/10_dece200a-58d9-41f2-b67b-b950422a6652.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-brown\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-brown\">Tellaro Shirt Brown<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=bd2cb45ec&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=bd2cb45ec&_ss=r\">Loose Fit Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ef936479-6056-4066-96db-b94a83b05c5e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7a4b59be-a7a9-43b0-85f5-cb67a31f2332": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_11.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/11_b6238f59-8bb5-42d0-9679-fef94f59e3f7.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-navy-border-embroidery\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-navy-border-embroidery\">Didcot Shirt Navy Border Embroidery<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-off-white-cotton-twill\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-off-white-cotton-twill\">Milo Trousers Off White Cotton Twill<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "80793e1c-858a-4f9a-9314-cc1d31aec724": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7469b61c-03d4-459c-9354-ed07781e9dec": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_12.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/12_58fbb5ec-950c-45d3-9221-04878856538a.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-mustard-white\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/tellaro-shirt-mustard-white\">Tellaro Shirt Mustard\/White<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=bd2cb45ec&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=bd2cb45ec&_ss=r\">Loose Fit Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "38332491-4d35-4730-9322-f996932f0f3e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "235da3d1-437c-4308-b429-8d001a31373a": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_13.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/13_c23978e8-7ed9-402f-84ac-af7be7232be5.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/iggy-jacket-navy-floral-jacquard\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/iggy-jacket-navy-floral-jacquard\">Iggy Jacket Navy Floral Jacquard<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "f717c98a-df63-41f3-bc4e-eaddd8f8c84d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "ec36cd30-9a5f-4d28-ac45-fa42e4ba65c9": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_14.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/14_b21fb319-8a3e-4433-98a5-dde8ed1f96dc.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p>[Left] <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-black-amalfi\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-black-amalfi\">Didcot Shirt Black Amalfi<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=edd166864&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/milo-trousers-black-cotton-twill\">Milo Trousers Black Cotton Twill<\/a><br\/>[Right] <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-white-geo-lace\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-white-geo-lace\">Didcot Shirt White Geo Lace<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=5720ee6b9&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=5720ee6b9&_ss=r\">Dean T Shirt White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-light-khaki-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/kurt-shorts-light-khaki-linen\">Kurt Shorts Light Khaki Linen<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "313109f7-3453-468c-bf36-54b225264fcf": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "671a15d0-59a9-474d-a336-ab9f4e3c6acb": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax-SS23-Drop-3-Lookbook-Seville_15.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/14_f79d874a-612f-4b5d-9a3c-7e2e13a20191.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-ecru-doodle-embroidery\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-3\/products\/didcot-shirt-ecru-doodle-embroidery\">Didcot Shirt Ecru Doodle Embroidery<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-black?_pos=2&_sid=edd166864&_ss=r\">Montague Vest Black<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=6e2d95d0b&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=6e2d95d0b&_ss=r\">Loose Fit Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "70657041-ee8e-4e87-8884-36fe1c783216": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "37952dd8-6a28-4537-831c-777cca1e7cac",
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59",
+        "1c9139bf-b7f7-4f2d-bb29-87f160245f12",
+        "ab15bb1c-20f5-4482-9f74-38bd41685e5d",
+        "47715b23-733e-414c-a2dc-b254c473df1d",
+        "c15114c7-83b2-495a-8254-e07211400f34",
+        "baefa0a6-408e-481d-97f8-bae7d697e396",
+        "83b7ffcf-9d2b-446b-800d-f408eab1033b",
+        "b281355b-4ae7-4ced-912e-eab275093616",
+        "48c0d943-928c-4035-af10-9237fb4ecdd2",
+        "5507aba2-6473-4c60-b8d7-6394230936aa",
+        "8874ca99-f480-44a3-95c1-1b4fd99c7719",
+        "1950d9e6-8f5b-4ba1-b766-9b06463d9527",
+        "04740a67-6428-403a-8292-562afa32e791",
+        "df3f555a-48f6-41f3-a146-d8efe05844a6",
+        "45eae900-8f76-4cc4-a9b6-fa0a33414300",
+        "7ed3b1a9-9f58-4d65-827d-4afaecfd80a1",
+        "ef936479-6056-4066-96db-b94a83b05c5e",
+        "7a4b59be-a7a9-43b0-85f5-cb67a31f2332",
+        "80793e1c-858a-4f9a-9314-cc1d31aec724",
+        "7469b61c-03d4-459c-9354-ed07781e9dec",
+        "38332491-4d35-4730-9322-f996932f0f3e",
+        "235da3d1-437c-4308-b429-8d001a31373a",
+        "f717c98a-df63-41f3-bc4e-eaddd8f8c84d",
+        "ec36cd30-9a5f-4d28-ac45-fa42e4ba65c9",
+        "313109f7-3453-468c-bf36-54b225264fcf",
+        "671a15d0-59a9-474d-a336-ab9f4e3c6acb",
+        "70657041-ee8e-4e87-8884-36fe1c783216"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "ss23-drop-3",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Drop 3",
+        "shop_button_url": "shopify:\/\/collections\/ss23-drop-3",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

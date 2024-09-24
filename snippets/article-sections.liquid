@@ -1,0 +1,38 @@
+{% assign layouts = shop.metafields.acf_settings.page_layouts %}
+
+{% if post_object %}
+    {% assign page = post_object %}
+    {% assign layouts = shop.metafields.acf_settings.article_layouts %}
+{% endif %}
+
+{% assign sections = layouts | where: "id", page.id | first | map: "sections" | where: "visible" %}
+
+<div class="Article__Sections">
+{% for section in sections %}
+    {% case section.name %}
+
+    {% when 'callout_title' %}
+
+    {% render 'article-wrapper' opening: true %}
+    {% render 'block-callout'  page: page, index: section.index, layout_class: 'content' %}
+    {% render 'article-wrapper' %}
+
+    {% when 'copy' %}
+
+    {% render 'article-wrapper' opening: true %}
+    {% render 'block-copy' page: page, index: section.index, layout_class: 'content' %}
+    {% render 'article-wrapper' %}
+
+    {% when 'images' %}
+
+    {% render 'block-images' page: page, index: section.index %}
+
+    {% when 'blockquote' %}
+
+    {% render 'article-wrapper' opening: true %}
+    {% render 'block-blockquote' page: page, index: section.index %}
+    {% render 'article-wrapper' %}
+
+    {% endcase %}
+{% endfor %}
+</div>

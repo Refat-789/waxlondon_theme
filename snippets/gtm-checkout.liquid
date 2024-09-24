@@ -1,0 +1,170 @@
+
+<!-- <style>
+            #continue_button{
+                background: #E37730 ;
+            }
+        </style> -->
+
+<script>
+     function gtmAddCheckout(step, option) {
+        dataLayer.push({ ecommerce: null });
+        dataLayer.push({
+            event: 'checkout',
+            ecommerce: {
+                checkout: {
+                    actionField: {
+                        step: step,
+                        option: option
+                    },
+                    products: products
+                }
+            }
+        });
+    };
+  
+
+    const products = [];
+    {% for line_item in checkout.line_items %}
+        var product = {
+            name: {{ line_item.product.title | json }},
+            id: {{ line_item.product.id | json }},
+            price: {{ line_item.original_price | money_without_currency | json }},
+            vendor: {{ line_item.product.vendor | json }},
+            category: {{ line_item.product.type | json }},
+            variant: {{ line_item.variant.title | json }},
+            quantity: {{ line_item.quantity | json }},
+        }
+        products.push(product);
+    {% endfor %}
+  
+    const productsGA = [];
+      {% for line_item in checkout.line_items %}
+          var product = {
+              item_id: {{ line_item.product.id | json }},
+              item_name: {{ line_item.product.title | json }},
+              item_category: {{ line_item.product.type | json }},
+              item_brand: {{ line_item.product.vendor | json }},
+              item_variant: {{ line_item.variant.title | json }},
+              price: {{ line_item.original_price | money_without_currency | json }},
+              quantity: {{ line_item.quantity | json }}
+          }
+          productsGA.push(product);
+      {% endfor %}
+
+
+    document.addEventListener("DOMContentLoaded", function(){
+      // EYEFITU integration START 
+      const cartItems = Array.from(document.querySelectorAll('.product__description__name')).map((item) => item.textContent); 
+      const recProducts = JSON.parse(sessionStorage.getItem('eyefitu:recProducts') || '[]'); 
+      if (cartItems.some((cartItem) => recProducts.includes(cartItem))) { 
+          window.dataLayer.push({'eyefitu.gender': localStorage.getItem('eyefitu:currentGender')}); 
+      } 
+      // EYEFITU integration END
+
+        if(Shopify.Checkout.step === 'contact_information') {
+            gtmAddCheckout(1, 'personal details');
+
+            dataLayer.push({
+                event: 'begin_checkout',
+                currency: "{{ checkout.currency }}",
+                value: '{{ checkout.total_price | money_without_currency}}',
+                {% for discount_application in checkout.discount_applications %}
+                    coupon: '{{ discount_application.title }}',
+                {% endfor %}
+                items: productsGA
+            });
+        }
+
+        if(Shopify.Checkout.step === 'shipping_method') {
+            gtmAddCheckout(2, 'delivery');
+            dataLayer.push({
+                  event: 'add_shipping_info',
+                  currency: "{{ checkout.currency }}",
+                  value: '{{ checkout.total_price | money_without_currency }}',
+                  {% for discount_application in checkout.discount_applications %}
+                      coupon: '{{ discount_application.title }}',
+                  {% endfor %}
+                  items: productsGA
+              });
+        }
+
+        if(Shopify.Checkout.step === 'payment_method') {
+            var optionInput = document.querySelectorAll('.section--payment-method .input-radio');
+            var paymentOptions = Array.from(optionInput);
+            var selectedPaymentOption = paymentOptions.filter(option => option.checked === true);
+            var initialPaymentOption = selectedPaymentOption[0].labels[0].outerText;
+
+            gtmAddCheckout(3, initialPaymentOption);
+          
+          	dataLayer.push({
+                  event: 'add_payment_info',
+                  currency: "{{ checkout.currency }}",
+                  value: '{{ checkout.total_price | money_without_currency }}',
+                  {% for discount_application in checkout.discount_applications %}
+                      coupon: '{{ discount_application.title }}',
+                  {% endfor %}
+                  payment_type: initialPaymentOption,
+                  items: productsGA
+              });
+
+            optionInput.forEach(input => input.addEventListener('change', function(e) {
+                var paymentMethod = e.target.labels[0].outerText;
+                gtmAddCheckout(3, paymentMethod);
+                dataLayer.push({
+                    event: 'add_payment_info',
+                    currency: "{{ checkout.currency }}",
+                    value: '{{ checkout.total_price | money_without_currency }}',
+                    {% for discount_application in checkout.discount_applications %}
+                        coupon: '{{ discount_application.title }}',
+                    {% endfor %}
+                    payment_type: paymentMethod,
+                    items: productsGA
+                });
+            }))
+        }
+
+        if(Shopify.Checkout.step === 'thank_you') {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: 'purchase',
+                ecommerce: {
+                    purchase: {
+                        actionField: {
+                            'id': '{{ checkout.order_id }}', 
+                            'email': '{{ order.email }}', 
+                            'revenue': '{{ checkout.total_price | money_without_currency }}',
+                            'tax': '{{ checkout.tax_price | money_without_currency }}',
+                            'shipping': '{{ checkout.shipping_price | money_without_currency }}',
+                            {% for discount_application in checkout.discount_applications %}
+                                coupon: '{{ discount_application.title }}'
+                            {% endfor %}
+                        },
+                        products: products
+                    }
+                },
+              	transaction_id: '{{ checkout.order_id }}',
+                email: '{{ order.email}}',
+                currency: "{{ checkout.currency }}", 
+                value: '{{ checkout.total_price | money_without_currency }}',
+                tax:'{{ checkout.tax_price | money_without_currency }}',
+                shipping: '{{ checkout.shipping_price | money_without_currency }}',
+                {% for discount_application in checkout.discount_applications %}
+                   coupon: '{{ discount_application.title }}',
+                {% endfor %}
+                items: productsGA
+              
+            });
+            window.dataLayer.push({
+                event: "awin.dl.ready",
+                userfromUk: true,
+                transactionTotal: "{{order.subtotal_price | money_without_currency}}",
+                transactionCurrency: "{{shop.currency}}",
+                transactionID: "{{order.id}}",
+                {% for discount_application in checkout.discount_applications %}
+                      transactionPromoCode: '{{ discount_application.title }}',
+                {% endfor %}
+            });
+        }
+    });
+
+</script>

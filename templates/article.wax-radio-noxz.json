@@ -1,0 +1,1300 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Lead-A_08b03e9a-a0cd-4160-952f-46c7b2fec628.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Noxz",
+        "blog_date": "May 28, 2023",
+        "blog_author": "Enoch Kolo",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "75951722-b10b-4e3f-9257-7c9aa4847a97": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        }
+      },
+      "block_order": [
+        "75951722-b10b-4e3f-9257-7c9aa4847a97",
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0",
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<div class=\"youtube-video-container\"><iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/9dTwEAd27B8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe><\/div>\n\n<style>\n.youtube-video-container {\n  position: relative;\n  overflow: hidden;\n  width: 100%;\n}\n\n.youtube-video-container::after {\n  display: block;\n  content: \"\";\n  \/\/padding-top: 177.8%;\n  padding-top: 56.25%\n}\n\n.youtube-video-container iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.image-small{\nbackground-color:#fff!important;}\n<\/style>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 10,
+        "section_padding_right": 10
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>As we meet Enoch Kolo, a.k.a Noxz, he’s grooving to his Teenage Engineering OP-1 at the centre of the stunning Greenwich Park. ‘I used to come around a lot during lockdown, it just gives me a certain sense of calmness’. Home to immensely intricate architecture and sweeping green spaces, Greenwich Park is the ideal inspirational combination for Enoch’s architectural and musical passions, ’I would come out to the park, make music, watch people and just catch a vibe’.<\/p><p>Trained originally as an architect, Enoch has recently left his full-time job at Zaha Hadid to release his debut album after gaining traction on social media from sharing his mixes throughout Lockdown.<\/p><p>Enoch’s debut album “Things We Feel” comes out June 9th 2023.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70": {
+      "type": "double_image",
+      "blocks": {
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/2A-Collage.jpg",
+            "image_2": "shopify:\/\/shop_images\/1_9d5488b7-ddee-4ab7-a21a-eca1fcf7143f.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Noxz wears <a href=\"\/products\/didcot-shirt-white-geo-lace\" target=\"_blank\" title=\"Didcot Shirt White Geo Lace\">Didcot Shirt White Geo Lace<\/a> & <a href=\"\/products\/dean-t-shirt-black\" target=\"_blank\" title=\"Dean T Shirt Black\">Dean T-Shirt Black<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a",
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where did your love of music begin?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>My love for music came from when I was little. I started banging on pots and pans in my mum’s kitchen and rather than telling me off, she actually enjoyed it. At the age of five, I started playing piano, at the age of six I was playing drums and it just kept growing from there.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where does your career as an architect come into this?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I kind of fell into architecture. I wanted to be an aeronautical engineer. I was an ambitious kid, but I couldn’t get into any of the universities that were offering it as a course. But then my cousin told me about architecture and how it’s very similar and creative. As a practical person, I also wanted to be grounded in the practical side of things. So when I started architecture I realised that it was the perfect balance.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>Is your approach of combining the familiar with the eclectic how you go about creating your own records too?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>Usually, I’ll go in with an idea, like I want to make a House track or an Electro track, and let things flow from there. It’s just a fun process of seeing what happens. A lot of happy accidents and sometimes the machines have a mind of their own. But also reading books, and watching films,  people, places, incidents, and accidents. And just going out and partying, and hearing music on the dance floor can really get my creative juices flowing. I love making records and putting them out, the whole creative process for me is just really thrilling, from the design to physically holding it in my hands at the end. I’m kind of really proud of everything I’ve put out.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4B-Collage.jpg",
+            "image_2": "shopify:\/\/shop_images\/3_bb6cf905-b1a9-4d0c-a728-d79b75308735.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Architecture and music seem like they would be complete opposites. Is this true or are there hidden similarities?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>They both have properties that overlap. The architecture side has informed a lot of my music side, and the music side has informed a lot of my architectural side. You can see it when you walk into a building, the way a building makes you feel the same way you would feel when you listen to a piece of music. So I think there are similarities you can take from architecture and you can implement them into music and I think that’s why my music stands out a little bit because I approach it from a design point of view.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Is this why you create music and perform in so many interesting places?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I do believe your environment informs your output. It’s one of the reasons why whenever I’m travelling or going somewhere new I always try and take a piece of equipment that I can use to create some music because I never know when inspiration is going to strike. It could be the environment of where I’m going to, it could be a building, it could be someone that I see or something that I listen to on the street. Wherever I am, I am inspired and I use those moments to inform the music that I am creating.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "e957354e-2f7a-4263-bd03-528e7da8438d": {
+      "type": "single_image",
+      "blocks": {
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_88e034e9-6af6-4f2e-843d-88cca1b5e3ea.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "f7dee5e7-0397-46f1-b461-a37b045f152a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6",
+        "f7dee5e7-0397-46f1-b461-a37b045f152a"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c7f329e6-7b22-4a93-9669-64345aec47f1": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/7uSlCxUGdBERUZ9006cQPa?utm_source=generator&amp;theme=0\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        },
+        "4ea89990-1860-4025-9238-949fc361660c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9",
+        "4ea89990-1860-4025-9238-949fc361660c"
+      ],
+      "settings": {
+        "section_padding_left": 10,
+        "section_padding_right": 10
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Your social media has helped spread your musical talents out into the world. What is your relationship with social media platforms?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Social media is great because it is a way that you can express yourself, it’s a way that you can connect with others. I have connected with so many people across the globe that I have not met physically but we are in sync when it comes to being creatives. I think it’s great in the sense that people can showcase their passion, showcase what they’re into, showcase their creativity, and it makes the world a much smaller place. Of course it comes with a negative side, but I think that is something we all must be mindful of, and personally I’ve had a great experience with it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Thanks to this exposure, you are now set to release your first album. Can you tell us more about this?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>‘Things We Feel’ is coming out June 9th, it’s a collection of pieces I’ve been making over the past year. I have posted snippets of most of them on social media. Originally they were just a means of me expressing myself, but the funny thing is I started seeing people relate to lots of those pieces. I decided to take time out from my full time work to compile them together and release them. The Album comprises tracks people wanted me to release and tracks people haven’t heard, but I’m excited for people to experience the whole shebang.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4_ad41d4bc-3a78-4a41-9ffc-853c19a91e09.jpg",
+            "image_2": "shopify:\/\/shop_images\/5B-Collage.jpg",
+            "image_1_caption": "<p>Noxz wears <a href=\"\/products\/didcot-shirt-white-geo-lace\" target=\"_blank\" title=\"Didcot Shirt White Geo Lace\">Didcot Shirt White Geo Lace<\/a>, <a href=\"\/products\/dean-t-shirt-black\" target=\"_blank\" title=\"Dean T Shirt Black\">Dean T-Shirt Black<\/a> & <a href=\"\/products\/santo-cargo-trousers-khaki\" target=\"_blank\" title=\"Santo Cargo Trousers Khaki\">Santo Cargo Trousers Khaki<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How do you go about constructing an album?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>When I’m putting together an album for an artist or for myself I kind of need to know what the end goal is whether they want people to feel a certain way at the end of the album. Once that is established we can start picking out the sounds that match where the artist is or where I’m at. The way that I’ve arranged the album, it can be listened to on shuffle and it wouldn’t break the experience, but ideally, I would say listen to it in order because it will take you on a certain journey. There’s gonna be highs, there’s gonna be lows, it’s gonna make you feel reflective, it’s gonna make you feel happy, you might get up and dance, it’s one of those things that will give you a means and an outlet to express yourself in whatever mood that you’re at.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You’ve very kindly constructed a playlist for us, what was your thinking behind these choices of songs?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I made a playlist for Wax and I have nicknamed it <em>Hazy<\/em>. I would listen to it when you have one of those days where you’re not sure what’s going on. You’re not sure whether you’re going to leave your bed, or whether you’re gonna go out and see a friend. You’re just sat in this moment where things are just unclear. When you listen to it, you’re going to listen to people like Reuben James, Robert Glasper, Summer Walker, and it’s gonna give you a sense of ‘things are not clear’ but it’s ok. You can just be in that moment and enjoy it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1",
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212",
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f",
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "21488541-3872-40c7-a63d-59be672b0335": {
+      "type": "main-faq-2",
+      "blocks": {
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-Wax-Radio-Banner.jpg",
+            "block_width": 600
+          }
+        },
+        "b11375f3-3a2a-487a-9733-532aa6978bdb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "e0dfde20-25b4-4297-9899-c280182a5cd9": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>vibes don't lie<\/strong> – Noxz<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Fault<\/strong> – Kaleem Taylor<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Heaven's Here<\/strong> – Robert Glasper, Ant Clemons<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Means The World<\/strong> – Reuben James, Braxton Cook, CARRTOONS, Gareth Lockrane<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>To Summer, From Cole - Audio Hug<\/strong> – Summer Walker, J. Cole<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Galaxy Swim (Deeper)<\/strong> – JVCK JAMES<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Don't Stop <\/strong> – GoGo Morrow<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Know The Truth<\/strong> – Fridayy<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "7e19024e-584d-4abc-82c8-93a358d8f23d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Undercover Lover<\/strong> – Tay Iwar, Twelve XII<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Commotion<\/strong> – Jozzy<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "207448c1-3abb-43a2-b005-84080ccae8a6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Listen Now",
+            "button_url": "https:\/\/open.spotify.com\/playlist\/7uSlCxUGdBERUZ9006cQPa?si=747aab002d954e6a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "center",
+            "btn_alignment_mobile": "center",
+            "block_width": 400
+          }
+        },
+        "dc59e773-614a-4179-b26e-8d3031185625": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a",
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476",
+        "b11375f3-3a2a-487a-9733-532aa6978bdb",
+        "e0dfde20-25b4-4297-9899-c280182a5cd9",
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4",
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18",
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161",
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f",
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69",
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10",
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff",
+        "7e19024e-584d-4abc-82c8-93a358d8f23d",
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a",
+        "207448c1-3abb-43a2-b005-84080ccae8a6",
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2",
+        "dc59e773-614a-4179-b26e-8d3031185625"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-radio-noxz",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "e957354e-2f7a-4263-bd03-528e7da8438d",
+    "c7f329e6-7b22-4a93-9669-64345aec47f1",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "21488541-3872-40c7-a63d-59be672b0335",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

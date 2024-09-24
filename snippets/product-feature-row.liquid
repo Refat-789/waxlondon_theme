@@ -1,0 +1,24 @@
+{% assign first_image = product.metafields.feature_row.first_image[0] %}
+{% assign second_image = product.metafields.feature_row.second_image[0] %}
+
+<div class="Feature__Row">
+    {% if first_image != blank %}
+    {% assign image_url = first_image.cloudinary_src %}
+    <div class="Feature__Cell">
+        <div class="Feature__AspectRatio">
+            <img class="Feature__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-sizes="auto" alt="{{ first_image.alt | escape }}">
+            <span class="Image__Loader"></span>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if second_image != blank %}
+    {% assign image_url = second_image.cloudinary_src %}
+    <div class="Feature__Cell">
+        <div class="Feature__AspectRatio">
+            <img class="Feature__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-sizes="auto" alt="{{ second_image.alt | escape }}">
+            <span class="Image__Loader"></span>
+        </div>
+    </div>
+    {% endif %}
+</div>

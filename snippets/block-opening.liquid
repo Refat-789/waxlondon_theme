@@ -1,0 +1,14 @@
+{% assign title = page.metafields.opening.title %}
+{% assign text = page.metafields.opening.text %}
+
+<section class="lyt-Layout lyt-Layout--content">
+    <div class="lyt-Layout__Copy">
+        {% if title != blank %}
+        <h2 class="lyt-Layout__Title Heading u-h1">{{ title }}</h2>
+        {% endif %}
+
+        {% if text != blank %}
+        <p class="Heading u-h6">{{ text | newline_to_br }}</p>
+        {% endif %}
+    </div>
+</section>

@@ -1,0 +1,1292 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Desktop_Lead.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Tristan da Cunha",
+        "blog_date": "May 7, 2023",
+        "blog_author": "Tristan",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/lYfn7qo-AN8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/Kd7aJdxWYWQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>When we caught up with Tristan at Soho’s Phonica, the celebrated DJ is wearing headphones and grooving to the vinyl spinning on the deck, eyeing up another vinyl for his massive collection. ‘Let me tell you, moving house when you’ve got 14,000 records is not fun’ he laughs, ‘I ended up with arms like a gorilla’. That doesn’t stop Tristan from leaving our interview with another five in his hand.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa": {
+      "type": "single_image",
+      "blocks": {
+        "704ee452-5539-4007-8426-d0dd771df3c4": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Full-Width-Collage_85c035dd-c6ed-4c89-978a-a75e08cfe9eb.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "d921f067-a9c8-41a0-b5b0-274693589779": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "704ee452-5539-4007-8426-d0dd771df3c4",
+        "d921f067-a9c8-41a0-b5b0-274693589779"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Tristan da Cunha is an unusual name, where did this originate from?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The reason it came about is my uncle, he’s kind of like an architect, he designed me a signature with a volcano in it. Tristan da Cunha is a volcanic island of the British Commonwealth and the most isolated island in the world. I was just really drawn to it and then I did some mixtapes early on with the name and it kind of stuck. Nobody really knows my real name, which I quite like to be honest. It’s good to have separate personas between my public and my private life. Although I am quite volcanic, I do erupt sometimes.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What kind of personality do you have when you’re performing?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>My style of music really reflects my personality which is quite lively and vivacious and sexy and a lot of different parts of me come out in my music. A little bit freaky too. I don’t try to play a lot of stuff people know, but I keep the vibe familiar so they feel comfortable with what they’re listening to. But also I’m feeding them something they haven’t heard before. It’s fifty percent entertain, fifty percent educate.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Is your approach of combining the familiar with the eclectic how you go about creating your own records too?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Usually, I’ll go in with an idea, like I want to make a House track or an Electro track, and let things flow from there. It’s just a fun process of seeing what happens. A lot of happy accidents and sometimes the machines have a mind of their own. But also reading books, and watching films,  people, places, incidents, and accidents. And just going out and partying, and hearing music on the dance floor can really get my creative juices flowing. I love making records and putting them out, the whole creative process for me is just really thrilling, from the design to physically holding it in my hands at the end. I’m kind of really proud of everything I’ve put out.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/A-1.jpg",
+            "image_2": "shopify:\/\/shop_images\/A-2.jpg",
+            "image_1_caption": "<p>Tristan wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-red-amalfi?_pos=1&_sid=8ea9bcc4d&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-red-amalfi?_pos=1&_sid=8ea9bcc4d&_ss=r\">Didcot Shirt Red Amalfi <\/a>& <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=349c941db&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=349c941db&_ss=r\">Dean T-Shirt White<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>This kind of restless creativity is clear in your prolific output, can you tell us more about your labels and collaborations?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I’ve got two labels and another two on the horizon. One of them is called<em> Dungeon Meat <\/em>which has been going since 2014. I collaborate with a really talented, amazing French producer called  <em>Brawther <\/em>and we’ve been friends for over ten-twelve years now. Or twelve. I’ve lost count. I have another label called<em> Hearlucinate<\/em> and that’s based on a party that I host. I always book a DJ that I personally want to hear. I don’t book them because I want to fill the club, I book people I admire and love. They have to be good DJs, but they have to be good producers as well because the premise of the label is that we collaborate on a record. I’ve got another alias called  <em>Freakenstein<\/em>, an intergalactic ass-assassin, more booty-shaking electro, techno, from the Detroit angle. That’s a label that’s going to be called <em>Fweaky<\/em> dropping soon with some incredible releases. And another label as well which I’m not talking about just yet, but if people tune in to me they’ll soon find out about it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Do you find collaboration opens up new avenues to explore in your music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I’ve got a strong vision, so I’m very happy to just do things solo, but I absolutely love collaborating with other artists. Whether it’s musicians, photographers or designers, these kinds of things really get the juices flowing and I think some of the most interesting stuff can come out when two minds get together. In the studio, it’s really exciting because you’ve got two different perspectives, you’ve got four hands, and four ears working on stuff. But that’s really exciting because you never know what you’re going to do, it’s fun, you have a bit of a vibe, a bit of a laugh, a bit of a party in there and then it also gives you the impetus to keep things moving and complete the project.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/B-2_7037b20d-6f4f-4b0d-82de-48042626f255.jpg",
+            "image_2": "shopify:\/\/shop_images\/B-1.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Tristan wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-red-amalfi?_pos=1&_sid=1299c1f91&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-red-amalfi?_pos=1&_sid=1299c1f91&_ss=r\">Didcot Shirt Red Amalfi<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=120d0c9f5&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=120d0c9f5&_ss=r\">Loose Fit Jeans Ecru Denim<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=ae93bbf24&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=ae93bbf24&_ss=r\">Dean T-Shirt White<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Outside of the studio, you have performed all over the world, where’s the best place you’ve performed? <\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>London is, I think, unbeatable. It’s so innovative and hungry for music. There’s always the freshest stuff coming out of London, the newest styles. Usually, the world is looking to London to see what’s going on. In terms of a city that I love to go play in, Amsterdam is the one for me. They take having fun very seriously. The crowds are amazing, the clubs are incredible, and the city is the perfect backdrop to party and have fun. It’s got a little romanticism and mysticism about it, it’s just incredible. But then again London is just incredible. English crowds know how to party.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>And the crowds, energy, and vibe must affect your performance?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It takes two hands to clap, a party’s called a party because we all play a part. I first of all have to get myself into the groove with some kind of juju, voodoo motion, have a dance and get my head into it. That then exudes itself through the audience. It’s a dialogue between me and the dance floor. If you see me with my head down constantly, you know it’s not a good gig. If I’m dancing around having a good time, then usually everyone else will be.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/C-2.jpg",
+            "image_2": "shopify:\/\/shop_images\/C-1.jpg",
+            "image_1_caption": "<p>Ed wears <a href=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=3&_sid=430c704c8&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=3&_sid=430c704c8&_ss=r\">Fisherman Beanie Navy<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/trucker-jacket-washed-indigo?_pos=1&_sid=a9ccd7288&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/trucker-jacket-washed-indigo?_pos=1&_sid=a9ccd7288&_ss=r\">Trucker Jacket Washed Indigo<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/carpenter-jeans-washed-indigo?_pos=1&_sid=bd00610e0&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/carpenter-jeans-washed-indigo?_pos=1&_sid=bd00610e0&_ss=r\">Carpenter Jeans Washed Indigo<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=9c96578d4&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=9c96578d4&_ss=r\">Dean T Shirt White<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": false,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c7f329e6-7b22-4a93-9669-64345aec47f1": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/65F6SLqFBlkKeIS7lxsUb6?utm_source=generator&amp;theme=0\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        },
+        "4ea89990-1860-4025-9238-949fc361660c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9",
+        "4ea89990-1860-4025-9238-949fc361660c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>And what has been the best festival for this kind of experience?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The best festivals I’ve ever played are the festivals that I play now. I’m basically a resident at some of the best festivals in Europe. In England, there’s <em>Gotwood Festival<\/em> which is a nice boutique festival, I’ve been playing there for twelve years. I’m a resident at <em>Block9 in Glastonbury<\/em> which is the LGBTQ+ community doing absolutely mind-blowing, part-time fantasies. They build these amazing buildings and it’s just wild. And I’m really fortunate to be playing at <em>Houghton Festival<\/em> which is super-gourmet and curated with so much taste and class. It’s got a lot of elegance throughout it in the way it’s built, the way it’s designed and merges with the beautiful surroundings. And then there’s <em>Love International<\/em> and <em>Dimensions<\/em> festival in Croatia which are amazing festivals because you’ve got the sun and the water and the beach. They feel like a  holiday as well, so you get some rest and respite among all the raving and stuff.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>I have to ask, of the 14,000 (and growing) records that you own, what’s your favourite vinyl?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Off the top of my head, I’d have to say Soul II Soul Club Classics Vol 1. I’ve got five copies of it. When it first came out, I got the record, (well I stole it from my parents) and it’s just one of those records that I can press play from beginning to end and it flows nicely. It’s such a positive album. It’s so London-centric, it’s a zeitgeist where you can just smell and taste and hear what was going on at that particular time in the culture. It’s a very cultural album. You can hear House, you can hear R&B, you can hear Hip Hop, all these different styles merge together and are reflective of what was going on. It’s super stylish, super classy and super soulful, and it hasn’t aged one bit. It just sounds timeless.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1",
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212",
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f",
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "21488541-3872-40c7-a63d-59be672b0335": {
+      "type": "main-faq-2",
+      "blocks": {
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Wax_Radio_Playlist_Title_2032c491-3136-4f1f-a7d0-03ee4debf6b4.jpg",
+            "block_width": 600
+          }
+        },
+        "b11375f3-3a2a-487a-9733-532aa6978bdb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "e0dfde20-25b4-4297-9899-c280182a5cd9": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Emotional Healer - Back Room Mix<\/strong> – Space Ghost<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Time (Untitled)<\/strong> – Soul II Soul<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Gett Off - Flutestramental<\/strong> – Prince, Eric Leeds<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Happiness - Dub<\/strong> – Soul II Soul, Do'Reen<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Time Unlimited<\/strong> – High Tide<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Better Dayz<\/strong> – Benedek<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>After The Storm<\/strong> – Nemesis<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>How Do You Say...Love - A Delicious Pal Joey Dub Mix<\/strong> – Deee-Lite<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "7e19024e-584d-4abc-82c8-93a358d8f23d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Liquid<\/strong> – Dream 2 Science<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Alone - Paradise<\/strong> – Don Carlos<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "207448c1-3abb-43a2-b005-84080ccae8a6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Listen Now",
+            "button_url": "https:\/\/open.spotify.com\/playlist\/65F6SLqFBlkKeIS7lxsUb6?si=f3ad6475bc6846da",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "center",
+            "btn_alignment_mobile": "center",
+            "block_width": 400
+          }
+        },
+        "dc59e773-614a-4179-b26e-8d3031185625": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a",
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476",
+        "b11375f3-3a2a-487a-9733-532aa6978bdb",
+        "e0dfde20-25b4-4297-9899-c280182a5cd9",
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4",
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18",
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161",
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f",
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69",
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10",
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff",
+        "7e19024e-584d-4abc-82c8-93a358d8f23d",
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a",
+        "207448c1-3abb-43a2-b005-84080ccae8a6",
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2",
+        "dc59e773-614a-4179-b26e-8d3031185625"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-radio-tristan",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa",
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "c7f329e6-7b22-4a93-9669-64345aec47f1",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "21488541-3872-40c7-a63d-59be672b0335",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

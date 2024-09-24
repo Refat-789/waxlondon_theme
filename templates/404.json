@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "settings": {
+        "error_id": "404 - Page Not Found",
+        "error_image": "shopify:\/\/shop_images\/G.jpg",
+        "back_message": "Oops, it looks like the page you are looking for is no longer here... <br>Choose one of the links below or",
+        "back_message_text": "click here to return home."
+      }
+    },
+    "16588259128e0dacb4": {
+      "type": "category-list",
+      "blocks": {
+        "6ddacc5f-9506-4f16-947b-139afa5381bd": {
+          "type": "images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/New_Arrivals_2_bee91d70-6730-4896-9633-0fd26d0868f9.jpg",
+            "category_title": "AW24",
+            "category_link": "shopify:\/\/collections\/aw24"
+          }
+        },
+        "25484cd0-d6e5-4515-a0d1-e305d4723c59": {
+          "type": "images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/Overshirts_2_3cbd2a4b-714a-447c-a0bd-96f735cddd3c.jpg",
+            "category_title": "Overshirts",
+            "category_link": "shopify:\/\/collections\/overshirts"
+          }
+        },
+        "images_wCp3na": {
+          "type": "images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/Knitwear_2_66687707-b159-4180-9490-470462cd04a4.jpg",
+            "category_title": "Knitwear",
+            "category_link": "shopify:\/\/collections\/knitwear"
+          }
+        },
+        "images_AqgLjn": {
+          "type": "images",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/Outerwear_2_05474f3a-c87f-4e2d-8e14-46c430a6a77f.jpg",
+            "category_title": "Outerwear",
+            "category_link": "shopify:\/\/collections\/coats-and-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "6ddacc5f-9506-4f16-947b-139afa5381bd",
+        "25484cd0-d6e5-4515-a0d1-e305d4723c59",
+        "images_wCp3na",
+        "images_AqgLjn"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16588259128e0dacb4"
+  ]
+}

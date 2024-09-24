@@ -1,0 +1,390 @@
+{%- assign text_font_bold = settings.text_font | font_modify: 'weight', 'bolder' -%}
+{%- assign text_font_italic = settings.text_font | font_modify: 'style', 'italic' -%}
+{%- assign text_font_bold_italic = text_font_bold | font_modify: 'style', 'italic' -%}
+
+<style>
+  {{ settings.heading_font | font_face: font_display: 'fallback' }}
+  {{ settings.text_font | font_face: font_display: 'fallback' }}
+
+  {{ text_font_bold | font_face: font_display: 'fallback' }}
+  {{ text_font_italic | font_face: font_display: 'fallback' }}
+  {{ text_font_bold_italic | font_face: font_display: 'fallback' }}
+
+  
+/**
+ * ----------------------------------------------------------------------------
+ * Custom Typefaces
+ * ----------------------------------------------------------------------------
+ */
+ /* Beirut Display */
+/* @font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-RegularItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-RegularItalic.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-Bold.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-Bold.woff' | asset_url }}) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-LightItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-LightItalic.woff' | asset_url }}) format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-BoldItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-BoldItalic.woff' | asset_url }}) format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-Book.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-Book.woff' | asset_url }}) format('woff');
+    font-weight: 350;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-Light.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-Light.woff' | asset_url }}) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-Black.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-Black.woff' | asset_url }}) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-SemiBold.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-SemiBold.woff' | asset_url }}) format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-BookItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-BookItalic.woff' | asset_url }}) format('woff');
+    font-weight: 350;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-Regular.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-Regular.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Beirut Display';
+    src: url({{ 'BeirutDisplay-SemiBoldItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'BeirutDisplay-SemiBoldItalic.woff' | asset_url }}) format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+} */
+
+ /* ITCClearface */
+  
+@font-face {
+    font-family: 'ITCClearface';
+/*     src: url({{ 'ITCClearfaceRegular.woff2' | asset_url }}) format('woff2'),
+        url({{ 'ITCClearfaceRegular.woff' | asset_url }}) format('woff'); */
+  src: url('https://cdn.shopify.com/s/files/1/0575/9575/6709/files/clearface-regular.woff2?v=1669376314') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/9575/6709/files/clearface-regular.woff?v=1669376314') format('woff');
+    font-weight:400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+@font-face {
+    font-family: 'ITCClearface';
+/*     src: url({{ 'ITCClearfaceBold.woff2' | asset_url }}) format('woff2'),
+        url({{ 'ITCClearfaceBold.woff' | asset_url }}) format('woff'); */
+  src: url('https://cdn.shopify.com/s/files/1/0575/9575/6709/files/clearface-bold.woff2?v=1669376296') format('woff2'), url('https://cdn.shopify.com/s/files/1/0575/9575/6709/files/clearface-bold.woff?v=1669376297') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+  
+/* Maison Neue */
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-BoldItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-BoldItalic.woff' | asset_url }}) format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-Demi.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Demi.woff' | asset_url }}) format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-Book.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Book.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-BookItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-BookItalic.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-DemiItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-DemiItalic.woff' | asset_url }}) format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-Bold.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Bold.woff' | asset_url }}) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-Light.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Light.woff' | asset_url }}) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue Mono';
+    src: url({{ 'MaisonNeue-Mono.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Mono.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-MediumItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-MediumItalic.woff' | asset_url }}) format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-LightItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-LightItalic.woff' | asset_url }}) format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue Mono';
+    src: url({{ 'MaisonNeue-MonoItalic.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-MonoItalic.woff' | asset_url }}) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url({{ 'MaisonNeue-Medium.woff2' | asset_url }}) format('woff2'),
+        url({{ 'MaisonNeue-Medium.woff' | asset_url }}) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+  :root {
+    /*--heading-font-family : {{settings.heading_font.family}}, {{ settings.heading_font.fallback_families }};*/
+    --badge-colour-default: #fcbf37;
+    --badge-colour-pale-yellow: #fdf9f0;
+    --badge-colour-dark-cyan: #6C8B41;
+    --badge-colour-dark-orange: #c8553d;
+    --badge-colour-brand-orange: #E37730;
+    --badge-colour-dark-green: #1A3636;
+    --badge-colour-light-grey: #ffffff40;
+    --badge-colour-dark-grey: #272727;
+    --badge-colour-orange: #fd7f0d;
+    --badge-text-colour: #ffffff;
+    --heading-font-family : "ITCClearface", serif;
+    --heading-font-family2 : "ITCClearface", serif;
+    --heading-font-weight : {{settings.heading_font.weight}};
+    --heading-font-style  : {{settings.heading_font.style}};
+
+    --text-font-family : "Maison Neue", {{settings.text_font.family}}, {{ settings.text_font.fallback_families }};
+    --text-font-weight : {{settings.text_font.weight}};
+    --text-font-style  : {{settings.text_font.style}};
+
+    --base-text-font-size   : {{settings.base_text_font_size}}px;
+    --default-text-font-size: 14px;
+
+    {%- assign border_color = settings.background | color_mix: settings.text_color, 85 -%}
+
+    --background          : {{settings.background}};
+    --background-rgb      : {{ settings.background | color_extract: 'red' }}, {{ settings.background | color_extract: 'green' }}, {{ settings.background | color_extract: 'blue' }};
+    --light-background    : {{settings.light_background}};
+    --light-background-rgb: {{settings.light_background | color_extract: 'red' }}, {{settings.light_background | color_extract: 'green' }}, {{settings.light_background | color_extract: 'blue' }};
+    --heading-color       : {{settings.heading_color}};
+    --text-color          : {{settings.text_color}};
+    --text-color-rgb      : {{ settings.text_color | color_extract: 'red' }}, {{ settings.text_color | color_extract: 'green' }}, {{ settings.text_color | color_extract: 'blue' }};
+    --text-color-light    : {{settings.text_light_color}};
+    --text-color-light-rgb: {{ settings.text_light_color | color_extract: 'red' }}, {{ settings.text_light_color | color_extract: 'green' }}, {{ settings.text_light_color | color_extract: 'blue' }};
+    --link-color          : {{settings.link_color}};
+    --link-color-rgb      : {{ settings.link_color | color_extract: 'red' }}, {{ settings.link_color | color_extract: 'green' }}, {{ settings.link_color | color_extract: 'blue' }};
+    /*--border-color        : {{border_color}};*/
+    --border-color : #000;
+    --border-color-rgb    : {{ border_color | color_extract: 'red' }}, {{ border_color | color_extract: 'green' }}, {{ border_color | color_extract: 'blue' }};
+
+    --button-background    : {{settings.button_background}};
+    --button-background-rgb: {{ settings.button_background | color_extract: 'red' }}, {{ settings.button_background | color_extract: 'green' }}, {{ settings.button_background | color_extract: 'blue' }};
+    --button-text-color    : {{settings.button_text_color}};
+    --button-text-hover    : {{settings.button_text_hover}};
+
+    --header-background       : {{settings.header_background}};
+    --header-heading-color    : {{settings.header_heading_color}};
+    --header-light-text-color : {{settings.header_light_color}};
+    --header-border-color     : {{settings.header_background | color_mix: settings.header_heading_color, 85}};
+
+    --footer-background    : {{settings.footer_background}};
+    --footer-text-color    : {{settings.footer_text_color}};
+    --footer-heading-color : {{settings.footer_heading_color}};
+    --footer-border-color  : {{settings.footer_background | color_mix: settings.footer_text_color, 85}};
+
+    --navigation-background      : {{settings.navigation_background}};
+    --navigation-background-rgb  : {{ settings.navigation_background | color_extract: 'red' }}, {{ settings.navigation_background | color_extract: 'green' }}, {{ settings.navigation_background | color_extract: 'blue' }};
+    --navigation-text-color      : {{settings.navigation_text_color}};
+    --navigation-text-color-light: rgba({{ settings.navigation_text_color | color_extract: 'red' }}, {{ settings.navigation_text_color | color_extract: 'green' }}, {{ settings.navigation_text_color | color_extract: 'blue' }}, 0.5);
+    --navigation-border-color    : rgba({{ settings.navigation_text_color | color_extract: 'red' }}, {{ settings.navigation_text_color | color_extract: 'green' }}, {{ settings.navigation_text_color | color_extract: 'blue' }}, 0.25);
+
+    --newsletter-popup-background     : {{settings.newsletter_popup_background}};
+    --newsletter-popup-text-color     : {{settings.newsletter_popup_text_color}};
+    --newsletter-popup-text-color-rgb : {{ settings.newsletter_popup_text_color | color_extract: 'red' }}, {{ settings.newsletter_popup_text_color | color_extract: 'green' }}, {{ settings.newsletter_popup_text_color | color_extract: 'blue' }};
+
+    --secondary-elements-background       : {{settings.secondary_elements_background}};
+    --secondary-elements-background-rgb   : {{ settings.secondary_elements_background | color_extract: 'red' }}, {{ settings.secondary_elements_background | color_extract: 'green' }}, {{ settings.secondary_elements_background | color_extract: 'blue' }};
+    --secondary-elements-text-color       : {{settings.secondary_elements_text_color}};
+    --secondary-elements-text-color-light : rgba({{ settings.secondary_elements_text_color | color_extract: 'red' }}, {{ settings.secondary_elements_text_color | color_extract: 'green' }}, {{ settings.secondary_elements_text_color | color_extract: 'blue' }}, 0.5);
+    --secondary-elements-border-color     : rgba({{ settings.secondary_elements_text_color | color_extract: 'red' }}, {{ settings.secondary_elements_text_color | color_extract: 'green' }}, {{ settings.secondary_elements_text_color | color_extract: 'blue' }}, 0.25);
+
+    --product-sale-price-color    : {{settings.product_on_sale_color}};
+    --product-sale-price-color-rgb: {{ settings.product_on_sale_color | color_extract: 'red' }}, {{ settings.product_on_sale_color | color_extract: 'green' }}, {{ settings.product_on_sale_color | color_extract: 'blue' }};
+    --product-star-rating: {{ settings.product_rating_color }};
+
+    /* Shopify related variables */
+    --payment-terms-background-color: {{settings.background}};
+
+    /* Products */
+
+    {% case settings.product_list_horizontal_spacing %}
+      {%- when 'extra_small' -%}
+        --horizontal-spacing-four-products-per-row: 10px;
+        --horizontal-spacing-two-products-per-row : 10px;
+      {%- when 'small' -%}
+        --horizontal-spacing-four-products-per-row: 40px;
+        --horizontal-spacing-two-products-per-row : 40px;
+      {%- when 'medium' -%}
+        --horizontal-spacing-four-products-per-row: 60px;
+        --horizontal-spacing-two-products-per-row : 60px;
+      {%- when 'large' -%}
+        --horizontal-spacing-four-products-per-row: 80px;
+        --horizontal-spacing-two-products-per-row : 80px;
+      {%- when 'extra_large' -%}
+        --horizontal-spacing-four-products-per-row: 100px;
+        --horizontal-spacing-two-products-per-row : 100px;
+    {% endcase %}
+
+    {% case settings.product_list_vertical_spacing %}
+      {%- when 'extra_small' -%}
+        --vertical-spacing-four-products-per-row: 40px;
+        --vertical-spacing-two-products-per-row : 50px;
+      {%- when 'small' -%}
+        --vertical-spacing-four-products-per-row: 60px;
+        --vertical-spacing-two-products-per-row : 75px;
+      {%- when 'medium' -%}
+        --vertical-spacing-four-products-per-row: 80px;
+        --vertical-spacing-two-products-per-row : 100px;
+      {%- when 'large' -%}
+        --vertical-spacing-four-products-per-row: 100px;
+        --vertical-spacing-two-products-per-row : 125px;
+      {%- when 'extra_large' -%}
+        --vertical-spacing-four-products-per-row: 120px;
+        --vertical-spacing-two-products-per-row : 150px;
+    {% endcase %}
+
+    /* Animation */
+    --drawer-transition-timing: cubic-bezier(0.645, 0.045, 0.355, 1);
+    --header-base-height: 80px; /* We set a default for browsers that do not support CSS variables */
+
+    /* Cursors */
+    --cursor-zoom-in-svg    : url({{ 'cursor-zoom-in.svg' | asset_url }});
+    --cursor-zoom-in-2x-svg : url({{ 'cursor-zoom-in-2x.svg' | asset_url }});
+  }
+</style>
+
+<script>
+  // IE11 does not have support for CSS variables, so we have to polyfill them
+  if (!(((window || {}).CSS || {}).supports && window.CSS.supports('(--a: 0)'))) {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2';
+    script.onload = function() {
+      cssVars({});
+    };
+
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+</script>

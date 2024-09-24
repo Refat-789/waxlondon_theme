@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "e86cb5bc-5fd8-4cbf-b964-d9ffad030e8e": {
+          "type": "text",
+          "settings": {
+            "title": "Telephone number",
+            "use_long_text": false,
+            "is_required": false
+          }
+        }
+      },
+      "block_order": [
+        "e86cb5bc-5fd8-4cbf-b964-d9ffad030e8e"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

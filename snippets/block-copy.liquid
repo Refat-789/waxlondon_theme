@@ -1,0 +1,15 @@
+<section class="lyt-Layout lyt-Layout--{{ layout_class }}">
+    <div class="lyt-Layout__Copy">
+        {% if page.metafields.copy.title[index] != blank %}
+        <h2 class="lyt-Layout__Title Heading u-h6">{{ page.metafields.copy.title[index] }}</h2>
+        {% endif %}
+
+        {% if page.metafields.copy.text[index] != blank %}
+        <p>{{ page.metafields.copy.text[index] | newline_to_br }}</p>
+        {% endif %}
+
+        {% if page.metafields.copy.button_link[index] != blank %}
+        <a href="{{ page.metafields.copy.button_link[index] }}" class="Layout__Button Button Button--primary">{{ page.metafields.copy.button_text[index] | default: 'Find out more' }}</a>
+        {% endif %}
+    </div>
+</section>

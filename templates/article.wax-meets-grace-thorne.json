@@ -1,0 +1,917 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead_Banner_bcd41bda-fed2-4dd1-9937-8ada0d5059fe.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Lead_Banner_48f15bb2-d877-4779-8d93-04af590c7d31.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Nik Southern <i><br>Of Grace & Thorn<\/i>",
+        "blog_date": "Sunday, 21st July 2024",
+        "blog_author": "Nik Southern",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "75951722-b10b-4e3f-9257-7c9aa4847a97": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        }
+      },
+      "block_order": [
+        "75951722-b10b-4e3f-9257-7c9aa4847a97",
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0",
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/-QQa14bGkXA?si=0J7Xm6sVP8mpHEdS%22\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/53tA4wOyIsM?si=_Q2SZt9E42pG8P2A%22\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 10,
+        "section_padding_right": 10
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Nestled away in East London sits the botanical haven of Grace & Thorn. The scent of fresh cuttings carries you from London Fields station to the front steps of their studio. Inside, you’ll find a small, dedicated, and talented team of florists who are hard at work and led by founder Nik Southern.<\/p><p>\"Mediocrity doesn't enter my makeup, to be honest. It's like, do it properly or just don't bother\". Her commitment to quality is what sparked our collaboration with Nik and her team to create a floral display for our new Covent Garden store. Ahead of the installation, we spoke to Nik about her beginnings and the journey of Grace & Thorn so far.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70": {
+      "type": "double_image",
+      "blocks": {
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_Right_Image_1_79d0ea3e-52b1-4006-8dc6-5203a8dee891.png",
+            "image_2": "shopify:\/\/shop_images\/Journal_Right_Image_3_8ae57a48-367d-4e2e-856d-1be73498aa26.png",
+            "image_1_caption": "<p>Grace wears the <a href=\"\/products\/didcot-shirt-multi-pastel-stripe\" title=\"Didcot Shirt Multi Pastel Stripe\">Didcot Shirt Multi Pastel Stripe.<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a",
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where does your passion for floristry come from?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I’m from a council state in Islington where there was no greenery - my garden was concrete! But I often visited my Nan and Grandad in Crouch End where they had a little allotment, a greenhouse and their Victorian terrace house was filled with cheese plants. I helped my Nan pick tomatoes, cut the roses and grow geraniums. My Grandad even grew grape vines for his own wine and had us crush the grapes. I was surrounded by nature - that feeling has stayed with me. When we moved to Enfield, I thought I was in heaven because we had a 100-foot garden, so we went from nothing to that. And all my brothers and sisters would be outside playing with the other kids while I was pruning Forsythia in the back garden! I just loved it!<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How did you get started with your journey into floristry?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I worked in recruitment for 13 years, but I always knew floristry was my passion. And, to be honest, I hated recruitment! I got to a point where I just wanted to change my direction. So I retrained and set up Grace & Thorn because no one could give me a job. I started from my living room and began flouting all my flowers to all my mates, and then a year later I opened a shop - so it just organically happened. I filled the shop with house plants and, at the time, we were one of the first shops in the UK to sell them. So it just blew up. We were featured in Vogue, Elle Decoration, and so many other publications - it was madness.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Your work is incredibly creative and visual, where do you find your inspiration?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I draw most of my inspiration from flowers out in the world, such as wildflower meadows and gardens. When I first studied floristry, I struggled to keep the flowers tight and stiff - that’s how I was trained. But my natural instinct was to make everything sing and dance because every flower has its own personality. I want to see the flowers come out and not be stifled. For example, if you have a really long flower, I like to show it as you would see it in a garden, which is nice and tall so that every stem is appreciated individually.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c4017101-7324-4569-ac37-45b6e44c90c0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da9d37cc-3924-4ab4-be11-d62d2156fa30": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What has been a floristry highlight for you so far?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a4c1f594-14d1-488f-9e5d-3920f05dfd82": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "81f0bc95-b637-4542-9102-c0e5b7611443": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>There are a few things! I was asked to write a book called How Not To Kill Your Plants. That was unbelievable and really hard, honestly! A definite career highlight was being asked by the Chelsea Flower Show to do their gates. Usually, you have to apply, but they approached us to dress the gates you see as you walk in. So that was amazing! We filled these massive metal structures with geraniums because I love geraniums - obviously because of my Nan. It was a special moment, like coming full circle.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c4017101-7324-4569-ac37-45b6e44c90c0",
+        "da9d37cc-3924-4ab4-be11-d62d2156fa30",
+        "a4c1f594-14d1-488f-9e5d-3920f05dfd82",
+        "81f0bc95-b637-4542-9102-c0e5b7611443",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "3e46074b-496e-4b49-b1fd-f41162a55598": {
+      "type": "double_image",
+      "blocks": {
+        "2a75308a-70e1-448d-9a37-6e134ec5c355": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_Left_Image_2_b5aae980-cd56-41bc-bc5e-e0d3216b3caf.png",
+            "image_2": "shopify:\/\/shop_images\/Journal_Left_Image_1_5e8ff7a1-3fc1-4f67-b0dc-4dec0e4ddc8d.png",
+            "image_1_caption": "<p>Grace wears the <a href=\"\/products\/didcot-shirt-multi-pastel-stripe\" title=\"Didcot Shirt Multi Pastel Stripe\">Didcot Shirt Multi Pastel Stripe.<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c068cb25-d623-45b3-b9b2-93bebd1adcc0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "2a75308a-70e1-448d-9a37-6e134ec5c355",
+        "c068cb25-d623-45b3-b9b2-93bebd1adcc0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What are some of the unglamorous parts of owning your own business?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>When you run a business, you are the manager, accountant, publicist and everything else - it can be a lot to take on. When we first started, we did everything for everyone. We created plant installations. We did events, weddings, adverts and TV. We did so much! But I've just pulled it back and now stick to working on what I love. Because you think, who am I doing this for? Actually, it's my business. I lead this. I decide what I want to do. It has been really nice and liberating.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What is your approach when flowering an event\/space?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>When Wax approached me to collaborate on their new Covent Garden store, I first searched for inspiration on their website and Instagram. Getting a sense of Wax's aesthetic was really important. The clothes are a big part of that, too - it helps that they are amazing. For this installation, rather than going full-on and flowery, I liked the idea of making it quite structural. I wanted to keep it clean but with a bit of texture - the dry flower route felt really strong for this installation. Colour is also hugely important too. I focused on nice, complementary tones - lots of oranges and natural hues.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "92839132-c577-481b-b7b5-bf13f9c68073": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "image_baMzLU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Wide_Image_1_b332b42d-4514-4acb-822b-bf4173394b00.png",
+            "block_width": 1900
+          }
+        },
+        "4619e403-6f37-4c9c-91ea-ca9ca751ec9c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        },
+        "06d32443-199d-440e-9d5b-c7681c863f77": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where do you source your flowers from?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "9473d9b4-ad18-4a3a-9777-f7defa600629": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "e4909d4e-b488-4983-a1dc-79c19adc7f43": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>We use British and Dutch suppliers, and we source from the market, too. I'm very loyal to one supplier in particular. When I first started, no one would supply flowers to me. I used to go to the market quite a lot, but as the business grew, it became harder to go down and run the business on my own. I had all these big Dutch suppliers come to my little living room and they asked me where my shop was, and I was like, it is just me here... so no one would supply to me. But this one guy took a risk on me, so I am very loyal to him. And as the brand has grown, we have continued to work together.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "spacer_zcyqLk": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e28abd3d-b44a-4be4-ad89-d2d5367b033d": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What other creatives\/mediums do you admire?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e93fab40-09ea-4a4c-b90a-62d2095062a7": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "8c566e10-ddbd-4ad7-9c0b-2c4c6f32da4d": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I'm absolutely obsessed with ceramics. There are only so many I can have in my home, but they're everywhere. For the next installation at Wax, we’re hopefully going to be pairing our flowers with Florian Gadby's vessels. His work is beautiful, so I'm very excited about that.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "spacer_Qh7XD8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "92839132-c577-481b-b7b5-bf13f9c68073",
+        "image_baMzLU",
+        "4619e403-6f37-4c9c-91ea-ca9ca751ec9c",
+        "06d32443-199d-440e-9d5b-c7681c863f77",
+        "9473d9b4-ad18-4a3a-9777-f7defa600629",
+        "e4909d4e-b488-4983-a1dc-79c19adc7f43",
+        "spacer_zcyqLk",
+        "e28abd3d-b44a-4be4-ad89-d2d5367b033d",
+        "e93fab40-09ea-4a4c-b90a-62d2095062a7",
+        "8c566e10-ddbd-4ad7-9c0b-2c4c6f32da4d",
+        "spacer_Qh7XD8"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "e957354e-2f7a-4263-bd03-528e7da8438d": {
+      "type": "single_image",
+      "blocks": {
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Triple_Image_1_e7a366d9-84d1-4355-9488-443abc3f99d0.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p>Grace wears the <a href=\"\/products\/didcot-shirt-ecru-blue-daisy-embroidery\" title=\"Didcot Shirt Ecru\/Blue Daisy Embroidery\">Didcot Shirt Ecru\/Blue Daisy Embroidery<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "f7dee5e7-0397-46f1-b461-a37b045f152a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6",
+        "f7dee5e7-0397-46f1-b461-a37b045f152a"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What is next for Grace & Thorn?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>There's so much to look forward to! What's really interesting about what we do is that we get to work in so many different areas. We work with fashion brands, beauty brands, theatre, and film, and that is very exciting for me. We've also got clients that have used us for years, but we're also always taking on new ones. It's amazing to have such a variety of projects to work on. The plan for us is to keep doing what we enjoy and doing it well.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "image_Fmfqax": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Wide_Image_2_10b58e33-62c2-4c14-8221-b508dac4e38c.png",
+            "block_width": 1900
+          }
+        }
+      },
+      "block_order": [
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2",
+        "image_Fmfqax"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "wax-meets-grace-thorne",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "new_blog_posts_MNxt33": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_gCbjCc": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/wax-meets-mackenzy-mackay",
+            "article_2": "journal\/wax-meets-florian-gadsby",
+            "article_3": "journal\/wax-meets-childe"
+          }
+        }
+      },
+      "block_order": [
+        "article_gCbjCc"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "3e46074b-496e-4b49-b1fd-f41162a55598",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "e957354e-2f7a-4263-bd03-528e7da8438d",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "new_blog_posts_MNxt33"
+  ]
+}

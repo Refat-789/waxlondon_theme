@@ -1,0 +1,1490 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog_Lead.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Mild Orange",
+        "blog_date": "January 15, 2023",
+        "blog_author": "Mild Orange",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 28,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/l5lVS-WYUJM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 90
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>This week we caught up with Mild Orange at their new home in Golders Green, London. The band recently moved to London from New Zealand, and it’s their first time living together (all four of them under one roof!). We discussed loads from their paths into music, their recent world tour, to what their dream show would be and more. We were even shown the difference between English marmite, and New Zealand’s marmite. Read our full interview with them below. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa": {
+      "type": "single_image",
+      "blocks": {
+        "704ee452-5539-4007-8426-d0dd771df3c4": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MS080112.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p>Left-Right | Barry (Bass), Jah (Lead Guitarist), Jack (Drums) and Mehrt (Guitar and Vocals)<\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "d921f067-a9c8-41a0-b5b0-274693589779": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "704ee452-5539-4007-8426-d0dd771df3c4",
+        "d921f067-a9c8-41a0-b5b0-274693589779"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where does the name Mild Orange come from?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Mehrt] Often when we’re writing songs, we name them something random. My older brother was working on a song, and he’d titled it <em>“Mild Orange<\/em>” and I thought it sounded sick. So then, when we needed a name for a show, I suggested it to Jah, and we just went from there. <\/p><p>Since then, we have leaned into the name and taken on a meaning of our own.. “Orange” because the colour carries meanings of stimulating warmth and optimism and we generally have wanted our music to uplift people. And “Mild” because we’re not too over the top with it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How did you all get into music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Jah] It’s a similar story for all of us actually, we all grew up in musical households. We started playing music as kids. Music has always been around at home for us, we’ve all been influenced by family members.. Jack for instance, he’s from a drumming family, cousins, Grandad, everyone plays the drums. <\/p><p>[Jack] Yeah it’s a bit mad, all drummers and nothing else.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You mentioned you all used to live in separate cities, how did you meet and form the band?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Jah] We all met studying at University, but none of us studied music (everyone always asks!). We went to university in a small city in the south island of New Zealand. Josh [Mehrt] and I met by chance really, I was moving into a flat that he was already living in. We discovered that we both had a shared passion for writing music and playing guitar. We started playing together, I went home one summer and told my family I’d been playing with this guy Josh Mehrtens and my mum was stunned, and then pulled out these photos from kindergarten in Wellington and it turns out we were best friends before we both moved away to different cities and then reconnected at University. <\/p><p>[Mehrt] Yeah! And then Barry and I played together in a band at a “battle of the bands” at University, where we played Rage Against The Machine.. And we won. Barry was on the drums, so I asked him if he would join us as a drummer and he said no..he would play bass guitar, and he gets Jack along. And from there the four of us started jamming together, and then played a show together a week later and went from there. That was back in 2017.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/2_7e6acfbe-6aa7-49d3-87b7-68d7ffe4d9a2.jpg",
+            "image_2": "shopify:\/\/shop_images\/5_7438c532-a014-4df8-8e42-7c51a8d9f9a0.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Mild Orange wears <a href=\"https:\/\/waxlondon.com\/products\/malmo-puffer-black-tech-nylon?_pos=2&_sid=bca6fd965&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/malmo-puffer-black-tech-nylon?_pos=2&_sid=bca6fd965&_ss=r\">Malmo Puffer Black<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/greenland-jacket-navy-beige?_pos=1&_sid=fdf099b1c&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/greenland-jacket-navy-beige?_pos=1&_sid=fdf099b1c&_ss=r\">Greenland Jacket Navy\/Beige<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/greenland-jacket-khaki?_pos=2&_sid=fdf099b1c&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/greenland-jacket-khaki?_pos=2&_sid=fdf099b1c&_ss=r\">Greenland Jacket Khaki<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Tell us a bit about the evolution of your sound…<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Mehrt] Our sound has really been out of necessity I guess, it’s always been about needing to express ourselves and write these songs. A lot of it is influenced by our environments and what is going on around us. We do these getaways, where we go to a holiday home or cottage and we take it over and we all write music, jam together, and are inspired by everything around us. <\/p><p>For our second album we managed to finally get out of the bedroom and we moved.. <em>[jack chimes in] to the living room... <\/em>[Mehrt] We converted Barry’s beach house which is located in a secluded spot New Zealand and this is where we made and completed the project. Through that process we discovered how much we appreciate our environments and nature, and we realised that the sounds around us creep their way into our music. For example back then we had a lot of ocean sounds in our music, and now in London we have a train go past our house every four minutes and you can hear the thudding.. And that’s been creeping it’s way into some of our new demos. Being around lots of people here and on the other side of the world is inspiring and influencing our sound a lot. Our sound is becoming more energetic from living in London and being able to do anything all the time!<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You’ve recently got back from a whirlwind tour around the world, congrats! Where was the best gig?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Barry] Best gig on tour? I think we’d all have different answers for that. My favourite was probably Amsterdam, it was our biggest headline show ever abroad and it really felt quite special. <\/p><p>[Mehrt] It’s hard to choose, we started in Spain and worked our way through Europe, then went to Canada, the States, Australia and New Zealand all within about 2 months. Montreal was a standout, we’d never been to Canada before and our first impression was arriving in Montreal, this french speaking town in north America and it was a bit of a trip. The crowd were so into it and passionate, and it was so reassuring and surprising but epic. <\/p><p>[Jah] For me, it was Paris. Paris was our first sold-out show in 2019 so it kind of has a special significance for us I think. This time, I think it was the first sold-out show on this run so we’ve kind of built up a good following in France, and there were fans who came to Paris for the show (as we didn’t make some of towns in Spain or Portugal).<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What was your best tour memory?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Jack] Definitely the Europe league, just in general. But I reckon some of our best moments were on our days off, so we could actually relax and get to see the places we’re in. Otherwise when we don’t have days off we’re driving to each show, soundcheck, supper, perform, go to the next stop. You just operate at 40%, where you’re overtired at giggly all the time and you reach a new level of exhaustion. <\/p><p>[Jah] I think one of the best memories from the tour was in Germany, we were with our soundcheck guy who is German but lives in NZ and he had said he was going to organise our accommodation and day off. We ended up in this tiny place in rural Bavaria where no one really spoke English and then he took us up to this thousand year old Monastery which had been turned into a beer hall, and we all just sat up there for hours drinking beer. We just got to share a few laughs and relax together in this amazing setting, it was great.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e",
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4",
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa",
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/7_4abeeb88-984e-463a-80a0-ff5b6ef34aee.jpg",
+            "image_2": "shopify:\/\/shop_images\/4_d2c0d592-5bc8-4829-a0b8-58efd81ffb4c.jpg",
+            "image_1_caption": "<p>Mehrt wears <a href=\"https:\/\/waxlondon.com\/products\/greenland-jacket-khaki?_pos=2&_sid=8d165ab4b&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/greenland-jacket-khaki?_pos=2&_sid=8d165ab4b&_ss=r\">Greenland Jacket Khaki<\/a><\/p>",
+            "image_2_caption": "<p>Mehrt wears <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-multi-union-check?_pos=1&_sid=110ba1a51&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-multi-union-check?_pos=1&_sid=110ba1a51&_ss=r\">Whiting Overshirt Navy\/Multi Union Check<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Did you get homesick at all on tour?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Mehrt] It’s such an exhausting and intense experience that you kind of become the family you’d be homesick for on tour. And you have this feeling of not wanting it to end, while also being exhausted. You get into this routine with this group of people and you’re all in it, and you all get it. <\/p><p>[Barry] You almost get homesick afterwards, when you’re back home, for the tour.<\/p><p>[Jack] I want to live on tour. I want to live in a Ford Transit!<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You have all recently moved to London, together! What made you want to move to London?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Jah] London is quite an easy place for New Zealanders to move to. But we also all knew that we wanted to do a stint abroad at some stage, and since university we had never all lived in the same city making it trickier to write music or rehearse together. So we made the decision to move here so that we could all be together, and we love that London still has such an enthusiastic appreciation for live music, gigs and festivals. There are so many artists from London, or that have come through London, it seemed like a great place to base ourselves and get into the thick of it all. <\/p><p>[Mehrt] Also when we did our Europe tour it was great because we had a show in Spain, and we just hopped on a two hour flight and we were there. Whereas from New Zealand it would take us at least 36 hours and various stops, and then by the time we got there we’d be jet-lagged. So it’s great to be closer to the world now and less tucked away. With it comes its own experiences and challenges and differences, but it’s been cool adjusting to it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "25adcc27-58e5-462b-a8da-a102c6951999": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How are you enjoying London life so far? <\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "34721b48-3b23-48ea-9885-d803919e6870": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Barry] It’s definitely taking adjusting, London is a lot busier and there’s a lot more going on. But that is also such a positive because we’ve been to some amazing shows, done some amazing travel. It took a month or so to adjust, but we’re really enjoying the experience and once you’re into it and you have a routine it’s great. <\/p><p>[Mehrt] I’m loving being around so much activity. You just know in London that there is always something happening just outside your door at all times. I’m from a town of 4,000 people so it’s amazing to change from a smaller, sleepy town where everything is shut at 7pm to come here, and be able to go out or do something at any time I feel like doing it. <\/p><p>[Jah] It has certainly come with its challenges too. It definitely took some time to adjust and we were really fortunate to have an amazing Summer when we first arrived and have all these long, warm nights out. But at the moment when it’s winter it’s pretty brutal, especially when on Instagram we see all of our friends and family enjoying summer back home. I think the challenge has been good for us as individuals and for our music. Our music has been more energetic and keeping up with the pace of the city.<\/p><p>[Jack] Yeah it’s definitely very different going from living somewhere coastal to a city like London. I do miss the ocean, but at least we have cosy pubs over here!<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901",
+        "25adcc27-58e5-462b-a8da-a102c6951999",
+        "34721b48-3b23-48ea-9885-d803919e6870",
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/6_350d73cd-23e9-43a2-8f60-bc5ac82d5ea3.jpg",
+            "image_2": "shopify:\/\/shop_images\/8_4a07d972-7736-41ba-a769-2a3aa0ff4dde.jpg",
+            "image_1_caption": "<p>Jack wears <a href=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=2&_sid=41ab446c7&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=2&_sid=41ab446c7&_ss=r\">Fisherman Beanie Navy<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/greenland-jacket-navy-beige?_pos=1&_sid=f192542cf&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/greenland-jacket-navy-beige?_pos=1&_sid=f192542cf&_ss=r\">Greenland Jacket Navy\/Beige<\/a><\/p>",
+            "image_2_caption": "<p>Barry wears <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-marine-beatnik?_pos=2&_sid=f7100d423&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-marine-beatnik?_pos=2&_sid=f7100d423&_ss=r\">Whiting Overshirt Marine Beatnik<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=84740eca3&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=84740eca3&_ss=r\">Loose Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "71237997-a7b2-4f17-bb27-5fc417ee2490": {
+      "type": "main-faq-2",
+      "blocks": {
+        "844a6e5f-353b-4ee9-a82a-00cd3c3b7f5c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "9be90cd8-71d8-4e16-bf41-cd0b6d70579b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3ca80062-b448-46c9-9b11-1b761f834317": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 16,
+            "ans_font_size_mobile": 16,
+            "ans_line_height": 22,
+            "ans_line_height_mobile": 22,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "7ea670ce-416d-4af6-8de9-1e66f51c6e7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "844a6e5f-353b-4ee9-a82a-00cd3c3b7f5c",
+        "9be90cd8-71d8-4e16-bf41-cd0b6d70579b",
+        "3ca80062-b448-46c9-9b11-1b761f834317",
+        "7ea670ce-416d-4af6-8de9-1e66f51c6e7c"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "c7f329e6-7b22-4a93-9669-64345aec47f1": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/65zCGZSrVv3BMb1jkdqQ2Z?utm_source=generator&amp;theme=0\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        },
+        "4ea89990-1860-4025-9238-949fc361660c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9",
+        "4ea89990-1860-4025-9238-949fc361660c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where in London would you go and listen to this playlist?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Jah] I reckon depending on the weather, if it was not miserable, I would say go for a walk through Hampstead Heath. <\/p><p>[Barry] On the northern line! <\/p><p>[Jack] Yeah or walking from A-B. Like to Sainos [sic] (Sainsbury’s).<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Finally, what show is your dream goal to perform?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Mehrt] Glasto pyramid stage for sure!<\/p><p>[Barry] Or Red Rocks. <\/p><p>[Mehrt] Yeah or Red Rocks would be sick, but Glasto Pyramid stage is quite a good dream goal for us, I think, because the artists that play there are incredible and to get there is not easy. So just the journey of getting there would already check so many dreams and goals off the list on the way. So I like having it as a huge think big goal, if we get there then we can tick things off along the way.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1",
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212",
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f",
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "21488541-3872-40c7-a63d-59be672b0335": {
+      "type": "main-faq-2",
+      "blocks": {
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Playlist-Title.png",
+            "block_width": 600
+          }
+        },
+        "b11375f3-3a2a-487a-9733-532aa6978bdb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "e0dfde20-25b4-4297-9899-c280182a5cd9": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>This Kinda Day<\/strong> – Mild Orange<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>You Again<\/strong> – Sam Wave<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>forbearance<\/strong> – Gangs Of Youth<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Down By The River<\/strong> – Mild Orange<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Skinty Fia<\/strong> – Fontaines D.C.<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>All I Need<\/strong> – Radiohead<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>The Time Of Our Lives<\/strong> – Mild Orange<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Hummer<\/strong> – The Smashing Pumpkins<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "7e19024e-584d-4abc-82c8-93a358d8f23d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>UNDERWATER BOI<\/strong> – Turnstile<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Rent 2 High<\/strong> – Avantdale Bowling Club<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "96a1928f-546a-4b66-ac6f-faeeef656a8d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>If You Wouldn’t Mind<\/strong> – 2nd Exit<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "9530116c-6d8e-4882-baab-00b8ebb0be68": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>One<\/strong> – Mild Orange<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "207448c1-3abb-43a2-b005-84080ccae8a6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Listen Now",
+            "button_url": "https:\/\/open.spotify.com\/playlist\/65zCGZSrVv3BMb1jkdqQ2Z?si=56fcea40dbb0423f",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "center",
+            "btn_alignment_mobile": "center",
+            "block_width": 400
+          }
+        },
+        "dc59e773-614a-4179-b26e-8d3031185625": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 110
+          }
+        }
+      },
+      "block_order": [
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a",
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476",
+        "b11375f3-3a2a-487a-9733-532aa6978bdb",
+        "e0dfde20-25b4-4297-9899-c280182a5cd9",
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4",
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18",
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161",
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f",
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69",
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10",
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff",
+        "7e19024e-584d-4abc-82c8-93a358d8f23d",
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a",
+        "96a1928f-546a-4b66-ac6f-faeeef656a8d",
+        "9530116c-6d8e-4882-baab-00b8ebb0be68",
+        "207448c1-3abb-43a2-b005-84080ccae8a6",
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2",
+        "dc59e773-614a-4179-b26e-8d3031185625"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-radio-mild-orange",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa",
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "71237997-a7b2-4f17-bb27-5fc417ee2490",
+    "c7f329e6-7b22-4a93-9669-64345aec47f1",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "21488541-3872-40c7-a63d-59be672b0335",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

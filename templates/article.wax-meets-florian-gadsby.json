@@ -1,0 +1,1601 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets_-_Lead_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_8_f67312bc-d529-4bff-8772-bfdf7c3d1bff.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Florian Gadsby",
+        "blog_date": "Sunday 11, February 2024",
+        "blog_author": "Florian Gadsby",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "75951722-b10b-4e3f-9257-7c9aa4847a97": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        }
+      },
+      "block_order": [
+        "75951722-b10b-4e3f-9257-7c9aa4847a97",
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0",
+        "6f8046f7-b13c-431f-9d6b-1e603a59723c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/B5qrMlZnREk?si=t9_aS0a8vMENQbxJ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/ZCE7zk62bL0?si=AAlCkJbqtVcriBZP\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 10,
+        "section_padding_right": 10
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Step into the captivating world of Florian Gadsby, the brilliant potter and ceramicist who calls North London his creative haven. As we enter his studio, the air is filled with the earthy essence of clay and the subtle energy of artistic expression. Meet Florian, a maestro at the pottery wheel, whose hands bring life to raw material, shaping it into intricate works of art.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70": {
+      "type": "double_image",
+      "blocks": {
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_1.png",
+            "image_2": "shopify:\/\/shop_images\/Artboard_4_a26bf91b-0052-4b3e-8c52-4f49b337e713.png",
+            "image_1_caption": "<p>Florian wears the <a href=\"\/products\/whiting-overshirt-blue-jenson-check\" title=\"Whiting Overshirt Blue Jenson Check\">Whiting Overshirt Blue Jenson Check<\/a><\/p>",
+            "image_2_caption": "<p>Florian wears the <a href=\"\/products\/grant-jacket-khaki-ripstop\" title=\"Grant Jacket Khaki Ripstop\">Grant Jacket Khaki Ripstop<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a",
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where do you consider home to be?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The romantic answer is my wheel, but London is definitely my home. I’ve made pots here almost every day since I was 15 years old. Any period I’m not making I feel off. Last year when I wrote the book there was a period of 2 months where I wasn’t making, and I was angry. I could feel tension within because I wasn’t actively going to the studio every day and throwing pots. As long as I have things to make, then I am happy.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How many hours per day do you spend in the studio?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I am easily here 9-5 every day making pots, filming, firing, glazing, trimming. I have built my business model to a point where I can choose exactly what I’d like to make each day… which is very liberating. It’s freedom. But when I get home, I spend 3 or 4 hours making content for social media to fuel the tank and remain relevant. That’s my second job. I haven’t missed a day posting on Instagram for almost 10 years now… which is something I don’t like to admit to. I wish I had more time actually making pots, but when you see a formula work successfully, why would you stop?<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Last year you were clearly focussed on so many other things, is this year all about getting back to making?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Last year, I was focussed on writing my book and preparing for the exhibition at Yorkshire Sculpture Park, which I had to produce 370 pieces for. Things like that come with so much admin, and I’m not someone who’s used to having corporate email chains. It was interesting, but strange. I really enjoyed the process of writing, but again the one thing I wasn’t doing was making pots… and I could just feel myself missing it. I’m so excited to get back to doing what I love.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c4017101-7324-4569-ac37-45b6e44c90c0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da9d37cc-3924-4ab4-be11-d62d2156fa30": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Do you have a community of potters? Can the process ever be collaborative or is it always personal?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a4c1f594-14d1-488f-9e5d-3920f05dfd82": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "81f0bc95-b637-4542-9102-c0e5b7611443": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Over the years, I have thought about potentially scaling up or hiring a team… but ultimately, I feel like my audience appreciate the fact that when they buy something from me, it’s made by just me. It is a very personal craft. I am in High Barnet by myself. There are no other potters in the area, that I am aware of… which can feel a bit lonely at times. It’s just me and Ciro, my dog. However, being online, I have so many knowledgeable people at my fingertips.<\/p><p>If I ever have a question or even just want a chat, there are plenty of potters who I have met through Instagram. So that side of social media, I’m glad exists. In terms of collaborations, since pottery has become ‘trendy’ again, there are definitely more opportunities for collaborative work out there. Particularly with restaurants and chefs. If you’re making beautiful looking food… you need beautiful looking tableware, right?<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c4017101-7324-4569-ac37-45b6e44c90c0",
+        "da9d37cc-3924-4ab4-be11-d62d2156fa30",
+        "a4c1f594-14d1-488f-9e5d-3920f05dfd82",
+        "81f0bc95-b637-4542-9102-c0e5b7611443",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "3e46074b-496e-4b49-b1fd-f41162a55598": {
+      "type": "double_image",
+      "blocks": {
+        "2a75308a-70e1-448d-9a37-6e134ec5c355": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_2_9931d6c1-2fe1-47ab-8fbf-d0c86a3f4905.png",
+            "image_2": "shopify:\/\/shop_images\/Artboard_3_21e9d5f2-fc24-4fe7-a0c1-db9d7470f0ee.png",
+            "image_1_caption": "<p>Florian wears the <a href=\"\/products\/grant-jacket-khaki-ripstop\" title=\"Grant Jacket Khaki Ripstop\">Grant Jacket Khaki Ripstop<\/a> & the <a href=\"\/products\/loose-fit-jeans-ecru-denim\" title=\"Loose Fit Jeans Ecru Denim\">Loose Fit Jeans in Ecru Denim<\/a><\/p>",
+            "image_2_caption": "<p>Florian wears the <a href=\"\/products\/whiting-overshirt-blue-jenson-check\" title=\"Whiting Overshirt Blue Jenson Check\">Whiting Overshirt Blue Jenson Check<\/a> & the <a href=\"\/products\/loose-fit-jeans-ecru-denim\" title=\"Loose Fit Jeans Ecru Denim\">Loose Fit Jeans in Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c068cb25-d623-45b3-b9b2-93bebd1adcc0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "2a75308a-70e1-448d-9a37-6e134ec5c355",
+        "c068cb25-d623-45b3-b9b2-93bebd1adcc0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How do you receive feedback?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Online… whether I like it or not. Most people are very positive, but there is always going to be someone who doesn’t like your work. It’s hard, but you have to shut out the world and minimise external influence. Otherwise, your work ends up looking like everybody else’s. I try not to have work from other artists or potters around my studio. I keep it exclusively to my own. It’s like my brain is unfilled into my space.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What’s the worst thing you’ve made?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>When I was learning, I was constantly making bad things… but that’s natural. I made some very poor Art Nouveau inspired coil pots when I was a student. I don’t know who owns them now, but I’d happily ask if I could smash them! Luckily, they didn’t have my mark on them. My most viewed content is often compilations of me smashing bits I’ve poorly made. More people have probably seen me fail making pots than make successful ones! I think that helps people settle into the craft, when they realise that it is okay to fail. You’ve got to make the bad bits to start making the good. That’s part of the process. Any potter who says they don’t make mistakes is lying.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "92839132-c577-481b-b7b5-bf13f9c68073": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "06d32443-199d-440e-9d5b-c7681c863f77": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>When do you know when something is finished?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4619e403-6f37-4c9c-91ea-ca9ca751ec9c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "e4909d4e-b488-4983-a1dc-79c19adc7f43": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Well… I was taught the kiln is your finishing line. But ultimately, it’s when you’re happy with the work. Once something has been turned into ceramic and fired with a layer of glaze on it, there’s not much you can do to change it. You can re-fire pots, although it’s not very ‘Green’. But sometimes the re-fires become something very unique and impossible to replicate. The metallic pots I have been making recently are my current favourites. They’re somewhat ‘Sci-Fi’ and ‘Angular’ and a bit strange looking which really speaks to me.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "feb0ed98-4c93-49ce-beed-b176c1340edd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "image_baMzLU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WaxMeets-Florian-28.jpg",
+            "block_width": 1900
+          }
+        },
+        "spacer_zcyqLk": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e28abd3d-b44a-4be4-ad89-d2d5367b033d": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Do you ever make pottery in your dreams?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e93fab40-09ea-4a4c-b90a-62d2095062a7": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "8c566e10-ddbd-4ad7-9c0b-2c4c6f32da4d": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Yes! I have recurring pottery nightmares! I have them nights after I start firing the kiln: I leave the studio, go home, and have the same dream every time. Because everything is locked away, I have no control, so something ALWAYS goes wrong…and I can’t fix it! It’s INFURIATING! But what can you do?<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "bad64bf6-727a-41dd-8982-c88bc05fb4f8": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Pottery seems to be a mediative practice; do you find your centre on the wheel?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "9473d9b4-ad18-4a3a-9777-f7defa600629": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "8f2bedb7-18a0-4102-a6ed-ef9416a16646": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I think pottery being labelled as a relaxing process can get thrown about too much. You learn that when your hands are covered in clay, you can’t touch your phone…so you have to be connected with the process. It requires a lot of attention at first, but as you get better, it becomes more natural. Most of the time, when I am throwing the same thing in big batches, my hands know exactly what they are doing, so I can put on a Podcast or an Audiobook. My mind will be completely transfixed on the story…and suddenly hours will pass by. Those are the moments where I feel most relaxed. It’s very gratifying; when you have produced 100 bowls or mugs, all in a line, and the day has flown by because you’ve been lost in a story.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e7bafda1-55cc-419a-b00b-69b77b513975": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "question_GQwjKQ": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>If you could only make one more thing, what would it be?<\/strong><\/p>",
+            "question_font_size": 16,
+            "question_font_size_mobile": 16,
+            "question_line_height": 22,
+            "question_line_height_mobile": 22,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "spacer_wbxeWg": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "answer_nTdLkX": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>For the rest of my life? Bowls. Something like a vase is more constricted. It doesn’t flow out in the same way. With a bowl, there is something so free about making a cylinder and watching it open up… widening the form naturally and letting the clay follow the centrifugal force of the spinning wheel. It is very pleasant to watch.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 16,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "spacer_NwmNaz": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "spacer_Qh7XD8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "92839132-c577-481b-b7b5-bf13f9c68073",
+        "06d32443-199d-440e-9d5b-c7681c863f77",
+        "4619e403-6f37-4c9c-91ea-ca9ca751ec9c",
+        "e4909d4e-b488-4983-a1dc-79c19adc7f43",
+        "feb0ed98-4c93-49ce-beed-b176c1340edd",
+        "image_baMzLU",
+        "spacer_zcyqLk",
+        "e28abd3d-b44a-4be4-ad89-d2d5367b033d",
+        "e93fab40-09ea-4a4c-b90a-62d2095062a7",
+        "8c566e10-ddbd-4ad7-9c0b-2c4c6f32da4d",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee",
+        "bad64bf6-727a-41dd-8982-c88bc05fb4f8",
+        "9473d9b4-ad18-4a3a-9777-f7defa600629",
+        "8f2bedb7-18a0-4102-a6ed-ef9416a16646",
+        "e7bafda1-55cc-419a-b00b-69b77b513975",
+        "question_GQwjKQ",
+        "spacer_wbxeWg",
+        "answer_nTdLkX",
+        "spacer_NwmNaz",
+        "spacer_Qh7XD8"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_5_67441f82-8e91-4a4d-9ef9-fb54f9f0958a.png",
+            "image_2": "shopify:\/\/shop_images\/Artboard_6_81b4d2c4-a485-443b-a5d0-b99772bd02a2.png",
+            "image_1_caption": "<p>Florian wears the <a href=\"\/products\/whiting-overshirt-blue-jenson-check\" title=\"Whiting Overshirt Blue Jenson Check\">Whiting Overshirt Blue Jenson Check<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "e957354e-2f7a-4263-bd03-528e7da8438d": {
+      "type": "single_image",
+      "blocks": {
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_88e034e9-6af6-4f2e-843d-88cca1b5e3ea.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "f7dee5e7-0397-46f1-b461-a37b045f152a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "e417ae3f-57ba-49a4-9ca0-e3311a90efd6",
+        "f7dee5e7-0397-46f1-b461-a37b045f152a"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c7f329e6-7b22-4a93-9669-64345aec47f1": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/7uSlCxUGdBERUZ9006cQPa?utm_source=generator&amp;theme=0\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        },
+        "4ea89990-1860-4025-9238-949fc361660c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9",
+        "4ea89990-1860-4025-9238-949fc361660c"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 10,
+        "section_padding_right": 10
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Your social media has helped spread your musical talents out into the world. What is your relationship with social media platforms?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Social media is great because it is a way that you can express yourself, it’s a way that you can connect with others. I have connected with so many people across the globe that I have not met physically but we are in sync when it comes to being creatives. I think it’s great in the sense that people can showcase their passion, showcase what they’re into, showcase their creativity, and it makes the world a much smaller place. Of course it comes with a negative side, but I think that is something we all must be mindful of, and personally I’ve had a great experience with it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Thanks to this exposure, you are now set to release your first album. Can you tell us more about this?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>‘Things We Feel’ is coming out June 9th, it’s a collection of pieces I’ve been making over the past year. I have posted snippets of most of them on social media. Originally they were just a means of me expressing myself, but the funny thing is I started seeing people relate to lots of those pieces. I decided to take time out from my full time work to compile them together and release them. The Album comprises tracks people wanted me to release and tracks people haven’t heard, but I’m excited for people to experience the whole shebang.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4_ad41d4bc-3a78-4a41-9ffc-853c19a91e09.jpg",
+            "image_2": "shopify:\/\/shop_images\/5B-Collage.jpg",
+            "image_1_caption": "<p>Noxz wears <a href=\"\/products\/didcot-shirt-white-geo-lace\" target=\"_blank\" title=\"Didcot Shirt White Geo Lace\">Didcot Shirt White Geo Lace<\/a>, <a href=\"\/products\/dean-t-shirt-black\" target=\"_blank\" title=\"Dean T Shirt Black\">Dean T-Shirt Black<\/a> & <a href=\"\/products\/santo-cargo-trousers-khaki\" target=\"_blank\" title=\"Santo Cargo Trousers Khaki\">Santo Cargo Trousers Khaki<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>How do you go about constructing an album?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>When I’m putting together an album for an artist or for myself I kind of need to know what the end goal is whether they want people to feel a certain way at the end of the album. Once that is established we can start picking out the sounds that match where the artist is or where I’m at. The way that I’ve arranged the album, it can be listened to on shuffle and it wouldn’t break the experience, but ideally, I would say listen to it in order because it will take you on a certain journey. There’s gonna be highs, there’s gonna be lows, it’s gonna make you feel reflective, it’s gonna make you feel happy, you might get up and dance, it’s one of those things that will give you a means and an outlet to express yourself in whatever mood that you’re at.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You’ve very kindly constructed a playlist for us, what was your thinking behind these choices of songs?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I made a playlist for Wax and I have nicknamed it <em>Hazy<\/em>. I would listen to it when you have one of those days where you’re not sure what’s going on. You’re not sure whether you’re going to leave your bed, or whether you’re gonna go out and see a friend. You’re just sat in this moment where things are just unclear. When you listen to it, you’re going to listen to people like Reuben James, Robert Glasper, Summer Walker, and it’s gonna give you a sense of ‘things are not clear’ but it’s ok. You can just be in that moment and enjoy it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1",
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212",
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f",
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "21488541-3872-40c7-a63d-59be672b0335": {
+      "type": "main-faq-2",
+      "blocks": {
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6-Wax-Radio-Banner.jpg",
+            "block_width": 600
+          }
+        },
+        "b11375f3-3a2a-487a-9733-532aa6978bdb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "e0dfde20-25b4-4297-9899-c280182a5cd9": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>vibes don't lie<\/strong> – Noxz<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Fault<\/strong> – Kaleem Taylor<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Heaven's Here<\/strong> – Robert Glasper, Ant Clemons<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Means The World<\/strong> – Reuben James, Braxton Cook, CARRTOONS, Gareth Lockrane<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>To Summer, From Cole - Audio Hug<\/strong> – Summer Walker, J. Cole<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Galaxy Swim (Deeper)<\/strong> – JVCK JAMES<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Don't Stop <\/strong> – GoGo Morrow<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Know The Truth<\/strong> – Fridayy<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "7e19024e-584d-4abc-82c8-93a358d8f23d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Undercover Lover<\/strong> – Tay Iwar, Twelve XII<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Commotion<\/strong> – Jozzy<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 450
+          }
+        },
+        "207448c1-3abb-43a2-b005-84080ccae8a6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Listen Now",
+            "button_url": "https:\/\/open.spotify.com\/playlist\/7uSlCxUGdBERUZ9006cQPa?si=747aab002d954e6a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "center",
+            "btn_alignment_mobile": "center",
+            "block_width": 400
+          }
+        },
+        "dc59e773-614a-4179-b26e-8d3031185625": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a",
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476",
+        "b11375f3-3a2a-487a-9733-532aa6978bdb",
+        "e0dfde20-25b4-4297-9899-c280182a5cd9",
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4",
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18",
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161",
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f",
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69",
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10",
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff",
+        "7e19024e-584d-4abc-82c8-93a358d8f23d",
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a",
+        "207448c1-3abb-43a2-b005-84080ccae8a6",
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2",
+        "dc59e773-614a-4179-b26e-8d3031185625"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-meets-florian-gadsby",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "new_blog_posts_MNxt33": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_gCbjCc": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/wax-meets-childe",
+            "article_2": "journal\/wax-meets-alfie-steiner",
+            "article_3": "journal\/wax-meets-ben-lippett"
+          }
+        }
+      },
+      "block_order": [
+        "article_gCbjCc"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "3e46074b-496e-4b49-b1fd-f41162a55598",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "e957354e-2f7a-4263-bd03-528e7da8438d",
+    "c7f329e6-7b22-4a93-9669-64345aec47f1",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "21488541-3872-40c7-a63d-59be672b0335",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "new_blog_posts_MNxt33"
+  ]
+}

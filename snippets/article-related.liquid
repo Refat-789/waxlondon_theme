@@ -1,0 +1,24 @@
+{%- assign article_handles = article.metafields.related_articles.articles | first | split: "|" -%}
+
+{%- if article_handles.size > 0 -%}
+
+    <aside class="ArticleNav">
+
+        <div class="Container Container--narrow">
+            {%- if article.metafields.related_articles.title != blank -%}
+            <header class="ArticleNav_Header">
+                <h2 class="Heading u-h4">{{ article.metafields.related_articles.title }}</h2>
+            </header>
+            {%- endif -%}
+
+            <div class="Grid Grid--m Grid--center">
+                {%- for article_handle in article_handles -%}
+                <div class="Grid__Cell 1/3--tablet-and-up">
+                    {%- render 'article-item-related', article: articles[article_handle] -%}
+                </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </aside>
+
+{%- endif -%}

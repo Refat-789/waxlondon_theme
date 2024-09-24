@@ -1,0 +1,164 @@
+
+
+<section id="section-{{ section.id }}" class="Section Section--spacingNormal" data-section-id="{{ section.id }}" data-section-type="icon-with-text">
+  <div class="Container">
+    <div class="icons-bar">
+        {% for block in section.blocks %}
+            <div class="icons-bar__item_icons icons-list-{{block.id}}">
+                {% case block.type %}
+                {% when 'icon_images' %}
+                <img src="{{ block.settings.logo_image | img_url: 'master' }}" class="logo-bar-img">
+                <p class="caption">{{ block.settings.logo_desc_text }}</p>
+                {% when 'only_text' %}
+                <h2 class="icons-bar__item_icons_title">{{ block.settings.text_title }}</h2>
+                <p class="icons-bar__item_icons_desc">{{ block.settings.content_text }}</p>
+                {% when 'link' %}
+                <a class="icons-bar__item_icons_link" href="{{ block.settings.link_url }}">{{ block.settings.link_text }}</a>
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+    </div>
+  </div>
+</section>
+  
+<style>	
+    #section-{{ section.id }} .icons-bar {
+        max-width: {{section.settings.section_width | append: "px"}};
+        margin: auto;
+
+    }
+    /* #section-{{ section.id }} .icons-bar__item_icons + .icons-bar__item_icons {
+        margin-top: 30px;
+    } */
+    .logo-bar-link {
+        display: block;
+    }
+    #section-{{ section.id }} img {
+        display: block;
+        margin: auto;
+    }
+  #section-{{ section.id }} a{
+    text-decoration: underline;
+  }
+
+    {% for block in section.blocks %}
+        #section-{{ section.id }} .icons-list-{{block.id}} img {
+            max-width: {{block.settings.icon_width | append: "px"}};
+        }
+        #section-{{ section.id }} .icons-list-{{block.id}} .icons-bar__item_icons_title {
+            font-weight: 700;
+        }
+        #section-{{ section.id }} .icons-list-{{block.id}} .icons-bar__item_icons_link {
+            text-decoration: underline;
+        }
+        #section-{{ section.id }} .icons-list-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+    {% endfor %}
+
+</style> 
+  
+  {% schema %}
+  {
+    "name": "Icon with text",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_width",
+        "label": "Section width",
+        "min": 0,
+        "max": 1500,
+        "step": 50,
+        "unit": "px",
+        "default": 600
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "icon_images",
+            "name": "Icon block",
+              "settings":[
+                  {
+                      "type": "image_picker",
+                      "id": "logo_image",
+                      "label": "Choose Image"
+                  },
+                  {
+                      "type": "richtext",
+                      "id":  "logo_desc_text",
+                      "label": "Logo Caption"
+                  },
+                  {
+                    "type": "range",
+                    "id": "icon_width",
+                    "label": "Icon width",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 100
+                  }
+              ]
+          },
+          {
+           "type": "only_text",
+            "name": "Only text block",
+              "settings":[
+                  {
+                      "type": "text",
+                      "id":  "text_title",
+                      "label": "Title"
+                  },
+                  {
+                      "type": "richtext",
+                      "id":  "content_text",
+                      "label": "Content"
+                  }
+              ]
+          },
+          {
+           "type": "link",
+            "name": "Link block",
+              "settings":[
+                  {
+                      "type": "text",
+                      "id":  "link_text",
+                      "label": "Link"
+                  },
+                  {
+                      "type": "url",
+                      "id":  "link_url",
+                      "label": "Link url"
+                  }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Icons",
+             "name": "Icon with text"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

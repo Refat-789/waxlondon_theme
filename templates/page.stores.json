@@ -1,0 +1,380 @@
+{
+  "sections": {
+    "779ea1e8-eca3-4ffa-a334-40a809b3c9b1": {
+      "type": "double-image-style-2",
+      "blocks": {
+        "87ee015d-b08b-4e1d-be17-eae5fcce1653": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/iPhone_14_Pro_3.png",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "left_part_width": 50,
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "87ee015d-b08b-4e1d-be17-eae5fcce1653"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b73d715a-42fc-46f7-82a2-05447165decb": {
+      "type": "double_text",
+      "blocks": {
+        "046a55a1-6a79-4401-931e-cafc5439434b": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p>Berwick Street Store<br\/>Soho, London<\/p>",
+            "text_2": "<p>Commercial Street Store<br\/>Spitalfields, London<\/p>",
+            "font_size": 40,
+            "font_size_mobile": 16,
+            "text_line_height": 50,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "9b952f0b-99bb-473d-801d-0d98ef8a60c7": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "557959cd-eb0a-4415-887f-f4da6cf3722f": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p>,mdlasmdfkasmf.,amf,.a.<\/p>",
+            "text_2": "<p>,mdlasmdfkasmf.,amf,.a.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "aec9e706-c455-4f15-80f0-d5d4796585a4": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "95673745-42a4-4105-aa9e-75c672319f90": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p><strong>Address:<br\/><\/strong>67 Berwick Street<br\/>London<br\/>W1F 8GR<\/p><p><span style=\"text-decoration:underline\">Map<\/span><\/p>",
+            "text_2": "<p><strong>Address:<br\/><\/strong>105a Commercial Street<br\/>London<br\/>E1 6BG<\/p><p><span style=\"text-decoration:underline\">Map<\/span><\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "b94729b7-7836-493a-81b1-373d68f79fcd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "046a55a1-6a79-4401-931e-cafc5439434b",
+        "9b952f0b-99bb-473d-801d-0d98ef8a60c7",
+        "557959cd-eb0a-4415-887f-f4da6cf3722f",
+        "aec9e706-c455-4f15-80f0-d5d4796585a4",
+        "95673745-42a4-4105-aa9e-75c672319f90",
+        "b94729b7-7836-493a-81b1-373d68f79fcd"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fbbe8664-8bf6-4ee5-9a64-7136f25107cb": {
+      "type": "double-image-style-2",
+      "blocks": {
+        "93473cc9-458e-40a7-aa0c-26406a5ff8be": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Wax-Berwick-Street-Map.jpg",
+            "image_2": "shopify:\/\/shop_images\/Wax-Commercial-Street-Map.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "left_part_width": 50,
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "7c0f7584-cf6b-4e87-b20d-1a6c4a5ff28d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "93473cc9-458e-40a7-aa0c-26406a5ff8be",
+        "7c0f7584-cf6b-4e87-b20d-1a6c4a5ff28d"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "99a1a2a4-33c6-4058-887f-4a3ab0dcba7c": {
+      "type": "double_text",
+      "blocks": {
+        "52e2fcae-2e0d-42d2-9597-d08dd0a6f546": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p><strong>Opening Hours<br\/><\/strong>Monday: 11am - 7pm<br\/>Tuesday: 11am - 7pm<br\/>Wednesday: 11am - 7pm<br\/>Thursday: 11am - 7pm<br\/>Friday: 11am - 7pm<br\/>Saturday: 11am - 7pm<br\/>Sunday: 12pm - 6pm<\/p>",
+            "text_2": "<p><strong>Opening Hours<br\/><\/strong>Monday: 11am - 7pm<br\/>Tuesday: 11am - 7pm<br\/>Wednesday: 11am - 7pm<br\/>Thursday: 11am - 7pm<br\/>Friday: 11am - 7pm<br\/>Saturday: 11am - 7pm<br\/>Sunday: 12pm - 6pm<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "52e2fcae-2e0d-42d2-9597-d08dd0a6f546"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_large": false
+      }
+    },
+    "5f875fc1-4885-4aa1-8a93-08653868ed12": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "c6b8a698-aefb-4d9d-852c-dea94a4882f5": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/iPhone_14_Pro_1.png",
+            "title": "Berwick Street Store",
+            "description": "<p><strong>Address<br\/><\/strong>67 Berwick Street<br\/>London<br\/>W1F 8GR<br\/><a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Store\/@51.5149302,-0.1359386,17z\/data=!3m1!4b1!4m5!3m4!1s0x487605514142be2d:0xbf125041a9299083!8m2!3d51.5149302!4d-0.1359386\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Store\/@51.5149302,-0.1359386,17z\/data=!3m1!4b1!4m5!3m4!1s0x487605514142be2d:0xbf125041a9299083!8m2!3d51.5149302!4d-0.1359386\"><span style=\"text-decoration:underline\">Map<\/span><\/a><\/p><p><strong>Opening Hours<br\/><\/strong>Monday: 11am - 7pm<br\/>Tuesday: 11am - 7pm<br\/>Wednesday: 11am - 7pm<br\/>Thursday: 11am - 7pm<br\/>Friday: 11am - 7pm<br\/>Saturday: 11am - 7pm<br\/>Sunday: 12pm - 6pm<\/p>",
+            "text_max_width": 405,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 36,
+            "title_font_size_mobile": 29,
+            "title_line_height": 40,
+            "title_line_height_mobile": 40,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 16,
+            "des_line_height": 24,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "940051c3-a9ef-4c72-a39e-c01fbad87cd2": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 25
+          }
+        },
+        "text_image_block_hXF9rY": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Covent_Garden_Store.jpg",
+            "title": "Covent Garden Store",
+            "description": "<p><strong>Address<br\/><\/strong>45 Neal Street<br\/>London<br\/>WC2H 9PR<br\/><a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Covent+Garden+Store\/@51.5142206,-0.1282002,17z\/data=!4m10!1m2!2m1!1sWax+London+Covent+Garden+Store,+45+Neal+St,+London+WC2H+9PR!3m6!1s0x4876056d7f50d30b:0xd5c2691c5e559a7e!8m2!3d51.5142206!4d-0.1256253!15sCjtXYXggTG9uZG9uIENvdmVudCBHYXJkZW4gU3RvcmUsIDQ1IE5lYWwgU3QsIExvbmRvbiBXQzJIIDlQUlo7Ijl3YXggbG9uZG9uIGNvdmVudCBnYXJkZW4gc3RvcmUgNDUgbmVhbCBzdCBsb25kb24gd2MyaCA5cHKSARNtZW5zX2Nsb3RoaW5nX3N0b3Jl4AEA!16s%2Fg%2F11y5zwmk_1?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Covent+Garden+Store\/@51.5142206,-0.1282002,17z\/data=!4m10!1m2!2m1!1sWax+London+Covent+Garden+Store,+45+Neal+St,+London+WC2H+9PR!3m6!1s0x4876056d7f50d30b:0xd5c2691c5e559a7e!8m2!3d51.5142206!4d-0.1256253!15sCjtXYXggTG9uZG9uIENvdmVudCBHYXJkZW4gU3RvcmUsIDQ1IE5lYWwgU3QsIExvbmRvbiBXQzJIIDlQUlo7Ijl3YXggbG9uZG9uIGNvdmVudCBnYXJkZW4gc3RvcmUgNDUgbmVhbCBzdCBsb25kb24gd2MyaCA5cHKSARNtZW5zX2Nsb3RoaW5nX3N0b3Jl4AEA!16s%2Fg%2F11y5zwmk_1?entry=ttu\"><span style=\"text-decoration:underline\">Map<\/span><\/a><\/p><p><strong>Opening Hours<br\/><\/strong>Monday: 11am - 7pm<br\/>Tuesday: 11am - 7pm<br\/>Wednesday: 11am - 7pm<br\/>Thursday: 11am - 7pm<br\/>Friday: 11am - 7pm<br\/>Saturday: 11am - 7pm<br\/>Sunday: 12pm - 6pm<\/p>",
+            "text_max_width": 405,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 36,
+            "title_font_size_mobile": 29,
+            "title_line_height": 40,
+            "title_line_height_mobile": 40,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 16,
+            "des_line_height": 24,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "spacer_4eaAWW": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "9ba0ee3c-677b-4f37-b1e5-7a015cc9f09d": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/iPhone_14_Pro_2.png",
+            "title": "Spitalfields Store",
+            "description": "<p><strong>Address<br\/><\/strong>105a Commercial Street<br\/>London<br\/>E1 6BG<br\/><a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Spitalfields+Store\/@51.5194122,-0.0772975,17z\/data=!3m1!5s0x48761cb3f857c8a5:0x30e5c1c4eb5d18f5!4m15!1m8!3m7!1s0x48761cb43c52bfed:0x51eae9fc932add13!2s105a+Commercial+St,+London+E1+6BG!3b1!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11dzqksqzj!3m5!1s0x48761d397b56861b:0x79395ffe24d3b3b8!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11kppzk2rg?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Spitalfields+Store\/@51.5194122,-0.0772975,17z\/data=!3m1!5s0x48761cb3f857c8a5:0x30e5c1c4eb5d18f5!4m15!1m8!3m7!1s0x48761cb43c52bfed:0x51eae9fc932add13!2s105a+Commercial+St,+London+E1+6BG!3b1!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11dzqksqzj!3m5!1s0x48761d397b56861b:0x79395ffe24d3b3b8!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11kppzk2rg?entry=ttu\"><span style=\"text-decoration:underline\">Map<\/span><\/a><\/p><p><strong>Opening Hours<br\/><\/strong>Monday: 11am - 7pm<br\/>Tuesday: 11am - 7pm<br\/>Wednesday: 11am - 7pm<br\/>Thursday: 11am - 7pm<br\/>Friday: 11am - 7pm<br\/>Saturday: 11am - 7pm<br\/>Sunday: 12pm - 6pm<\/p>",
+            "text_max_width": 405,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 36,
+            "title_font_size_mobile": 29,
+            "title_line_height": 40,
+            "title_line_height_mobile": 40,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 16,
+            "des_line_height": 24,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "c6b8a698-aefb-4d9d-852c-dea94a4882f5",
+        "940051c3-a9ef-4c72-a39e-c01fbad87cd2",
+        "text_image_block_hXF9rY",
+        "spacer_4eaAWW",
+        "9ba0ee3c-677b-4f37-b1e5-7a015cc9f09d"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    }
+  },
+  "order": [
+    "779ea1e8-eca3-4ffa-a334-40a809b3c9b1",
+    "b73d715a-42fc-46f7-82a2-05447165decb",
+    "fbbe8664-8bf6-4ee5-9a64-7136f25107cb",
+    "99a1a2a4-33c6-4058-887f-4a3ab0dcba7c",
+    "main",
+    "5f875fc1-4885-4aa1-8a93-08653868ed12"
+  ]
+}

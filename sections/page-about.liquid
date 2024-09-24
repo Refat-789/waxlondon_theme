@@ -1,0 +1,40 @@
+{% render 'breadcrumbs' %}
+
+<div class="Container">
+    <header class="PageHeader">
+        <div class="SectionHeader SectionHeader--center">
+            <h1 class="SectionHeader__Heading Heading u-h3">{{ page.title }}</h1>
+        </div>
+    </header>
+</div>
+
+
+{% assign sections = shop.metafields.acf_settings.page_layouts | where: "id", page.id | first | map: "sections" | where: "visible" %}
+
+<div class="Container">
+{% for section in sections %}
+    {% case section.name %}
+
+    {% when 'opening' %}
+
+    {% render 'block-opening' index: section.index %}
+
+    {% when 'copy' %}
+
+    {% render 'block-copy' index: section.index, layout_class: 'content' %}
+
+    {% when 'images' %}
+
+    {% render 'block-images' index: section.index %}
+
+    {% when 'blockquote' %}
+
+    {% render 'block-blockquote' index: section.index %}
+
+    {% when 'square_image_w_text_overlay' %}
+
+    {% render 'block-square-overlay' index: section.index %}
+
+    {% endcase %}
+{% endfor %}
+</div>

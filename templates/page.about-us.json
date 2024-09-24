@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "4a55e568-0dee-409f-bc0f-ade49508ee33": {
+      "type": "single_image",
+      "blocks": {
+        "61f1311c-d04d-43a0-b01d-aa53f1915f23": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/About-Us-Banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/About-Us-Banner-Mobile.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "122fa3f6-294b-48a4-9f5e-b7249f68ad26": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 45
+          }
+        }
+      },
+      "block_order": [
+        "61f1311c-d04d-43a0-b01d-aa53f1915f23",
+        "122fa3f6-294b-48a4-9f5e-b7249f68ad26"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "652cafb4-459a-4563-be51-92b9b143cf45": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "About Us",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 48,
+        "des_font_size": 16,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "d0d75f93-46aa-4741-975a-c27236252576": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "slight_spacing",
+        "custom_spacing_height": 200,
+        "custom_spacing_height_mobile": 126
+      }
+    },
+    "4e2eba2c-49fe-4649-8570-02158ed4d8e8": {
+      "type": "single_text",
+      "blocks": {
+        "27337d50-db64-4e34-afa0-19a5f6f2b598": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Founded in 2015, Wax is a London-based brand born out of a desire to make clothes with character. <\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 24,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "36979e3c-09bc-4133-9a6b-592ec913dbf2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "27337d50-db64-4e34-afa0-19a5f6f2b598",
+        "36979e3c-09bc-4133-9a6b-592ec913dbf2"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "8976a36b-2ebf-47e8-9fd8-643a102a50b7": {
+      "type": "single_text",
+      "blocks": {
+        "53fddcf8-8a5f-4391-a2f8-a41f65fd8f24": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>What sets Wax apart is our focus on sourcing unique fabrics, weaves, textures, patterns and prints from sustainable mills and partners who believe in doing things right. Our designs are inspired by the talented craftspeople we have met on our travels, alongside our brand's British heritage, creating characterful pieces that will be worn and re-worn.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "5643fefa-c9b1-4e34-a718-f35aec75db22": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "53fddcf8-8a5f-4391-a2f8-a41f65fd8f24",
+        "5643fefa-c9b1-4e34-a718-f35aec75db22"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4ef55780-354a-4952-a5a1-aede53c70182": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "4bc1b6d7-7571-431d-b422-273b5be107a5": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/2-Family-Wax-London.jpg",
+            "title": "Family Values",
+            "description": "<p>Our purpose is to create elevated clothing that inspire confidence and self expression. We blend British heritage, Mediterranean sensibility and Indian craftsmanship and present all of that through a London-centric lens. <\/p><p>Our clothing is designed in London and draws inspiration from family, music, togetherness, the outdoors, parties, love, sport and London life.<\/p>",
+            "sign_up_button_text": "Notify Me When Back In Stock",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f7f7",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 48,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "15babf60-6913-468a-a971-5fb1aca5641b": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/3-Wax-London-Integrity-Mobile.jpg",
+            "title": "Integrity",
+            "description": "<p>We believe in slow fashion, and with that mantra we partner with sustainable mills and suppliers from around the world who specialise in the highest quality production. Our aim is to help minimise our footprint as much as possible.<\/p>",
+            "sign_up_button_text": "Notify Me When Back In Stock",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f7f7",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 48,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "a8c8ccd8-8015-4c54-a82d-14e98cbfe95f": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4-Wax-London-Stockists.jpg",
+            "title": "Stockists",
+            "description": "<p>We’re really proud of our long-standing global partnerships across 20 countries including: End Clothing, Liberty London, Harvey Nichols, Brown Thomas, Nordstrom, Bloomingdales, Le Bon Marche, Illum, Beams Japan, Ounass to name a few, as well as over 160 independent retailers.<\/p>",
+            "sign_up_button_text": "Notify Me When Back In Stock",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f7f7",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 48,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "f2d98989-e11b-4e4e-ab66-7edc06bbd0c9": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/5-London-Store-Mobile.jpg",
+            "title": "Our London Stores",
+            "description": "<p>Come and visit us in our London homes. We are at:<br\/><br\/><strong>Soho<\/strong><br\/>67 Berwick Street, <br\/>W1F 8GR, <br\/>London <br\/>(<a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Store\/@51.5149302,-0.1359386,17z\/data=!3m1!4b1!4m5!3m4!1s0x487605514142be2d:0xbf125041a9299083!8m2!3d51.5149302!4d-0.1359386\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Store\/@51.5149302,-0.1359386,17z\/data=!3m1!4b1!4m5!3m4!1s0x487605514142be2d:0xbf125041a9299083!8m2!3d51.5149302!4d-0.1359386\">map<\/a>)<\/p><p><strong>Spitalfields<br\/><\/strong>105a Commercial Street<br\/>London<br\/>E1 6BG<br\/>(<a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Spitalfields+Store\/@51.5194122,-0.0772975,17z\/data=!3m1!5s0x48761cb3f857c8a5:0x30e5c1c4eb5d18f5!4m15!1m8!3m7!1s0x48761cb43c52bfed:0x51eae9fc932add13!2s105a+Commercial+St,+London+E1+6BG!3b1!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11dzqksqzj!3m5!1s0x48761d397b56861b:0x79395ffe24d3b3b8!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11kppzk2rg?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Spitalfields+Store\/@51.5194122,-0.0772975,17z\/data=!3m1!5s0x48761cb3f857c8a5:0x30e5c1c4eb5d18f5!4m15!1m8!3m7!1s0x48761cb43c52bfed:0x51eae9fc932add13!2s105a+Commercial+St,+London+E1+6BG!3b1!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11dzqksqzj!3m5!1s0x48761d397b56861b:0x79395ffe24d3b3b8!8m2!3d51.5194122!4d-0.0747226!16s%2Fg%2F11kppzk2rg?entry=ttu\">map<\/a>)<\/p><p><strong>Covent Garden<br\/><\/strong>45 Neal Street<br\/>London<br\/>WC2H 9PR<br\/>(<a href=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Covent+Garden+Store\/@51.5142206,-0.1282002,17z\/data=!4m10!1m2!2m1!1sWax+London+Covent+Garden+Store,+45+Neal+St,+London+WC2H+9PR!3m6!1s0x4876056d7f50d30b:0xd5c2691c5e559a7e!8m2!3d51.5142206!4d-0.1256253!15sCjtXYXggTG9uZG9uIENvdmVudCBHYXJkZW4gU3RvcmUsIDQ1IE5lYWwgU3QsIExvbmRvbiBXQzJIIDlQUlo7Ijl3YXggbG9uZG9uIGNvdmVudCBnYXJkZW4gc3RvcmUgNDUgbmVhbCBzdCBsb25kb24gd2MyaCA5cHKSARNtZW5zX2Nsb3RoaW5nX3N0b3Jl4AEA!16s%2Fg%2F11y5zwmk_1?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Wax+London+Covent+Garden+Store\/@51.5142206,-0.1282002,17z\/data=!4m10!1m2!2m1!1sWax+London+Covent+Garden+Store,+45+Neal+St,+London+WC2H+9PR!3m6!1s0x4876056d7f50d30b:0xd5c2691c5e559a7e!8m2!3d51.5142206!4d-0.1256253!15sCjtXYXggTG9uZG9uIENvdmVudCBHYXJkZW4gU3RvcmUsIDQ1IE5lYWwgU3QsIExvbmRvbiBXQzJIIDlQUlo7Ijl3YXggbG9uZG9uIGNvdmVudCBnYXJkZW4gc3RvcmUgNDUgbmVhbCBzdCBsb25kb24gd2MyaCA5cHKSARNtZW5zX2Nsb3RoaW5nX3N0b3Jl4AEA!16s%2Fg%2F11y5zwmk_1?entry=ttu\">map<\/a>)<\/p>",
+            "sign_up_button_text": "Notify Me When Back In Stock",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f7f7",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 48,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "4bc1b6d7-7571-431d-b422-273b5be107a5",
+        "15babf60-6913-468a-a971-5fb1aca5641b",
+        "a8c8ccd8-8015-4c54-a82d-14e98cbfe95f",
+        "f2d98989-e11b-4e4e-ab66-7edc06bbd0c9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    }
+  },
+  "order": [
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306",
+    "4a55e568-0dee-409f-bc0f-ade49508ee33",
+    "652cafb4-459a-4563-be51-92b9b143cf45",
+    "d0d75f93-46aa-4741-975a-c27236252576",
+    "4e2eba2c-49fe-4649-8570-02158ed4d8e8",
+    "8976a36b-2ebf-47e8-9fd8-643a102a50b7",
+    "4ef55780-354a-4952-a5a1-aede53c70182"
+  ]
+}

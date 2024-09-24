@@ -1,0 +1,701 @@
+{%- capture flickity_options -%}
+{
+  "prevNextButtons": false,
+  "setGallerySize": {% if section.settings.show_fullscreen %}false{% else %}true{% endif %},
+  "adaptiveHeight": {% if section.settings.show_fullscreen %}false{% else %}true{% endif %},
+  "wrapAround": true,
+  "dragThreshold": 15,
+  "pauseAutoPlayOnHover": false,
+  "autoPlay": {% if section.settings.autoplay %}{{ section.settings.cycle_speed | times: 1000 }}{% else %}false{% endif %},
+  "pageDots": {% if section.blocks.size > 1 %}true{% else %}false{% endif %}
+}
+{%- endcapture -%}
+
+<section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="slideshow">
+  <div class="Slideshow {% if section.settings.show_fullscreen %}Slideshow--fullscreen{% endif %}">
+    <div class="Slideshow__Carousel {% if section.settings.show_arrow %}Slideshow__Carousel--withScrollButton{% endif %} Carousel Carousel--fadeIn {% if section.settings.show_fullscreen %}Carousel--fixed{% endif %} Carousel--insideDots"
+         data-flickity-config='{{ flickity_options }}'>
+      {%- for block in section.blocks -%}
+        {%- capture slide_content -%}
+          {%- comment -%}
+            Implementation note: this is an art driven image selection so it would have been better to be able to use the "picture" tag instead. However,
+            as the mobile and desktop image could have different aspect ratio, the image allocation space would not have work properly without explicitly
+            distinguishing the two images, hence the two containers.
+          {%- endcomment -%}
+
+          {%- assign mobile_video = block.settings.slideshow_mobile_video_url | default: block.settings.slideshow_video_url -%}
+
+          {%- assign vimeo_mobile_video = block.settings.slideshow_vimeo_mobile_video_id | default: block.settings.slideshow_vimeo_video_id -%}
+          
+          {%- assign mobile_image = block.settings.mobile_image | default: block.settings.image -%}
+
+          {%- if mobile_video -%}
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %} hidden-tablet-and-up"
+                 style="{% unless section.settings.show_fullscreen %}padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%; --aspect-ratio: {{ block.settings.image.aspect_ratio }};{% endunless %} background-image: url({{ block.settings.image | img_url: '1x1', format: 'jpg' }})">
+              
+              <div class="hero-video Slideshow__Image Image--lazyLoad hide-no-js mobile-video">
+                <video data-mobile-video-url="{{ mobile_video }}" autoplay loop muted playsinline></video>
+              </div>
+            </div>
+
+          {%- elsif mobile_image -%}
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio{% endunless %} hidden-tablet-and-up"
+                 style="{% unless section.settings.show_fullscreen %}--aspect-ratio: {{ mobile_image.aspect_ratio }};{% endunless %} background-image: url({{ mobile_image | img_url: '1x1', format: 'jpg' }})">
+                <img fetchpriority="high" class="Slideshow__Image Image--lazyLoad"
+                     src="{{ mobile_image | img_url: '1x1' }}"
+                     data-src="{{ mobile_image | img_url: 'x800' }}"
+                     alt="{{ mobile_image.alt | escape }}">
+
+                <noscript>
+                  <img class="Slideshow__Image" src="{{ mobile_image | img_url: 'x800' }}" alt="{{ mobile_image.alt | escape }}">
+                </noscript>
+            </div>
+
+
+          {%- elsif vimeo_mobile_video -%}
+            {%- capture mobile_block_settings -%}
+
+            {
+              "videoType": "vimeo",
+              "videoId": {{ vimeo_mobile_video }},
+              "requestHost": {{ request.host | json }}
+            }
+            {%- endcapture -%} 
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio{% endunless %} hidden-tablet-and-up"
+                 style="{% unless section.settings.show_fullscreen %}--aspect-ratio: {{ mobile_image.aspect_ratio }};{% endunless %} background-image: url({{ mobile_image | img_url: '1x1', format: 'jpg' }})">
+                 <div class="hero-video vimeo-video Slideshow__Image Image--lazyLoad hide-no-js">
+                       
+
+                  <div class="vimeo-video-background"  data-section-type="background-video" data-section-settings='{{ mobile_block_settings }}'>
+                    <div class="ImageHero ImageHero--preserveRatio">
+                      <div class="ImageHero__VideoHolder"></div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          {%- endif -%}
+
+          
+          {%- if block.settings.slideshow_video_url -%}
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %} hidden-phone"
+                 style="{% unless section.settings.show_fullscreen %}padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%; --aspect-ratio: {{ block.settings.image.aspect_ratio }};{% endunless %} background-image: url({{ block.settings.image | img_url: '1x1', format: 'jpg' }})">
+              
+              <div class="hero-video Slideshow__Image Image--lazyLoad hide-no-js desktop-video">
+                <video data-desktop-video-url="{{ block.settings.slideshow_video_url }}" autoplay loop muted playsinline></video>
+              </div>
+            </div>
+
+            {%- elsif block.settings.image -%}
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %} hidden-phone"
+                 style="{% unless section.settings.show_fullscreen %}padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%; --aspect-ratio: {{ block.settings.image.aspect_ratio }};{% endunless %} background-image: url({{ block.settings.image | img_url: '1x1', format: 'jpg' }})">
+              {% assign image_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+              <img fetchpriority="high" class="Slideshow__Image Image--lazyLoad hide-no-js"
+                     data-src="{{ image_url }}"
+                     data-optimumx="1.6"
+                     data-widths="[400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2160, 2600, 3000, 3400, 3800, 4100]"
+                     data-sizes="auto"
+                     alt="{{ block.settings.image.alt | escape }}">
+
+              <noscript>
+                <img class="Slideshow__Image" src="{{ block.settings.image | img_url: '1000x' }}" alt="{{ block.settings.image.alt | escape }}">
+              </noscript>
+            </div>
+
+          {%- elsif block.settings.slideshow_vimeo_video_id -%}
+            {%- capture block_settings -%}
+              {
+                "videoType": "vimeo",
+                "videoId": {{ block.settings.slideshow_vimeo_video_id }},
+                "requestHost": {{ request.host | json }}
+              }
+            {%- endcapture -%} 
+
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %}  {% unless section.settings.show_fullscreen %}AspectRatio AspectRatio--withFallback{% endunless %} hidden-phone"
+                 style="{% unless section.settings.show_fullscreen %}padding-bottom: {{ 100.0 | divided_by: block.settings.image.aspect_ratio }}%; --aspect-ratio: {{ block.settings.image.aspect_ratio }};{% endunless %} background-image: url({{ block.settings.image | img_url: '1x1', format: 'jpg' }})">
+                   
+                <div class="hero-video vimeo-video Slideshow__Image Image--lazyLoad hide-no-js">
+                       
+
+                  <div class="vimeo-video-background"  data-section-type="background-video" data-section-settings='{{ block_settings }}'>
+                    <div class="ImageHero ImageHero--preserveRatio">
+                      <div class="ImageHero__VideoHolder"></div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+
+          
+          {%- else -%}
+            <div class="Slideshow__ImageContainer {% if block.settings.apply_overlay %}Image--contrast{% endif %} {% if section.settings.show_fullscreen %}PlaceholderBackground{% endif %} PlaceholderSvg--dark">
+              {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
+              {{ placeholder | placeholder_svg_tag: 'Slideshow__Image PlaceholderBackground__Svg' }}
+            </div>
+          {%- endif -%}
+
+          {%- capture slideshow_content -%}
+            {%- if block.settings.subheading != blank and block.settings.show_countdown == blank -%}
+              <h3 class="SectionHeader__SubHeading Heading u-h5">{{ block.settings.subheading | escape }}</h3>
+            {%- endif -%}
+
+            {%- if block.settings.title != blank and block.settings.show_countdown == blank -%}
+              <h2 class="SectionHeader__Heading Heading u-h2">{{ block.settings.title | escape }}</h2>
+            {%- endif -%}
+            
+            {%- if block.settings.show_countdown -%}
+              <div class="countdown-wrap">
+                <h3 class="SectionHeader__SubHeading Heading u-h5">Winter Sale</h3>
+                <h2 class="SectionHeader__Heading Heading u-h2">Up To <span>60% Off</span></h2>
+                <h4 class="countdown_header u-h4">Ends Soon</h4>
+                {%- render 'countdown', date: block.settings.countdown_end -%} 
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.button_1_text != blank and block.settings.button_2_text != blank -%}
+              {%- assign has_two_buttons = true -%}
+            {%- else -%}
+              {%- assign has_two_buttons = false -%}
+            {%- endif -%}
+
+            {%- if block.settings.button_1_text != blank or block.settings.button_2_text != blank -%}
+              <div class="SectionHeader__ButtonWrapper">
+                <div class="ButtonGroup ButtonGroup--spacingSmall {% if has_two_buttons %}ButtonGroup--sameSize{% endif %}">
+                  {%- if block.settings.button_1_text != blank -%}
+                    <a href="{{ block.settings.button_1_link }}" {% if block.settings.open_link_new_tab %} target="_blank" {% endif %} class="ButtonGroup__Item Button {% if block.settings.countdown_end %}countdown-button{% endif %}">{{ block.settings.button_1_text | escape }}</a>
+                  {%- endif -%}
+
+                  {%- if block.settings.button_2_text != blank -%}
+                    <a href="{{ block.settings.button_2_link }}" {% if block.settings.open_link_new_tab %} target="_blank" {% endif %} class="ButtonGroup__Item Button">{{ block.settings.button_2_text | escape }}</a>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+          {%- endcapture -%}
+
+          {%- if slideshow_content != blank -%}
+            <div class="Slideshow__Content Slideshow__Content--{{ block.settings.content_position }}">
+              <header class="SectionHeader">
+                {{ slideshow_content }}
+              </header>
+            </div>
+          {%- endif -%}
+        {%- endcapture -%}
+
+        {%- comment -%}This code allows to cover a common use case where merchant would like to have a clickable image{%- endcomment -%}
+
+        {%- if block.settings.button_1_text == blank and block.settings.button_1_link != blank -%}
+          <a href="{{ block.settings.button_1_link }}" id="Slide{{ block.id }}" class="Slideshow__Slide Carousel__Cell {% if forloop.first %}is-selected{% endif %}" {% if forloop.first %}style="visibility: visible"{% endif %} data-slide-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+            {{- slide_content -}}
+          </a>
+        {%- else -%}
+          <div id="Slide{{ block.id }}" class="Slideshow__Slide Carousel__Cell {% if forloop.first %}is-selected{% endif %}" {% if forloop.first %}style="visibility: visible"{% endif %} data-slide-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+            {{- slide_content -}}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    {%- if section.settings.show_arrow -%}
+      <button data-href="#section-{{ section.id }}-end" class="Slideshow__ScrollButton RoundButton RoundButton--medium" aria-label="{{ 'general.accessibility.scroll_to_content' | t }}" data-animate-bottom>
+        {%- render 'icon' with 'arrow-bottom' -%}
+      </button>
+    {%- endif -%}
+  </div>
+
+  <span id="section-{{ section.id }}-end" class="Anchor"></span>
+</section>
+
+
+<script>
+  function loadSectionVideos(sectionId) {
+    var section = document.querySelector('#section-' + sectionId);
+    if (!section) return;
+
+    // Check if the section contains any video elements
+    var hasVideos = section.querySelector('.hero-video video') !== null;
+    if (!hasVideos) return;
+
+    var screenWidth = window.innerWidth;
+
+    var mobileVideoElements = section.querySelectorAll('.hero-video.mobile-video video');
+    var desktopVideoElements = section.querySelectorAll('.hero-video.desktop-video video');
+
+    if (screenWidth < 641) {
+      mobileVideoElements.forEach(function(videoElement) {
+        var mobileVideoUrl = videoElement.getAttribute('data-mobile-video-url');
+        if (mobileVideoUrl && !videoElement.src) {
+          videoElement.src = mobileVideoUrl;
+        }
+      });
+    } else {
+      desktopVideoElements.forEach(function(videoElement) {
+        var desktopVideoUrl = videoElement.getAttribute('data-desktop-video-url');
+        if (desktopVideoUrl && !videoElement.src) {
+          videoElement.src = desktopVideoUrl;
+        }
+      });
+    }
+  }
+
+  function debounce(func, wait) {
+    let timeout;
+    return function() {
+      const context = this, args = arguments;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(context, args), wait);
+    };
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var sectionId = '{{ section.id }}';
+    loadSectionVideos(sectionId);
+
+    var debouncedLoadVideos = debounce(function() {
+      loadSectionVideos(sectionId);
+    }, 250);
+
+    window.addEventListener('resize', debouncedLoadVideos);
+  });
+</script>
+
+
+<style>
+  #section-{{ section.id }} {
+    margin-top: {{ section.settings.section_margin_top_mobile | append: "px" }};
+    margin-bottom: {{ section.settings.section_margin_bottom_mobile | append: "px" }};
+  }
+   #section-{{ section.id }} .flickity-page-dots {
+    color: {{ section.settings.dots_color }};
+  }
+  #section-{{ section.id }} h4.countdown_header.u-h4 {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 36px;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  
+  {% for block in section.blocks %}
+  #section-{{ section.id }}  #Slide{{ block.id }}   h3.Heading{
+    font-size: {{block.settings.subheader_font_size | append: "px"}};
+  }
+  #section-{{ section.id }}  #Slide{{ block.id }}   h2.Heading{
+    font-size: {{block.settings.header_font_size | append: "px"}};
+  }
+  
+  #section-{{ section.id }} #Slide{{ block.id }} .Heading{
+    color: {{ block.settings.text_color }};
+  }
+
+  #section-{{ section.id }} #Slide{{ block.id }} .Button {
+    color: {{ block.settings.button_text_color }};
+    background-color: {{ block.settings.button_background_color }};
+    border-color: {{ block.settings.button_border_color }};
+    font-size: {{block.settings.button_font_size | append: "px"}};
+  }
+  #section-{{ section.id }} a.ButtonGroup__Item.Button.countdown-button {
+      background: #fff;
+      color: #000 !important;
+  }
+  #section-{{ section.id }} #Slide{{ block.id }} .Button::before {
+    background-color: {{ block.settings.button_hover_background_color }};
+  }
+  #section-{{ section.id }} #Slide{{ block.id }} .Image--contrast::after {
+    {%- assign background_opacity = block.settings.mobile_overlay_opacity | divided_by: 100.0 -%}
+      background: {{ block.settings.mobile_overlay_color | color_modify: 'alpha', background_opacity }};
+    }
+  
+  {%- if settings.show_button_transition -%}
+    @media (-moz-touch-enabled: 0), (hover: hover) {
+      #section-{{ section.id }}  #Slide{{ block.id }} .Button:hover {
+        color: {{ block.settings.button_hover_text_color }};
+      border-color: {{ block.settings.button_hover_border_color }};
+      }
+    }
+  {%- endif -%}
+
+  @media screen and (min-width: 641px){
+    #section-{{ section.id }} #Slide{{ block.id }} .Image--contrast::after {
+        {%- assign background_opacity = block.settings.overlay_opacity | divided_by: 100.0 -%}
+      background: {{ block.settings.overlay_color | color_modify: 'alpha', background_opacity }};
+      }
+    }
+  
+  {% endfor %}
+
+  #section-{{ section.id }} .hero-video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  #section-{{ section.id }} .hero-video video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+  #section-{{ section.id }} .vimeo-video-background {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+  #section-{{ section.id }} .vimeo-video-background .ImageHero.ImageHero--preserveRatio {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  background: #000;
+}
+
+@media screen and (min-width: 1008px){
+  #section-{{ section.id }} {
+    margin-top: {{ section.settings.section_margin_top | append: "px" }};
+    margin-bottom: {{ section.settings.section_margin_bottom | append: "px" }};
+  }
+}
+  
+/*   .us-site #Slidec942cf4c-8fcd-45de-9458-687056a18fb3 .Slideshow__Content.Slideshow__Content--bottomCenter {
+      display: none;
+    }
+    .us-site #Slidef4a3b345-2b99-421d-ad9f-27b65392ca3d .Slideshow__Content.Slideshow__Content--bottomCenter {
+    	display: none;
+    } */
+
+</style>
+
+{% schema %}
+{
+  "name": "Slideshow",
+  "class": "shopify-section--slideshow",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_fullscreen",
+      "label": "Show full-screen images",
+      "info": "If enabled, images will be resized to fit the entire screen.",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_arrow",
+      "label": "Show bottom arrow",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Auto rotate between slides",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 3,
+      "max": 15,
+      "step": 1,
+      "unit": "sec",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "dots_color",
+      "label": "Dots Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "section_margin_top",
+      "label": "Section margin top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "section_margin_bottom",
+      "label": "Section margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "section_margin_top_mobile",
+      "label": "Section margin top in mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "section_margin_bottom_mobile",
+      "label": "Section margin bottom in mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "text",
+          "id": "countdown_end",
+          "label": "Countdown ending date and time",
+          "info": "YYYY/MM/DD HH:MM:SS"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_countdown",
+          "label": "Show countdown",
+          "default": false
+        },
+        {
+          "type": "url",
+          "id": "slideshow_video_url",
+          "label": "Video URL"
+        },
+        {
+          "type": "url",
+          "id": "slideshow_mobile_video_url",
+          "label": "Mobile Video URL"
+        },
+        {
+          "type": "text",
+          "id": "slideshow_vimeo_video_id",
+          "label": "Vimeo Video ID"
+        },
+        {
+          "type": "text",
+          "id": "slideshow_vimeo_mobile_video_id",
+          "label": "Vimeo Mobile Video ID"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1800 x 800px .jpg recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Mobile image",
+          "info": "750 x 1100px .jpg recommended. If none is set, desktop image will be cropped."
+        },
+        {
+          "type": "checkbox",
+          "id": "apply_overlay",
+          "label": "Apply overlay on image",
+          "info": "This can improve text visibility.",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Desktop overly color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "label": "Desktop overlay opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 30
+        },
+        {
+          "type": "color",
+          "id": "mobile_overlay_color",
+          "label": "Mobile overly color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "mobile_overlay_opacity",
+          "label": "Mobile overlay opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "default": 30
+        },
+        {
+          "type": "select",
+          "id": "content_position",
+          "label": "Content position",
+          "options": [
+            {
+              "value": "middleLeft",
+              "label": "Middle left"
+            },
+            {
+              "value": "middleCenter",
+              "label": "Middle center"
+            },
+            {
+              "value": "middleRight",
+              "label": "Middle right"
+            },
+            {
+              "value": "bottomLeft",
+              "label": "Bottom left"
+            },
+            {
+              "value": "bottomCenter",
+              "label": "Bottom center"
+            },
+            {
+              "value": "bottomRight",
+              "label": "Bottom right"
+            }
+          ],
+          "default": "bottomLeft"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Sub-heading",
+          "default": "Slide title"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Tell your story"
+        },
+        {
+          "type": "header",
+          "content": "Button 1"
+        },
+        {
+          "type": "text",
+          "id": "button_1_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "button_1_link",
+          "label": "Link"
+        },
+        {
+          "type": "header",
+          "content": "Button 2"
+        },
+        {
+          "type": "text",
+          "id": "button_2_text",
+          "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "button_2_link",
+          "label": "Link"
+        },
+        {
+          "type": "checkbox",
+          "id": "open_link_new_tab",
+          "label": "Open link in new tab",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Content Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_hover_text_color",
+          "label": "Button text color in hover",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color",
+          "label": "Button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_hover_background_color",
+          "label": "Button background color in hover",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "button_border_color",
+          "label": "Button border color",
+          "default": "#fff"
+        },
+        {
+          "type": "color",
+          "id": "button_hover_border_color",
+          "label": "Button border color in hover"
+        },
+        {
+          "type": "range",
+          "id": "subheader_font_size",
+          "min":  14,
+          "max":  90,
+          "step":  1,
+          "label": "Subheader Font size",
+          "default":  18
+          },
+        {
+          "type": "range",
+          "id": "header_font_size",
+          "min":  28,
+          "max":  100,
+          "step":  1,
+          "label": "Header Font size",
+          "default":  42
+          },
+        {
+          "type": "range",
+          "id": "button_font_size",
+          "min":  12,
+          "max":  28,
+          "step":  1,
+          "label": "Button Font size",
+          "default":  14
+          }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Slideshow",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "image"
+        },
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

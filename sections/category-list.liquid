@@ -1,0 +1,79 @@
+
+    <div class="Container">
+      <div class="category-list-items">
+      {% for block in section.blocks %}  
+                <div class="category-list-item">
+                  <a href="{{ block.settings.category_link }}">
+                    <img src="{{ block.settings.category_image | img_url: 'master' }}">
+                    <p>{{block.settings.category_title}}</p>
+                  </a>
+                </div>
+      {% endfor %} 
+      </div>
+</div>
+
+<style>
+  .category-list-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 50px;
+  }
+  .category-list-item {
+    max-width: 46%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .category-list-item p {
+    margin-top: 20px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  @media screen and (min-width: 641px) {
+    .category-list-item {
+      max-width: 23%;
+    }
+  }
+
+
+</style>
+
+
+  {% schema %}
+  {
+    "name": "category-list",
+    "settings": [],
+    "blocks": [
+    {
+         "type": "images",
+         "name": "category block",
+           "settings":[
+           {
+            "type": "image_picker",
+            "id": "category_image",
+            "label": "Choose Category Image"
+            },
+            {
+                "type": "text",
+                "id":  "category_title",
+                "label": "Category Name"
+            },
+            {
+              "type": "url",
+              "id":  "category_link",
+              "label": "Category Link"
+          }
+           ]
+     }
+    ],
+    "presets":[
+           {
+             "category": "list",
+             "name": "category-list"
+           }
+      ]
+  }
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}

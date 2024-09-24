@@ -1,0 +1,691 @@
+{
+  "sections": {
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "652cafb4-459a-4563-be51-92b9b143cf45": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Delivery & Returns",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 48,
+        "des_font_size": 16,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "d0d75f93-46aa-4741-975a-c27236252576": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 200,
+        "custom_spacing_height_mobile": 126
+      }
+    },
+    "4e2eba2c-49fe-4649-8570-02158ed4d8e8": {
+      "type": "single_text",
+      "blocks": {
+        "single_text_block_HKjR7X": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Delivery - Dispatching 7 days a week!<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 24,
+            "text_line_height": 30,
+            "text_line_height_mobile": 30,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_bUT8WY": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_xpYxXG": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>UK<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_CRqWqk": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_hAmmki": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><strong>Next Day DPD - £9.50<\/strong><\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_QmJwLw": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_JCxw96": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Sent via DPD on a next working day service.<\/li><li>If for some reason you’re not home when DPD call, they will attempt redelivery once and will leave you a contact card to reschedule a delivery.<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_xyHFwT": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_DCqxct": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><strong>Standard Royal Mail - Free Above £95, £5.00 Otherwise<\/strong><\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_x7kGaF": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_fi6LXK": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Sent via Royal Mail on a 2-3 working days service.<\/li><li>If for some reason you’re not home when Royal Mail call, they will attempt redelivery once and will leave you a contact card to reschedule a delivery.<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_KqPX9w": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_nkBqGT": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>International<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_hTdNjW": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_CJtCrE": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We are able to ship globally and now offer all major currencies. Please select your relevant country from the menu. You can then view products in your desired currency and any important information in your own language. Once at checkout, you will see local payment methods and calculations for any appropriate shipping, duties, taxes and other customs fees.<\/p><p>We utilise a number of couriers to ensure your goods are delivered efficiently and cost-effectively. We have summarised below the indicative delivery times for our key markets:<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_PYE9rr": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_XWb7NT": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Europe<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_m9GrMr": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_dmnjDx": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Standard delivery is expected within 4-10 working days - Free (above €125)<\/li><li>Express delivery is expected within 2-3 days working days - €25 (above €125), €40 (below €125)<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_zY4yiy": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_EmzFFK": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>US<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_RE9px6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_CTxCzi": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Delivery is expected within 2-5 days working days<br\/>Free shipping above $100, $35 otherwise<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_e8C6Pm": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_8yDHnb": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Canada<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_j7e7tD": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_e3YTdm": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Delivery is expected within 2-5 days working days<br\/>Free shipping above CAD$125, CAD$45 otherwise<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_K4QNhM": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_rBTxp8": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Australia<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_f86rnw": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_PbjTxQ": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Delivery is expected within 4-8 days working days<br\/>Free shipping above AU$270, AU$30 otherwise<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_jdxEUG": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_JMHHXG": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Rest Of World<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_LfYfYd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_WkicAB": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>Standard delivery is expected within 4-10 working days<br\/>Free shipping over £200, £15 otherwise<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_MYCH9g": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_NMjW83": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>The above times are indicative and will vary based on specific end location details. Orders placed on Saturday and Sunday will be collated on Monday morning and then be delivered within the timescales indicated above.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_QCUFWY": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "single_text_block_XUET8W": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Returns<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 24,
+            "text_line_height": 30,
+            "text_line_height_mobile": 30,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_gn9Kd3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_tLVQgH": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li><a href=\"https:\/\/omniparcelreturns.com\/bookreturn\/booking_return\/313\" title=\"https:\/\/omniparcelreturns.com\/bookreturn\/booking_return\/313\"><span style=\"text-decoration:underline\"><strong>UK Returns Portal<\/strong><\/span><\/a><\/li><li><a href=\"https:\/\/web.global-e.com\/Returns\/Portal\/myn38\" title=\"https:\/\/web.global-e.com\/Returns\/Portal\/myn38\"><span style=\"text-decoration:underline\"><strong>International Returns Portal<\/strong><\/span><\/a><\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_KcfM9g": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_996yiL": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>*Please note, shipping fees will not be included in the refund. Returns on purchases with gift cards can only be exchanged\/refunded to the gift card balance.<\/p><p>Items returned without use of the returns portals may not be processed.<\/p><p>If returning items from different orders, please ensure these are sent in separate packages. Combining orders in the same returning package will cause issues at customs and we cannot guarantee these will be processed.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_tJtWAG": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_FYenqU": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>UK<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_eTdWa8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_GWXqPh": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>To begin your UK return please use the UK Returns Portal link <a href=\"https:\/\/omniparcelreturns.com\/bookreturn\/booking_return\/313\" title=\"https:\/\/omniparcelreturns.com\/bookreturn\/booking_return\/313\"><span style=\"text-decoration:underline\">here<\/span><\/a><span style=\"text-decoration:underline\">.<\/span><\/li><li>Enter your 6 digit order number and the email address used to place the order.<\/li><li>Next, choose which items are to be returned and if you would like a refund, store credit, or exchange.<\/li><li>If exchanging items, please select the same item in a different size.<\/li><li>Once submitted, you will receive an email containing the free return label.<\/li><li>If you are returning items from multiple orders, please make sure each returns form is included in the returning package.<\/li><li>If you have not received these emails from us, please check your junk mail and search \"Wax London LTD\".<\/li><li>Your refund\/exchange will be processed as soon as our warehouse has received your return - this can take up to 7 days depending on your bank account.<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_jEhYdY": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_YGtAHb": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>International<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "bold",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_bVGDwB": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "single_text_block_V9ELK3": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>An International return is estimated to be around £20\/USD 30 to return. You will get a quote for the cost of the return, depending on the distance your parcel has to travel.<\/p><p>If you are looking to receive a refund, this will be deducted from the refund.<\/p><p>If you are looking to exchange your items, please let our customer service team know at <span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span>.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "spacer_MdrG4i": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_Kjg6GK": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<ul><li>To begin your International return please use the International Returns Portal link <a href=\"https:\/\/web.global-e.com\/Returns\/Portal\/myn38\" title=\"https:\/\/web.global-e.com\/Returns\/Portal\/myn38\"><span style=\"text-decoration:underline\">here<\/span><\/a><span style=\"text-decoration:underline\">.<\/span><\/li><li>Enter your 6 digit order number including the # at the start and the email address used to place the order.<\/li><li>Next, choose which items are to be returned, the quantity & reason for return (e.g Didn't fit as wished).<\/li><li>Next, select prepaid returns label, then choose to Print Returns Label. This will download the label to your computer which you can print and fix to the parcel.<\/li><li>Please make sure to include the packing slip inside the parcel, indicating your reason for return.<\/li><li>The cost of the label is deducted from your final refund (note: this does not apply to exchanges or returns of faulty items).<\/li><li>Post your parcel at a DHL drop off point. You can find your nearest convenient drop off point at <a href=\"https:\/\/www.dhl.com\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>www.dhl.com<\/strong><\/span><\/a><\/li><li>Once you have posted your return, please let us know if you wish to receive a refund or exchange for your item for a different size or for an item of similar value or less.<\/li><li>If you have not received your refund after 7 days of returning, please let us know by contacting <span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span>.<\/li><\/ul>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "single_text_block_HKjR7X",
+        "spacer_bUT8WY",
+        "single_text_block_xpYxXG",
+        "spacer_CRqWqk",
+        "single_text_block_hAmmki",
+        "spacer_QmJwLw",
+        "single_text_block_JCxw96",
+        "spacer_xyHFwT",
+        "single_text_block_DCqxct",
+        "spacer_x7kGaF",
+        "single_text_block_fi6LXK",
+        "spacer_KqPX9w",
+        "single_text_block_nkBqGT",
+        "spacer_hTdNjW",
+        "single_text_block_CJtCrE",
+        "spacer_PYE9rr",
+        "single_text_block_XWb7NT",
+        "spacer_m9GrMr",
+        "single_text_block_dmnjDx",
+        "spacer_zY4yiy",
+        "single_text_block_EmzFFK",
+        "spacer_RE9px6",
+        "single_text_block_CTxCzi",
+        "spacer_e8C6Pm",
+        "single_text_block_8yDHnb",
+        "spacer_j7e7tD",
+        "single_text_block_e3YTdm",
+        "spacer_K4QNhM",
+        "single_text_block_rBTxp8",
+        "spacer_f86rnw",
+        "single_text_block_PbjTxQ",
+        "spacer_jdxEUG",
+        "single_text_block_JMHHXG",
+        "spacer_LfYfYd",
+        "single_text_block_WkicAB",
+        "spacer_MYCH9g",
+        "single_text_block_NMjW83",
+        "spacer_QCUFWY",
+        "single_text_block_XUET8W",
+        "spacer_gn9Kd3",
+        "single_text_block_tLVQgH",
+        "spacer_KcfM9g",
+        "single_text_block_996yiL",
+        "spacer_tJtWAG",
+        "single_text_block_FYenqU",
+        "spacer_eTdWa8",
+        "single_text_block_GWXqPh",
+        "spacer_jEhYdY",
+        "single_text_block_YGtAHb",
+        "spacer_bVGDwB",
+        "single_text_block_V9ELK3",
+        "spacer_MdrG4i",
+        "single_text_block_Kjg6GK"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    }
+  },
+  "order": [
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306",
+    "652cafb4-459a-4563-be51-92b9b143cf45",
+    "d0d75f93-46aa-4741-975a-c27236252576",
+    "4e2eba2c-49fe-4649-8570-02158ed4d8e8"
+  ]
+}

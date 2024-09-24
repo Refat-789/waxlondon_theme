@@ -1,0 +1,785 @@
+<section id="section-{{ section.id }}" class="Section Container" data-section-id="{{ section.id }}">
+  {% assign count = 1 %}
+        {% for block in section.blocks %}
+            <div class="block-{{block.id}} ">
+                {% case block.type %}
+                {% when 'question' %}
+                  <div class="question">{{ block.settings.question_text }}</div>
+                {% when 'answer' %}
+                  <div class="answer">{{ block.settings.ans_text }}</div>
+                {% when 'image' %}
+                  <div class="image-wrapper"><img src="{{ block.settings.image  | img_url: 'master' }}"></div>
+                {% when 'list' %}
+                  <div class="list-wrapper"><div class="count"><p>{{ count }}.</p></div><div>{{ block.settings.list_item }}</div></div>
+                  {% assign count = count | plus: 1 %}
+                {% when 'button' %}
+                  <div class="button-wrapper"><a class="button" href="{{ block.settings.button_url }}">{{ block.settings.button_text }}</a></div>
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+</section>
+  
+<style>	
+
+    #section-{{ section.id }}{
+      padding-left: {{section.settings.section_padding_left | append: "px"}};
+      padding-right: {{section.settings.section_padding_right | append: "px"}};
+    }
+  
+    #section-{{ section.id }} .list-wrapper {
+        display: flex;
+    }
+  #section-{{ section.id }} .question p {
+        color: {{section.settings.question_colour }};
+    }
+   #section-{{ section.id }} .answer {
+            border-left: 2px solid {{ section.settings.ans_border_colour }};
+            padding-left: 30px;
+        }
+  #section-{{ section.id }} .answer p {
+            color: {{section.settings.ans_colour }};
+        }
+    {% for block in section.blocks %}
+        #section-{{ section.id }} .block-{{block.id}} {
+            max-width: {{block.settings.block_width | append: "px"}};
+           margin: 0 auto;
+        }
+        #section-{{ section.id }} .block-{{block.id}} .question p {
+            font-size: {{block.settings.question_font_size | append: "px"}};
+            line-height: {{block.settings.question_line_height | append: "px"}};
+            font-family: "{{ block.settings.question_font_family }}";
+            font-weight: {{ block.settings.question_font_weight }};
+            text-align: {{ block.settings.question_alignment }};
+        }
+       
+        #section-{{ section.id }} .block-{{block.id}} .answer p {
+            font-size: {{block.settings.ans_font_size | append: "px"}};
+            line-height: {{block.settings.ans_line_height | append: "px"}};
+            font-family: "{{ block.settings.ans_font_family }}";
+            font-weight: {{ block.settings.ans_font_weight }};
+            text-align: {{ block.settings.ans_alignment }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .image-wrapper {
+            text-align: center;
+        }
+        #section-{{ section.id }} .block-{{block.id}} .button-wrapper {
+           text-align: {{ block.settings.btn_alignment }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .button-wrapper  a{
+            color: {{ block.settings.button_text_color }};
+            background: {{ block.settings.button_bg_color }};
+            font-size: {{block.settings.button_font_size | append: "px"}};
+            padding: 13px 25px;
+            border-radius: 25px;
+            line-height: {{block.settings.btn_line_height | append: "px"}};
+            font-family: "{{ block.settings.btn_font_family }}";
+            font-weight: {{ block.settings.btn_font_weight }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .list-wrapper p {
+            margin-left: 30px;
+            margin-bottom: 0;
+            font-size: {{block.settings.list_font_size | append: "px"}};
+            color: {{block.settings.list_text_color }};
+            line-height: {{block.settings.list_line_height | append: "px"}};
+            font-family: "{{ block.settings.list_font_family }}";
+            font-weight: {{ block.settings.list_font_weight }};
+            text-align: {{ block.settings.list_alignment }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .list-wrapper .count p {
+             color: {{block.settings.list_number_color }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+          
+    {% endfor %}
+
+    @media screen and (max-width: 640px) {
+      {% for block in section.blocks %}
+          #section-{{ section.id }} .block-{{block.id}} .question p {
+              font-size: {{block.settings.question_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.question_line_height_mobile | append: "px"}};
+              text-align: {{ block.settings.question_alignment_mobile }};
+          }
+          #section-{{ section.id }} .block-{{block.id}} .answer p {
+              font-size: {{block.settings.ans_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.ans_line_height_mobile | append: "px"}};
+              text-align: {{ block.settings.ans_alignment_mobile }};
+          }
+          #section-{{ section.id }} .block-{{block.id}} .button-wrapper {
+             text-align: {{ block.settings.btn_alignment_mobile }};
+          }
+          #section-{{ section.id }} .block-{{block.id}} .button-wrapper  a{
+              font-size: {{block.settings.btn_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.btn_line_height_mobile | append: "px"}};
+          }
+          #section-{{ section.id }} .block-{{block.id}} .list-wrapper p {
+              font-size: {{block.settings.list_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.list_line_height_mobile | append: "px"}};
+              text-align: {{ block.settings.list_alignment_mobile }};
+          }
+      {% endfor %}
+      
+    }
+
+</style> 
+  
+  {% schema %}
+  {
+    "name": "FAQ style 2",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_padding_left",
+        "label": "Section padding left",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_right",
+        "label": "Section padding right",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "color",
+        "id": "question_colour",
+        "label": "Question Colour",
+        "default": "#E37730"
+      },
+      {
+        "type": "color",
+        "id": "ans_colour",
+        "label": "Answer Colour",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "ans_border_colour",
+        "label": "Answer border Colour",
+        "default": "#E6C1A9"
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "question",
+            "name": "Question",
+              "settings":[
+                  {
+                      "type": "richtext",
+                      "id":  "question_text",
+                      "label": "Question"
+                  },
+                  {
+                    "type": "range",
+                    "id": "question_font_size",
+                    "label": "Question Font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "question_font_size_mobile",
+                    "label": "Question font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "question_line_height",
+                    "label": "Question line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "question_line_height_mobile",
+                    "label": "Question line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                  "type": "select",
+                  "id": "question_font_family",
+                  "label": "Question font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "question_font_weight",
+                  "label": "Question font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "question_alignment",
+                  "label": "Question alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "question_alignment_mobile",
+                  "label": "Question alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "range",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 600
+                }
+              ]
+          },
+          {
+           "type": "answer",
+            "name": "Answer",
+              "settings":[
+                  {
+                      "type": "richtext",
+                      "id":  "ans_text",
+                      "label": "Answer"
+                  },
+                  {
+                    "type": "range",
+                    "id": "ans_font_size",
+                    "label": "Answer Font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "ans_font_size_mobile",
+                    "label": "Answer font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "ans_line_height",
+                    "label": "Answer line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "ans_line_height_mobile",
+                    "label": "Answer line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                  "type": "select",
+                  "id": "ans_font_family",
+                  "label": "Answer font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "ans_font_weight",
+                  "label": "Answer font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "ans_alignment",
+                  "label": "Answer alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "ans_alignment_mobile",
+                  "label": "Answer alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "range",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 600
+                }
+              ]
+          },
+          {
+           "type": "image",
+            "name": "Image",
+              "settings":[
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Choose image"
+                },
+                {
+                  "type": "range",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 600
+                }
+              ]
+          },
+          {
+           "type": "button",
+            "name": "Button",
+              "settings":[
+                {
+                      "type": "text",
+                      "id":  "button_text",
+                      "label": "Button Text",
+                      "default": "Listen Now"
+                  },
+                  {
+                      "type": "url",
+                      "id":  "button_url",
+                      "label": "Button URL"
+                  },
+                  {
+                    "type": "range",
+                    "id": "button_font_size",
+                    "label": "Button font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 15
+                  },
+                   {
+                    "type": "range",
+                    "id": "btn_font_size_mobile",
+                    "label": "Button font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "btn_line_height",
+                    "label": "Button line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "btn_line_height_mobile",
+                    "label": "Button line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  
+                  {
+                    "type": "color",
+                    "id": "button_text_color",
+                    "label": "Button text colour",
+                    "default": "#ffffff"
+                  },
+                  {
+                    "type": "color",
+                    "id": "button_bg_color",
+                    "label": "Button background colour",
+                    "default": "#1A1A1A"
+                  },
+                  {
+                  "type": "select",
+                  "id": "btn_font_family",
+                  "label": "Button font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "btn_font_weight",
+                  "label": "Button font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "btn_alignment",
+                  "label": "Button alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "center"
+                },
+                {
+                  "type": "select",
+                  "id": "btn_alignment_mobile",
+                  "label": "Button alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "center"
+                },
+                {
+                  "type": "range",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 400
+                }
+              ]
+          },
+          {
+           "type": "list",
+            "name": "List",
+              "settings":[
+                {
+                    "type": "richtext",
+                    "id": "list_item",
+                    "label": "Add item"
+                },
+                 {
+                    "type": "range",
+                    "id": "list_font_size",
+                    "label": "List font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 15
+                  },
+                   {
+                    "type": "range",
+                    "id": "list_font_size_mobile",
+                    "label": "List font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "list_line_height",
+                    "label": "List line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "list_line_height_mobile",
+                    "label": "List line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  
+                  {
+                    "type": "color",
+                    "id": "list_text_color",
+                    "label": "List text colour",
+                    "default": "#333333"
+                  },
+                  {
+                    "type": "color",
+                    "id": "list_number_color",
+                    "label": "List number colour",
+                    "default": "#E37730"
+                  },
+                  {
+                  "type": "select",
+                  "id": "list_font_family",
+                  "label": "List font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "list_font_weight",
+                  "label": "List font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "list_alignment",
+                  "label": "List alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "list_alignment_mobile",
+                  "label": "List alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "range",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 400
+                }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Content",
+             "name": "FAQ style 2"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

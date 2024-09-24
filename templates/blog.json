@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "articles_per_page": 6,
+        "featured_colour": "#ffffff",
+        "featured_colour_hover": "#ffffff",
+        "show_rss": false,
+        "show_tags": false,
+        "show_featured_article": false,
+        "show_category": true,
+        "show_breadcrumbs": true
+      }
+    },
+    "1659432933a6d21591": {
+      "type": "editors-selection-2",
+      "settings": {
+        "show_section": false,
+        "title": "Editors Selection",
+        "show_product_info": false,
+        "show_sizes_on_hover": false,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "16594329806cc3c67d": {
+      "type": "editors-selection-3",
+      "settings": {
+        "show_section": false,
+        "title": "Editors Selection",
+        "show_product_info": true,
+        "show_sizes_on_hover": false,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    },
+    "shop-now": {
+      "type": "shop-now",
+      "settings": {
+        "show_section": false,
+        "title": "Shop now",
+        "collection": "",
+        "grid_items_count": 6,
+        "show_product_info": true,
+        "show_sizes_on_hover": false,
+        "show_vendor": false,
+        "show_color_swatch": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1659432933a6d21591",
+    "16594329806cc3c67d",
+    "shop-now"
+  ]
+}

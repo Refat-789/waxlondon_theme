@@ -1,0 +1,101 @@
+<section  id="section-{{ section.id }}" class="spacer--{{ section.settings.spacing }}">
+</section>
+
+<style>
+#section-{{ section.id }}.spacer--slight_spacing {
+  height: 7.5px;
+}
+#section-{{ section.id }}.spacer--normal_spacing {
+  height: 15px;
+}
+#section-{{ section.id }}.spacer--wide_spacing {
+  height: 30px;
+}
+#section-{{ section.id }}.spacer--extra_wide_spacing {
+  height: 60px;
+}
+#section-{{ section.id }}.spacer--custom_spacing {
+  height: {{ section.settings.custom_spacing_height_mobile | append: "px" }};
+}
+  
+@media screen and (min-width: 641px){
+  #section-{{ section.id }}.spacer--slight_spacing {
+    height: 10px;
+  }
+  #section-{{ section.id }}.spacer--normal_spacing {
+    height: 20px;
+  }
+  #section-{{ section.id }}.spacer--wide_spacing {
+    height: 40px;
+  }
+  #section-{{ section.id }}.spacer--extra_wide_spacing {
+    height: 80px;
+  }
+  #section-{{ section.id }}.spacer--custom_spacing {
+    height: {{ section.settings.custom_spacing_height | append: "px" }};
+  }
+}  
+</style>
+
+{% schema %}
+  {
+    "name": "Spacer",
+    "settings": [
+      {
+      "type": "select",
+      "id": "spacing",
+      "label": "Spacer height",
+      "options": [
+        {
+          "value": "slight_spacing",
+          "label": "Slight spacing "
+        },
+        {
+          "value": "normal_spacing",
+          "label": "Normal spacing"
+        },
+        {
+          "value": "wide_spacing",
+          "label": "Wide spacing"
+        },
+        {
+          "value": "extra_wide_spacing",
+          "label": "Extra wide spacing"
+        },
+        {
+          "value": "custom_spacing",
+          "label": "Custom spacing"
+        }
+      ],
+      "default": "normal_spacing"
+    },
+      {
+      "type": "range",
+      "id": "custom_spacing_height",
+      "label": "Custom spacing height",
+      "min": 0,
+      "max":200,
+      "step": 2,
+      "unit": "px",
+      "default": 100
+    },
+      {
+      "type": "range",
+      "id": "custom_spacing_height_mobile",
+      "label": "Custom spacing height for mobile",
+      "min": 0,
+      "max":200,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+    ],
+    "presets": [
+      {
+          "category": "spacer",
+          "name": "Spacer",
+          "settings": {}
+        }
+      ]
+  }
+{% endschema %}

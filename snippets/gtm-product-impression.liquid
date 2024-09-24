@@ -1,0 +1,68 @@
+{% comment %}
+    @param  products  array
+        An array of products that have been displayed to the user.
+
+    @param  list  string
+        The list or collection that has been displayed to the user. e.g. "search results", "Summer Sale"
+{% endcomment %}
+<script>
+// var width = window.innerWidth;
+
+// if (width <= 520) {
+//     screenType = "Mobile";
+// } else if (width <= 820) {
+//     screenType = "Tablet";
+// } else {
+//     screenType = "Desktop";
+// }
+
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    'event': 'productimpression',
+    'ecommerce': {
+        'currency': "{{ cart.currency.iso_code }}",
+        'impressions': [
+            {% for product in products %}
+                {
+                    'name': {{ product.title | json }},
+                    'id': {{ product.id | json }},
+                    'price': {{ product.price | money_without_currency | json }},
+                    'brand': {{ product.vendor | json }},
+                    'category': {{ product.type | json }},
+                    'variant': {{ product.selected_or_first_available_variant.title | json }},
+                    'position': {{ forloop.index }}
+                },
+            {% endfor %}
+        ]
+    },
+});
+dataLayer.push({
+    event: 'view_item_list',
+    item_list_name: {{ collection.title | json }},
+    currency: "{{ cart.currency.iso_code }}",
+    items: [
+        {% for product in products %}
+            {
+                item_name: {{ product.title | json }},
+                item_id: {{ product.id | json }},
+                // affiliation: "Google Merchandise Store",
+                // coupon: "SUMMER_FUN",
+                // discount: 2.22,
+                index: {{ forloop.index }},
+                item_brand: {{ product.vendor | json }},
+                item_category: {{ product.type | json }},
+                // item_category2: "Adult",
+                // item_category3: "Shirts",
+                // item_category4: "Crew",
+                // item_category5: "Short sleeve",
+                // item_list_id: "related_products",
+                // item_list_name: "Related Products",
+                item_variant: {{ product.selected_or_first_available_variant.title | json }},
+                // location_id: "L_12345",
+                price: {{ product.price | money_without_currency | json }},
+                // quantity: 1
+            },
+        {% endfor %}
+    ]
+});
+</script>

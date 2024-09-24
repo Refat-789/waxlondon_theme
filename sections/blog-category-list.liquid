@@ -1,0 +1,195 @@
+<section id="section-{{ section.id }}" class="Section section-width-{{ section.settings.section_width }} Container" data-section-id="{{ section.id }}">
+      <h2 class="title">{{ section.settings.title }}</h2>
+      <div class="category-list-items ">
+        {% for block in section.blocks %}  
+            <div class="category-list-item category-list-item-{{block.id}}">
+              <a href="{{ block.settings.category_link }}">{{block.settings.cat_name}}</a>
+            </div>
+        {% endfor %} 
+      </div>
+</section>
+
+<style>
+  #section-{{ section.id }}{
+    text-align: center;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 20px;
+  }
+  .section-width-small{
+       max-width: 600px;
+       margin: 0 auto;
+     }
+     .section-width-medium{
+       max-width: 900px;
+       margin: 0 auto;
+     }
+    .section-width-full{
+       max-width: 100%;
+     }
+     .section-width-custom{
+       max-width: {{section.settings.custom_section_width | append: "px"}};
+       margin: 0 auto;
+     }
+
+     .section-width-full .category-list-items{
+       text-align: center;
+       padding: 0 30px;
+     }
+     #section-{{ section.id }} .title{
+       font-size: {{ section.settings.title_font_size | append: "px" }};
+       margin-bottom: 0;
+       font-weight: bold;
+       font-family: "ITCClearfaceBold";
+       color: {{ section.settings.title_color }};
+     }
+  #section-{{ section.id }} .category-list-item {
+    display: inline-block;
+  }
+  #section-{{ section.id }} .category-list-item:not(:last-child) {
+    margin-right: 15px;
+  }
+    
+  #section-{{ section.id }} .category-list-item a {
+    font-size: {{ section.settings.cat_title_font_size | append: "px" }};
+    color: {{ section.settings.cat_title_color }};
+  }
+
+   @media screen and (max-width: 640px) {
+     #section-{{ section.id }} .title{
+       font-size: {{ section.settings.title_font_size_mobile | append: "px" }};
+     }
+      #section-{{ section.id }} .category-list-item a {
+        font-size: {{ section.settings.cat_title_font_size_mobile | append: "px" }};
+      }
+   }
+
+
+</style>
+
+
+  {% schema %}
+  {
+    "name": "Blog category list",
+    "settings": [
+      {
+          "type": "text",
+          "id":  "title",
+          "label": "Add Title",
+          "default": "Journal"
+      },
+      {
+        "type": "range",
+        "id": "title_font_size",
+        "label": "Title font size",
+        "min": 12,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "default": 24
+      },
+       {
+        "type": "range",
+        "id": "cat_title_font_size",
+        "label": "Category title font size",
+        "min": 12,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "title_font_size_mobile",
+        "label": "Title font size for mobile",
+        "min": 12,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "default": 24
+      },
+      {
+        "type": "range",
+        "id": "cat_title_font_size_mobile",
+        "label": "Category title font size for mobile",
+        "min": 12,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "default": 16
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title colour",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "cat_title_color",
+        "label": "Category title colour",
+        "default": "#333333"
+      },
+      {
+          "type": "select",
+          "id": "section_width",
+          "label": "Section width",
+          "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "full",
+            "label": "Full"
+          },
+          {
+            "value": "custom",
+            "label": "Custom"
+          }
+        ],
+        "default": "medium"
+        },
+        {  
+          "type": "range",
+          "id": "custom_section_width",
+          "label": "Custom section width",
+          "min": 200,
+          "max": 1900,
+          "step": 50,
+          "unit": "px",
+          "default": 800
+        }
+    ],
+    "blocks": [
+    {
+         "type": "images",
+         "name": "category name",
+           "settings":[
+             {
+                "type": "text",
+                "id":  "cat_name",
+                "label": "Add Category name"
+            },
+            {
+              "type": "url",
+              "id":  "category_link",
+              "label": "Category Link"
+            }
+          ]
+     }
+    ],
+    "presets":[
+           {
+             "category": "list",
+             "name": "Blog category list"
+           }
+      ]
+  }
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}

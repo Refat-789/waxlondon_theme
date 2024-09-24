@@ -1,0 +1,519 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Linen-Banner-ezgif.com-optimize.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Linen-Banner-Mobile-ezgif.com-optimize.gif",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Fabric Spotlight: <i> Linen<\/i>",
+        "blog_date": "May 19, 2024",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 30
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "single_text_block_K8xJLB": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>About the Fabric<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 21,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "spacer_Y3Ld6b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>At Wax, we're big fans of Linen. It is a natural material, made from Flax, and while we've updated our core silhouettes in it for this summer, we've also added new styles. For more information on Linen and our other fabric choices check out our full <a href=\"https:\/\/waxlondon.com\/blogs\/journal\/ss24-fabric-guide\"><span style=\"text-decoration:underline\">fabric guide<\/span><\/a>.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "single_text_block_K8xJLB",
+        "spacer_Y3Ld6b",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "70e04b0b-ff92-49cb-86eb-09fbd2ba6d25": {
+      "type": "single_text",
+      "blocks": {
+        "7cb8d817-b827-4259-adcf-08c929eef9c0": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "01135806-fb88-4239-8e97-eea9dc54cba8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "7cb8d817-b827-4259-adcf-08c929eef9c0",
+        "01135806-fb88-4239-8e97-eea9dc54cba8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1d3bdc5b-2959-4ecb-a8fd-f4773c703623": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 102,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "text_image_style_2_VfkFWF": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_zfdraM": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_50-50_Image_1.png",
+            "title": "Tailoring",
+            "description": "<p>Discover impeccable linen tailoring for men, crafted with precision and style. Mix and match to achieve your desired style, from our Slim Fit <a href=\"https:\/\/waxlondon.com\/collections\/suits\/products\/alp-trousers-pale-green-linen\"><span style=\"text-decoration:underline\">Alp Trouser<\/span><\/a> to our Loose Fit and more relaxed style of <a href=\"\/products\/campbell-trousers-black\" title=\"Campbell Trousers Black\"><span style=\"text-decoration:underline\">Campbell Trouser <\/span><\/a>to matching <a href=\"https:\/\/waxlondon.com\/collections\/suits\/products\/fintry-blazer-pale-green-linen\"><span style=\"text-decoration:underline\">Fintry Blazer<\/span><\/a> for a classic suit look or our <a href=\"https:\/\/waxlondon.com\/collections\/suits\/products\/mitford-jacket-natural\"><span style=\"text-decoration:underline\">Mitford Jacket<\/span><\/a>. <\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 21,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "center",
+            "show_button": false,
+            "button_text": "Crochet",
+            "button_url": "shopify:\/\/collections\/crochet",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_zfdraM"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "da91ce52-4e81-4e3e-b74a-0072b51cc6d2": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "linen-tailoring",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Linen Tailoring",
+        "shop_button_url": "https:\/\/waxlondon.com\/collections\/suits?filter.p.m.filter.material=Blend&filter.p.m.filter.material=Linen&sort_by=manual",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_Lm3DQe": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_TrCgAw": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_50-50_Image_2_f06bf8c7-6646-492a-8b0b-f1ea0991f358.png",
+            "title": "Short Sleeve Shirts",
+            "description": "<p>Discover the allure of linen with our exquisite collection of men's shirts, crafted for timeless elegance and unmatched comfort. Available in our our new <a href=\"https:\/\/waxlondon.com\/collections\/short-sleeve-shirts\/products\/ren-shirt-beige-linen-stripe\"><span style=\"text-decoration:underline\">Ren<\/span><\/a> and <a href=\"\/products\/faro-baseball-shirt-black-white-wave\" title=\"Faro Baseball Shirt Black\/White Wave\">Faro<\/a> styles.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 21,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "center",
+            "show_button": false,
+            "button_text": "Linen",
+            "button_url": "shopify:\/\/collections\/linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_TrCgAw"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_VmCjkF": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "linen-shirts",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Linen Shirts",
+        "shop_button_url": "https:\/\/waxlondon.com\/collections\/short-sleeve-shirts?filter.p.m.filter.material=Linen&sort_by=manual",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_73bYBa": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_ED3xAM": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_50-50_Image_3.png",
+            "title": "Kurt Trouser & Short",
+            "description": "<p>The relaxed, comfortable <a href=\"https:\/\/waxlondon.com\/collections\/trousers\/products\/kurt-trousers-black-linen\"><span style=\"text-decoration:underline\">Kurt Trouser<\/span><\/a> and <a href=\"https:\/\/waxlondon.com\/collections\/shorts\/products\/kurt-shorts-beige-linen-stripe\"><span style=\"text-decoration:underline\">Short<\/span><\/a> silhouettes are a testament to effortless style and ease and have been updated in Linen for SS24. These styles embody a sense of freedom and comfort. Matching Shirts are available. <\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 21,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "center",
+            "show_button": false,
+            "button_text": "Recycled Cotton",
+            "button_url": "shopify:\/\/collections\/recycled-cotton",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_ED3xAM"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_MjiYcK": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "linen-kurts-shorts",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Linen Kurts",
+        "shop_button_url": "https:\/\/waxlondon.com\/collections\/ss24-drop-three?filter.p.product_type=Shorts&filter.p.product_type=Trousers&filter.p.m.filter.material=Linen&sort_by=manual",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "148e59a5-0372-44e8-a8d8-948b9c0b0091": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "template--16436210630821__148e59a5-0372-44e8-a8d8-948b9c0b0091-article-1": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/ss24-fabric-guide",
+            "article_2": "journal\/ss24-trouser-fit-guide",
+            "article_3": "journal\/ss24-drop-three-ciao-bella"
+          }
+        }
+      },
+      "block_order": [
+        "template--16436210630821__148e59a5-0372-44e8-a8d8-948b9c0b0091-article-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "70e04b0b-ff92-49cb-86eb-09fbd2ba6d25",
+    "1d3bdc5b-2959-4ecb-a8fd-f4773c703623",
+    "text_image_style_2_VfkFWF",
+    "da91ce52-4e81-4e3e-b74a-0072b51cc6d2",
+    "text_image_style_2_Lm3DQe",
+    "shop_the_look_new_VmCjkF",
+    "text_image_style_2_73bYBa",
+    "shop_the_look_new_MjiYcK",
+    "148e59a5-0372-44e8-a8d8-948b9c0b0091",
+    "16788867009c47aca7"
+  ]
+}

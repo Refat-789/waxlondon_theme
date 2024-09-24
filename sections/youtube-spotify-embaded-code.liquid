@@ -1,0 +1,174 @@
+<section id="section-{{ section.id }}" class="Section" data-section-id="{{ section.id }}">
+        {% for block in section.blocks %}
+            <div class="block-{{block.id}}">
+                {% case block.type %}
+                {% when 'youtube-spotify-code' %}
+                  {%- assign mobile_video = block.settings.mobile_video_embed | default: block.settings.video_embed -%}
+                  {%- if mobile_video -%}
+                    <div class="block-{{block.id}}-width-{{ block.settings.block_width }} hidden-tablet-and-up">{{ mobile_video }}</div>
+                  {% endif %}
+                  {% if block.settings.video_embed %}
+                      <div class="block-{{block.id}}-width-{{ block.settings.block_width }} hidden-phone">{{ block.settings.video_embed }}</div>
+                  {% endif %}
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+</section>
+  
+<style>	
+    #section-{{ section.id }}{
+      padding-left: {{section.settings.section_padding_left | append: "px"}};
+      padding-right: {{section.settings.section_padding_right | append: "px"}};
+    }
+
+    {% for block in section.blocks %}
+
+        .block-{{block.id}}-width-{{ block.settings.block_width }} {
+          text-align: center;
+        }
+        .block-{{block.id}}-width-small{
+           max-width: 600px;
+           margin: 0 auto;
+         }
+         .block-{{block.id}}-width-medium{
+           max-width: 900px;
+           margin: 0 auto;
+         }
+        .block-{{block.id}}-width-full{
+           max-width: 100%;
+         }
+         .block-{{block.id}}-width-custom{
+           max-width: {{block.settings.custom_block_width | append: "px"}};
+           margin: 0 auto;
+         }
+        #section-{{ section.id }} .block-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+         @media screen and (max-width: 640px) {
+            
+            #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }}{
+                max-width: {{block.settings.mobile_block_width | append: "%"}};
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    {% endfor %}
+
+</style> 
+  
+  {% schema %}
+  {
+    "name": "Youtube/Spotify code",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_padding_left",
+        "label": "Section padding left",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_right",
+        "label": "Section padding right",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "youtube-spotify-code",
+            "name": "youtube spotify code",
+              "settings":[
+                {
+                  "type": "html",
+                  "id": "video_embed",
+                  "label": "Video embed"
+                },
+                {
+                  "type": "html",
+                  "id": "mobile_video_embed",
+                  "label": "Mobile video embed"
+                },
+                {
+                  "type": "select",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "options": [
+                  {
+                    "value": "small",
+                    "label": "Small"
+                  },
+                  {
+                    "value": "medium",
+                    "label": "Medium"
+                  },
+                  {
+                    "value": "full",
+                    "label": "Full"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Custom"
+                  }
+                ],
+                "default": "medium"
+                },
+                {  
+                  "type": "range",
+                  "id": "custom_block_width",
+                  "label": "Custom block width",
+                  "min": 200,
+                  "max": 1900,
+                  "step": 50,
+                  "unit": "px",
+                  "default": 800
+                },
+                {  
+                  "type": "range",
+                  "id": "mobile_block_width",
+                  "label": "Mobile block width",
+                  "min": 1,
+                  "max": 100,
+                  "step": 1,
+                  "unit": "%",
+                  "default": 100
+                }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Video",
+             "name": "Youtube/Spotify code"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

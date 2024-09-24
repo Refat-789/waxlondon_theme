@@ -1,0 +1,1299 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Lead-Horizontal_dbad5a29-bd92-4104-aa3a-9153adc03e9c.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Tomos Parry Of Brat Restaurant",
+        "blog_date": "March 19, 2023",
+        "blog_author": "Tomos Parry",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 28,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 38,
+        "custom_spacing_height_mobile": 14
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/3Q9DurY5Dus\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 1000,
+            "mobile_block_width": 90
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>It’s a grey Thursday morning, Shoreditch feels sleepy but it’s starting to get going and we escape up the stairs on Redchurch Street to meet Tomos Parry, the head chef and co-owner of the infamous Brat restaurant. Immediately we are greeted with smiles as the restaurant is already filled with chefs getting to work, and the smell of the delicious Basque Cheesecake fills the room. Tomos slips into the bustle and greets all of his team as old friends and then greets us with a smile. We settle down at one of the tables at the back “this is my favourite table”, pointing up at the inscription above him, “we inherited the wood and all of its character from the Strip Club that was here before” he tells us with a smile. The character and juxtaposition of the old wood, comforting smells of cooking over an open fire with the glitz of a Michelin star are personified by Tomos and his humble nature. Read the full interview below.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f1305a9f-d7d2-46a4-8763-9db39d5491da": {
+      "type": "single_image",
+      "blocks": {
+        "056675b3-dca4-4850-81ef-20ed3e8cddb2": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Full-Width-Collage.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "3a577286-cbbd-48fa-a798-699296ab674e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "056675b3-dca4-4850-81ef-20ed3e8cddb2",
+        "3a577286-cbbd-48fa-a798-699296ab674e"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>At University, you studied history and politics hoping to be an investigative journalist, but you worked part-time in a restaurant. Was this a random occurrence or had you always had some interest in cooking?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I’ve always been interested in cooking. Growing up in Anglesey, in North Wales, all my summer jobs from 13\/14 years old onwards were in local bars where you would process shellfish and all the fantastic ingredients in that area.<\/p><p>Back then, in Wales, for me, there weren’t that many opportunities for cooking or improving your cooking, so I didn’t think it was a career. I didn’t think it would be possible. So, therefore, I thought maybe university was the way to go. While I was at university, I worked a lot of the time in restaurants and actually did not do that much studying. I did my degree, and I finished that, but as soon as I got my degree I knew I wanted to go into kitchens. So I threw myself fully into kitchen life from there. <\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where was your first job in a kitchen?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I’d worked in bars and kitchens growing up but my first proper job was really in a restaurant called Le Gallois, which means Welshman in French. It was a very good restaurant and I was very lucky that it was there, at that time there weren’t that many restaurants of that level in Cardiff. I was very lucky to get a spot there considering I was not really that experienced. It was classical French cooking. <\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>After deciding on becoming a chef, did you know the path you wanted to follow or did it develop as you went?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Yes and no. If you enter the food world there are so many different ways of going. There are hundreds of ways of being a chef and hundreds of styles of cuisine, but I felt early on that you had to really commit to a style of cooking, and really go in quite deep on the detail and become a specialist in the area. Even though I had really great French classical training, I wanted to specialise in fire cooking; the art of fire cooking, that simplicity and the art of that simplicity.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b7db9759-4e4c-4e64-83dc-524424018639": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What do you think influenced or inspired this?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "b15d7289-5385-434a-b469-ae06cdb596d5": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a9a9e9a-b2c5-4cce-8dab-e7864a37fdb6": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I think probably without me knowing, the Welsh heritage and background, where we were cooking over fire growing up and rural cooking. I imagine if I grew up in Central London or something I’d have a different perspective of what it means to cook over a fire. But because of the exposure at an early age, it kind of went into my brain without me thinking. I just love it, I love the connection, and the flexibility, I love how many senses are engaged when you’re cooking like that. When you’ve got the fire, there’s smoke, you can smell it, you can hear it, you can see it, and you can taste it. I like that dynamic side of cooking over fire.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "3ea93b61-8fbd-4641-90c7-7755000f3971": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e",
+        "b7db9759-4e4c-4e64-83dc-524424018639",
+        "b15d7289-5385-434a-b469-ae06cdb596d5",
+        "6a9a9e9a-b2c5-4cce-8dab-e7864a37fdb6",
+        "3ea93b61-8fbd-4641-90c7-7755000f3971"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/A1_6dff0dbf-3723-43ef-8c74-a0d26fd103aa.jpg",
+            "image_2": "shopify:\/\/shop_images\/A2-2.jpg",
+            "image_1_caption": "<p>Tomos wears <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-yellow-spear-check?_pos=1&_sid=a045f203c&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-yellow-spear-check?_pos=1&_sid=a045f203c&_ss=r\">Whiting Overshirt Navy\/Yellow Spear Check<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-textured-navy?_pos=2&_sid=c5063f5ec&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-textured-navy?_pos=2&_sid=c5063f5ec&_ss=r\">Dean T-shirt Textured Navy<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-stone-heavy-twill-longer-leg?_pos=1&_sid=d7d8202c2&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-stone-heavy-twill-longer-leg?_pos=1&_sid=d7d8202c2&_ss=r\">Kurt Trousers Stone Heavy Twill Longer Leg<\/a><\/p>",
+            "image_2_caption": "<p>Tomos wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-mustard-crinkle-stripe?_pos=1&_sid=d8e9428dc&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-mustard-crinkle-stripe?_pos=1&_sid=d8e9428dc&_ss=r\">Didcot Shirt Mustard Crinkle Stripe<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=1&_sid=33ad87335&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=1&_sid=33ad87335&_ss=r\">Kurt Trousers Black Heavy Twill<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Cooking over a fire, and London, a city, don’t necessarily go together. Do you find that where you are or being in the city, limits what you’re able to cook or are you able to find ways around it?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>London is actually one of the better cities to cook over a fire, in the world, really. There are many cities, such as New York, where it is very hard to cook over wood and charcoal in a central location. So actually, there is quite a bit of freedom here which is great. It does come with natural constraints, such as old or listed buildings that you don’t want to burn down. I kind of like having restrictions anyway, because I feel that my creativity is better when I have restrictions to work within. I also really like the idea of bringing some of that rural cooking into central London. You’re committing to something when you visit the restaurant, and you’re escaping the bustling city and busy London life when you come upstairs and see fish cooking over an open fire. There’s something quite nice and quite comforting about that.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You have Brat in Shoreditch and Climpson’s Arch. Are there any plans to open another restaurant on the horizon?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It’s actually our 5th birthday this month at Brat. During the pandemic, we opened Brat at Climpson’s Arch which was twofold - one I knew the space and love the area, and two we wanted an outdoor area during the pandemic. We always wanted to open a space in central London as well, so we are now building our third site which is in Soho on Beak St and will open this Summer. It is very exciting. <\/p><p>It’s a combination of both sites coming together. What we’ve learned at Brat at Climpson’s Arch and our set up there and with the cooking here (Brat Shoreditch). It’s very exciting actually because we’ve built up a great team over the last few years, lots of great people. I’ve been lucky enough to travel with them and cook together. We have been quietly working on dishes over the last five years and hopefully, guests can enjoy what we’ve been working on and doing over the last 5 years.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Will it differ from the restaurants you have now?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It will still have our message at its core of buying well, cooking simply and don’t ruin it. It will be lots of new dishes, but a similar ethos definitely. The difference here is that there will be dishes coming from Vineyard cooking, slow bases, plancha cooking, and things cooked over hot plates so it’s much quicker. The inspiration for this restaurant is more mountain and sea coming together.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e",
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4",
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa",
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/B1-2.jpg",
+            "image_2": "shopify:\/\/shop_images\/B2_807645fd-e93c-4c92-a8fa-93a2c5f3ea51.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": false,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You have mentioned previously the importance of collaboration, is this something you have always believed in?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>As a chef or a head chef, I always thought you were a collaborator in some ways rather than a complete craftsman, rather than doing everything. We do make all of our own sausages and cures, ferments and so, yeah, we do quite a bit in-house. So my idea would be a collaboration between beautiful artisans, fishermen, and local producers. I just love creating networks around it, so that there is a mini ecosystem behind the restaurant. In one way I like making things, but I also love building those connections. For instance, for the new restaurant, we will be working with a small organic farmer and he will be making us a semi-cured sausage, which I guess you could compare to a Chorizo, and he’s making it just for us and will be sending it over in huge quantities. That idea is we’re working with them, they’re creating their own chillies, we’ve been out there to work with them, and we’re tasting it regularly and essentially we’re making it with them but it’s their project and I love that collaboration idea. And similarly, we’re making our own Vermouth in Sicily as well, we could make that, but I love this idea of working with them to make it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>This is quite a large question, but what about cooking and food inspires you?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p><em>Tomos smiles...<\/em>I think the collaborative feel to it. It’s an industry that uniquely allows a huge amount of freedom, a healthy lifestyle of meeting people, travelling, experiencing new cultures and mixing everything. I think food breaks down a lot of barriers, we’ve got a long way to go with that of course. But for me, the reason I went into cooking is that I love the human feel to it, I like that interaction. We have open kitchens in all of our restaurants for many reasons but the guests love seeing them, and we love seeing the guests and talking to them. I like the synergy, the collaborations with the farmers, and the culture. It’s one thing opening a restaurant and cooking, but I also love being a part of the fabric of the place you’re in. <\/p><p>Every day is different, it comes with its challenges. But it’s unique to be in an industry where every day is different, there are certain routines to the day, but it is different. You have to be super engaged every day, and be creative.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "25adcc27-58e5-462b-a8da-a102c6951999": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Which country, excluding the UK, in your opinion has the best food?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "34721b48-3b23-48ea-9885-d803919e6870": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Northern Spain. The Basque country. This restaurant is heavily influenced by the Basque Country, it’s a very beautiful place to be and I find the collaboration between small restaurants and local farmers and communities there so inspirational.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "5b7737a4-82ea-4e5d-b007-1a1ebd68972c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "ca5866e9-a026-4567-92bd-3178315996f2": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>One final question, if you had the same dish for the rest of your life… what would it be?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0585f482-428b-42ce-8dca-fdddf404eb7f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "78318244-5df7-4038-a5a9-30fcca44a4b0": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Uhhhh. I always find myself going back to tomatoes, bread, olive oil, salt and fire. Those, you know, simple dishes are really what sticks with you. I could probably eat that for breakfast, lunch and supper if I had to.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901",
+        "25adcc27-58e5-462b-a8da-a102c6951999",
+        "34721b48-3b23-48ea-9885-d803919e6870",
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344",
+        "5b7737a4-82ea-4e5d-b007-1a1ebd68972c",
+        "ca5866e9-a026-4567-92bd-3178315996f2",
+        "0585f482-428b-42ce-8dca-fdddf404eb7f",
+        "78318244-5df7-4038-a5a9-30fcca44a4b0",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/C1_f4da5e68-e03f-479e-a873-703adf8954e5.jpg",
+            "image_2": "shopify:\/\/shop_images\/C2_b8e9a881-b734-46a8-8423-794363582301.jpg",
+            "image_1_caption": "<p>Tomos wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-mustard-crinkle-stripe?_pos=1&_sid=d8e9428dc&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-mustard-crinkle-stripe?_pos=1&_sid=d8e9428dc&_ss=r\">Didcot Shirt Mustard Crinkle Stripe<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=1&_sid=33ad87335&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=1&_sid=33ad87335&_ss=r\">Kurt Trousers Black Heavy Twill<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "disabled": true,
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You also do bespoke pieces and creations, how does this process differ to your normal creative process?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Dru] For us, it’s really a collaborative process. A client will come to us with what their needs are, what they’re working on, what the space is, and a bit of a general idea with what they might want. A lot of our commissions come through from people who have seen our work on Instagram or our website, and also QUEST (Queen Elizabeth Scholarship Trust) which Barnaby has just been awarded a scholarship from as a Turner’s Scholar. But it is very much collaborative, we take the lead advising what we can craft or what we might recommend for that project and putting together a response to the initial brief. Every piece is bespoke and a one off.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Congratulations on being awarded a QUEST scholarship! Can you tell us a bit about that, how does one become a QUEST scholar?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Barnaby] Thank you! So, it’s a very competitive process. You have to already show an established practice and a commitment to the craft and doing it as a career rather than just a hobby. They also like to see evidence that you’re going to innovate your practice and promote the craft sector as a whole across the country. It’s a three month long process, 200 people applied when I applied and only 20 people got it. It’s all quite intense, but you also receive funding to do further training which is amazing, so I’ve got training with three different master trainers. Hopefully I’ll learn some really amazing stuff which will take our practice to a whole different level. It’s a very special thing to be involved with.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "fa8dbe90-c915-451c-8315-fd579d8a1223": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>Lastly, what have you got coming up in 2023?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "2cc06ca5-1a36-43a1-bb48-aa9260b994c8": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "faf03d6e-6798-4e98-9716-fe59c6e50fcc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>[Dru] So 2023, is an exciting year for us! We’ve got a lot coming up. We’ve got big plans for how we want our work to grow and evolve, now that we’re in a new space. This has given the option to really explore some of the plans and ideas we’ve had in mind for a while. We have got some exhibitions coming up.. one at FLOW Gallery in Notting Hill from 27th March 2023. We also have an exhibition at Gallery 57 in Arundale in June and September (two separate shows). We’re really looking forward to working with those galleries and spaces on new work which we haven’t shown before. <\/p><p>Alongside that, we have got some smaller shows and collaborations we’ve been working on. Some with other designers which we’ll be releasing more information on soon (we can’t say anymore at this stage!). <\/p><p>[Barnaby] Yeah, and with all the extra training I’m doing, we’re doing a lot of research into experiments into new finishes and new processes to add to what we do. So it’s really important for us to make sure there’s enough space throughout the year to indulge that side of things and meet the need of people who still want work directly from us as well.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a8030dd4-08f9-4fce-87b7-0ce81efb694e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "fa8dbe90-c915-451c-8315-fd579d8a1223",
+        "2cc06ca5-1a36-43a1-bb48-aa9260b994c8",
+        "faf03d6e-6798-4e98-9716-fe59c6e50fcc",
+        "a8030dd4-08f9-4fce-87b7-0ce81efb694e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "c409904f-9c18-4a09-9dbf-fd095bd939b7": {
+      "type": "single_image",
+      "blocks": {
+        "ded64f59-383f-4079-84de-43aca54be158": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "35f743f1-2a4c-4c88-a744-53f238cb1afe": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "ded64f59-383f-4079-84de-43aca54be158",
+        "35f743f1-2a4c-4c88-a744-53f238cb1afe"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "88441a86-c654-4089-b1cf-086f0017041c": {
+      "type": "main-faq-2",
+      "disabled": true,
+      "blocks": {
+        "7111fd41-3a0d-4d09-85ed-ac0097060d2c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Lastly, what have you got coming up in 2023?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "94c6ebc3-f223-4390-8492-7e9bdfcd603f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "78cbf420-6413-428f-a17f-c33104305bc1": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>[Dru] So 2023, is an exciting year for us! We’ve got a lot coming up. We’ve got big plans for how we want our work to grow and evolve, now that we’re in a new space. This has given the option to really explore some of the plans and ideas we’ve had in mind for a while. We have got some exhibitions coming up.. one at FLOW Gallery in Notting Hill from 27th March 2023. We also have an exhibition at Gallery 57 in Arundale in June and September (two separate shows). We’re really looking forward to working with those galleries and spaces on new work which we haven’t shown before. <\/p><p>Alongside that, we have got some smaller shows and collaborations we’ve been working on. Some with other designers which we’ll be releasing more information on soon (we can’t say anymore at this stage!). <\/p><p>[Barnaby] Yeah, and with all the extra training I’m doing, we’re doing a lot of research into experiments into new finishes and new processes to add to what we do. So it’s really important for us to make sure there’s enough space throughout the year to indulge that side of things and meet the need of people who still want work directly from us as well.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f5086b9c-0375-4f68-a5b5-9b9432b0eb81": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "7111fd41-3a0d-4d09-85ed-ac0097060d2c",
+        "94c6ebc3-f223-4390-8492-7e9bdfcd603f",
+        "78cbf420-6413-428f-a17f-c33104305bc1",
+        "f5086b9c-0375-4f68-a5b5-9b9432b0eb81"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-meets-tomos-parry-of-brat",
+        "grid_items_count": 8,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "f1305a9f-d7d2-46a4-8763-9db39d5491da",
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "c409904f-9c18-4a09-9dbf-fd095bd939b7",
+    "88441a86-c654-4089-b1cf-086f0017041c",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

@@ -1,0 +1,45 @@
+{% if localization.available_countries.size > 1 %}
+  <localization-form class="localization-form-wrapper">
+    {% form 'localization' %}
+        <div class="disclosure">   
+          <div class="globale-Popup-Wrapper">
+              <div class="globale-overlay"></div>
+              <div class="CustomSwitcherPopup">
+                <div class="gl_DefaultPopupContainer">
+                  <div id="ge_CloseBtn">
+                    <div class="ge-cross-vertical"> </div>
+                    <div class="ge-cross-horizontal"></div>
+                  </div>
+                  <div class="gl_PopupContent">
+                    <div class="ql-editor">
+                      <h2>We Ship Worldwide</h2>
+                      <p>Select your shipping country:</p>
+                    </div>
+                    <div class="gl_MainContent country-select-box-wrapper">
+                      <select class="country-select-box">
+                       <option selected value="{{ localization.country.iso_code }}">{{ localization.country.name }}/{{ localization.country.currency.symbol }}{{ localization.country.currency.iso_code }}</option>
+                        {% for country in localization.available_countries %}
+                          <option value="{{ country.iso_code }}">{{ country.name }}/{{ country.currency.symbol }}{{ country.currency.iso_code }}</option>
+                        {% endfor %}
+                      </select>
+                      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+                      </svg>
+                    </div>
+                    <div class="gl_Controls"> 
+                      <button type="button" class="gl_Controls-button gl_Controls-save">Save</button>
+                      <button type="button" class="gl_Controls-button gl_Controls-cancel">Cancel</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+  
+          <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+          </div>
+      </div>
+
+        
+    {% endform %}
+  </localization-form>
+   
+{% endif %}

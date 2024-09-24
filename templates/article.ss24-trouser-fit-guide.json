@@ -1,0 +1,711 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead_747d7714-b484-4fb6-8b37-789ea54fa088.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Lead-Square.gif",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "SS24 Trouser Fit Guide",
+        "blog_date": "March 17, 2024",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Explore our comprehensive guide to <a href=\"\/collections\/trousers\" title=\"Trousers\">trouser<\/a> fits, including tapered styles, relaxed loose fits, contemporary wide fits, and slim fits. Each pair reflects our commitment to superior craftsmanship and the best possible materials, ensuring a seamless fusion of comfort and class. Discover the transformative power of a well-fitted trouser, reflecting your taste and individuality with every step.  <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "e3b888fd-5280-49a9-bb73-dc1d517275bb": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Tapered Fit",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 36,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "5b052504-f8f2-4091-9442-88a12612e9a8": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Kurt.png",
+            "title": "Kurt Trousers",
+            "description": "<p>Our Kurt Trouser is designed to have a slightly tapered cropped fit, featuring an elasticated drawstring for comfort, a button fastening and a concealed front opening zip. <\/p><p><a href=\"\/products\/kurt-trousers-ecru-blue-floral-jacquard\" title=\"Kurt Trousers Ecru\/Blue Floral Jacquard\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "918c320d-e078-4025-9f43-126ee0b03ecb": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "tapered-fit",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Tapered Fit",
+        "shop_button_url": "shopify:\/\/collections\/tapered-fit",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "dbed1890-d031-4815-8e41-c0fd4ccedf6c": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Loose Fit",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 36,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Campbell.png",
+            "title": "The Campbell Trouser",
+            "description": "<p>Our newest style for SS24, the Campbell Trouser is designed to have a loose leg for a relaxed fit with an internal draw-cord waist. <\/p><p><a href=\"\/products\/campbell-trousers-natural\" title=\"Campbell Trousers Natural\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "3eb97940-272d-4a34-93a7-1e644b5f22e5": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Loose_Fit.png",
+            "title": "Loose Fit Jeans",
+            "description": "<p>A 5-pocket loose leg jean with a branded jean stud, these jeans are available in our core three colours: Black, Ecru and Blue Denim.  <\/p><p><a href=\"\/products\/loose-fit-jeans-blue-denim\" title=\"Loose Fit Jeans Blue Denim\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881",
+        "3eb97940-272d-4a34-93a7-1e644b5f22e5"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "loose-fit",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Loose Fit",
+        "shop_button_url": "shopify:\/\/collections\/loose-fit",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "blog_header_cWjwXy": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wide Leg",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 36,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "text_image_style_2_X6xLaW": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_A3LjKb": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Milo.png",
+            "title": "Milo Trousers",
+            "description": "<p>The Milo Trousers are cut to have a wider, straight-leg fit and feature a front pleat. <\/p><p><a href=\"\/products\/milo-trousers-black-cotton-twill\" title=\"Milo Trousers Black Cotton Twill\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_A3LjKb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b2d25ff4-4697-4b0b-aa7d-1ea422319c66": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wide-leg",
+        "grid_items_count": 16,
+        "shop_button_text": "Shop Wide Leg",
+        "shop_button_url": "shopify:\/\/collections\/wide-leg",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fd1294c6-4803-41b6-a26b-f75c6f9e063f": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Slim Fit",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 36,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "455277a4-1fe0-4241-8219-786002529940": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Slim_Fit.jpg",
+            "title": "Slim Fit Jeans",
+            "description": "<p>Our Slim Fit Jeans are a 5-pocket slim tapered fit and feature a branded jean stud.  <\/p><p><a href=\"\/products\/slim-fit-jeans-mid-blue-wash\" title=\"Slim Fit Jeans Mid Blue Denim\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "text_image_block_KrCxMc": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Alp_5199552b-8294-4f23-96a0-b49b44e9aae1.png",
+            "title": "Alp Suit Trousers",
+            "description": "<p>Our Alp Suit Trouser is designed to have a slim fit made for flexible styling, with a flat front and subtle pockets. <\/p><p><a href=\"\/products\/alp-trousers-rust-linen\" title=\"Alp Trousers Rust Linen\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71",
+        "text_image_block_KrCxMc"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9242cfec-7ac7-4e84-9778-c33baa2e3985": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "slim-fit",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Slim Fit",
+        "shop_button_url": "shopify:\/\/collections\/slim-fit",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "new_blog_posts_T3w8zb": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_kKXWVr": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/ss24-drop-one-come-together",
+            "article_2": "journal\/t-shirt-guide",
+            "article_3": "journal\/3-ways-to-wear-your-whiting"
+          }
+        }
+      },
+      "block_order": [
+        "article_kKXWVr"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "e3b888fd-5280-49a9-bb73-dc1d517275bb",
+    "5b052504-f8f2-4091-9442-88a12612e9a8",
+    "918c320d-e078-4025-9f43-126ee0b03ecb",
+    "dbed1890-d031-4815-8e41-c0fd4ccedf6c",
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d",
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07",
+    "blog_header_cWjwXy",
+    "text_image_style_2_X6xLaW",
+    "b2d25ff4-4697-4b0b-aa7d-1ea422319c66",
+    "fd1294c6-4803-41b6-a26b-f75c6f9e063f",
+    "455277a4-1fe0-4241-8219-786002529940",
+    "9242cfec-7ac7-4e84-9778-c33baa2e3985",
+    "16788867009c47aca7",
+    "new_blog_posts_T3w8zb"
+  ]
+}

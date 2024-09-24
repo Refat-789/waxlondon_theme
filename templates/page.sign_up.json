@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "aab92950-9bfb-4604-a4ae-509cdfd33a7f": {
+      "type": "main-sign-up",
+      "settings": {
+        "title": "Sign up",
+        "title_font_size": 50,
+        "title_font_size_mobile": 24
+      }
+    }
+  },
+  "order": [
+    "aab92950-9bfb-4604-a4ae-509cdfd33a7f"
+  ]
+}

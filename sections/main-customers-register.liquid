@@ -1,0 +1,181 @@
+<div class="Container">
+{% render 'breadcrumbs' %}
+</div>
+<section id="section-{{ section.id }}" data-section-id="reset-password" data-section-type="reset-password" class="Section Section--spacingNormal">
+  <div class="Container">
+    
+    <form id="email_signup" class="klaviyo_styling klaviyo_gdpr_embed_S9VwsA" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" novalidate="novalidate">
+      <input type="hidden" name="g" value="S9VwsA">
+      <div class="klaviyo_field_group">
+        <label for="k_id_email">Newsletter Sign Up</label>
+        <input class="" type="email" value="" name="email" id="k_id_email" placeholder="Your email" />
+      </div>
+      <button class="klaviyo_submit_button" type="submit">Subscribe</button>
+    </form>
+    
+      {%- form  'create_customer', name: 'create_customer', class: 'Form Form--spacingTight', id: 'create_customer' -%}
+        <header class="Form__Header">
+          <h1 class="Form__Title Heading u-h1">{{ 'customer.register.title' | t }}</h1>
+          <p class="Form__Legend">{{ 'customer.register.description' | t }}</p>
+        </header>
+
+        {%- if form.errors -%}
+          <div class="Form__Alert Alert Alert--error">
+            <ul class="Alert__ErrorList">
+              {%- for field in form.errors -%}
+                {%- if field == 'form' -%}
+                  <li class="Alert__ErrorItem">{{ form.errors.messages[field] }}</li>
+                {%- else -%}
+                  <li class="Alert__ErrorItem"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+
+        {%- if request.locale.iso_code == 'ja' -%}
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="customer[last_name]" aria-label="{{ 'customer.register.last_name' | t }}" placeholder="{{ 'customer.register.last_name' | t }}">
+            <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
+          </div>
+
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="customer[first_name]" aria-label="{{ 'customer.register.first_name' | t }}" placeholder="{{ 'customer.register.first_name' | t }}" autofocus>
+            <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
+          </div>
+        {%- else -%}
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="customer[first_name]" aria-label="{{ 'customer.register.first_name' | t }}" placeholder="{{ 'customer.register.first_name' | t }}" autofocus>
+            <label class="Form__FloatingLabel">{{ 'customer.register.first_name' | t }}</label>
+          </div>
+
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="customer[last_name]" aria-label="{{ 'customer.register.last_name' | t }}" placeholder="{{ 'customer.register.last_name' | t }}">
+            <label class="Form__FloatingLabel">{{ 'customer.register.last_name' | t }}</label>
+          </div>
+        {%- endif -%}
+
+        <div class="Form__Item">
+          <input type="email" id="customer_email" class="Form__Input" name="customer[email]" aria-label="{{ 'customer.register.email' | t }}" placeholder="{{ 'customer.register.email' | t }}" required="required">
+          <label class="Form__FloatingLabel">{{ 'customer.register.email' | t }}</label>
+        </div>
+
+        <div class="Form__Item">
+          <input type="password" class="Form__Input" name="customer[password]" aria-label="{{ 'customer.register.password' | t }}" placeholder="{{ 'customer.register.password' | t }}" required="required">
+          <label class="Form__FloatingLabel">{{ 'customer.register.password' | t }}</label>
+        </div>
+        <div class="Form__Item kl-newsletter-signup">
+          <input type="checkbox" checked="checked" id="kl-newsletter" name="kl-newsletter" class="kl-custom-checkbox">
+          <label for="kl-newsletter"><span class="bn-out"><span class="bn-in"></span></span><span class="bn-txt">Sign me up for news and offers</span></label>
+        </div>
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'customer.register.submit' | t }}</button>
+      {%- endform -%}
+  </div>
+</section>
+
+<style>
+  
+   #section-{{ section.id }} h1.Form__Title.Heading.u-h1 {
+    margin-bottom: 20px;
+     font-size: {{section.settings.title_font_size_mobile | append: "px"}};
+}
+  @media screen and (min-width: 641px){
+    #section-{{ section.id }} h1.Form__Title.Heading.u-h1 {
+         font-size: {{section.settings.title_font_size | append: "px"}};
+    }
+  }
+  #email_signup{
+    display: none;
+  }
+   #section-{{ section.id }}  form#create_customer {
+    max-width: 400px;
+    margin: auto;
+}
+  .kl-newsletter-signup label span.bn-out {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+  .kl-newsletter-signup input:checked+label span.bn-out {
+    background: #000;
+}
+  
+  .kl-newsletter-signup input:checked+label .bn-in {
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+}
+  .kl-newsletter-signup label span.bn-in {
+    display: block;
+    width: 10px;
+    height: 6px;
+}
+  input#kl-newsletter {
+    display: none;
+}
+  .kl-newsletter-signup label {
+    cursor: pointer;
+}
+ .kl-newsletter-signup label span.bn-txt {
+    font-family: Sohne,Arial,sans-serif;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: .05em;
+    color: #181818;
+}
+
+</style>
+<script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+
+
+
+<script type="text/javascript">
+
+  $("input#customer_email").keyup(function(){
+    $("#k_id_email").val($("input#customer_email").val());
+  });
+  KlaviyoSubscribe.attachToForms('#email_signup', {
+  });
+
+  $(document).on("submit", "#create_customer", function(e) {
+    
+    if ($('input#kl-newsletter').is(':checked')){
+      $('.klaviyo_submit_button').trigger('click');
+    }
+  })
+
+  
+</script>
+{% schema %}
+{
+  "name": "Customer register",
+  "settings": [
+    {
+        "type": "range",
+        "id": "title_font_size",
+        "min":  12,
+        "max": 80,
+        "step":  1,
+        "label": "Title font size",
+        "default":  50
+      },
+      {
+        "type": "range",
+        "id": "title_font_size_mobile",
+        "min":  12,
+        "max":  50,
+        "step":  1,
+        "label": "Title font size For Mobile",
+        "default":  24
+      }
+  ]
+}
+{% endschema %}

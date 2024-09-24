@@ -1,0 +1,677 @@
+{
+  "current": {
+    "klaviyo_public_api_key": "WkTqs3",
+    "heading_color": "#333333",
+    "text_color": "#333333",
+    "text_light_color": "#6a6a6a",
+    "link_color": "#333333",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#ffffff",
+    "button_text_color": "#333333",
+    "button_text_hover": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#333333",
+    "header_light_color": "#6a6a6a",
+    "footer_background": "#f7f6f9",
+    "footer_heading_color": "#333333",
+    "footer_text_color": "#333333",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#333333",
+    "newsletter_popup_background": "#e37730",
+    "newsletter_popup_text_color": "#333333",
+    "secondary_elements_background": "#333333",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "montserrat_n5",
+    "heading_size": "large",
+    "uppercase_heading": false,
+    "text_font": "neue_haas_unica_n4",
+    "base_text_font_size": 16,
+    "show_page_transition": false,
+    "show_button_transition": true,
+    "show_image_zooming": false,
+    "show_element_staggering": false,
+    "search_mode": "product,article,page",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "left",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "extra_small",
+    "product_list_vertical_spacing": "extra_small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "95",
+    "social_facebook": "https:\/\/www.facebook.com\/waxlondonclothing\/",
+    "social_pinterest": "https:\/\/www.pinterest.co.uk\/WaxLondonClothing\/",
+    "social_instagram": "https:\/\/www.instagram.com\/waxlondonclothing\/",
+    "social_youtube": "https:\/\/www.youtube.com\/@waxlondon",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@waxlondon",
+    "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
+    "gtag_id": "AW-658457914",
+    "klarna_checkout": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Wax-London-Logo-144.gif",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f7f6f9",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#000",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "test-menu",
+          "show_social_media": true,
+          "mobile_menu_item_color": "#000000",
+          "mobile_submenu_item_color": "#000000",
+          "mobile_submenu_child_item_color": "#000000",
+          "highlight_1st_menu_item": false
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "text_hrk7KP": {
+            "type": "text",
+            "settings": {
+              "content": "AW24 NOW LIVE!",
+              "link_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/aw24",
+              "text_color": "#000000",
+              "text_font_size": 12,
+              "text_font_size_mobile": 12
+            }
+          },
+          "text_6BCdLf": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "content": "SALE: ADDED LINES + UP TO 50% OFF",
+              "link_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/summer-sale",
+              "text_color": "#000000",
+              "text_font_size": 12,
+              "text_font_size_mobile": 12
+            }
+          },
+          "35aedefc-cddc-4b10-87ae-704277c2cb8c": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "content": "EXPLORE SS24 DROP THREE",
+              "link_text": "SHOP NOW",
+              "link": "shopify:\/\/collections\/ss24-drop-three",
+              "text_color": "#000000",
+              "text_font_size": 12,
+              "text_font_size_mobile": 12
+            }
+          },
+          "7e669e43-3852-4a23-95a2-f5c13fbe7088": {
+            "type": "text",
+            "settings": {
+              "content": "Free UK Shipping On Orders Over £95 + Free Returns",
+              "link_text": "",
+              "link": "",
+              "text_color": "#000000",
+              "text_font_size": 12,
+              "text_font_size_mobile": 12
+            }
+          }
+        },
+        "block_order": [
+          "text_hrk7KP",
+          "text_6BCdLf",
+          "35aedefc-cddc-4b10-87ae-704277c2cb8c",
+          "7e669e43-3852-4a23-95a2-f5c13fbe7088"
+        ],
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "cycle_speed": 5,
+          "background": "#dedede",
+          "text_top_bottom_space": 30,
+          "announcebar_height_mobile": 28,
+          "text_left_right_space": 10
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "369e8ad2-cb94-4c52-847a-1a823dc64a41": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Featured",
+              "push_1_image": "shopify:\/\/shop_images\/New_Arrivals_2_bee91d70-6730-4896-9633-0fd26d0868f9.jpg",
+              "push_1_heading": "Shop AW24",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/aw24",
+              "push_2_image": "shopify:\/\/shop_images\/Overshirts_2_3cbd2a4b-714a-447c-a0bd-96f735cddd3c.jpg",
+              "push_2_heading": "Shop Overshirts",
+              "push_2_subheading": "",
+              "push_2_url": "shopify:\/\/collections\/overshirts"
+            }
+          },
+          "59481125-b289-4d49-8cb7-92a2639bb191": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Clothing",
+              "push_1_image": "shopify:\/\/shop_images\/Outerwear_2_05474f3a-c87f-4e2d-8e14-46c430a6a77f.jpg",
+              "push_1_heading": "Shop Outerwear",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/coats-and-jackets",
+              "push_2_image": "shopify:\/\/shop_images\/Knitwear_2_66687707-b159-4180-9490-470462cd04a4.jpg",
+              "push_2_heading": "Shop Knitwear",
+              "push_2_subheading": "",
+              "push_2_url": "shopify:\/\/collections\/knitwear"
+            }
+          },
+          "347fd6f8-576e-4519-bbde-e7ef04be1506": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Accessories",
+              "push_1_image": "shopify:\/\/shop_images\/ACCESSORIES.jpg",
+              "push_1_heading": "Shop All Accessories",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/accessories",
+              "push_2_image": "shopify:\/\/shop_images\/BEANIES_c8b353e0-0a41-4987-a185-4e607198b405.jpg",
+              "push_2_heading": "Shop Hats",
+              "push_2_subheading": "",
+              "push_2_url": "shopify:\/\/collections\/hats"
+            }
+          },
+          "fcb71bf6-7741-4f8d-b170-250ca1b19361": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Archive Sale",
+              "push_1_image": "shopify:\/\/shop_images\/Untitled-2_b70f6d78-ba5e-4358-85bc-3b757ef4d338.png",
+              "push_1_heading": "Shop Sale Shirts",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/archive-sale-shirts",
+              "push_2_image": "shopify:\/\/shop_images\/Archive-Sale_Square_Sill_365330e5-21e1-41bc-9248-45f4d2d2812a.jpg",
+              "push_2_heading": "Shop All Sale",
+              "push_2_subheading": "",
+              "push_2_url": "shopify:\/\/collections\/archive-sale"
+            }
+          },
+          "894a49d0-fc0b-43ac-a1ce-d2f553a30f4b": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "Journal",
+              "push_1_image": "shopify:\/\/shop_images\/Thumbnail_ccd6364e-b21c-418b-9083-80abceddb9c5.jpg",
+              "push_1_heading": "AW24: 'Escape The Noise'",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/blogs\/journal\/aw24-escape-the-noise",
+              "push_2_image": "shopify:\/\/shop_images\/Untitled-2_7bfe55c0-c874-47e8-a9c5-42ec0119ed67.png",
+              "push_2_heading": "AW24 Store Party",
+              "push_2_subheading": "",
+              "push_2_url": "shopify:\/\/blogs\/journal\/aw24-store-launch-event"
+            }
+          },
+          "e475eaa0-0ce5-4cd2-8642-7e6d1d10ba19": {
+            "type": "mega_menu",
+            "disabled": true,
+            "settings": {
+              "navigation_mega_menu": "Winter Sale",
+              "push_1_image": "shopify:\/\/shop_images\/Winter-Sale_Now-50-Off-SQ.jpg",
+              "push_1_heading": "",
+              "push_1_subheading": "Shop Winter Sale",
+              "push_1_url": "shopify:\/\/collections\/winter-sale",
+              "push_2_heading": "",
+              "push_2_subheading": "",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "369e8ad2-cb94-4c52-847a-1a823dc64a41",
+          "59481125-b289-4d49-8cb7-92a2639bb191",
+          "347fd6f8-576e-4519-bbde-e7ef04be1506",
+          "fcb71bf6-7741-4f8d-b170-250ca1b19361",
+          "894a49d0-fc0b-43ac-a1ce-d2f553a30f4b",
+          "e475eaa0-0ce5-4cd2-8642-7e6d1d10ba19"
+        ],
+        "settings": {
+          "use_sticky_header": true,
+          "logo_max_width": 160,
+          "mobile_logo_max_width": 90,
+          "show_currency_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "main-menu",
+          "navigation_style": "logoLeft",
+          "show_icons": true,
+          "desktop_menu_item_color": "#000000",
+          "desktop_menu_item_hover_color": "#000000",
+          "desktop_menu_bottom_line_color": "#000000",
+          "desktop_submenu_item_color": "#000000",
+          "desktop_submenu_item_hover_color": "#000000",
+          "highlight_1st_menu_item": false,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": "<p>Wax London - A British label committed to creating quality, contemporary menswear with sustainability at our core.<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "title": "Shop",
+              "menu": "footer-menu-desktop"
+            }
+          },
+          "c449afe3-3ee1-48f3-b8c1-fa5cb0caa440": {
+            "type": "links",
+            "settings": {
+              "title": "Help & Info",
+              "menu": "footer"
+            }
+          },
+          "6098ac87-40d0-43a0-98a4-ba6aae50f8ec": {
+            "type": "links",
+            "settings": {
+              "title": "About",
+              "menu": "test-menu"
+            }
+          },
+          "bafb3dd4-f441-458b-a1bc-5732d71c46d8": {
+            "type": "social",
+            "settings": {
+              "title": "Social",
+              "show_social_media": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "c449afe3-3ee1-48f3-b8c1-fa5cb0caa440",
+          "6098ac87-40d0-43a0-98a4-ba6aae50f8ec",
+          "bafb3dd4-f441-458b-a1bc-5732d71c46d8"
+        ],
+        "settings": {
+          "footer_links": "footer-copyright-links",
+          "show_payment_methods": true,
+          "background_image": "shopify:\/\/shop_images\/Footer_2_adb53e0e-4d3a-4005-8fae-9c20d6e0562f.png",
+          "mobile_background_image": "shopify:\/\/shop_images\/Mobile_Footer_2_2_cd0f41db-4462-47a3-a8c0-cd995b3a7044.png",
+          "show_currency_selector": false,
+          "show_locale_selector": true
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "popup_image": "shopify:\/\/shop_images\/Suits_e0b1ea8d-dc1e-4179-acec-93105a33ea8d.jpg",
+          "show_popup": true,
+          "show_only_on_index": false,
+          "show_only_for_visitors": false,
+          "show_only_once": true,
+          "apparition_delay": 2
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true,
+            "mobile_menu_item_color": "#000000",
+            "mobile_submenu_item_color": "#000000",
+            "mobile_submenu_child_item_color": "#000000"
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "desktop_menu_item_color": "#000000",
+            "desktop_menu_item_hover_color": "#000000",
+            "desktop_menu_bottom_line_color": "#000000",
+            "desktop_submenu_item_color": "#000000",
+            "desktop_submenu_item_hover_color": "#000000",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        }
+      }
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true,
+            "mobile_menu_item_color": "#000000",
+            "mobile_submenu_item_color": "#000000",
+            "mobile_submenu_child_item_color": "#000000"
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "desktop_menu_item_color": "#000000",
+            "desktop_menu_item_hover_color": "#000000",
+            "desktop_menu_bottom_line_color": "#000000",
+            "desktop_submenu_item_color": "#000000",
+            "desktop_submenu_item_hover_color": "#000000",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        }
+      }
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true,
+            "mobile_menu_item_color": "#000000",
+            "mobile_submenu_item_color": "#000000",
+            "mobile_submenu_child_item_color": "#000000"
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "desktop_menu_item_color": "#000000",
+            "desktop_menu_item_hover_color": "#000000",
+            "desktop_menu_bottom_line_color": "#000000",
+            "desktop_submenu_item_color": "#000000",
+            "desktop_submenu_item_hover_color": "#000000",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        }
+      }
+    }
+  }
+}

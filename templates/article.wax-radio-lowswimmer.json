@@ -1,0 +1,1508 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Lead-Horizontal.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Meets: Lowswimmer",
+        "blog_date": "March 5, 2023",
+        "blog_author": "Lowswimmer",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wax_Meets.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 32,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/3ASwaLA9S0E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/3ASwaLA9S0E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 400,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "e1521a4f-d19a-4d00-b3fe-08842d7dbd50"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Heading in to Ed Tullett’s Bristol based studio is more like stepping inside of a NASA control room. Every wall is blinking with multi-coloured lights, a few thousand dials, and what looks like a half-mile of black cables coiled up behind the main workstation. ‘I don’t know what half this stuff does’ smiles Ed, ‘but it looks cool’. Ed’s many impressive collaborators wouldn’t agree with the Oxford-born musician’s self-deprecation. Ed has already released a wealth of unique music with some of the most exciting artists around, and we were excited to talk about his transition to solo work with his highly anticipated album <em>Red Eye Effect<\/em>. Find the full interview below.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa": {
+      "type": "single_image",
+      "blocks": {
+        "704ee452-5539-4007-8426-d0dd771df3c4": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Collage-Full-Width.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "d921f067-a9c8-41a0-b5b0-274693589779": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "704ee452-5539-4007-8426-d0dd771df3c4",
+        "d921f067-a9c8-41a0-b5b0-274693589779"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "d29fb106-a461-44a3-a665-2313185be93e": {
+      "type": "main-faq-2",
+      "blocks": {
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You have previously released music under your own name, where does the alias  <\/strong><em><strong>Lowswimmer <\/strong><\/em><strong>come from?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "fc41f87d-71a9-48db-b861-f856e4382dcb": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>Lowswimmer is a song name from another project of mine called <em>Hailaker <\/em>which is me and my friend Jemima Coulter. It’s a really beautiful song and when I came back to doing solo stuff again I knew that I didn’t want to do it under my own name. It attaches too much to that person and people can have preconceptions about what the music will be like. I just like the idea of a moniker and I feel like you have more freedom.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "40dc1916-9348-4df8-81f8-2e30545abc5d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You’re a prolific collaborator working with artists such as <\/strong><em><strong>Novo Amor <\/strong><\/em><strong>and recently <\/strong><em><strong>Squirrel Flower<\/strong><\/em><strong>, what is it you like about this process?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e0f4816c-d298-4fe7-ad09-4654606762c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It’s just fun. You just come up with things that you otherwise wouldn’t. It’s also good to have two ticks on everything, and instant feedback. You feel either more confident in your ideas or you know immediately that something is definitely wrong (laughs). It just makes you work in different ways.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "1c8e6818-2b51-44ab-88ee-5b695190df66": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "361b861e-960a-47ad-bd15-83784e7d1235": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Is your working method the same when working with each artist?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6052c693-d387-45da-93da-7f693e5c457d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "38b22333-63f3-475e-98c5-29dda4bcedc4": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I find it important to tailor things. When I write with Ali from <em>Novo Amor, <\/em>it’s important that he’s very much leading it. Whereas, if it’s my own project or something more collaborative then I’ll put my foot down a little bit more on certain ideas.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "d4da0bf6-b3f7-4083-a005-cf1232e16520",
+        "d0a374b3-27f1-4bb4-bf9a-d1b74859517c",
+        "351921c1-b549-4a3c-8c3e-0f083fa3913f",
+        "fc41f87d-71a9-48db-b861-f856e4382dcb",
+        "40dc1916-9348-4df8-81f8-2e30545abc5d",
+        "db3b6d7a-8fa1-4ca6-a791-9983f1f81d88",
+        "e0f4816c-d298-4fe7-ad09-4654606762c3",
+        "7cc5aaf4-a27b-4c74-b719-988608e92c31",
+        "1c8e6818-2b51-44ab-88ee-5b695190df66",
+        "361b861e-960a-47ad-bd15-83784e7d1235",
+        "6052c693-d387-45da-93da-7f693e5c457d",
+        "38b22333-63f3-475e-98c5-29dda4bcedc4",
+        "c87fa7a1-4b57-43b0-9437-1ffee247df6e"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/A1.jpg",
+            "image_2": "shopify:\/\/shop_images\/A2.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Ed wears <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-multi-pike?_pos=1&_sid=00cb32e96&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-multi-pike?_pos=1&_sid=00cb32e96&_ss=r\">Whiting Overshirt Multi Pike<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-black?_pos=2&_sid=9ae0ed7d1&_ss=r\" target=\"_blank\">Fisherman Beanie Black<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7": {
+      "type": "main-faq-2",
+      "blocks": {
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "e59a3da4-c631-418c-860a-9b9656ff370b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>It sounds like a rewarding experience, why go solo?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "f2e5fd83-628a-409a-a072-7b9eca444e99": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3876d464-1bde-4d44-8ebe-a00a5badd047": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I had this group of songs I wasn’t really sure what to do with, so I brought them to Jemima but she wasn’t really sure whether they were a good fit. So I thought, 'I’m just going to make them’ and it just snowballed into this record. <em>Red Eye Effect <\/em>is kind of a culmination of many years of wanting to do my own thing.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>If you’ve been working on a project for years, how do you know when it is finished? Or do you have to let it go?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4b8869b4-03b7-4ae5-859b-32432005b79a": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It takes a while to get there. This is super alien to some people, but I’ll write all the melodies first. I’ll have versions of the song where I’m not really saying any words for a long time and then I’ll write lyrics after. That’s not to say that lyrics aren’t important, but for me, it's melody first. It’s really fun when you start thinking ‘this is definitely like a second or first song’. That, for me, is when you really start to listen to all the tracks in an order and it starts to become something more than itself.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><em><strong>Red Eye Effect <\/strong><\/em><strong>is an evocative album title to us 90s kids, but what does it mean to you?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The record is inspired by my own late-90s and early-2000s nostalgia. Just growing up in this weird time where there was this big transition from analogue to digital and that feeling of excitement even though you didn’t really understand it. As a title, it evokes the memory of classic old pictures when eyes would look really weird. It’s another touchstone of that time.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "01f9c7a0-3a77-4eed-9064-88baefcfa960",
+        "e59a3da4-c631-418c-860a-9b9656ff370b",
+        "f2e5fd83-628a-409a-a072-7b9eca444e99",
+        "3876d464-1bde-4d44-8ebe-a00a5badd047",
+        "a5191f91-a9e4-4d06-a9bd-7c2b98a2ea49",
+        "b5a2d06e-0790-47b8-bec0-ec2bc1c6e995",
+        "63c1952c-0143-4acf-8dfc-af5fd08e5558",
+        "4b8869b4-03b7-4ae5-859b-32432005b79a",
+        "0388038a-f9ea-41c1-9fb4-c991a4989c0e",
+        "b86bfbd0-c783-498d-ab72-3ce702d8a7c4",
+        "81405b83-d2e1-45c2-8188-5b26c0d04aaa",
+        "c1bf9bbd-2a38-4f5f-87e2-5ac7bc8a9231",
+        "e336e22c-9e9b-48f6-9060-60f3862bdfee"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/B1.jpg",
+            "image_2": "shopify:\/\/shop_images\/B2.jpg",
+            "image_1_caption": "<p>Ed wears <a href=\"https:\/\/waxlondon.com\/products\/chase-jacket-navy-rust-fire-jacquard?_pos=1&_sid=9d51151ac&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/chase-jacket-navy-rust-fire-jacquard?_pos=1&_sid=9d51151ac&_ss=r\">Chase Jacket Navy\/Rust Fire Jacquard<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-navy-rust-fire-jacquard?_pos=2&_sid=9d51151ac&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-navy-rust-fire-jacquard?_pos=2&_sid=9d51151ac&_ss=r\">Kurt Trousers Navy\/Rust Fire Jacquard<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/dad-cap-ecru-floral?_pos=1&_sid=608611cf8&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dad-cap-ecru-floral?_pos=1&_sid=608611cf8&_ss=r\">Dad Cap Ecru Floral <\/a>& <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-textured-ecru?_pos=1&_sid=00a9bb7c2&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-textured-ecru?_pos=1&_sid=00a9bb7c2&_ss=r\">Dean T Shirt Textured Ecru<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba": {
+      "type": "main-faq-2",
+      "blocks": {
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>R<\/strong><em><strong>ed Eye Effect <\/strong><\/em><strong>is infused with nostalgia, a feeling found in some of the most successful films, TV shows and music releases. Is nostalgia positive or something to criticise?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>It’s definitely become marketed in the last few years. There are so many things coming back now that people loved when they were kids. It can be a good thing to move on instead of holding onto stuff that ultimately doesn’t really mean anything. But I think it’s good to be able to revisit these things. Sometimes it might feel stupid to enjoy something you enjoyed as a kid but also it’s just fun.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Your new song <\/strong><em><strong>Can’t Be By Myself <\/strong><\/em><strong>has just been released. Have you always wanted to work with <\/strong><em><strong>Squirrel Flower?<\/strong><\/em><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a82896a-5819-4fa3-8365-f46e22e58dea": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p><em>Squirrel Flower <\/em>is an artist I really love. She’s got an amazing voice and a kind of grungy-acoustic style that is so cool. With Ali, who’s my best friend, it’s interesting in this song because our voices are both falsettos at once, but his voice is a lot airier, so coupled together with Squirrel Flower it elevated the song and gave it an ethereal feel. A big thing with this record was trying to get to grips with my own voice and wanting to have other voices on it.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "25adcc27-58e5-462b-a8da-a102c6951999": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><em><strong>Squirrel Flower <\/strong><\/em><strong>isn’t based in the UK, how were you able to collaborate?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "34721b48-3b23-48ea-9885-d803919e6870": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The vocals are done remotely. Most people have their own home set-up or studio, so I’ve been working with people remotely for a while. For instance, <em>Lissom, <\/em>which is a project with a French pianist called Julien Marchal, I’ve only met him once and we’ve made two records. It can be good writing-wise to get in a room, but in terms of producing and fully realising a sound, often I think it’s good to have your own space to completely focus on what you want to do and then when it's done show it to someone and say this is what I actually wanted to do.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "6e162f17-2a9e-487d-81c2-e927edae67f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "f4d73ac8-8174-4f1e-9fa1-c1f879aef576",
+        "2c860a46-6ffc-4cc5-91e3-317123eef55f",
+        "09ba6e2c-1c1a-4137-89d0-32cf4b269ea8",
+        "11296e3e-de6f-449e-a4fa-1ac2e92a3942",
+        "4bb9e5d1-8cf0-445d-bda4-b5a167e4025f",
+        "8cdd6e34-72df-4920-ad2b-d250316bbe5b",
+        "fea812cb-ae43-486b-896d-9c3c08b5ee91",
+        "6a82896a-5819-4fa3-8365-f46e22e58dea",
+        "5e029058-e3e2-4899-bf0c-2a4de91e6901",
+        "25adcc27-58e5-462b-a8da-a102c6951999",
+        "34721b48-3b23-48ea-9885-d803919e6870",
+        "4550b386-9a58-48c1-8ca7-3afa05ddb344",
+        "6e162f17-2a9e-487d-81c2-e927edae67f2"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/C1.jpg",
+            "image_2": "shopify:\/\/shop_images\/C2.jpg",
+            "image_1_caption": "<p>Ed wears <a href=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=3&_sid=430c704c8&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/fisherman-beanie-navy?_pos=3&_sid=430c704c8&_ss=r\">Fisherman Beanie Navy<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/trucker-jacket-washed-indigo?_pos=1&_sid=a9ccd7288&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/trucker-jacket-washed-indigo?_pos=1&_sid=a9ccd7288&_ss=r\">Trucker Jacket Washed Indigo<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/carpenter-jeans-washed-indigo?_pos=1&_sid=bd00610e0&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/carpenter-jeans-washed-indigo?_pos=1&_sid=bd00610e0&_ss=r\">Carpenter Jeans Washed Indigo<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=9c96578d4&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/dean-t-shirt-white?_pos=1&_sid=9c96578d4&_ss=r\">Dean T Shirt White<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "71237997-a7b2-4f17-bb27-5fc417ee2490": {
+      "type": "main-faq-2",
+      "blocks": {
+        "844a6e5f-353b-4ee9-a82a-00cd3c3b7f5c": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>You’ve put together a playlist for Wax Radio, why have you chosen these songs?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "9be90cd8-71d8-4e16-bf41-cd0b6d70579b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "3ca80062-b448-46c9-9b11-1b761f834317": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>The songs I’ve chosen for this playlist are reaching into that 90s nostalgia vibe. But there’s some new stuff playing off that sound which I think is really cool. Caroline Polachek’s cover of  <em>Breathless <\/em>is literally a classic but done in this amazing new way. It’s interesting how you can have something so familiar but super-fresh.<\/p>",
+            "ans_font_size": 16,
+            "ans_font_size_mobile": 16,
+            "ans_line_height": 22,
+            "ans_line_height_mobile": 22,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "7ea670ce-416d-4af6-8de9-1e66f51c6e7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "844a6e5f-353b-4ee9-a82a-00cd3c3b7f5c",
+        "9be90cd8-71d8-4e16-bf41-cd0b6d70579b",
+        "3ca80062-b448-46c9-9b11-1b761f834317",
+        "7ea670ce-416d-4af6-8de9-1e66f51c6e7c"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "c7f329e6-7b22-4a93-9669-64345aec47f1": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe style=\"border-radius:12px\" src=\"https:\/\/open.spotify.com\/embed\/playlist\/1u5IkfI5Q9n8dDt9cFW2aX?utm_source=generator&amp;theme=0\" width=\"100%\" height=\"352\" frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        },
+        "4ea89990-1860-4025-9238-949fc361660c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "02569ba9-8c4d-441d-ae57-8bbbd8edf9c9",
+        "4ea89990-1860-4025-9238-949fc361660c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4f5fc66a-f223-4755-9e1b-fb263993f062": {
+      "type": "main-faq-2",
+      "blocks": {
+        "dd9e4aca-8df8-438e-b53c-507844088c4e": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "050011c3-2e0c-4939-bd75-8604d55e5016": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question_text": "<p><strong>You have very kindly curated a playlist for us, what inspired this selection of music?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "76734022-65d5-4119-89ca-98b11d9732ae": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc": {
+          "type": "answer",
+          "disabled": true,
+          "settings": {
+            "ans_text": "<p>The playlist we’ve created is a collection three songs each; one classic that we love, one new song that we’ve found maybe in the past year or so, and one of our MO favourites.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "d70fe0e4-1451-425b-820e-f817e072d69f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "da3d36c2-d199-4488-ac6e-18d085823bce": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>What one song from the list do you wish you had written?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p><em>How To Disappear Completely <\/em>by <em>Radiohead<\/em>. The sense of atmosphere it creates is just unmatched. <em>Radiohead <\/em>is probably my favourite band ever, one of the reasons is that every album is so different and that’s similar to what I want to do, working in lots of different genres, but bringing them together to make them cohesive. <em>Red Eye Effect <\/em>is playing off the influence of making the first two <em>Hailaker <\/em>records, the first was a lot more dreamy and the second is a lot more band-y, <em>Red Eye Effect <\/em>is both of those intertwined.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        },
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1": {
+          "type": "question",
+          "settings": {
+            "question_text": "<p><strong>Where should our listeners play this collection?<\/strong><\/p>",
+            "question_font_size": 15,
+            "question_font_size_mobile": 15,
+            "question_line_height": 23,
+            "question_line_height_mobile": 23,
+            "question_font_family": "Maison Neue",
+            "question_font_weight": "normal",
+            "question_alignment": "left",
+            "question_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f": {
+          "type": "answer",
+          "settings": {
+            "ans_text": "<p>I like listening to music while driving. Again, there’s that classic idea of being a kid and listening to stuff in your headphones, looking out of the window and thinking you’re in a music video.<\/p>",
+            "ans_font_size": 15,
+            "ans_font_size_mobile": 15,
+            "ans_line_height": 23,
+            "ans_line_height_mobile": 23,
+            "ans_font_family": "Maison Neue",
+            "ans_font_weight": "normal",
+            "ans_alignment": "left",
+            "ans_alignment_mobile": "left",
+            "block_width": 600
+          }
+        },
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "dd9e4aca-8df8-438e-b53c-507844088c4e",
+        "050011c3-2e0c-4939-bd75-8604d55e5016",
+        "76734022-65d5-4119-89ca-98b11d9732ae",
+        "cdc21b07-e6c6-4eb5-a824-c65fbdc5b9dc",
+        "d70fe0e4-1451-425b-820e-f817e072d69f",
+        "da3d36c2-d199-4488-ac6e-18d085823bce",
+        "78cdc7f7-5d00-42ac-bd44-44db28974b80",
+        "c6c5b735-ee3c-407d-860e-73cb6dc6ef92",
+        "eb7d5ed5-3e76-4f8a-a1d5-817ef331d3f1",
+        "139d4acd-ac4c-4ba0-bfe5-d1cae1805bd1",
+        "0e25f4b2-9b3d-4b36-858a-8ebf2c821212",
+        "998b6bfa-3062-4753-898a-bbe95f92cd1f",
+        "da1f137c-56dc-42c9-a284-d0044c59dd8d"
+      ],
+      "settings": {
+        "section_padding_left": 25,
+        "section_padding_right": 25,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "21488541-3872-40c7-a63d-59be672b0335": {
+      "type": "main-faq-2",
+      "blocks": {
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Playlist-Cover.png",
+            "block_width": 600
+          }
+        },
+        "b11375f3-3a2a-487a-9733-532aa6978bdb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "e0dfde20-25b4-4297-9899-c280182a5cd9": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>True Love<\/strong> – Hovvdy<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Please Forgive Me<\/strong> – David Gray<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Palo Alto<\/strong> – Radiohead<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Make It Forever<\/strong> – George Clanton<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Little Things<\/strong> – Big Thief<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Pink Light<\/strong> – MUNA<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Sweetest Thing<\/strong> – U2<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>You Get What You Give<\/strong> – New Radicals<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "7e19024e-584d-4abc-82c8-93a358d8f23d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Bachelorette<\/strong> – Björk<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>All The Way To Reno<\/strong> – R.E.M.<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "96a1928f-546a-4b66-ac6f-faeeef656a8d": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>Breathless<\/strong> – Caroline Polachek<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "9530116c-6d8e-4882-baab-00b8ebb0be68": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>damn<\/strong> – Ada Lea<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "6fd5bdf6-c269-40e2-a4e6-9011c08d9b4c": {
+          "type": "list",
+          "settings": {
+            "list_item": "<p><strong>See you Soon<\/strong> – beabadoobee<\/p>",
+            "list_font_size": 15,
+            "list_font_size_mobile": 16,
+            "list_line_height": 22,
+            "list_line_height_mobile": 22,
+            "list_text_color": "#333333",
+            "list_number_color": "#e37730",
+            "list_font_family": "Maison Neue",
+            "list_font_weight": "normal",
+            "list_alignment": "left",
+            "list_alignment_mobile": "left",
+            "block_width": 400
+          }
+        },
+        "207448c1-3abb-43a2-b005-84080ccae8a6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Listen Now",
+            "button_url": "https:\/\/open.spotify.com\/playlist\/1u5IkfI5Q9n8dDt9cFW2aX?si=2fba5ae382a84709",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "center",
+            "btn_alignment_mobile": "center",
+            "block_width": 400
+          }
+        },
+        "dc59e773-614a-4179-b26e-8d3031185625": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 110
+          }
+        }
+      },
+      "block_order": [
+        "a3204cf7-aa48-4f98-94f5-e3aabc6f917a",
+        "44d60eaf-c92c-4c50-b38e-4e4dd7281476",
+        "b11375f3-3a2a-487a-9733-532aa6978bdb",
+        "e0dfde20-25b4-4297-9899-c280182a5cd9",
+        "51b03a23-f3a3-4fb1-a46b-e23646f6f0b4",
+        "da8f7685-a4b1-4a2b-8877-de3df1cead18",
+        "59e4e60d-f3c3-4dd8-8d68-760bbdfa7161",
+        "28fb461d-6576-4ec3-a79c-14b0857ca00f",
+        "ac081b73-b453-4286-b4c9-9c76bdf2bb69",
+        "e3cf61a3-648f-47aa-a0e9-4e1b43c91e10",
+        "83dfb601-6cde-4b3d-8b6f-2059edb149ff",
+        "7e19024e-584d-4abc-82c8-93a358d8f23d",
+        "5f1c7edd-d5bb-4355-8b6e-e3262b3c678a",
+        "96a1928f-546a-4b66-ac6f-faeeef656a8d",
+        "9530116c-6d8e-4882-baab-00b8ebb0be68",
+        "6fd5bdf6-c269-40e2-a4e6-9011c08d9b4c",
+        "207448c1-3abb-43a2-b005-84080ccae8a6",
+        "179774e8-7982-4e12-a9ee-694e6f8f22b2",
+        "dc59e773-614a-4179-b26e-8d3031185625"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "question_colour": "#e37730",
+        "ans_colour": "#333333",
+        "ans_border_colour": "#e6c1a9"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wax-radio-lowswimmer",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "5c0d35f2-c20f-4403-bbc5-05591b9977d6",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "81c1f636-9dab-426c-9a19-4a14e6d5d2fa",
+    "3d9c03d9-0229-4e5c-97fe-1f51ce83e43f",
+    "d29fb106-a461-44a3-a665-2313185be93e",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "fa5167cc-ed7f-41ef-a0ba-24d995ce08c7",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "3f404eeb-2ee0-444e-afcb-fae4a7bde0ba",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "71237997-a7b2-4f17-bb27-5fc417ee2490",
+    "c7f329e6-7b22-4a93-9669-64345aec47f1",
+    "4f5fc66a-f223-4755-9e1b-fb263993f062",
+    "21488541-3872-40c7-a63d-59be672b0335",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

@@ -1,0 +1,18 @@
+{% assign component_class = class | default: 'lyt-Layout' %}
+
+<div class="{{ component_class }}__ImageWrapper">
+
+    {%- if image != blank -%}
+    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,700,800,900,1000', image: image -%}{%- endcapture -%}
+
+    <div class="AspectRatio" style="max-width: {{ image.width }}px; --aspect-ratio: {{ image.aspect_ratio }}">
+        {%- assign image_url = image.cloudinary_src -%}
+        <img class="{{ component_class }}__Image Image--lazyLoad" data-src="{{ image_url }}" data-expand="-200" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ image.alt | escape }}">
+
+        <noscript>
+            <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ image.alt | escape }}">
+        </noscript>
+    </div>
+
+    {%- endif -%}
+</div>

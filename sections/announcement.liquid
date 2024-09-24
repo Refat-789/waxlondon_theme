@@ -1,0 +1,235 @@
+{%- if section.settings.enable_bar -%}
+  {%- unless section.settings.home_page_only and template != 'index' -%}
+    <section id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="announcement-bar" class="ge-hide-display-none">
+      <div class="Announcement AnnouncementBar">
+        {%- for block in section.blocks -%}
+          <div id="block-{{ block.id }}">
+            <div class="AnnouncementBar__Wrapper">
+              <p class="AnnouncementBar__Content">
+                {{ block.settings.content | escape }}
+                {%- if block.settings.link -%}
+                  <a href="{{ block.settings.link }}">{{ block.settings.link_text | escape }}</a>
+                  {%- endif -%}
+              </p>
+            </div>
+          </div>
+        {%- endfor -%}
+     </div>
+    </section>
+    {%- endunless -%}
+{%- endif -%}
+
+<style>
+  #section-{{ section.id }} {
+    background: {{ section.settings.background }};
+  }
+  #section-{{ section.id }} .AnnouncementBar__Wrapper {
+    text-align: center;
+  }
+
+  #section-announcement .Announcement > div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  #section-{{ section.id }} .Announcement {
+      padding: 0 {{section.settings.text_left_right_space | append: "px"}};
+      text-align: center;
+      position: relative;
+    height: {{section.settings.announcebar_height_mobile | append: "px"}} ;
+    }
+  @media screen and (min-width: 1140px){
+     #section-{{ section.id }} .Announcement {
+      height: {{section.settings.text_top_bottom_space | append: "px"}} ;
+    }
+  }
+
+  {% for block in section.blocks %}
+    
+    #section-{{ section.id }} #block-{{ block.id }} .AnnouncementBar__Content {
+      font-size: {{block.settings.text_font_size_mobile | append: "px"}};
+      color: {{ block.settings.text_color }};
+    }
+    #section-{{ section.id }} #block-{{ block.id }} .AnnouncementBar__Content a{
+        position: relative;
+        padding-left: 5px;
+        margin-left: 0;
+        text-decoration: underline;
+        display: inline-block;
+      }
+    #section-{{ section.id }} #block-{{ block.id }} .AnnouncementBar__Content a::before{
+        position: absolute;
+        content: "";
+        height: 80%;
+        width: 1px;
+        background: {{ block.settings.text_color }};
+        left: 0;
+        top: 0;
+            
+      }
+  
+    @media screen and (min-width: 641px){
+      #section-{{ section.id }} #block-{{ block.id }} .AnnouncementBar__Content {
+        font-size: {{block.settings.text_font_size | append: "px"}};
+      }
+    }
+  {% endfor %}
+
+
+</style>
+
+
+<script>
+  var $ = window.jQuery;
+  if($(".Announcement> div").length > 1)
+  {
+  $(".Announcement> div:gt(0)").hide();
+
+  setInterval(function() {
+    $('.Announcement > div:first')
+      .fadeOut(100)
+      .next()
+      .fadeIn(100)
+      .end()
+      .appendTo('.Announcement');
+  }, {{ section.settings.cycle_speed | times: 1000 }}); 
+}
+</script>
+
+<script>
+  document.documentElement.style.setProperty('--announcement-bar-height', document.getElementById('shopify-section-announcement').offsetHeight + 'px');
+</script>
+
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "class": "shopify-section--announcement",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_bar",
+      "label": "Enable bar",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "home_page_only",
+      "label": "Home page only",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "cycle_speed",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "unit": "sec",
+      "label": "Change slides every",
+      "default": 5
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Announcement Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "text_top_bottom_space",
+      "min":  0,
+      "max": 50,
+      "step":  1,
+      "label": "Announcebar height",
+      "default":  30
+    },
+    {
+      "type": "range",
+      "id": "announcebar_height_mobile",
+      "min":  0,
+      "max":  50,
+      "step":  1,
+      "label": "Announcebar height for mobile",
+      "default":  28
+    },
+    {
+      "type": "range",
+      "id": "text_left_right_space",
+      "min":  5,
+      "max":  40,
+      "step":  1,
+      "label": "Text left and right padding",
+      "default":  15
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Anouncement",
+      "settings": [
+      {
+        "type": "text",
+        "id": "content",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "link_text",
+        "label": "Link text"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Link"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#000"
+      },
+      {
+        "type": "range",
+        "id": "text_font_size",
+        "min":  9,
+        "max":  20,
+        "step":  1,
+        "label": "Text font size",
+        "default":  12
+      },
+      {
+        "type": "range",
+        "id": "text_font_size_mobile",
+        "min":  9,
+        "max":  20,
+        "step":  1,
+        "label": "Text font size For Mobile",
+        "default":  12
+      }
+
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Anouncement",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "text"
+        }
+      ]
+    }
+  ]
+
+}
+{% endschema %}

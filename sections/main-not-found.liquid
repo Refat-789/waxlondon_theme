@@ -1,0 +1,64 @@
+
+    <div class="Container">
+      <div class="empty-page-header">
+        <h1 class="EmptyState__Title Heading u-h3">{{ section.settings.error_id }}</h1>
+        <img src="{{ section.settings.error_image | img_url: 'master' }}">
+        <p>{{ section.settings.back_message }} <a href="{{ routes.root_url }}">{{ section.settings.back_message_text  }}</a> </p>
+      </div>
+    </div>
+
+    <style>
+      .empty-page-header {
+        text-align: center;
+        margin: 30px 0;
+      }
+      .empty-page-header img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 500px;
+      }
+      .empty-page-header p {
+        margin-top: 30px;
+      }
+      .empty-page-header p a {
+        text-decoration: underline;
+      }
+    </style>
+
+  {% schema %}
+  {
+    "name": "404-template",
+    "settings": [
+      {
+          "type": "text",
+          "id": "error_id",
+          "label": "404 title",
+          "default": "404 - Page Not Found"
+      },
+      {
+        "type": "image_picker",
+        "id": "error_image",
+        "label": "404 error image"
+      },
+      {
+        "type": "text",
+        "id": "back_message",
+        "label": "404 back to home details",
+        "default": "Oops, look like the page you are looking for is no longer here... <br>Try one of links bellow or"
+      },
+      {
+        "type": "text",
+        "id": "back_message_text",
+        "label": "Back to home text",
+        "default": "click here to return home"
+      }
+    ],
+    "presets":[
+           {
+             "category": "content",
+             "name": "404-template"
+           }
+      ]
+  }
+{% endschema %}

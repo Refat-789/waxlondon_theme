@@ -1,0 +1,923 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LEAD_f5933b60-52ac-4de0-ba39-4c845a2c910b.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/LEAD-2_75bf7732-e0ae-4cb0-8786-f6b743d2c3af.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "AW23 Campaign: A Country Retreat",
+        "blog_date": "September 5, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>As Autumn arrives and the evenings draw in, we head away from the city for a weekend in the countryside.<\/p><p>Our story follows two friends as they make their way down to a sleepy Sussex village. Spending time on walks through overgrown fields, playing board games in front of the fire and cooking comforting meals with fresh produce from the garden.<\/p><p>Cosy knits, Overshirts, comfortable trousers and oversized coats provide the perfect companions to layer up for the new season days away.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ab5a4569-889c-44be-b320-5a4df900f602": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "63e97539-5cd6-415b-9191-774ba5149131": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/LrzvVrcYt5s?si=pVB_FpKXxlbD3jWa%22\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "<iframe width=\"100%\" height=\"600\" src=\"https:\/\/www.youtube.com\/embed\/08yfr7Wg3X4?si=b8V0y-Oh9uUfPI4W%22\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"><\/iframe>",
+            "block_width": "medium",
+            "custom_block_width": 1000,
+            "mobile_block_width": 90
+          }
+        },
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "63e97539-5cd6-415b-9191-774ba5149131",
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6": {
+      "type": "double_image",
+      "blocks": {
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WAX_AW23_SHOT_01_ANA_01.jpg",
+            "image_2": "shopify:\/\/shop_images\/WAX_AW23_SHOT_02_ANA_13.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/walker-cardigan-natural-fleck\" target=\"_blank\" title=\"Walker Cardigan Natural Fleck\">Walker Cardigan Natural Fleck<\/a>, <a href=\"\/products\/kurt-trousers-black-heavy-twill\" target=\"_blank\" title=\"Kurt Trousers Black Heavy Twill\">Kurt Trousers Black Heavy Twill<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "99b91a47-c927-49e0-9333-91ca49d56034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad",
+        "99b91a47-c927-49e0-9333-91ca49d56034"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WAX_AW23_SHOT_05_ANA_12.jpg",
+            "image_2": "shopify:\/\/shop_images\/WAX_AW23_SHOT_05_ANA_11.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/gekko-blazer-brown-stripe\" target=\"_blank\" title=\"Gekko Blazer Brown Stripe\">Gekko Blazer Brown Stripe<\/a>, <a href=\"\/products\/ari-trousers-brown-stripe\" target=\"_blank\" title=\"Ari Trousers Brown Stripe\">Ari Trousers Brown Stripe<\/a>, <a href=\"\/products\/dean-t-shirt-textured-white\" target=\"_blank\" title=\"Dean T-Shirt Textured White\">Dean T-Shirt Textured White<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/whiting-overshirt-black-ecru-stepney\" target=\"_blank\" title=\"Whiting Overshirt Black\/Ecru Stepney\">Whiting Overshirt Black\/Ecru Stepney<\/a>, <a href=\"\/products\/dean-t-shirt-textured-black\" target=\"_blank\" title=\"Dean T-Shirt Textured Black\">Dean T-Shirt Textured Black<\/a>, <a href=\"\/products\/loose-fit-jeans-ecru-denim\" target=\"_blank\" title=\"Loose Fit Jeans Ecru Denim\">Loose Fit Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b": {
+      "type": "single_image",
+      "blocks": {
+        "37952dd8-6a28-4537-831c-777cca1e7cac": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_56cbbadc-1b2d-4ab2-908f-a10f4146cddd.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "37952dd8-6a28-4537-831c-777cca1e7cac",
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WAX_AW23_SHOT_04_ANA_02.jpg",
+            "image_2": "shopify:\/\/shop_images\/WAX_AW23_SHOT_08_ANA_01.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/whiting-overshirt-black-beige-zap-check\" target=\"_blank\" title=\"Whiting Overshirt Black\/Beige Zap Check\">Whiting Overshirt Black\/Beige Zap Check<\/a>, <a href=\"\/products\/dean-t-shirt-textured-black\" target=\"_blank\" title=\"Dean T-Shirt Textured Black\">Dean T-Shirt Textured Black<\/a>, <a href=\"\/products\/kurt-trousers-sand-cord\" target=\"_blank\" title=\"Kurt Trousers Sand Cord\">Kurt Trousers Sand Cord<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/wilde-crew-blue-waffle\" target=\"_blank\" title=\"Wilde Crew Blue Waffle\">Wilde Crew Blue Waffle<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "23ec0e38-7827-4629-913b-f5dac6d709e5": {
+      "type": "single_image",
+      "blocks": {
+        "a078aff2-493a-4dc3-8668-4414c43c3026": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b8c39dd3-85f6-47eb-b7f1-3642e397e43c.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/whiting-overshirt-sage-ecru-ombre-check\" target=\"_blank\" title=\"Whiting Overshirt Sage\/Ecru Ombre Check\">Whiting Overshirt Sage\/Ecru Ombre Check<\/a>, <a href=\"\/products\/dean-t-shirt-textured-white\" target=\"_blank\" title=\"Dean T-Shirt Textured White\">Dean T-Shirt Textured White<\/a>, <a href=\"\/products\/loose-fit-jeans-ecru-denim\" target=\"_blank\" title=\"Loose Fit Jeans Ecru Denim\">Loose Fit Jeans Ecru Denim<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ae0baf25-05ae-4277-9628-4e0ab07d198b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "a078aff2-493a-4dc3-8668-4414c43c3026",
+        "ae0baf25-05ae-4277-9628-4e0ab07d198b"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1b8519ed-23ce-4876-b97a-21268876a684": {
+      "type": "double_image",
+      "blocks": {
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WAX_AW23_SHOT_03_ANA_01.jpg",
+            "image_2": "shopify:\/\/shop_images\/WAX_AW23_SHOT_48_ANA_13.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/cozi-jacket-beige-navy\" target=\"_blank\" title=\"Cozi Jacket Beige\/Navy\">Cozi Jacket Beige\/Navy<\/a>, <a href=\"\/products\/fisherman-beanie-oatmeal\" target=\"_blank\" title=\"Fisherman Beanie Oatmeal\">Fisherman Beanie Oatmeal<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4",
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "936e5bbf-1f29-4e01-a2b5-ce26ff770809": {
+      "type": "single_image",
+      "blocks": {
+        "f67eddfd-c6b8-46b6-940f-38e04462b55f": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_7d1772de-6328-4fc6-b02b-2219f100bd68.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "cdc3fdf0-2b3e-40b4-ae02-6187a55dd056": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f67eddfd-c6b8-46b6-940f-38e04462b55f",
+        "cdc3fdf0-2b3e-40b4-ae02-6187a55dd056"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "68fd141f-5136-4926-84d3-ccaccab78227": {
+      "type": "single_image",
+      "blocks": {
+        "d8f78111-69e1-4fec-b87c-acf94810aab2": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/didcot-shirt-navy-floral\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/didcot-shirt-navy-floral\">Didcot Shirt Navy Floral<\/a><\/p>",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "b941d8e0-d7ee-4373-a948-7f8f07e52cb5": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "d8f78111-69e1-4fec-b87c-acf94810aab2",
+        "b941d8e0-d7ee-4373-a948-7f8f07e52cb5"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ed4963bd-c07b-4e75-a639-b08bbac2a782": {
+      "type": "double_image",
+      "blocks": {
+        "c2073913-3fde-4be9-8109-7eea7fc5dbb1": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/8A.jpg",
+            "image_2": "shopify:\/\/shop_images\/8B.jpg",
+            "image_1_caption": "<p>Gary wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-multi-pablo?_pos=1&_sid=da1217944&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-multi-pablo?_pos=1&_sid=da1217944&_ss=r\">Didcot Shirt Multi Pablo<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=3&_sid=b9ac42ee0&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-black-heavy-twill?_pos=3&_sid=b9ac42ee0&_ss=r\">Kurt Trousers Black Heavy Twill<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "b23f0ea4-c277-42e1-8af3-615ad53a165a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "c2073913-3fde-4be9-8109-7eea7fc5dbb1",
+        "b23f0ea4-c277-42e1-8af3-615ad53a165a"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/9A_f9bfd9f9-86d2-470d-964f-2c0f37cde27f.jpg",
+            "image_2": "shopify:\/\/shop_images\/9B_8e8fda62-8a95-4be5-9ec7-733736d8460a.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Ty wears <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/didcot-shirt-navy-leno-stripe\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/didcot-shirt-navy-leno-stripe\">Didcot Shirt Navy Leno<\/a> Stripe, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=a97d6e0e3&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=a97d6e0e3&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/santo-trousers-sand\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/santo-trousers-sand\">Santo Trousers Sand<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "db9ca49e-1fbb-4e19-8591-dfbca2a6a774": {
+      "type": "single_image",
+      "blocks": {
+        "c86033b2-bf46-4a38-8b88-036181e731d1": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "8c1d51a5-2a48-4a1e-a0b5-1ecfe9e8a420": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "c86033b2-bf46-4a38-8b88-036181e731d1",
+        "8c1d51a5-2a48-4a1e-a0b5-1ecfe9e8a420"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f622c4ce-02cf-4824-a5c2-5f18f526d5a8": {
+      "type": "double_image",
+      "blocks": {
+        "0947c066-6228-4568-88a7-3f4bf02e431b": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10A.jpg",
+            "image_2": "shopify:\/\/shop_images\/10B.jpg",
+            "image_1_caption": "<p>Gary wears <a href=\"https:\/\/waxlondon.com\/products\/iggy-jacket-navy-ikat?_pos=1&_sid=fa303d3f5&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/iggy-jacket-navy-ikat?_pos=1&_sid=fa303d3f5&_ss=r\">Iggy Jacket Navy Ikat<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=5854ed14e&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/loose-fit-jeans-ecru-denim?_pos=1&_sid=5854ed14e&_ss=r\">Loose Fit Jeans Ecru<\/a><\/p>",
+            "image_2_caption": "<p>Ty wears <a href=\"https:\/\/waxlondon.com\/products\/naples-polo-mustard-wave?_pos=2&_sid=a3ac5207d&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/naples-polo-mustard-wave?_pos=2&_sid=a3ac5207d&_ss=r\">Naples Polo Mustard<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/kurt-trousers-khaki-heavy-twill?_pos=1&_sid=dec7f3260&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/kurt-trousers-khaki-heavy-twill?_pos=1&_sid=dec7f3260&_ss=r\">Kurt Trousers Khaki Heavy Twill<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "871da466-7886-49f8-9de0-6bc566776a13": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "0947c066-6228-4568-88a7-3f4bf02e431b",
+        "871da466-7886-49f8-9de0-6bc566776a13"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ef1c91be-429a-42f2-9411-3d9bf29cd676": {
+      "type": "double_image",
+      "blocks": {
+        "2ecbb02e-7ddb-48ce-953d-18ad32cb87e0": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/11A_1f69f876-ef59-499f-b26b-6686e3d8c29a.jpg",
+            "image_2": "shopify:\/\/shop_images\/11B_7fafb187-6aa0-4771-89fa-c08f0dd59830.jpg",
+            "image_1_caption": "<p>Gary wears <a href=\"https:\/\/waxlondon.com\/products\/didcot-shirt-white-floral?_pos=2&_sid=317d0a4c6&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/didcot-shirt-white-floral?_pos=2&_sid=317d0a4c6&_ss=r\">Didcot Shirt White Floral<\/a>, <a href=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=a97d6e0e3&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/montague-vest-white?_pos=1&_sid=a97d6e0e3&_ss=r\">Montague Vest White<\/a> & <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/cargo-shorts-black\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/cargo-shorts-black\">Cargo Shorts Black<\/a><\/p>",
+            "image_2_caption": "<p>Ty wears <a href=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/sanza-polo-natural\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/ss23-drop-2\/products\/sanza-polo-natural\">Sanza Polo Natural<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "7c553e97-91e3-400f-89f6-ec7bab76b36d": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "2ecbb02e-7ddb-48ce-953d-18ad32cb87e0",
+        "7c553e97-91e3-400f-89f6-ec7bab76b36d"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "de288710-09d0-40a4-a862-24aeb075d8ac": {
+      "type": "single_image",
+      "blocks": {
+        "4852de0c-736a-43ac-badc-8a3f252e7baa": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/fintry-blazer-natural-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/fintry-blazer-natural-linen\">Fintry Blazer Natural Linen<\/a>, <a href=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/naples-polo-white-wave\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/naples-polo-white-wave\">Naples Polo White Wave<\/a>, <a href=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/alp-trousers-natural-linen\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/collections\/new-arrivals\/products\/alp-trousers-natural-linen\">Alp Trouser Natural Linen<\/a><\/p>",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "3aa98241-6842-4285-ae26-67ab9d80ef7a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 25
+          }
+        }
+      },
+      "block_order": [
+        "4852de0c-736a-43ac-badc-8a3f252e7baa",
+        "3aa98241-6842-4285-ae26-67ab9d80ef7a"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9aac2cde-75fa-46ef-b523-92b1f7c89c46": {
+      "type": "double_image",
+      "blocks": {
+        "6c4bf901-8bf0-4c76-8523-8e20f6c8b670": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/WAX_AW23_SHOT_08_ANA_02.jpg",
+            "image_2": "shopify:\/\/shop_images\/WAX_AW23_SHOT_48_ANA_09.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/wilde-crew-blue-waffle\" target=\"_blank\" title=\"Wilde Crew Blue Waffle\">Wilde Crew Blue Waffle<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/walker-cardigan-navy-fleck\" target=\"_blank\" title=\"Walker Cardigan Navy Fleck\">Walker Cardigan Navy Fleck<\/a>, <a href=\"\/products\/trin-shirt-oxford-stripe\" target=\"_blank\" title=\"Trin Shirt Oxford Stripe\">Trin Shirt Oxford Stripe<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "a4733a99-01b8-41e2-851a-baea83d635a0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "6c4bf901-8bf0-4c76-8523-8e20f6c8b670",
+        "a4733a99-01b8-41e2-851a-baea83d635a0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c19bbec8-5602-4c53-b68a-8d22c786dbc4": {
+      "type": "single_image",
+      "blocks": {
+        "1189b1cf-638d-4610-97e9-a048c6ae95dc": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_045ae613-ebad-4976-b1f1-2374c3c25841.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "a8cb6fd7-ad4c-407b-9557-1656dd2a5ea9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "1189b1cf-638d-4610-97e9-a048c6ae95dc",
+        "a8cb6fd7-ad4c-407b-9557-1656dd2a5ea9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "aw23",
+        "grid_items_count": 32,
+        "shop_button_text": "Explore The Collection",
+        "shop_button_url": "shopify:\/\/collections\/aw23",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "ab5a4569-889c-44be-b320-5a4df900f602",
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "23ec0e38-7827-4629-913b-f5dac6d709e5",
+    "1b8519ed-23ce-4876-b97a-21268876a684",
+    "936e5bbf-1f29-4e01-a2b5-ce26ff770809",
+    "68fd141f-5136-4926-84d3-ccaccab78227",
+    "ed4963bd-c07b-4e75-a639-b08bbac2a782",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "db9ca49e-1fbb-4e19-8591-dfbca2a6a774",
+    "f622c4ce-02cf-4824-a5c2-5f18f526d5a8",
+    "ef1c91be-429a-42f2-9411-3d9bf29cd676",
+    "de288710-09d0-40a4-a862-24aeb075d8ac",
+    "9aac2cde-75fa-46ef-b523-92b1f7c89c46",
+    "c19bbec8-5602-4c53-b68a-8d22c786dbc4",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

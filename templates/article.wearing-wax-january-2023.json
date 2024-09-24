@@ -1,0 +1,554 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal-Lead-E.gif",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "#WearingWax: January 2023",
+        "blog_date": "January 22, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wearing-Wax-Logo.png",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 50,
+        "custom_spacing_height_mobile": 16
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We love to see all of you, our community, #wearingwax. Everyone styles our pieces so uniquely to themselves, so we have collated some recent tags for you to peruse and take inspiration from, as we do daily.<\/p><p>Don't forget to tag us on socials using #wearingwax so we can see your pictures and re-share!<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6": {
+      "type": "double_image",
+      "blocks": {
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/andrea_iacomini.jpg",
+            "image_2": "shopify:\/\/shop_images\/andrea_iacomini_2.jpg",
+            "image_1_caption": "<p>@andrea_iacomini wears our signature <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-yellow-ombre-check?_pos=1&_sid=56b70c085&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-navy-yellow-ombre-check?_pos=1&_sid=56b70c085&_ss=r\">Whiting Overshirt in Navy\/Ombre Check<\/a> & <a href=\"https:\/\/waxlondon.com\/products\/wim-zip-sweat-natural?_pos=1&_sid=ed4fd84ab&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/wim-zip-sweat-natural?_pos=1&_sid=ed4fd84ab&_ss=r\">Wim Zip Sweat Natural.<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "99b91a47-c927-49e0-9333-91ca49d56034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad",
+        "99b91a47-c927-49e0-9333-91ca49d56034"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/benr1z_3.jpg",
+            "image_2": "shopify:\/\/shop_images\/benr1z_2.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@benr1z wears our <a href=\"https:\/\/waxlondon.com\/products\/stoner-jumper-charcoal?_pos=1&_sid=979c45767&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/stoner-jumper-charcoal?_pos=1&_sid=979c45767&_ss=r\">Stoner Jumper in Charcoal<\/a> while out in Morocco riding a bike.<\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c142dcad-6971-4d50-9f85-6d72dd3e9fa1": {
+      "type": "double_image",
+      "blocks": {
+        "d5e87492-64b9-4b4a-999d-2b0784f4283a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/r_bak_2.jpg",
+            "image_2": "shopify:\/\/shop_images\/r_bak.jpg",
+            "image_1_caption": "<p>@r_bak_ wears our signature and best-selling <a href=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-marine-beatnik?_pos=1&_sid=cddbbe5ed&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/whiting-overshirt-marine-beatnik?_pos=1&_sid=cddbbe5ed&_ss=r\">Whiting Overshirt in Marine Beatnik<\/a> to the beach.<\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "ef807c03-f9bb-4bcf-af50-75adad8aa42f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "d5e87492-64b9-4b4a-999d-2b0784f4283a",
+        "ef807c03-f9bb-4bcf-af50-75adad8aa42f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/marc_mesina_2.jpg",
+            "image_2": "shopify:\/\/shop_images\/marc_mesina_3.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@marc_mesina wears our <a href=\"https:\/\/waxlondon.com\/products\/grove-crew-natural?_pos=1&_sid=a14a88551&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/grove-crew-natural?_pos=1&_sid=a14a88551&_ss=r\">Grove Knit in Natural<\/a> with tonal trousers while running errands.<\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1b8519ed-23ce-4876-b97a-21268876a684": {
+      "type": "double_image",
+      "blocks": {
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/threadability_4.jpg",
+            "image_2": "shopify:\/\/shop_images\/threadability_3.jpg",
+            "image_1_caption": "<p>@threadability wears our <a href=\"https:\/\/waxlondon.com\/products\/schill-cardigan-black-garden?_pos=2&_sid=0b5cd3483&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/schill-cardigan-black-garden?_pos=2&_sid=0b5cd3483&_ss=r\">Schill Cardigan in Black Garden<\/a> out and about in Brooklyn Heights.<\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4",
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ed4963bd-c07b-4e75-a639-b08bbac2a782": {
+      "type": "double_image",
+      "blocks": {
+        "c2073913-3fde-4be9-8109-7eea7fc5dbb1": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/shannondario__1.jpg",
+            "image_2": "shopify:\/\/shop_images\/shannondario__2.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@shannondario wears our <a href=\"https:\/\/waxlondon.com\/products\/cozi-gilet-navy-red?_pos=1&_sid=bc4d3a2e7&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/cozi-gilet-navy-red?_pos=1&_sid=bc4d3a2e7&_ss=r\">Cozi Gilet in Navy\/Red<\/a> while enjoying the countryside in Stuttgart.<\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "b23f0ea4-c277-42e1-8af3-615ad53a165a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "c2073913-3fde-4be9-8109-7eea7fc5dbb1",
+        "b23f0ea4-c277-42e1-8af3-615ad53a165a"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12": {
+      "type": "double_image",
+      "blocks": {
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/its_xangel__2.jpg",
+            "image_2": "shopify:\/\/shop_images\/its_xangel__1.jpg",
+            "image_1_caption": "<p>@its_xangel_ wears our <a href=\"https:\/\/waxlondon.com\/products\/stoner-jumper-charcoal?_pos=1&_sid=aafd07771&_ss=r\" target=\"_blank\" title=\"https:\/\/waxlondon.com\/products\/stoner-jumper-charcoal?_pos=1&_sid=aafd07771&_ss=r\">Stoner Jumper in Charcoal<\/a> layered under a warm coat.<\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "6810e12f-512c-4354-8bf1-95f1f6759de9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "497ffc4e-4e7d-45a5-a4c5-1aadaa487255",
+        "6810e12f-512c-4354-8bf1-95f1f6759de9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wearing-wax-january-2023",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "c142dcad-6971-4d50-9f85-6d72dd3e9fa1",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "1b8519ed-23ce-4876-b97a-21268876a684",
+    "ed4963bd-c07b-4e75-a639-b08bbac2a782",
+    "f4edf2b4-0e22-4cda-94b0-dd369c52cd12",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

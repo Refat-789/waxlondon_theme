@@ -1,0 +1,832 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop-Lead_e0efcae2-eb6e-4050-8fb0-c7820615e56e.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Father's Day Gift Guide",
+        "blog_date": "June 11, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Discover the ultimate Father's Day Gift Guide, packed with curated presents to celebrate the remarkable dad or father figure in your life.<\/p><p>Get inspired and explore the full guide below to help make this year’s celebration extra special.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        },
+        "081dac7b-6763-483a-92cf-87ce889a9347": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Top-Tier Gift Giving<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "80f3badf-6e72-4761-8b66-58443ccab1e5": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa",
+        "081dac7b-6763-483a-92cf-87ce889a9347",
+        "80f3badf-6e72-4761-8b66-58443ccab1e5"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ee46676c-aa9a-4300-a5f0-31270091ad53": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d6a05b51-c0ac-4158-8e73-10502434fac0": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Top_Tier.jpg",
+            "title": "Whiting Overshirt Multi Pike",
+            "description": "<p>Treat your dad to the versatile and effortlessly cool Whiting Overshirt, a wardrobe essential that seamlessly blends style and functionality.<\/p><p><a href=\"\/products\/whiting-overshirt-multi-pike\" target=\"_blank\" title=\"Whiting Overshirt Multi Pike\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": true,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "32fececc-71ce-4eda-b0d7-724bfebdb363": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Top_Tier-1.jpg",
+            "title": "Fintry Blazer",
+            "description": "<p>Elevate your dad's style and comfort with a timeless linen blazer that effortlessly combines sophistication and breathability, making it the perfect choice for any occasion.<\/p><p><a href=\"\/products\/fintry-blazer-pale-green-linen\" target=\"_blank\" title=\"Fintry Blazer Pale Green Linen\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/products\/fintry-blazer-pale-green-linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "9dc346d4-46a5-4b1f-a32b-bc3bbd10c09d": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Top_Tier-2.jpg",
+            "title": "Didcot Shirt Navy Border",
+            "description": "<p>Surprise your dad with our embroidered Didcot that combines classic style with a touch of personalized charm with the intricate border embroidery.<\/p><p><a href=\"\/products\/didcot-shirt-navy-border-embroidery\" target=\"_blank\" title=\"Didcot Shirt Navy Border Embroidery\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": true,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "d6a05b51-c0ac-4158-8e73-10502434fac0",
+        "32fececc-71ce-4eda-b0d7-724bfebdb363",
+        "9dc346d4-46a5-4b1f-a32b-bc3bbd10c09d"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "top-tier-gift-giving",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5cdf59b9-406f-416e-83bb-2e68990a06f8": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 30
+      }
+    },
+    "4e2e629b-59af-438a-87eb-bb8627b62069": {
+      "type": "single_text",
+      "blocks": {
+        "57fa14bd-4f94-4208-8534-610cf0a448f5": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Bang For Your Buck<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "dba5f1d9-226c-4d80-a08b-36dc297f7bd6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "57fa14bd-4f94-4208-8534-610cf0a448f5",
+        "dba5f1d9-226c-4d80-a08b-36dc297f7bd6"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5b052504-f8f2-4091-9442-88a12612e9a8": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Bang_For_your_Buck.jpg",
+            "title": "Didcot Shirt Pastel Blossom",
+            "description": "<p>Spoil your dad with our best-selling Didcot in Pastel Blossom and add a touch of colour to his wardrobe.<\/p><p><a href=\"\/products\/didcot-shirt-pastel-blossom\" target=\"_blank\" title=\"Didcot Shirt Pastel Blossom\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "765b9f06-abd7-4705-8fc1-2561b70bfff4": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Bang_For_your_Buck-1.jpg",
+            "title": "Trin Shirt Navy Linen",
+            "description": "<p>Indulge your dad's sense of style and comfort with a luxurious linen shirt that exudes effortless elegance.<\/p><p><a href=\"\/products\/trin-shirt-navy-linen\" target=\"_blank\" title=\"Trin Shirt Navy Linen\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "23f380d0-eadd-4ec4-b215-104d2338d9f9": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Bang_For_your_Buck-2.jpg",
+            "title": "Naples Polo Green Wave",
+            "description": "<p>Elevate your dad's casual wardrobe with a classic polo shirt that combines comfort and versatility in one stylish package.<\/p><p><a href=\"\/products\/naples-polo-green-wave\" target=\"_blank\" title=\"Naples Polo Green Wave\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad",
+        "765b9f06-abd7-4705-8fc1-2561b70bfff4",
+        "23f380d0-eadd-4ec4-b215-104d2338d9f9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "918c320d-e078-4025-9f43-126ee0b03ecb": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "bang-for-your-buck",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "22536aad-1bef-4f18-be70-a86a82dbe324": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 30
+      }
+    },
+    "05f6c1e7-23fd-416b-a934-f0d815a36ab3": {
+      "type": "single_text",
+      "blocks": {
+        "453ce4d0-782d-4f6f-ad47-09d85bf48924": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Small Tokens Of Appreciation<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 41,
+            "text_line_height_mobile": 40,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "65773d44-bf6a-437e-9ad3-73c7684b38aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "453ce4d0-782d-4f6f-ad47-09d85bf48924",
+        "65773d44-bf6a-437e-9ad3-73c7684b38aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Small_Tokens.jpg",
+            "title": "Noden Swim Shorts Blue Monet",
+            "description": "<p>Gear up your dad for the upcoming holiday with a pair of stylish swim shorts that offer both comfort and on-trend design.<\/p><p><a href=\"\/products\/noden-swim-shorts-blue-monet\" target=\"_blank\" title=\"Noden Swim Shorts Blue Monet\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 30,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "2536e34b-200e-4b3f-a7fb-edac22d38319": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Dad-Cap.jpg",
+            "title": "Dad Cap Blue Floral",
+            "description": "<p>Complete your dad's casual look with a trendy and versatile cap that adds a touch of coolness to his everyday style.<\/p><p><a href=\"\/products\/dad-cap-blue-floral\" target=\"_blank\" title=\"Dad Cap Blue Floral\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "2b76a4b7-564c-4b32-a501-83625ec5acc6": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Small_Tokens-2.jpg",
+            "title": "Dean T-Shirt Brown Tonal",
+            "description": "<p>Revamp your dad's wardrobe with a timeless stripe t-shirt that effortlessly combines classic style and modern appeal.<\/p><p><a href=\"\/products\/dean-t-shirt-brown-tonal-stripe\" target=\"_blank\" title=\"Dean T Shirt Brown Tonal Stripe\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881",
+        "2536e34b-200e-4b3f-a7fb-edac22d38319",
+        "2b76a4b7-564c-4b32-a501-83625ec5acc6"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "small-tokens-of-appreciation",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop The Guide",
+        "shop_button_url": "shopify:\/\/collections\/fathers-day-gift-guide",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "ee46676c-aa9a-4300-a5f0-31270091ad53",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "5cdf59b9-406f-416e-83bb-2e68990a06f8",
+    "4e2e629b-59af-438a-87eb-bb8627b62069",
+    "5b052504-f8f2-4091-9442-88a12612e9a8",
+    "918c320d-e078-4025-9f43-126ee0b03ecb",
+    "22536aad-1bef-4f18-be70-a86a82dbe324",
+    "05f6c1e7-23fd-416b-a934-f0d815a36ab3",
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d",
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "16788867009c47aca7"
+  ]
+}

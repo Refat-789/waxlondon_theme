@@ -1,0 +1,755 @@
+{
+  "sections": {
+    "5a80f3cd-55eb-4336-8eba-45ee947e1de0": {
+      "type": "single_image",
+      "blocks": {
+        "4d6eb0d0-7f32-42e7-b6c6-cf60b0f2402c": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-Wax-London-Integrity.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "d3077a05-9f8c-4efc-9acf-b4f699ae94bb": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 80
+          }
+        }
+      },
+      "block_order": [
+        "4d6eb0d0-7f32-42e7-b6c6-cf60b0f2402c",
+        "d3077a05-9f8c-4efc-9acf-b4f699ae94bb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b14ced7f-977d-475b-a149-db41e3121ea0": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 80,
+        "custom_spacing_height_mobile": 40
+      }
+    },
+    "19edc618-01c8-4382-9d0b-6dde4bbe37c9": {
+      "type": "single_text",
+      "blocks": {
+        "eb716604-0768-42d6-af09-ed8dfb2e7bf8": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Integrity & Honesty:<br\/>At Our Core<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 55,
+            "text_line_height_mobile": 42,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "eb716604-0768-42d6-af09-ed8dfb2e7bf8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c03bce3c-d0ae-4f6b-a52b-d5ab804acb65": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 60,
+        "custom_spacing_height_mobile": 38
+      }
+    },
+    "edf328ec-36de-4d71-8c9d-c2986c8bd468": {
+      "type": "single_text",
+      "blocks": {
+        "cb36dd4a-1de8-4abd-aec6-a8b8b147b34b": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Wax London is a brand on a journey. We are determined to do the best by all our stakeholders, from the people working all along our supply chain, within our brand and not forgetting you, our customers.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "a8703df0-77a3-444a-bb0e-08030b5429e1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "c51f8932-d697-4435-b204-cb1942a4337b": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We set up Wax London so that we could build an accountable brand in line with our values. A few years in, we realised we couldn’t keep our social and environmental responsibilities to ourselves, so we’ve decided to share them with you. <\/p><p>The Wax Team is striving to make the most responsible choices in the production of our collections, with people and planet at the forefront. With this in mind, we’ve developed three key sustainability focuses:<\/p><p><strong> – materials selection<br\/> – traceability & transparency<br\/> – longevity <\/strong><\/p><p>Join us on our journey and let’s try and make it a little bit better for people and planet.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        }
+      },
+      "block_order": [
+        "cb36dd4a-1de8-4abd-aec6-a8b8b147b34b",
+        "a8703df0-77a3-444a-bb0e-08030b5429e1",
+        "c51f8932-d697-4435-b204-cb1942a4337b"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3bb7f1cf-a0f5-44c0-bcac-b6deba7f8304": {
+      "type": "custom-html",
+      "custom_css": [
+        "hr {border-top: 1px solid #d8d8d8;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<hr>"
+      }
+    },
+    "44933651-dc4c-4678-b416-6f612d82f6f0": {
+      "type": "single_text",
+      "blocks": {
+        "8eec747c-9b77-4c0b-b4d8-9eaa6deea0d8": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Materials Selection<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 55,
+            "text_line_height_mobile": 42,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "8eec747c-9b77-4c0b-b4d8-9eaa6deea0d8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ed2f1637-890f-428c-926c-f057a8dd0aa0": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 60,
+        "custom_spacing_height_mobile": 40
+      }
+    },
+    "d88791ac-d8df-425f-bd1b-8bd5a101b778": {
+      "type": "single_text",
+      "blocks": {
+        "3c7942d6-62eb-4e97-82d5-4ab5678b2d30": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Selecting the best materials has always been high on our agenda. The more we’ve grown as a brand, we’ve realised we need to be more selective in our material choices to minimise the impact of our clothing during both manufacturing and use.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "f7a01b4c-1846-447d-b252-f79530eaa0c3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "3b21cac2-4d95-4ec2-906e-bfe5ec0c8984": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We prioritise working with suppliers who make use of third party certifications and standards, so you can buy from us with confidence. We prioritise the sourcing of the following materials and standards in our products:<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "73bc3c7e-71d0-4818-9cd7-5d02bd79f607": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "3c7942d6-62eb-4e97-82d5-4ab5678b2d30",
+        "f7a01b4c-1846-447d-b252-f79530eaa0c3",
+        "3b21cac2-4d95-4ec2-906e-bfe5ec0c8984",
+        "73bc3c7e-71d0-4818-9cd7-5d02bd79f607"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ba132d46-503d-49ce-b2f3-4d885c26a5ad": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "35b270e0-fabd-473c-9d59-a1d0d7f5a325": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/2-OCS-and-GOTS.jpg",
+            "title": "OCS & GOTS",
+            "description": "<p>Organic Content Standard (OCS) & Global Organic Textile Standard (GOTS) for organic cotton – grown without pesticides or fertilisers meaning it’s better for people and planet.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 35,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "178e9751-3954-45ab-88fe-075972da0162": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/3-RCS-and-GRS.jpg",
+            "title": "RCS & GRS",
+            "description": "<p>Recycled Content Standard (RCS) & Global Recycled Standard (GRS) for recycled materials – applicable for cotton, polyester, nylon, wool and more recently viscose, recycling keeps valuable materials in use for longer<br\/>and out of landfill.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 35,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "1ce90612-9865-490e-8b7c-ce4a34e7151a": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4-RWS-Mobile.jpg",
+            "title": "RWS",
+            "description": "<p>Responsible Wool Standard (RWS) for wool – wool from farms with a progressive approach to farming, from animal welfare to land management.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 35,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "2a42621a-db89-43ca-a0c7-c1f72243723c": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/5-European-Flax.jpg",
+            "title": "European Flax®",
+            "description": "<p>European Flax® for linen – guarantees traceability for premium linen fibre grown in Europe without artificial irrigation and dew-retting is followed.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 35,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "64d6450e-6da9-45e9-a67d-4108439487ba": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/6-FSC-and-Canopy.jpg",
+            "title": "FSC & Canopy",
+            "description": "<p>Forest Stewardship Council (FSC) certified suppliers for viscose – promotes sustainable forest management, whilst supporting the planet environmentally, socially, and economically.<\/p><p>Man-made cellulose fibres from low-risk fibre suppliers - as rated by Canopy Hot Button Report. We have partnered with Canopy to improve the sustainable sourcing of man-made cellulose fabric, paper and packaging.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 25,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 25,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "dc67b0a2-9de1-4168-82bf-81ea332be2af": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/7-Low-Impact-Production-Mobile.jpg",
+            "title": "Low Impact Production",
+            "description": "<p>We aim to promote low impact production by prioritising the sourcing of materials with the below processing standards and lower impact processing technologies: <\/p><p>Global Organic Textile Standard (GOTS) certification, OEKO-TEX® Standard 100, OEKO-TEX® STeP, BLUESIGN®, Jeanologia EIM score &lt;30, Cold pad batch dyeing for cotton textiles, Low liquor ratio dyeing machines (&lt;5:1), Spun dyeing for extruded yarns\/fibres.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 30,
+            "title_line_height": 35,
+            "title_line_height_mobile": 35,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 25,
+            "des_line_height_mobile": 25,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "5bd63572-26c6-4fc3-9cb1-f2cda37bb5b9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "35b270e0-fabd-473c-9d59-a1d0d7f5a325",
+        "178e9751-3954-45ab-88fe-075972da0162",
+        "1ce90612-9865-490e-8b7c-ce4a34e7151a",
+        "2a42621a-db89-43ca-a0c7-c1f72243723c",
+        "64d6450e-6da9-45e9-a67d-4108439487ba",
+        "dc67b0a2-9de1-4168-82bf-81ea332be2af",
+        "5bd63572-26c6-4fc3-9cb1-f2cda37bb5b9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fd8d515b-a44d-4d7a-8a0e-96a1758366ad": {
+      "type": "single_image",
+      "blocks": {
+        "bd1b7cb6-112f-492b-a7fc-230eb8b580b7": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8-Traceability-and-Transparency.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "3bb7e331-a716-44e6-ada6-83a04aaa4d19": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "bd1b7cb6-112f-492b-a7fc-230eb8b580b7",
+        "3bb7e331-a716-44e6-ada6-83a04aaa4d19"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "31ce98eb-1c62-4ae0-b4ce-cbef14331472": {
+      "type": "single_text",
+      "blocks": {
+        "8e818bce-8ecc-4bad-9e86-2e2ebbfb9814": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Traceability & Transparency<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 54,
+            "text_line_height_mobile": 42,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "eecff575-7e23-44ce-b02f-c65447461d7e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "ba86303b-29b9-4f79-9be2-3a9de713fe2d": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We design our clothes in London, and make them with our partners across the globe. This allows us to source specialist products, in terms of fabric\/yarn development and manufacturing, for each piece in the range. <\/p><p>All of our manufacturing and fabric partners share our vision and sign up to our Responsible Brand Commitment, which sets out our labour standards and ways of working. <\/p><p>With the help of our supplier partners, we are committed to tracing our clothing supply chain, from raw material source to manufacturing. We have full visibility of our garment factories (Tier 1) and textile mills\/processors (Tier 2) and are working to gain greater insight on our yarn suppliers (Tier 3).<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "0dbbb819-4387-4370-9ab1-61a842ca047a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 70
+          }
+        }
+      },
+      "block_order": [
+        "8e818bce-8ecc-4bad-9e86-2e2ebbfb9814",
+        "eecff575-7e23-44ce-b02f-c65447461d7e",
+        "ba86303b-29b9-4f79-9be2-3a9de713fe2d",
+        "0dbbb819-4387-4370-9ab1-61a842ca047a"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "2127dd87-d25e-4d43-8005-fa2868d0f7b2": {
+      "type": "single_image",
+      "blocks": {
+        "6bc7fd1e-e673-4aed-8e9f-8540cf1b26b7": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9-Longevity-temp_faad1f10-58ac-4d38-9bc5-9d1191852788.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "14b7f35f-9954-45bb-8dbc-6dbe6cb44ca9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "6bc7fd1e-e673-4aed-8e9f-8540cf1b26b7",
+        "14b7f35f-9954-45bb-8dbc-6dbe6cb44ca9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c5149cb5-2fbc-4982-8398-64b1b2d46e5a": {
+      "type": "single_text",
+      "blocks": {
+        "13ab65a4-dc17-401f-8909-81f88fa4f9f2": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Longevity<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 54,
+            "text_line_height_mobile": 42,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "2982b238-4718-4936-bccc-2d60edac6c39": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "52f50716-5bc8-430c-8f81-b0b657b7b909": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>At Wax London, we prioritise durable, well-made garments. Our dream is that you keep your Wax London clothes forever but recognise that’s unrealistic; eventually items may wear out or you may get bored of them. <\/p><p>Where this happens, we want to help you keep Wax (and your other) garments going for longer and out of landfill. Re-using clothing has been estimated to conserve between 90-95% of the energy needed to make new clothes. For this reason, we are working on projects to help us stride towards a more circular economy. Watch this space!<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "8e58b278-981e-4843-8847-33d328e9627e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "13ab65a4-dc17-401f-8909-81f88fa4f9f2",
+        "2982b238-4718-4936-bccc-2d60edac6c39",
+        "52f50716-5bc8-430c-8f81-b0b657b7b909",
+        "8e58b278-981e-4843-8847-33d328e9627e"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7eec02e7-4ac5-4a23-80fd-3f5b0d294d16": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 0,
+        "custom_spacing_height_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "5a80f3cd-55eb-4336-8eba-45ee947e1de0",
+    "b14ced7f-977d-475b-a149-db41e3121ea0",
+    "19edc618-01c8-4382-9d0b-6dde4bbe37c9",
+    "c03bce3c-d0ae-4f6b-a52b-d5ab804acb65",
+    "edf328ec-36de-4d71-8c9d-c2986c8bd468",
+    "3bb7f1cf-a0f5-44c0-bcac-b6deba7f8304",
+    "44933651-dc4c-4678-b416-6f612d82f6f0",
+    "ed2f1637-890f-428c-926c-f057a8dd0aa0",
+    "d88791ac-d8df-425f-bd1b-8bd5a101b778",
+    "ba132d46-503d-49ce-b2f3-4d885c26a5ad",
+    "fd8d515b-a44d-4d7a-8a0e-96a1758366ad",
+    "31ce98eb-1c62-4ae0-b4ce-cbef14331472",
+    "2127dd87-d25e-4d43-8005-fa2868d0f7b2",
+    "c5149cb5-2fbc-4982-8398-64b1b2d46e5a",
+    "7eec02e7-4ac5-4a23-80fd-3f5b0d294d16"
+  ]
+}

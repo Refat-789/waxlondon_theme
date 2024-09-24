@@ -1,0 +1,853 @@
+{
+  "sections": {
+    "1a44783c-3228-46d2-a6d4-69e9afb1224a": {
+      "type": "slideshow",
+      "blocks": {
+        "image_we7Bk4": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/14d34ce594e6427c93c4afc82f861e68.mp4",
+            "slideshow_mobile_video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/40caa8b1bbbf46158ce8a80617254650.mp4",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "apply_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 10,
+            "content_position": "bottomCenter",
+            "subheading": "AW24 Collection:",
+            "title": "'Escape The Noise'",
+            "button_1_text": "Shop AW24",
+            "button_1_link": "shopify:\/\/collections\/aw24",
+            "button_2_text": "View The Campaign",
+            "button_2_link": "shopify:\/\/blogs\/journal\/aw24-escape-the-noise",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        },
+        "template--16042781606053__1a44783c-3228-46d2-a6d4-69e9afb1224a-1686912307de6e8929-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Banner_Desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Banner_9a88b78a-3ffb-4e56-9a42-e7cf459473b7.jpg",
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 5,
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "Back In Stock",
+            "button_1_text": "Shop Now",
+            "button_1_link": "shopify:\/\/collections\/back-in-stock",
+            "button_2_text": "",
+            "button_2_link": "",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#ffffff",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "image_we7Bk4",
+        "template--16042781606053__1a44783c-3228-46d2-a6d4-69e9afb1224a-1686912307de6e8929-0"
+      ],
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "dots_color": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 10,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 10
+      }
+    },
+    "dfa45bad-fa5f-4f9c-98ea-81ec520a86e0": {
+      "type": "featured-collections",
+      "blocks": {
+        "104e8411-30c1-4b9e-88ee-2847b9d0365c": {
+          "type": "collection",
+          "settings": {
+            "collection": "homepage",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "104e8411-30c1-4b9e-88ee-2847b9d0365c"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 0,
+        "section_margin_bottom": 40,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 40
+      }
+    },
+    "6edab7f4-606d-471a-ae71-5923db45a25f": {
+      "type": "collection-list-new",
+      "blocks": {
+        "7ef06cdd-718b-4813-8c82-c36e4b5a5e8d": {
+          "type": "3_links_row",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Overshirts_2_9e1edf4b-a8ff-4779-a4c7-6dd84c297684.jpg",
+            "collection_1_title": "Overshirts",
+            "collection_1_button_text": "Shop Now",
+            "collection_1_button_link": "shopify:\/\/collections\/overshirts",
+            "image_2": "shopify:\/\/shop_images\/Knitwear_2_367c5fa0-d260-47fa-a170-810f5811153c.jpg",
+            "collection_2_title": "Knitwear",
+            "collection_2_button_text": "Shop Now",
+            "collection_2_button_link": "shopify:\/\/collections\/knitwear",
+            "image_3": "shopify:\/\/shop_images\/Outerwear_2_4413704c-1942-4b66-8b2e-dffc40d0724f.jpg",
+            "collection_3_title": "Outerwear",
+            "collection_3_button_text": "Shop Now",
+            "collection_3_button_link": "shopify:\/\/collections\/coats-and-jackets",
+            "image_size": "normal",
+            "hide_desktop": false,
+            "hide_mobile": false,
+            "items_full_width_mobile": true,
+            "space_between": true,
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "7ef06cdd-718b-4813-8c82-c36e4b5a5e8d"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "section_margin_top": 0,
+        "section_margin_bottom": 10,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 10
+      }
+    },
+    "9ab7aa9a-a3e0-4508-91e5-bd550a59945b": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16042781606053__9ab7aa9a-a3e0-4508-91e5-bd550a59945b-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "homepage-3",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16042781606053__9ab7aa9a-a3e0-4508-91e5-bd550a59945b-collection-1"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 0,
+        "section_margin_bottom": 40,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 40
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tyQwen": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Archive_Banner_-_Desktop.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Archive_Banner_-_Mobile_2.jpg",
+            "apply_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 20,
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "Shop Archive Sale",
+            "button_1_link": "shopify:\/\/collections\/archive-sale",
+            "button_2_text": "",
+            "button_2_link": "",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "image_tyQwen"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 8,
+        "dots_color": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 10,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 10
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "homepage-2",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "featured-collection-0"
+      ],
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 0,
+        "section_margin_bottom": 40,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 40
+      }
+    },
+    "f98833af-e63d-48ed-8ae3-b431bf2b165e": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4WTzeD": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Wax_Meets_Desktop_Banner_3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Wax_Meets_Mobile_Banner_3.jpg",
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 20,
+            "content_position": "bottomCenter",
+            "subheading": "Wax Meets #19",
+            "title": "Grace & Thorn",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "Read More",
+            "button_2_link": "shopify:\/\/blogs\/journal\/wax-meets-grace-and-thorn",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        },
+        "image_J9VVXX": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Wax_Meets_Desktop_Banner_2_e4e6a974-b995-4d44-9deb-e7db2430464b.png",
+            "mobile_image": "shopify:\/\/shop_images\/Wax_Meets_Mobile_Banner_2_32139c4c-b258-407a-84c0-c2136bf5c8ec.png",
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 20,
+            "content_position": "bottomCenter",
+            "subheading": "Wax Meets #18",
+            "title": "Mackenzy Mackay",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "Read More",
+            "button_2_link": "shopify:\/\/blogs\/journal\/wax-meets-mackenzy-mackay",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        },
+        "image_GAxkEg": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Wax_Meets_Desktop_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/Wax_Meets_Mobile_Banner.png",
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 20,
+            "content_position": "bottomCenter",
+            "subheading": "Wax Meets #17",
+            "title": "Florian Gadsby",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "Read More",
+            "button_2_link": "shopify:\/\/blogs\/journal\/wax-meets-florian-gadsby",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        },
+        "image_T7HxTn": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/Wax_Meets_Desktop_Banner_2_c0eac725-419a-45c6-a5d4-0932fa806562.png",
+            "mobile_image": "shopify:\/\/shop_images\/Wax_Meets_Mobile_Banner_2_c87a920e-79c0-4ca5-a2ff-a080962918d7.png",
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 20,
+            "content_position": "bottomCenter",
+            "subheading": "Wax Meets #16",
+            "title": "CHILDE Music",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "Read More",
+            "button_2_link": "shopify:\/\/blogs\/journal\/wax-meets-childe",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "image_4WTzeD",
+        "image_J9VVXX",
+        "image_GAxkEg",
+        "image_T7HxTn"
+      ],
+      "settings": {
+        "show_fullscreen": false,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "dots_color": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 10,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 10
+      }
+    },
+    "text_image_style_2_jFyXnM": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_P6LXng": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/New_Arrivals_2_7d2f1397-fa08-478c-9128-7aa6ca2b7e73.jpg",
+            "title": "New Suiting Coming Soon!",
+            "description": "<p>Sign up here to be notified of when our new suiting is available online.<\/p>",
+            "sign_up_button_text": "Notify Me When Back In Stock",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_P6LXng"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "cbc166f9-6d81-4af3-8007-bffe4f9213e0": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15625016213669__cbc166f9-6d81-4af3-8007-bffe4f9213e0-16699829351c20de55-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "ugc-grid",
+            "title": "",
+            "grid_items_count": 4,
+            "button_text": "",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15625016213669__cbc166f9-6d81-4af3-8007-bffe4f9213e0-16699829351c20de55-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 0,
+        "section_margin_bottom": 30,
+        "section_margin_top_mobile": 10,
+        "section_margin_bottom_mobile": 30
+      }
+    },
+    "16583123267b2858a4": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "title": "London Store",
+        "address": "<p>3 Berwick Street, London, W1F 0DR<\/p>",
+        "hours": "<p>Mon - Fri: 10:30am - 6:30pm<br\/>Sat:  10:30am - 7:30pm<br\/>Sun: 12pm - 6pm<\/p>",
+        "map_address": "3 Berwick Street, London, W1F 0DR",
+        "map_link_label": "",
+        "api_key": "",
+        "zoom": 12,
+        "map_style": "silver",
+        "image": "shopify:\/\/shop_images\/PHOTO-2022-04-20-16-46-50_1500x_d6acd139-4092-4321-89e9-dfb0c35300e5.webp"
+      }
+    },
+    "c4956664-61e9-4afd-9b3b-d88d134ae69f": {
+      "type": "collection-list-new",
+      "blocks": {
+        "aea9a23d-6fe1-42a8-8299-5bd42c863722": {
+          "type": "2_links_row",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_25.png",
+            "collection_1_title": "Stores",
+            "collection_1_button_text": "View Here",
+            "collection_1_button_link": "shopify:\/\/pages\/stores",
+            "image_2": "shopify:\/\/shop_images\/Integrity_Banner.png",
+            "collection_2_title": "Integrity",
+            "collection_2_button_text": "Read More",
+            "collection_2_button_link": "https:\/\/waxlondon.com\/pages\/integrity",
+            "image_size": "normal",
+            "hide_desktop": false,
+            "hide_mobile": false,
+            "items_full_width_mobile": true,
+            "space_between": true,
+            "apply_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "aea9a23d-6fe1-42a8-8299-5bd42c863722"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "section_margin_top": 40,
+        "section_margin_bottom": 40,
+        "section_margin_top_mobile": 40,
+        "section_margin_bottom_mobile": 40
+      }
+    },
+    "1658313238ec04d027": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "section_width": 60,
+        "section_height": 600,
+        "section_height_mobile": 500,
+        "image": "shopify:\/\/shop_images\/67_Berwick_ba445c2f-35fd-4187-9234-78303c2bad7f.jpg",
+        "section_margin_top": 70,
+        "section_margin_bottom": 85,
+        "section_margin_top_mobile": 35,
+        "section_margin_bottom_mobile": 55,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "content_background_color": "#ffffff",
+        "content_background_color_opacity": 50,
+        "content_background_space": 200,
+        "content_background_space_mobile": 50,
+        "subheading": "67 Berwick Street, London, W1F 8GR",
+        "title": "London Store",
+        "content": "<p>Mon - Fri: 10:30am - 7:00pm<br\/>Sat:  10:30am - 7:30pm<br\/>Sun: 12pm - 6pm<\/p>",
+        "subheader_color": "#000000",
+        "header_color": "#000000",
+        "content_color": "#000000",
+        "subheader_font_size": 20,
+        "subheader_font_size_mobile": 12,
+        "header_font_size": 32,
+        "header_font_size_mobile": 20,
+        "content_font_size": 16,
+        "content_font_size_mobile": 14
+      }
+    },
+    "1658314259861d5149": {
+      "type": "image-with-text-block",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-1xxx_0bf16322-3b11-4677-a04f-15b3e01bda0c.png",
+        "block_size": "normal",
+        "title": "",
+        "content": "<p>Discover Our Integrity Initiative<\/p>",
+        "button_label": "Get To Know",
+        "button_link": "shopify:\/\/pages\/integrity",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_text_hover_color": "#000000",
+        "button_background_color": "",
+        "button_background_hover_color": "#ffffff",
+        "button_border_color": "#ffffff",
+        "show_parallax": false,
+        "show_box_shadow": false
+      }
+    },
+    "165831205611f35376": {
+      "type": "collection-list",
+      "blocks": {
+        "1658312056d6fd3f8d-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Homepage-Block-Wide.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_43a422ba-54a8-440b-912d-67ff4549fbe8.jpg",
+            "image_alignment": "center center",
+            "mobile_image_alignment": "center center",
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/archive-sale",
+            "open_link_new_tab": false,
+            "apply_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 30,
+            "text_color": "#ffffff",
+            "button_text_color": "#000000",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "#ffffff",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "1658312056d6fd3f8d-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_size": "normal",
+        "add_spacing": true,
+        "expand_collection": true,
+        "stack_on_mobile": true,
+        "dots_color": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 0
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "blog-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "Journal",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "Discover More",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "slideshow_n6iUPR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_bkqwdx": {
+          "type": "image",
+          "settings": {
+            "countdown_end": "",
+            "show_countdown": false,
+            "slideshow_video_url": "",
+            "slideshow_mobile_video_url": "",
+            "slideshow_vimeo_video_id": "",
+            "slideshow_vimeo_mobile_video_id": "",
+            "image": "shopify:\/\/shop_images\/New-Arrivals_Web-Banner_8771387c-27a8-4148-ac00-fa0135017d94.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/New-Arrivals_Mobile-Banner_ee8ed506-0f1c-4c17-a7c9-7f135c313943.jpg",
+            "apply_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "mobile_overlay_color": "#000000",
+            "mobile_overlay_opacity": 30,
+            "content_position": "bottomCenter",
+            "subheading": "",
+            "title": "",
+            "button_1_text": "Shop New Arrivals",
+            "button_1_link": "shopify:\/\/collections\/new-arrivals",
+            "button_2_text": "",
+            "button_2_link": "",
+            "open_link_new_tab": false,
+            "text_color": "#ffffff",
+            "button_text_color": "#ffffff",
+            "button_hover_text_color": "#000000",
+            "button_background_color": "",
+            "button_hover_background_color": "#ffffff",
+            "button_border_color": "#ffffff",
+            "button_hover_border_color": "",
+            "subheader_font_size": 18,
+            "header_font_size": 42,
+            "button_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "image_bkqwdx"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_fullscreen": true,
+        "show_arrow": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "dots_color": "#ffffff",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 0
+      }
+    },
+    "featured_collections_yeN3J8": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_dAWTzT": {
+          "type": "collection",
+          "settings": {
+            "collection": "homepage-2",
+            "title": "",
+            "grid_items_count": 8,
+            "button_text": "",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_dAWTzT"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 10,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 10,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "1a44783c-3228-46d2-a6d4-69e9afb1224a",
+    "dfa45bad-fa5f-4f9c-98ea-81ec520a86e0",
+    "6edab7f4-606d-471a-ae71-5923db45a25f",
+    "9ab7aa9a-a3e0-4508-91e5-bd550a59945b",
+    "slideshow",
+    "featured-collections",
+    "f98833af-e63d-48ed-8ae3-b431bf2b165e",
+    "text_image_style_2_jFyXnM",
+    "cbc166f9-6d81-4af3-8007-bffe4f9213e0",
+    "16583123267b2858a4",
+    "c4956664-61e9-4afd-9b3b-d88d134ae69f",
+    "1658313238ec04d027",
+    "1658314259861d5149",
+    "165831205611f35376",
+    "blog-posts",
+    "slideshow_n6iUPR",
+    "featured_collections_yeN3J8"
+  ]
+}

@@ -1,0 +1,135 @@
+<script>
+  (function() {
+    window.eyefituShopifyOptions.dataAttributes.flow = "wax-london";
+
+    // Product sizes in stock
+    const extractProduct = () => {
+      const scripts = document.querySelectorAll(
+      'script[type="application/ld+json"]'
+      );
+
+      // Extract data from NodeList.
+      const maps = Array.from(scripts, (script) => script.textContent).flatMap(
+        (content) => {
+          if (!content) {
+            return null;
+          }
+    
+          try {
+            return JSON.parse(content);
+          } catch (err) {
+            // Forgive errors in some scripts, try to read as much as possible.
+            return null;
+          }
+        }
+      );
+  
+      // Filter elements which we failed to parse and return product data.
+      return maps.filter((map) => map !== null).find((o) => o['@type'] === 'Product');
+    }
+
+    const extractedProduct = extractProduct();
+  
+    const inStockSizes = (extractedProduct && extractedProduct.offers.filter((offer) => offer.availability === 'https://schema.org/InStock').map((item) => item.name)) || [];
+    window.eyefituShopifyOptions.dataAttributes['custom:inStockSizes'] = JSON.stringify(inStockSizes);
+  
+    const sizeVariants = extractedProduct && extractedProduct.offers.map(({url, name}) => {
+      const urlSearchParams = new URLSearchParams(url.substring(url.indexOf('?')));
+      const variantID = urlSearchParams.get('variant');
+  
+      return [name, variantID];
+    })
+
+    window.eyefituShopifyOptions.dataAttributes['custom:sizeVariants'] = JSON.stringify(Object.fromEntries(sizeVariants));
+  
+    // Klaviyo "Notify me"
+    const productID = {{ product.id }};
+  
+    const notifyMePayload = {
+      a: 'WkTqs3',
+      list: 'S9VwsA',
+      g: 'S9VwsA',
+      platform: 'shopify',
+      product: productID,
+    }
+  
+    window.eyefituShopifyOptions.dataAttributes['custom:notifyMePayload'] = JSON.stringify(notifyMePayload);
+  
+    const lookupVariantBySize = (size) => {
+      const productVariants = window.KlarnaThemeGlobals.productVariants;
+  
+      if (!productVariants) {
+        return;
+      }
+  
+      const productVariantData = productVariants.find((variantData) => variantData.title === size);
+  
+      if (!productVariantData) {
+        return;
+      }
+  
+      return productVariantData.id;
+    }
+  
+    const setRecProductToSessionStorage = () => {
+      const { name } = extractedProduct || {};
+  
+      if (!name) {
+        return;
+      }
+  
+      const recProducts = JSON.parse(sessionStorage.getItem('eyefitu:recProducts') || '[]');
+  
+      if (recProducts.includes(name)) {
+        return;
+      }
+  
+      recProducts.push(name);
+  
+      sessionStorage.setItem('eyefitu:recProducts', JSON.stringify(recProducts));
+    };
+
+    document.addEventListener('eyefitu', (event) => {
+      const { selectedSize, recommendedSize } = event.detail;
+  
+      // For GA4 analytics
+      if (recommendedSize) {
+        setRecProductToSessionStorage();
+      }
+      
+      if (!selectedSize || !inStockSizes.includes(selectedSize)) {
+        return;
+      }
+  
+      // Add "in stock" selected size to cart
+      const variantId = lookupVariantBySize(selectedSize);
+  
+      if (!variantId) {
+        return;
+      }
+  
+      jQuery.post('/cart/add.js', {
+        id: variantId,
+        quantity: "1",
+      }).done(function( ) {   
+        const url = 'cart?section_id=mini-cart&timestamp=' + new Date().getTime();
+        jQuery.get(url).done(function (data) {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(data, 'text/html');
+  
+          const content = htmlDoc.querySelector('#sidebar-cart');
+  
+          document.querySelector('#sidebar-cart').innerHTML = content.innerHTML;
+  
+          const cartIcon = document.querySelector('a[aria-label="Open cart"]');
+  
+          if (!cartIcon) {
+            return;
+          }
+  
+          cartIcon.click();
+        });
+      });
+    });
+  })()
+</script>

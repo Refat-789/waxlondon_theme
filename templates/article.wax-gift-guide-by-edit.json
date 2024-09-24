@@ -1,0 +1,1000 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": 1000,
+        "alignment": "left"
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "055a17e5-fac9-4403-82e3-8ed8cc3be738": {
+      "type": "blog-category-list",
+      "disabled": true,
+      "blocks": {
+        "cab6894f-fe28-44cb-a4ef-ae2696bf839e": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Latest",
+            "category_link": "#"
+          }
+        },
+        "f282da22-a290-428d-9778-6d1de177c709": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Wax Meets",
+            "category_link": "#"
+          }
+        },
+        "4588bc30-c38c-4b50-b9ae-5128a9aaf1b0": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Integrity At Wax",
+            "category_link": "#"
+          }
+        },
+        "0ca4fe83-9654-4327-b77f-498712203e23": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Wax Radio",
+            "category_link": ""
+          }
+        },
+        "01757799-23dd-44fd-8716-1a18b8c61830": {
+          "type": "images",
+          "disabled": true,
+          "settings": {
+            "cat_name": "Test",
+            "category_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cab6894f-fe28-44cb-a4ef-ae2696bf839e",
+        "f282da22-a290-428d-9778-6d1de177c709",
+        "4588bc30-c38c-4b50-b9ae-5128a9aaf1b0",
+        "0ca4fe83-9654-4327-b77f-498712203e23",
+        "01757799-23dd-44fd-8716-1a18b8c61830"
+      ],
+      "settings": {
+        "title": "Journal",
+        "title_font_size": 30,
+        "cat_title_font_size": 15,
+        "title_font_size_mobile": 24,
+        "cat_title_font_size_mobile": 16,
+        "title_color": "#333333",
+        "cat_title_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 400
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead-Square.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Gift Guide: By Edit",
+        "blog_date": "07\/12\/22",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 49,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 40
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Are you looking for a gift but don’t know where to start? Whether you’re looking for something small, or the gift to end all gifts, we’ve got you covered. Shop Stocking Fillers, Must-Have Gifts and Showstoppers below. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "e0754a5c-dcee-4ae5-9cb9-14c5d7d8b46a": {
+      "type": "single_image",
+      "disabled": true,
+      "blocks": {
+        "98b781c3-fdb7-4a4e-9a29-9a6bd317a02d": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-14.jpg",
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-overshirts\" target=\"_blank\">Shop Overshirts<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "98b781c3-fdb7-4a4e-9a29-9a6bd317a02d"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f7b9c8f1-bf11-44ad-a6db-2f120f9532c3": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "extra_wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "6830d8c8-c632-4738-8c18-962dbaf71439": {
+      "type": "single_text",
+      "blocks": {
+        "d5eb658b-327d-4a29-a52b-99d63850c8ca": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><strong>Stocking Fillers<\/strong><\/p>",
+            "font_size": 30,
+            "font_size_mobile": 22,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "ab0c7f50-2642-4de9-900f-20faafe0f2cd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "d5eb658b-327d-4a29-a52b-99d63850c8ca",
+        "ab0c7f50-2642-4de9-900f-20faafe0f2cd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d182c80c-d882-4622-b2f2-b975d90225ba": {
+      "type": "single_text",
+      "blocks": {
+        "42d6de85-2795-45ae-8455-f08fce51aca5": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Looking for something smaller, or maybe you’re working to a tight Secret Santa budget? From plain or patterned socks, to our Fisherman Beanie in a variety of colourways, to classic scarves and even our new blanket in signature Marine Beatnik, we’ve got options for everyone. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "5c3539ba-4402-4d2d-a875-b2fd55e54745": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "42d6de85-2795-45ae-8455-f08fce51aca5",
+        "5c3539ba-4402-4d2d-a875-b2fd55e54745"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "539251ad-2ddb-459b-b0da-55cbbd6983c5": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "0cd34c92-6dcf-4cd4-9cef-d417412c24ae": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/18.jpg",
+            "title": "The Trek Socks",
+            "description": "<p>Made with wool, our trek socks are a great smaller gift for someone special. With a thick rib designed to stay in place and keep the shape and padded sports sole, in an array of Wax patterns, these socks will last and add flare to their everyday.<\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Stocking Fillers",
+            "button_url": "https:\/\/waxlondon.com\/collections\/stocking-fillers",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#333333",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "89330100-53f5-4002-95bf-5e438d0cc6b4": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/12.jpg",
+            "title": "The Eden Scarves",
+            "description": "<p>Our Eden Scarves sit close to our homes and hearts and necks to keep you warm. Made in one of the last British Vertical Heritage Mills, the team at Moon work on every stage of production (read more about this <a href=\"https:\/\/waxlondon.com\/blogs\/journal\/behind-your-clothes-introducing-abraham-moon-sons\">here<\/a>). Available in three different check colourways, you can play it safe with the Navy\/Green Check or add a pop of colour to your everyday with the Multi Check. <\/p>",
+            "image_right": true,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Stocking Fillers",
+            "button_url": "https:\/\/waxlondon.com\/collections\/stocking-fillers",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "a3d62277-93ab-4318-8f57-c94388d9a7f2": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/3_3a451aaf-bce3-4ca0-9aa2-a0747d4b0626.jpg",
+            "title": "The Fisherman Beanies",
+            "description": "<p>It is an unspoken rule that a beanie is a really great gift, even for those who don’t wear hats. This is because a beanie is always useful, and it’s an important necessity for keeping warm when the cold weather hits. Made from 100% lambswool and available in a variety of different colours, our Fisherman beanies are a winter essential and great gift.<\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Stocking Fillers",
+            "button_url": "https:\/\/waxlondon.com\/collections\/stocking-fillers",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#333333",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "743998d7-e5d8-4328-856b-ddcc15c6b4ac": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "0cd34c92-6dcf-4cd4-9cef-d417412c24ae",
+        "89330100-53f5-4002-95bf-5e438d0cc6b4",
+        "a3d62277-93ab-4318-8f57-c94388d9a7f2",
+        "743998d7-e5d8-4328-856b-ddcc15c6b4ac"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f4505dd4-c642-4bf8-a3c3-dedd170d4cb0": {
+      "type": "single_text",
+      "blocks": {
+        "ddc09b28-3d3f-4cff-9b5b-6aeed0d353d3": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><strong>Must Have Gifts<\/strong><\/p>",
+            "font_size": 30,
+            "font_size_mobile": 22,
+            "text_line_height": 29,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small",
+            "custom_block_width": 1200
+          }
+        },
+        "13039f53-acd7-47c0-8d4c-e5a7b187e97f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "ddc09b28-3d3f-4cff-9b5b-6aeed0d353d3",
+        "13039f53-acd7-47c0-8d4c-e5a7b187e97f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "81dda3a2-05f6-4c14-ae9a-34053dcbf84e": {
+      "type": "single_text",
+      "blocks": {
+        "0baf5448-f615-4848-9b6f-792f9cc11b8e": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Elevate their everyday this Christmas, and shop our Must-Have Gifts. From our signature Whiting Overshirt in all different checks and colourways, to comfortable everyday shirts, to patterned or chunky Knitwear and more… You can’t go wrong with this edit. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "811953a2-a78e-4e00-80bc-66ed9fbf2e12": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "0baf5448-f615-4848-9b6f-792f9cc11b8e",
+        "811953a2-a78e-4e00-80bc-66ed9fbf2e12"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ba7271b8-5821-4534-a64d-d23a74d309e6": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "314b3263-e35a-45ea-a364-50bd8f6cb673": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/25-11-2022-WAX-STILL-LIFE1466.jpg",
+            "title": "The Whiting Overshirts",
+            "description": "<p>Our Whiting Overshirt is a signature Wax piece, and we think it makes a great gift. Designed for versatility and made from recycled cotton in a variety of check colourways, there’s one for everyone. Our Whiting Overshirt is a great intro to the brand gift, or gift for someone who likes to have an adaptable wardrobe. <\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Must-Have Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/must-have-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "243fa082-f57d-4bab-a0b8-ff9684372279": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/19.jpg",
+            "title": "The Oz Shirts",
+            "description": "<p>A good shirt is a game changer, and can elevate an outfit. Our Oz shirts, available in different checks and patterns, they can be dressed up or dressed down and worn for all occasions. Made from organic cotton and with corozo nut buttons, these shirts are super soft and comfortable, making a great gift for someone special. <\/p>",
+            "image_right": true,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Must-Have Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/must-have-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "993dd33b-f2f0-4dd3-a4ce-b73231b9a008": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/7_4b8ff31c-0fb2-4bfa-9a3d-4dcdfbd04f03.jpg",
+            "title": "The Kurt Trousers",
+            "description": "<p>Available in organic cotton, corduroy, and our favourite french jacquard, the Kurts are a signature silhouette and cut for a relaxed fit. Give your loved ones a leg up this Christmas and elevate their trouser game with these must-have pieces. <\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Must-Have Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/must-have-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "7e7e4e8b-7538-4aae-80c9-80f9e120c39f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "314b3263-e35a-45ea-a364-50bd8f6cb673",
+        "243fa082-f57d-4bab-a0b8-ff9684372279",
+        "993dd33b-f2f0-4dd3-a4ce-b73231b9a008",
+        "7e7e4e8b-7538-4aae-80c9-80f9e120c39f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "807f738e-5899-4ae7-9458-56637076580b": {
+      "type": "single_text",
+      "blocks": {
+        "1a655abf-1291-45e9-bf0b-181f5b49f9f9": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><strong>Showstopping Gifts<\/strong><\/p>",
+            "font_size": 30,
+            "font_size_mobile": 24,
+            "text_line_height": 36,
+            "text_line_height_mobile": 31,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "527c7a95-13a9-4169-b8fd-3f2abb8ff499": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "1a655abf-1291-45e9-bf0b-181f5b49f9f9",
+        "527c7a95-13a9-4169-b8fd-3f2abb8ff499"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7784b7bd-ecee-474c-b682-c1b924eebde4": {
+      "type": "single_text",
+      "blocks": {
+        "54ef22a8-64b9-4fcf-a21b-f99af21181b7": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Maybe you want to treat a loved one, or maybe you simply know a Wax fanatic, either way our Show-Stopping Gifts are bound to impress this Christmas. From our best-selling wool Condo Coat, to our British Check Elland Jacket, to our Jacquard or Patchwork Co-Ords and more, explore our guide below. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "5afe5c3e-921f-42b4-9d23-e6c5f49bf4dc": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "54ef22a8-64b9-4fcf-a21b-f99af21181b7",
+        "5afe5c3e-921f-42b4-9d23-e6c5f49bf4dc"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "8376078d-9035-485b-880b-a869db8ff013": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "eae34e40-90a4-4899-ae35-beb63f4baed7": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/25-11-2022-WAX-STILL-LIFE1108.jpg",
+            "title": "The Condo Coat",
+            "description": "<p>Give the gift of a really great, effortless coat this Christmas, because a really good coat can be revolutionary. Our Condo Coat is named after our favourite artist, George Condo, and designed for the bohemian in spirit. It is a single breasted coat made from a heavy wool blend in black, and great for those colder winter mornings. <\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Show-Stopping Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/show-stopping-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "839c12e8-a1c8-4b7c-a9b2-9aeb9b970769": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10.jpg",
+            "title": "The Greenland Jacket",
+            "description": "<p>Our Greenland Bomber jacket is our spin on a classic bomber jacket for the colder seasons. Made from an Italian wool blend and available in Navy\/Beige or Khaki. A jacket so good, it garners fans from all ends, and will certainly win you favour this Christmas. <\/p>",
+            "image_right": true,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 36,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Show-Stopping Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/show-stopping-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 15,
+            "btn_line_height": 23,
+            "btn_line_height_mobile": 23,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "b2647f18-d546-44a0-90a4-b7a2fb15798d": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/25-11-2022-WAX-STILL-LIFE1089.jpg",
+            "title": "The Malmo Puffer Jacket",
+            "description": "<p>Our Malmo Puffer is sure to bring all the Christmas cheer this year, as it keeps the chills at bay with mollycoddle warmth, made from recycled polyester and ethically sourced down filler. If you’re looking to surprise a loved one with a more extravagant and practical gift this year, then look no further. <\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 30,
+            "title_font_size_mobile": 24,
+            "title_line_height": 23,
+            "title_line_height_mobile": 23,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "center",
+            "des_font_size": 15,
+            "des_font_size_mobile": 15,
+            "des_line_height": 23,
+            "des_line_height_mobile": 23,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop Our Show-Stopping Gifts",
+            "button_url": "https:\/\/waxlondon.com\/collections\/show-stopping-gifts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 14,
+            "btn_font_size_mobile": 14,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "center",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "601deaf9-6ff6-4f74-bd1f-6772af7f2192": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 45
+          }
+        }
+      },
+      "block_order": [
+        "eae34e40-90a4-4899-ae35-beb63f4baed7",
+        "839c12e8-a1c8-4b7c-a9b2-9aeb9b970769",
+        "b2647f18-d546-44a0-90a4-b7a2fb15798d",
+        "601deaf9-6ff6-4f74-bd1f-6772af7f2192"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4ab06e4e-8c32-4d61-9fad-aba90917c9c4": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "extra_wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "ca868949-d57e-4b21-a71c-60a69f6e71b5": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "template--15903376310437__ca868949-d57e-4b21-a71c-60a69f6e71b5-166789949364936f76-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "gift-guide",
+            "title": "",
+            "grid_items_count": 50,
+            "button_text": "Shop Now",
+            "open_link_new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__ca868949-d57e-4b21-a71c-60a69f6e71b5-166789949364936f76-0"
+      ],
+      "settings": {
+        "title": "Gift Guide",
+        "layout_mode": "grid",
+        "show_product_info": true,
+        "show_collection_title": false,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Discover more...",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": true,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "055a17e5-fac9-4403-82e3-8ed8cc3be738",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "e0754a5c-dcee-4ae5-9cb9-14c5d7d8b46a",
+    "f7b9c8f1-bf11-44ad-a6db-2f120f9532c3",
+    "6830d8c8-c632-4738-8c18-962dbaf71439",
+    "d182c80c-d882-4622-b2f2-b975d90225ba",
+    "539251ad-2ddb-459b-b0da-55cbbd6983c5",
+    "f4505dd4-c642-4bf8-a3c3-dedd170d4cb0",
+    "81dda3a2-05f6-4c14-ae9a-34053dcbf84e",
+    "ba7271b8-5821-4534-a64d-d23a74d309e6",
+    "807f738e-5899-4ae7-9458-56637076580b",
+    "7784b7bd-ecee-474c-b682-c1b924eebde4",
+    "8376078d-9035-485b-880b-a869db8ff013",
+    "4ab06e4e-8c32-4d61-9fad-aba90917c9c4",
+    "ca868949-d57e-4b21-a71c-60a69f6e71b5",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

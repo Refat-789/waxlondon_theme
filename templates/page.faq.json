@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-faq",
+      "blocks": {
+        "714b1b09-ce38-43c0-bc2a-cce50decbccd": {
+          "type": "separator",
+          "settings": {
+            "title": "Orders"
+          }
+        },
+        "836cfc34-9e53-4a53-93b2-359cd905f2a2": {
+          "type": "question",
+          "settings": {
+            "title": "Received the wrong item",
+            "answer": "<p>All of our orders are packed with care by humans, so on rare occasions, mistakes can be made. If this has happened to you, please contact us at <a href=\"mailto:customercare@waxlondon.com\"><span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span><\/a> and we’ll help you get it fixed quickly.<\/p>"
+          }
+        },
+        "3a7d5915-3e7a-4752-b2e2-294f43ef5739": {
+          "type": "question",
+          "settings": {
+            "title": "Changes to orders",
+            "answer": "<p>While we will always try to cater to special requests, we can’t guarantee any changes to your order once we have received it. In most cases, we’re unable to combine orders because shipping is calculated based on weight, so a combined parcel could result in a failed delivery. For this reason, it isn't possible for us to add items to an existing order.<\/p>"
+          }
+        },
+        "1c2445a2-a2f7-461c-bcfa-7d306bbb9cb2": {
+          "type": "question",
+          "settings": {
+            "title": "Where is my order?",
+            "answer": "<p>If your order hasn’t arrived when you were expecting it to, please check the following:<\/p><p>Have you received a dispatch confirmation email from us? (Maybe check your Junk folder!) <\/p><p>Check the tracking link (this can be found on your dispatch confirmation email) to view the most up to date information on the whereabouts of your parcel.<\/p><p>Sign in and check your account on our website. Is your delivery address correct? Are your contact details up to date?<\/p><p>Check for text messages, emails and attempted delivery cards from our couriers.<\/p><p>Your parcel may be awaiting collection at a local delivery depot, or you may need to check that no one else (a helpful neighbour maybe?) has taken receipt of your parcel. <\/p><p>If you still can't locate your parcel, please contact our Customer Services team with your order number to hand. We’ll do our best to help.<\/p><p><\/p><p>*Please note, the cut off for Next Day delivery is 12pm UK time.<\/p>"
+          }
+        },
+        "987d0111-628d-43f1-ac2e-59c87148d244": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "answer": "<p>If your order has been placed but not yet dispatched, we will try to make a change or cancellation if possible. However, please note that we can’t guarantee any changes prior to shipping your order. If you have already received your goods, we are happy to cancel or organise a return in accordance with the UK Distance Selling Regulations and our Returns Policy.<\/p>"
+          }
+        },
+        "cbf71fb4-3192-4eee-8d69-74c946f4a395": {
+          "type": "question",
+          "settings": {
+            "title": "Problem with a received order?",
+            "answer": "<p>If something is not quite right with your order when you receive it, get in contact with our team at <a href=\"mailto:customercare@waxlondon.com\"><span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span><\/a> as soon as possible. We’ll do our best to resolve the issue for you!<\/p>"
+          }
+        },
+        "8c56c835-ba00-4d40-adb9-bce7628d5f66": {
+          "type": "question",
+          "settings": {
+            "title": "Was my order successful?",
+            "answer": "<p>After you place your order, you’ll receive a confirmation email to let you know it’s being processed. Once your order is packed and ready to go, you’ll receive a dispatch confirmation email as your Wax purchases leave our warehouse.<\/p>"
+          }
+        },
+        "bad9e58e-5844-46d7-95f9-572156c69546": {
+          "type": "question",
+          "settings": {
+            "title": "Is it safe to order online?",
+            "answer": "<p>When trusting us with your information, we want you to feel confident in our security measures. To prevent unauthorised access, maintain data accuracy, and ensure the correct use of information, we have put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online.<\/p><p>To protect your personal information online, we use SSL encryption on all data to and from our website. Want some extra reassurance? Check our security validity by clicking the padlock icon that appears in the URL line of your browser.<\/p>"
+          }
+        },
+        "fc92dea9-17a7-40ca-a82d-1e127ea71bc2": {
+          "type": "separator",
+          "settings": {
+            "title": "Returns"
+          }
+        },
+        "f044087e-5ede-49fd-bf61-b66686a88649": {
+          "type": "question",
+          "settings": {
+            "title": "UK Returns",
+            "answer": "<p>- To begin your UK return please go to <a href=\"https:\/\/waxlondon.com\/a\/returns\" target=\"_blank\">waxlondon.com\/a\/returns<\/a><\/p><p>- Enter your order number and the email address used to place the order.<\/p><p>- Next, choose which items are to be returned and if you would like a refund, voucher code, or exchange.<\/p><p>- If exchanging items, please select the same item in a different size.<\/p><p>- Once submitted, you will receive two emails. The first is a confirmation of your request with a return request reference number.<\/p><p>- The second email allows you to download a Collect+ label. Please follow the instructions contained in this email to return the items free of charge.<\/p><p>- If you have not received these emails, please check your junk mail and search \"Your Wax London Order\".<\/p>"
+          }
+        },
+        "ce46e986-fa1b-4526-81ef-e4c0d3105424": {
+          "type": "question",
+          "settings": {
+            "title": "International Returns",
+            "answer": "<p>- To begin your international return please go to <a href=\"https:\/\/web.global-e.com\/returns\/portal\/oQik\" target=\"_blank\">https:\/\/web.global-e.com\/returns\/portal\/oQik<\/a><\/p><p>- Enter your order number and the email address used to place the order.<\/p><p>- Next, choose which items are to be returned, the quantity & reason for return.<\/p><p>- Next, select prepaid returns label, then choose to Print Returns Label. This will download the label to your computer which you can print and fix to the parcel.<\/p><p>- Please make sure to include the packing slip inside the parcel, indicating your reason for return.<\/p><p>- The cost of the label is deducted from your final refund (note: this does not apply to exchanges or returns of faulty items).<\/p><p>- Post your parcel at a DHL drop off point. You can find your nearest convenient drop off point at <a href=\"https:\/\/www.dhl.com\/\">www.dhl.com<\/a><\/p>"
+          }
+        },
+        "843020b1-7bc6-4325-83b9-07edfd279581": {
+          "type": "question",
+          "settings": {
+            "title": "I'm outside the returns window",
+            "answer": "<p>Our returns window is 30 days from receipt of your order. Unfortunately returns and exchanges received outside the return period won’t be accepted. Store credit may be offered in certain circumstances.<\/p>"
+          }
+        },
+        "1ac221d1-c739-4c32-956a-4cde50796d14": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return an online order in store?",
+            "answer": "<p>Unfortunately we are unable to process returns from online orders in store. <\/p>"
+          }
+        },
+        "b45fab61-e985-497c-8b99-596db6d4d0f7": {
+          "type": "separator",
+          "settings": {
+            "title": "Products"
+          }
+        },
+        "db6867ab-0c65-4dec-bb8f-0d9dbd8a6f12": {
+          "type": "question",
+          "settings": {
+            "title": "Specific sizing information",
+            "answer": "<p>Not sure about the fit of a Wax piece you’re eyeing up? All sizes are listed in UK sizing in the drop down menu on each product page. When choosing your size, please note we can only guarantee the UK sizing. If you need additional help, contact us at <a href=\"mailto:customercare@waxlondon.com\"><span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span><\/a> and we’ll do our best to make sure you find the perfect fit.<\/p>"
+          }
+        },
+        "71227dd8-6d52-4b74-a23d-e8db394cfc46": {
+          "type": "question",
+          "settings": {
+            "title": "Will you be restocking?",
+            "answer": "<p>We do our best to restock popular items, however some of our products are limited edition, handmade and made-to-order, so it’s not always possible for us to restock a style you’re after.<\/p><p>You’ll be able to see if there is a chance of a style being restocked by selecting your size from the drop down menu on the product page. If you’re asked to enter your email address, that means we’ll notify you immediately if we restock this item!<\/p>"
+          }
+        },
+        "375112e3-dd30-4e43-9980-d4485ce5c415": {
+          "type": "separator",
+          "settings": {
+            "title": "Payments"
+          }
+        },
+        "2df68cb6-d27c-4048-84a9-8cb145932fe0": {
+          "type": "question",
+          "settings": {
+            "title": "What currencies are accepted?",
+            "answer": "<p>You can pay for your Wax purchase in UK Pounds Sterling, US Dollars and CA Dollars.<\/p>"
+          }
+        },
+        "c2193c1d-613c-425a-8740-bcb560a7ae80": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods are accepted?",
+            "answer": "<p>We accept all the major credit and debit cards, as well as Paypal and Klarna. You can also pay with a gift card, which can be purchased online.<\/p>"
+          }
+        },
+        "b81d6e17-f55a-44b6-8966-5758b9806c0b": {
+          "type": "separator",
+          "settings": {
+            "title": "Sustainability"
+          }
+        },
+        "b30e28e4-e7ab-44e1-b65c-33b005cb52db": {
+          "type": "question",
+          "settings": {
+            "title": "Is Wax London sustainable?",
+            "answer": "<p>At Wax, we believe climate change is the most pressing concern our world faces. We also believe that style shouldn’t cost the earth, so we’re building our company with the mission to reduce our carbon footprint and our waste production. Our sustainable ethos is simple: Reduce, Reuse and Recycle.<\/p><p>We use DPD and Royal Mail to deliver the majority of our online orders — they’re committed to making every parcel they send carbon neutral.<\/p><p>While it’s impossible to do everything, we’re committed to making changes both big and small to have a more positive impact on the world. We're constantly looking for ways to become more ethical and sustainable across our business. We are open to any suggestions you might have on how we can go further in our efforts. Please email any thoughts to <a href=\"mailto:customercare@waxlondon.com\"><span style=\"text-decoration:underline\">customercare@waxlondon.com<\/span><\/a>.<\/p><p>We are grateful for your support on this journey!<\/p>"
+          }
+        },
+        "7037772b-7efd-4e42-8f22-1ffd13cc7392": {
+          "type": "question",
+          "settings": {
+            "title": "Where can I find more information on sustainability?",
+            "answer": "<p>We believe that transparency is important, so we’ve created a dedicated <a href=\"https:\/\/waxlondon.com\/integrity\/\"><span style=\"text-decoration:underline\">Integrity page<\/span><\/a> on our website where you can find more information about our ongoing efforts and plans for the future. We are taking proactive steps to ensure that we operate in a sustainable and ecologically responsible way.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "714b1b09-ce38-43c0-bc2a-cce50decbccd",
+        "836cfc34-9e53-4a53-93b2-359cd905f2a2",
+        "3a7d5915-3e7a-4752-b2e2-294f43ef5739",
+        "1c2445a2-a2f7-461c-bcfa-7d306bbb9cb2",
+        "987d0111-628d-43f1-ac2e-59c87148d244",
+        "cbf71fb4-3192-4eee-8d69-74c946f4a395",
+        "8c56c835-ba00-4d40-adb9-bce7628d5f66",
+        "bad9e58e-5844-46d7-95f9-572156c69546",
+        "fc92dea9-17a7-40ca-a82d-1e127ea71bc2",
+        "f044087e-5ede-49fd-bf61-b66686a88649",
+        "ce46e986-fa1b-4526-81ef-e4c0d3105424",
+        "843020b1-7bc6-4325-83b9-07edfd279581",
+        "1ac221d1-c739-4c32-956a-4cde50796d14",
+        "b45fab61-e985-497c-8b99-596db6d4d0f7",
+        "db6867ab-0c65-4dec-bb8f-0d9dbd8a6f12",
+        "71227dd8-6d52-4b74-a23d-e8db394cfc46",
+        "375112e3-dd30-4e43-9980-d4485ce5c415",
+        "2df68cb6-d27c-4048-84a9-8cb145932fe0",
+        "c2193c1d-613c-425a-8740-bcb560a7ae80",
+        "b81d6e17-f55a-44b6-8966-5758b9806c0b",
+        "b30e28e4-e7ab-44e1-b65c-33b005cb52db",
+        "7037772b-7efd-4e42-8f22-1ffd13cc7392"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

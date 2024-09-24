@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "4a55e568-0dee-409f-bc0f-ade49508ee33": {
+      "type": "single_image",
+      "blocks": {
+        "61f1311c-d04d-43a0-b01d-aa53f1915f23": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1-About-Us-Wax-London.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "122fa3f6-294b-48a4-9f5e-b7249f68ad26": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 45
+          }
+        }
+      },
+      "block_order": [
+        "61f1311c-d04d-43a0-b01d-aa53f1915f23",
+        "122fa3f6-294b-48a4-9f5e-b7249f68ad26"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "652cafb4-459a-4563-be51-92b9b143cf45": {
+      "type": "blog-header",
+      "disabled": true,
+      "settings": {
+        "blog_title": "SS24 Drop Two - Early Access",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 48,
+        "des_font_size": 16,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "d0d75f93-46aa-4741-975a-c27236252576": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "slight_spacing",
+        "custom_spacing_height": 200,
+        "custom_spacing_height_mobile": 126
+      }
+    },
+    "text_image_style_2_AjKkjW": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_ic3AUn": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/SS24_Drop_2_-_SEA_-_Square.png",
+            "title": "Sign Up Here",
+            "description": "<p>Enter your email to receive early access to SS24 Drop Two!<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": true,
+            "bg_color": "#ffffff",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_ic3AUn"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "RdfNj9"
+      }
+    }
+  },
+  "order": [
+    "8d4cf380-6a18-4b60-af28-0bfc6c087306",
+    "4a55e568-0dee-409f-bc0f-ade49508ee33",
+    "652cafb4-459a-4563-be51-92b9b143cf45",
+    "d0d75f93-46aa-4741-975a-c27236252576",
+    "text_image_style_2_AjKkjW"
+  ]
+}

@@ -1,0 +1,346 @@
+<section id="section-{{ section.id }}">
+  {%- capture mobile_size -%}750x{% if section.settings.image.height >= 960 %}960{% else %}{{ section.settings.image.height }}{% endif %}{%- endcapture -%}
+
+  <div class="FlexboxIeFix">
+    <div class="ImageHero ImageHero--height" {% if section.settings.image %}style="background: url({{ section.settings.image | img_url: '1x1' }})"{% endif %}>
+      <div class="ImageHero__ImageWrapper">
+        <div class="ImageHero__Image {% if section.settings.overlay_opacity > 0 %}ImageHero__ImageWrapper--hasOverlay{% endif %} Image--lazyLoad Image--zoomOut"
+             data-optimumx="1.4"
+             data-expand="-150"
+             {% if section.settings.image %}data-bgset="{{ section.settings.image | img_url: mobile_size, crop: 'center' }} 750w, {{ section.settings.image | img_url: '1000x' }} 1000w, {{ section.settings.image | img_url: '1500x' }} 1500w"{% endif %}>
+        </div>
+
+        <noscript>
+          <div class="ImageHero__Image" style="background-image: url({{ section.settings.image | img_url: '1000x' }})"></div>
+        </noscript>
+
+        {%- unless section.settings.image != blank -%}
+          <div class="PlaceholderBackground PlaceholderBackground--Dark">
+            {{ 'lifestyle-1' | placeholder_svg_tag: 'PlaceholderBackground__Svg' }}
+          </div>
+        {%- endunless -%}
+      </div>
+
+      {%- if section.settings.subheading != blank or section.settings.title != blank or section.settings.content != blank -%}
+        <div class="ImageHero__ContentOverlay">
+          {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+            <header class="SectionHeader">
+              {%- if section.settings.subheading != blank -%}
+                <h3 class="SectionHeader__SubHeading Heading u-h6">{{ section.settings.subheading | escape }}</h3>
+              {%- endif -%}
+
+              {%- if section.settings.title != blank -%}
+                <h2 class="SectionHeader__Heading Heading u-h3">{{ section.settings.title | escape }}</h2>
+              {%- endif -%}
+
+              {%- if section.settings.content != blank -%}
+                <div class="SectionHeader__Description">
+                  {{ section.settings.content }}
+                </div>
+              {%- endif -%}
+            </header>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<style>
+  #section-{{ section.id }} {
+    margin-top: {{ section.settings.section_margin_top_mobile | append: "px" }};
+    margin-bottom: {{ section.settings.section_margin_bottom_mobile | append: "px" }};
+  }
+  #section-{{ section.id }} .ImageHero.ImageHero--height{
+   min-height: {{ section.settings.section_height_mobile | append: "px" }};
+  }
+
+  #section-{{ section.id }} .SectionHeader__Description {
+    max-width: 100%;
+  }
+
+  #section-{{ section.id }} .ImageHero__ImageWrapper--hasOverlay::before {
+    {%- assign overlay_opacity = section.settings.overlay_opacity | divided_by: 100.0 -%}
+    background-color: {{ section.settings.overlay_color | color_modify: 'alpha', overlay_opacity }};
+  }
+  #section-{{ section.id }} h3.Heading{
+    font-size: {{section.settings.subheader_font_size_mobile | append: "px"}};
+    color: {{ section.settings.subheader_color }};
+  }
+  #section-{{ section.id }} h2.Heading{
+    font-size: {{section.settings.header_font_size_mobile | append: "px"}};
+    color: {{ section.settings.header_color }};
+  }
+  #section-{{ section.id }} .SectionHeader__Description p{
+    font-size: {{section.settings.content_font_size_mobile | append: "px"}};
+    color: {{ section.settings.content_color }};
+  }
+  #section-{{ section.id }} .ImageHero__ContentOverlay {
+    {%- assign background_opacity = section.settings.content_background_color_opacity | divided_by: 100.0 -%}
+    background-color: {{ section.settings.content_background_color | color_modify: 'alpha', background_opacity }};
+    margin-left: {{section.settings.content_background_space_mobile | append: "px"}};
+    margin-right: {{section.settings.content_background_space_mobile | append: "px"}};
+    text-shadow: none;
+  }
+
+
+
+  @media screen and (min-width: 641px){
+    #section-{{ section.id }} .ImageHero.ImageHero--height{
+      min-height: {{ section.settings.section_height | append: "px" }};
+      max-width: {{ section.settings.section_width | append: "%" }};
+      margin: auto;
+      }
+      #section-{{ section.id }} h3.Heading{
+        font-size: {{section.settings.subheader_font_size | append: "px"}};
+      }
+      #section-{{ section.id }} h2.Heading{
+        font-size: {{section.settings.header_font_size | append: "px"}};
+      }
+      #section-{{ section.id }} .SectionHeader__Description p{
+        font-size: {{section.settings.content_font_size | append: "px"}};
+      }
+      #section-{{ section.id }} .ImageHero__ContentOverlay {
+        margin-left: {{section.settings.content_background_space | append: "px"}};
+        margin-right: {{section.settings.content_background_space | append: "px"}};
+      }
+    }
+
+    @media screen and (min-width: 1008px){
+      #section-{{ section.id }} {
+        margin-top: {{ section.settings.section_margin_top | append: "px" }};
+        margin-bottom: {{ section.settings.section_margin_bottom | append: "px" }};
+      }
+    }
+</style>
+
+{% schema %}
+{
+  "name": "Image with text overlay",
+  "settings": [
+    {
+      "type": "range",
+      "id": "section_width",
+      "label": "Section width in desktop",
+      "min": 40,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "label": "Section height in desktop",
+      "min": 400,
+      "max": 1000,
+      "step": 20,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "section_height_mobile",
+      "label": "Section height in mobile",
+      "min": 400,
+      "max": 1000,
+      "step": 20,
+      "unit": "px",
+      "default": 600
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500 x 800px .jpg recommended"
+    },
+    {
+      "type": "range",
+      "id": "section_margin_top",
+      "label": "Section margin top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_margin_bottom",
+      "label": "Section margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_margin_top_mobile",
+      "label": "Section margin top in mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_margin_bottom_mobile",
+      "label": "Section margin bottom in mobile",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "overlay_color",
+      "label": "Image Overlay",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "Image Overlay opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    },
+    
+    {
+      "type": "color",
+      "id": "content_background_color",
+      "label": "Content background color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "content_background_color_opacity",
+      "label": "Content background color opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "content_background_space",
+      "min":  10,
+      "max":  200,
+      "step":  2,
+      "label": "content background space",
+      "default":  20
+    },
+    {
+      "type": "range",
+      "id": "content_background_space_mobile",
+      "min":  10,
+      "max":  200,
+      "step":  2,
+      "label": "content background space in mobile",
+      "default":  20
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub-heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Tell your story"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    },
+    {
+      "type": "color",
+      "id": "subheader_color",
+      "label": "Subheader color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "header_color",
+      "label": "Header color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "subheader_font_size",
+      "min":  14,
+      "max":  32,
+      "step":  1,
+      "label": "Subheader font size",
+      "default":  22
+    },
+    {
+      "type": "range",
+      "id": "subheader_font_size_mobile",
+      "min":  12,
+      "max":  28,
+      "step":  1,
+      "label": "Subheader font size for mobile",
+      "default":  20
+    },
+    {
+      "type": "range",
+      "id": "header_font_size",
+      "min":  22,
+      "max":  52,
+      "step":  1,
+      "label": "Header font size",
+      "default":  32
+    },
+    {
+      "type": "range",
+      "id": "header_font_size_mobile",
+      "min":  14,
+      "max":  32,
+      "step":  1,
+      "label": "Header font size for mobile",
+      "default":  20
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "min":  14,
+      "max":  24,
+      "step":  1,
+      "label": "Content font size",
+      "default":  16
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "min":  12,
+      "max":  24,
+      "step":  1,
+      "label": "Content font size for mobile",
+      "default":  14
+    }
+  ],
+  "presets": [
+    {
+      "category": "Image",
+      "name": "Image with text (overlay)",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

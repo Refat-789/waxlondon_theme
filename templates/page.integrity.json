@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "1658746919b683f95b": {
+      "type": "icon-with-text",
+      "blocks": {
+        "273e6c7c-6d8a-48b8-8a7e-6dd425430939": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Integrity and honesty: at our core",
+            "content_text": "<p>Wax London is a brand on a journey. We are determined to do the best by all our stakeholders, from the people working all along our supply chain, within our brand and not forgetting you, our customers.<\/p><p>We set up Wax London so that we could build an accountable brand in line with our values. A few years in, we realised we couldn’t keep our social and environmental responsibilities to ourselves, so we’ve decided to share them with you.<\/p><p>The Wax Team is striving to make the most responsible choices in the production of our collections, with people and planet at the forefront. With this in mind, we’ve developed three key sustainability focuses: materials selection, traceability & transparency, and longevity. Join us on our journey and let’s try and make it a little bit better for people and planet.<\/p><p>Tom & Steffy<\/p>"
+          }
+        },
+        "57c64795-1412-437b-866c-a990d344dc19": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "30161d8f-949e-4b23-ad47-14ee6f519bef": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Materials Selection",
+            "content_text": "<p>Selecting the best materials has always been high on our agenda. The more we’ve grown as a brand, we’ve realised we need to be more selective in our material choices to minimise the impact of our clothing during both manufacturing and use.<\/p><p>We work with third party certifications and standards, so you can buy from us with confidence.<\/p><p>We prioritise the sourcing of the following materials and standards in our products:<\/p>"
+          }
+        },
+        "6cef80ac-2ef0-401c-a006-d14027704fcb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "322c133d-0ef5-4d8e-b14a-c1e973c86904": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/1-Cotton_8a2fec8b-0577-4b2f-acfa-109ab3224a5d.png",
+            "logo_desc_text": "<p>Organic Content Standard (OCS) & Global Organic Textile Standard (GOTS) for organic cotton – grown without pesticides or fertilisers meaning it’s better for people and planet<\/p>",
+            "icon_width": 50
+          }
+        },
+        "79337469-381f-46c2-8b21-9b47ffc99642": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "d9f6613f-6c56-40a8-ae2d-1bb52b2cb3f4": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/2-Recycled_d41d356e-3ff4-4ef5-b78d-d0f898e6c5a4.png",
+            "logo_desc_text": "<p>Recycled Content Standard (RCS) & Global Recycled Standard (GRS) for recycled materials – applicable for cotton, polyester, nylon, wool and more recently viscose, recycling keeps valuable materials in use for longer and out of landfill<\/p>",
+            "icon_width": 50
+          }
+        },
+        "3b0936ca-03ae-4645-b3ba-7022707a568b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "78de22b4-3e62-419c-a4ba-040e8f94b8d4": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/4-Wool_3733dbe2-840f-4ab8-8eb5-f4c02a3d70f3.png",
+            "logo_desc_text": "<p>Responsible Wool Standard (RWS) for wool – wool from farms with a progressive approach to farming, from animal welfare to land management<\/p>",
+            "icon_width": 50
+          }
+        },
+        "44a61ec4-f005-43bd-825c-45d6d1a459e6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "b9db2e40-8fb3-402d-b38f-ebe5ee59386f": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/7-Hemp_d06db763-9a7b-4cd3-891f-92e9be87a7d9.png",
+            "logo_desc_text": "<p>European Flax® for linen – guarantees traceability for premium linen fibre grown in Europe without artificial irrigation and dew-retting is followed<\/p>",
+            "icon_width": 50
+          }
+        },
+        "b7ac5078-0de9-43ac-82d9-8a9b40425daa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "ccd51b66-6343-49b1-bf15-3c15a66722cd": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/3-Viscose_9eda5341-5634-4be0-a5c5-d3f463c98c47.png",
+            "logo_desc_text": "<p>Forest Stewardship Council (FSC) certified suppliers for viscose – promotes sustainable forest management, whilst supporting the planet environmentally, socially, and economically<\/p>",
+            "icon_width": 50
+          }
+        },
+        "3d464e2d-ede6-402a-a26b-d5b30dfd0740": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "8ab9a7bc-f0e5-4593-80ef-9170df1d4065": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/3-Viscose_9eda5341-5634-4be0-a5c5-d3f463c98c47.png",
+            "logo_desc_text": "<p>Man-made cellulose fibres from low-risk fibre suppliers - as rated by Canopy Hot Button Report. We have partnered with Canopy to improve the sustainable sourcing of man-made cellulose fabric, paper and packaging.<\/p>",
+            "icon_width": 50
+          }
+        },
+        "9c9f0fc8-dfa8-4f86-acbd-7c13f763dec8": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "link_text": "See our commitment here",
+            "link_url": ""
+          }
+        },
+        "f40a3549-3356-4a17-9e4c-0d1f76beb09e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "4c097e45-cb88-4973-99d0-5646296b50ca": {
+          "type": "icon_images",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/5-Factory_b28a03c3-47c4-45cf-a4c7-e999966674a0.png",
+            "logo_desc_text": "<p>The processing of textile and yarns has the potential to use high levels of energy, chemicals, and water. We aim to promote low impact production processes, where possible, as part of our materials selection.<\/p>",
+            "icon_width": 50
+          }
+        },
+        "f8882318-d6b8-47b8-a01f-91f8f2a2281b": {
+          "type": "only_text",
+          "disabled": true,
+          "settings": {
+            "text_title": "",
+            "content_text": "<p>The processing of textile and yarns has the potential to use high levels of energy, chemicals, and water. We aim to promote low impact production processes, where possible, as part of our materials selection.<\/p>"
+          }
+        },
+        "442ffbbd-6cb2-4d42-850b-9faa4f2da7a5": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "22b7e6dc-29c7-44d5-adc8-0d5a54bd4ced": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "",
+            "content_text": "<p>We prioritise sourcing materials with any of the below processing standards, as well as any of the following lower impact processing technologies:<\/p><p>- Global Organic Textile Standard (GOTS) certification<\/p><p>- OEKO-TEX® Standard 100<\/p><p>- OEKO-TEX® STeP<\/p><p>- BLUESIGN®<\/p><p>- Jeanologia Environmental Impact Measurement (EIM) score &lt;30<\/p><p>- Cold pad batch dyeing for cotton textiles<\/p><p>- Low liquor ratio dyeing machines (&lt;5:1)<\/p><p>- Spun dyeing for extruded yarns\/fibres<\/p>"
+          }
+        },
+        "48652eda-348f-419c-b124-69c11e82c037": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6a8f32bc-a6b5-40c8-9bc6-7d41687da16f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "f45ff32c-6334-444e-836b-401c18e9f70d": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Traceability & Transparency",
+            "content_text": "<p>We design our clothes in London, and make them with our partners across the globe. This allows us to source specialist products, in terms of fabric\/yarn development and manufacturing, for each piece in the range.<\/p><p>All of our manufacturing and fabric partners share our vision and sign up to our Responsible Brand Commitment, that sets out our labour standards and ways of working.<\/p><p>With the help of our supplier partners, we are committed to tracing our clothing supply chain, from raw material source to manufacturing. We have full visibility of our garment factories (Tier 1) and textile mills\/processors (Tier 2) and are working to gain greater insight on our yarn suppliers (Tier 3)<\/p>"
+          }
+        },
+        "8489a3cf-1da8-4746-86b6-bbbad09ee193": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "346de59a-e5b1-4864-b282-44e82ffed15c": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Longevity",
+            "content_text": "<p>At Wax London, we prioritise durable, well-made garments. Our dream is that you keep your Wax London clothes forever but recognise that’s unrealistic; eventually items may wear out or you may get bored of them.<\/p><p>Where this happens, we want to help you keep Wax (and your other) garments going for longer and out of landfill. Re-using clothing has been estimated to conserve between 90-95% of the energy needed to make new clothes. For this reason, we are working on projects to help us stride towards a more circular economy. Watch this space!<\/p>"
+          }
+        },
+        "be18ae2c-8623-4e31-a66e-8a0fe6c3a503": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "c808c526-e14a-4203-8d39-3867f0d3b5bb": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Sustainable Development Goals",
+            "content_text": "<p>Often shortened to SDGs, the UN Sustainable Development Goals are 17 global goals designed to be a ‘blueprint to achieve a better and more sustainable future for us all’. We recognise the interlinking nature of the goals, and have aligned our three key sustainability focuses with them.<\/p>"
+          }
+        },
+        "f69abc2e-a4af-42b8-bc63-d9219659719f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "5238cbb0-2623-4d16-a3e1-b3285224b71f": {
+          "type": "only_text",
+          "settings": {
+            "text_title": "Canopy",
+            "content_text": "<p>We're proud to join the CanopyStyle initiative to transform the viscose supply chain, help preserve vital forests, and grow low carbon, low impact NextGen alternatives. Keeping forests standing helps keep our climate stable.<\/p><p>Click <a href=\"https:\/\/download.waxlondon.com\/CanopyStyleandPack4Good_PolicyTemplate.pdf\" target=\"_blank\" title=\"https:\/\/download.waxlondon.com\/CanopyStyleandPack4Good_PolicyTemplate.pdf\">here<\/a> to read the full policy and commitment.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "273e6c7c-6d8a-48b8-8a7e-6dd425430939",
+        "57c64795-1412-437b-866c-a990d344dc19",
+        "30161d8f-949e-4b23-ad47-14ee6f519bef",
+        "6cef80ac-2ef0-401c-a006-d14027704fcb",
+        "322c133d-0ef5-4d8e-b14a-c1e973c86904",
+        "79337469-381f-46c2-8b21-9b47ffc99642",
+        "d9f6613f-6c56-40a8-ae2d-1bb52b2cb3f4",
+        "3b0936ca-03ae-4645-b3ba-7022707a568b",
+        "78de22b4-3e62-419c-a4ba-040e8f94b8d4",
+        "44a61ec4-f005-43bd-825c-45d6d1a459e6",
+        "b9db2e40-8fb3-402d-b38f-ebe5ee59386f",
+        "b7ac5078-0de9-43ac-82d9-8a9b40425daa",
+        "ccd51b66-6343-49b1-bf15-3c15a66722cd",
+        "3d464e2d-ede6-402a-a26b-d5b30dfd0740",
+        "8ab9a7bc-f0e5-4593-80ef-9170df1d4065",
+        "9c9f0fc8-dfa8-4f86-acbd-7c13f763dec8",
+        "f40a3549-3356-4a17-9e4c-0d1f76beb09e",
+        "4c097e45-cb88-4973-99d0-5646296b50ca",
+        "f8882318-d6b8-47b8-a01f-91f8f2a2281b",
+        "442ffbbd-6cb2-4d42-850b-9faa4f2da7a5",
+        "22b7e6dc-29c7-44d5-adc8-0d5a54bd4ced",
+        "48652eda-348f-419c-b124-69c11e82c037",
+        "6a8f32bc-a6b5-40c8-9bc6-7d41687da16f",
+        "f45ff32c-6334-444e-836b-401c18e9f70d",
+        "8489a3cf-1da8-4746-86b6-bbbad09ee193",
+        "346de59a-e5b1-4864-b282-44e82ffed15c",
+        "be18ae2c-8623-4e31-a66e-8a0fe6c3a503",
+        "c808c526-e14a-4203-8d39-3867f0d3b5bb",
+        "f69abc2e-a4af-42b8-bc63-d9219659719f",
+        "5238cbb0-2623-4d16-a3e1-b3285224b71f"
+      ],
+      "settings": {
+        "section_width": 800
+      }
+    }
+  },
+  "order": [
+    "1658746919b683f95b"
+  ]
+}

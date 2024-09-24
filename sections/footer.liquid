@@ -1,0 +1,508 @@
+{%- if template.name == 'page' or template.name == 'blog' or template == 'customers/account' or template == 'customers/order' or template == 'customers/addresses' -%}
+  {%- assign add_top_margin = true -%}
+{%- else -%}
+  {%- assign add_top_margin = false -%}
+{%- endif -%}
+
+{%- if template == 'page.collections' -%}
+  {%- assign add_top_margin = false -%}
+{%- endif -%}
+
+<footer id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="footer" class="Footer {% if section.blocks.size <= 2 %}Footer--center{% endif %} {% if add_top_margin %}Footer--withMargin{% endif %}" role="contentinfo">
+  {%- render 'country-switcher' -%}
+  
+  <div class="footer-top {% if page.metafields.custom.hide_footer_top == true %}hide-footer-top{% endif %}">
+      <div class="form--footer"><div class="klaviyo-form-{{ settings.klaviyo_newsletter_form_id }}"></div></div>
+      <div class="footer-top-tc">
+        By signing up you agree to our <a href="/policies/terms-of-service">terms & conditions</a>.<br> You can unsubscribe at anytime you wish.
+      </div>
+  </div>
+  <div class="footer-main">
+    {%- if section.blocks.size > 0 -%}
+      <div class="Footer__Inner">
+        {%- for block in section.blocks -%}
+          <div class="Footer__Block Footer__Block--{{ forloop.index }} Footer__Block--{{ block.type }}" {{ block.shopify_attributes }}>
+            {%- case block.type -%}
+              {%- when 'text' -%}
+
+                <div class="Footer__Logo">
+                    {%- render 'icon' with 'logomark' -%}
+                </div>
+
+                {%- if block.settings.title != blank -%}
+                  <h2 class="Footer__Title Heading u-h6">{{ block.settings.title | escape }}</h2>
+                {%- endif -%}
+
+                {%- if block.settings.content != blank -%}
+                  <div class="Footer__Content Rte">
+                    {{ block.settings.content }}
+                  </div>
+                {%- endif -%}
+              
+              {%- when 'social' -%}
+                {%- if block.settings.title != blank -%}
+                  <h2 class="Footer__Title Heading u-h5 Collapsible__Button" aria-expanded="false">
+                        {{ block.settings.title }}
+                        <div class="Collapsible__Wrap">
+                            <span class="Collapsible__Plus"></span>
+                            <span class="u-visually-hidden">{{ 'footer.general.expand' | t }}</span>
+                        </div>
+                    </h2>
+                {%- endif -%}
+
+                {%- if block.settings.show_social_media -%}
+                  <div class="Footer-social">
+                  {% render 'social-media', class: 'Footer__Social', spacing: 'loose' %}
+                  </div>
+                {%- endif -%}
+
+              {%- when 'links' -%}
+                {%- assign linklist = linklists[block.settings.menu] -%}
+
+                {%- if linklist != empty -%}
+                    {% assign menu_title = linklist.title | escape %}
+
+                    <h2 class="Footer__Title Heading u-h5 Collapsible__Button" aria-expanded="false">
+                        {{ block.settings.title | default: menu_title }}
+                        <div class="Collapsible__Wrap">
+                            <span class="Collapsible__Plus"></span>
+                            <span class="u-visually-hidden">{{ 'footer.general.expand' | t }}</span>
+                        </div>
+                    </h2>
+
+                  <ul class="Linklist">
+                    {%- for link in linklist.links -%}
+                      <li class="Linklist__Item">
+                        <a href="{{ link.url }}" class="Link Link--primary">{{ link.title | escape }}</a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+
+              {%- when 'newsletter' -%}
+                {%- if block.settings.title != blank -%}
+                  <h2 class="Footer__Title Heading u-h5">{{ block.settings.title | escape }}</h2>
+                {%- endif -%}
+
+                <div class="form--footer"><div class="klaviyo-form-{{ settings.klaviyo_newsletter_form_id }}"></div></div>
+            {%- endcase -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    <div class="Footer__Country__switcher">
+        {%- render 'country-switcher-global' -%}
+    </div>
+
+    <div class="Footer__Aside">
+      {%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 1 -%}
+        {%- assign currency_selector = true -%}
+      {%- endif -%}
+
+      {%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
+        {%- assign locale_selector = true -%}
+      {%- endif -%}
+
+      {%- if locale_selector or currency_selector -%}
+        <div class="Footer__Localization">
+          {%- form 'localization', id: 'localization_form_footer', class: 'Footer__LocalizationForm' -%}
+            {%- if currency_selector -%}
+              <div class="Footer__LocalizationItem">
+                <input type="hidden" name="currency_code" value="{{ form.current_currency.iso_code }}">
+                <span class="u-visually-hidden">{{ 'footer.general.currency' | t }}</span>
+
+                <button type="button" class="SelectButton Link Link--secondary u-h8" aria-haspopup="true" aria-expanded="false" aria-controls="footer-currency-popover">
+                  {{ form.current_currency.iso_code }} {% if form.current_currency.symbol %}{{ form.current_currency.symbol }}{% endif %}
+                  {%- render 'icon', icon: 'select-arrow' -%}
+                </button>
+
+                <div id="footer-currency-popover" class="Popover Popover--small Popover--noWrap" aria-hidden="true">
+                  <header class="Popover__Header">
+                    <button type="button" class="Popover__Close Icon-Wrapper--clickable" data-action="close-popover">{% render 'icon' with 'close' %}</button>
+                    <span class="Popover__Title Heading u-h4">{{ 'footer.general.currency' | t }}</span>
+                  </header>
+
+                  <div class="Popover__Content">
+                    <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
+                      {%- for currency in form.available_currencies -%}
+                        <button type="submit" name="currency_code" class="Popover__Value {% if currency.iso_code == form.current_currency.iso_code %}is-selected{% endif %} Heading Link Link--secondary u-h6"  value="{{ currency.iso_code }}" {% if currency.iso_code == form.current_currency.iso_code %}aria-current="true"{% endif %}>
+                          {{ currency.iso_code }} {% if currency.symbol %}{{ currency.symbol }}{% endif %}
+                        </button>
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if locale_selector -%}
+              <div class="Footer__LocalizationItem">
+                <input type="hidden" name="locale_code" value="{{ form.current_locale.iso_code }}">
+                <span class="u-visually-hidden">{{ 'footer.general.locale' | t }}</span>
+
+                <button type="button" class="SelectButton Link Link--secondary u-h8" aria-haspopup="true" aria-expanded="false" aria-controls="footer-locale-popover">
+                  {{- form.current_locale.endonym_name -}}
+                  {%- render 'icon', icon: 'select-arrow' -%}
+                </button>
+
+                <div id="footer-locale-popover" class="Popover Popover--small Popover--noWrap" aria-hidden="true">
+                  <header class="Popover__Header">
+                    <button type="button" class="Popover__Close Icon-Wrapper--clickable" data-action="close-popover">{% render 'icon' with 'close' %}</button>
+                    <span class="Popover__Title Heading u-h4">{{ 'footer.general.locale' | t }}</span>
+                  </header>
+
+                  <div class="Popover__Content">
+                    <div class="Popover__ValueList Popover__ValueList--center" data-scrollable>
+                      {%- for locale in form.available_locales -%}
+                        <button type="submit" name="locale_code" class="Popover__Value {% if locale.iso_code == form.current_locale.iso_code %}is-selected{% endif %} Heading Link Link--secondary u-h6" value="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %}aria-current="true"{% endif %}>
+                          {{- locale.endonym_name -}}
+                        </button>
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
+          {%- endform -%}
+        </div>
+      {%- endif -%}
+
+     
+
+      {%- if section.settings.show_payment_methods -%}
+        {%- capture payment_methods -%}
+          {%- for type in shop.enabled_payment_types -%}
+            <li class="HorizontalList__Item">{{ type | payment_type_svg_tag }}</li>
+          {%- endfor -%}
+        {%- endcapture -%}
+
+        {%- if payment_methods != blank -%}
+          <ul class="Footer__PaymentList HorizontalList">
+            {{ payment_methods }}
+          </ul>
+        {%- endif -%}
+      {%- endif -%}
+       <div class="Footer__Copyright">
+        {%- assign footer_linklist = linklists[section.settings.footer_links] -%}
+        {%- if footer_linklist != empty -%}
+            {%- capture footer_links -%}
+            {%- for link in footer_linklist.links -%}
+                <li class="HorizontalList__Item"><a href="{{ link.url }}" class="Link Link--underline">{{ link.title | escape }}</a></li>
+            {%- endfor -%}
+            {%- endcapture -%}
+        {%- endif -%}
+
+            <ul class="Footer__CopyrightLinks HorizontalList">
+                <li class="HorizontalList__Item Footer__CopyrightName">&copy; {{ 'now' | date: "%Y" }} {{ shop.name }} Limited</li>
+            </ul>
+        {%- comment -%}
+        <p class="Footer__ThemeAuthor">{{ powered_by_link }}</p>
+        {%- endcomment -%}
+      </div>
+    </div>
+  
+  </div>
+</footer>
+
+{%- if settings.footer_background == settings.background -%}
+  <style>
+    .Footer {
+      border-top: 1px solid var(--border-color);
+    }
+  </style>
+{%- endif -%}
+
+
+<style>
+    .footer-top {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        background-image: url('{{ section.settings.background_image | img_url: 'master' }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 30px;
+        min-height: 307px;
+    }
+  .footer-top.hide-footer-top {
+    display: none;
+}
+  
+  .footer-top-tc {
+      text-align: right;
+      font-size: 12px;
+        line-height: 18px;
+      color: #fff;
+  }
+  .footer-top-tc a{
+      text-decoration: underline;
+  }
+  .footer-main {
+    border-top: 1px solid #D8D8D8;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+ li.HorizontalList__Item.Footer__CopyrightName {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 22px; 
+    padding: 5px 0;
+}
+.footer-top h3 {
+    color: #fff;
+    font-size: 16px !important;
+    line-height: 22px;
+    font-family: 'Maison Neue' !important;
+}
+  .Footer-social {
+    padding-right: 60px;
+}
+.Footer-social li.HorizontalList__Item span.Icon-Wrapper--clickable {
+    padding-right: 5px;
+}
+  .footer-top .go3176171171 {
+    color: #fff;
+}
+  .footer-top .form--footer {
+    max-width: 400px;
+}
+   @media screen and (max-width: 768px) {
+     
+    .footer-top-tc br {
+        display: none;
+    }
+   }
+
+  @media screen and (max-width: 1139px) {
+      .footer-top {
+        padding: 30px 40px 40px;
+        min-height: 323px;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url('{{ section.settings.mobile_background_image | img_url: 'master' }}');
+    }
+    .footer-top .form--footer {
+        max-width: 100%;
+    }
+    .footer-top-tc {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .footer-top .form--footer {
+        width: 100%;
+    }
+    .HorizontalList__Item {
+        margin-bottom: 0;
+    }
+    .Footer__Copyright {
+        margin-bottom: 10px;
+    }
+    .Footer__PaymentList {
+        padding-top: 20px;
+    }
+    .Footer__Block {
+        margin-top: 0;
+    }
+    .Footer__PaymentList {
+        margin: 0;
+        padding-top: 15px;
+        border-top: none;
+    }
+    .Footer__Inner+.Footer__Aside {
+        margin-top: 0;
+    }
+    .Footer__Block.Footer__Block--text {
+        display: flex;
+    }
+    .Footer__Block.Footer__Block--text .Footer__Logo {
+        margin-right: 10px;
+    }
+    .Footer__Block.Footer__Block--links, .Footer__Block.Footer__Block--social{
+      border-bottom: 1px solid #D8D8D8;
+    }
+  }
+</style>
+
+
+<script>
+  var $ = window.jQuery;
+  $('.Footer__Block.Footer__Block--social .Footer__Title.Collapsible__Button').on('click', function(e){
+    if($(this).attr('aria-expanded') == "true"){
+        
+        $(this).attr('aria-expanded', 'false');
+    }
+    else{
+        $(this).attr('aria-expanded', 'true');
+    }
+});
+
+  
+  $("ul.Footer__PaymentList.HorizontalList").append(`<li class="HorizontalList__Item"><svg version="1.1" viewBox="0 0 45 25" height="25" width="45" xmlns="http://www.w3.org/2000/svg">
+<title>Klarna Payment Badge</title>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(-310 -37)" fill-rule="nonzero">
+<g transform="translate(310 37)">
+<rect x="5.6843e-14" width="45" height="25" rx="4.321" fill="#FFB3C7"/>
+<g transform="translate(4.4136 8.4)" fill="#0A0B09">
+<path d="m36.38 6.2463c-0.58875 0-1.066 0.48158-1.066 1.0757 0 0.594 0.47725 1.0757 1.066 1.0757 0.58874 0 1.0661-0.48167 1.0661-1.0757 0-0.59416-0.47734-1.0757-1.0661-1.0757zm-3.5073-0.83166c0-0.81338-0.68897-1.4726-1.5389-1.4726s-1.539 0.65925-1.539 1.4726c0 0.81339 0.68898 1.4728 1.539 1.4728s1.5389-0.65941 1.5389-1.4728zm0.0057148-2.8622h1.6984v5.7242h-1.6984v-0.36584c-0.47982 0.3302-1.059 0.52431-1.6837 0.52431-1.6531 0-2.9933-1.3523-2.9933-3.0205s1.3402-3.0204 2.9933-3.0204c0.6247 0 1.2039 0.1941 1.6837 0.5244v-0.36619zm-13.592 0.74562v-0.74554h-1.7389v5.7241h1.7428v-2.6725c0-0.90167 0.96849-1.3863 1.6405-1.3863 0.0068818 0 0.013306 6.6771e-4 0.020188 7.527e-4v-1.6656c-0.68973 0-1.3241 0.298-1.6646 0.7452zm-4.3316 2.1166c0-0.81338-0.68905-1.4726-1.539-1.4726-0.84991 0-1.539 0.65925-1.539 1.4726 0 0.81339 0.68905 1.4728 1.539 1.4728 0.84998 0 1.539-0.65941 1.539-1.4728zm0.0056186-2.8622h1.6985v5.7242h-1.6985v-0.36584c-0.47982 0.3302-1.059 0.52431-1.6836 0.52431-1.6532 0-2.9934-1.3523-2.9934-3.0205s1.3402-3.0204 2.9934-3.0204c0.62464 0 1.2038 0.1941 1.6836 0.5244v-0.36619zm10.223-0.15396c-0.67846 0-1.3206 0.21255-1.7499 0.79895v-0.64465h-1.6911v5.7239h1.7119v-3.0081c0-0.87046 0.57847-1.2967 1.275-1.2967 0.74646 0 1.1756 0.44996 1.1756 1.2849v3.0199h1.6964v-3.6401c0-1.3321-1.0496-2.238-2.4179-2.238zm-17.374 5.8782h1.7777v-8.2751h-1.7777v8.2751zm-7.8091 0.0022581h1.8824v-8.2789h-1.8824v8.2789zm6.584-8.2789c0 1.7923-0.69219 3.4596-1.9256 4.6989l2.602 3.5803h-2.325l-2.8278-3.891 0.72981-0.55152c1.2103-0.91484 1.9045-2.3132 1.9045-3.8367h1.8421z"/>
+</g>
+</g>
+</g>
+</g>
+</svg></li>`);
+
+  
+</script>
+
+{% schema %}
+{
+  "name": "Footer",
+  "class": "shopify-section--footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "footer_links",
+      "label": "Footer copyright links"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_methods",
+      "label": "Show payment methods",
+      "info": "Payment method icons are automatically displayed based on your Shopify payment methods.",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_background_image",
+      "label": "Background image for mobile"
+    },
+    {
+      "type": "header",
+      "content": "Currency selector",
+      "info": "To add a currency, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_currency_selector",
+      "label": "Show currency selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Language selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "Show language selector",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "About the shop"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Text",
+          "default": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "social media",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Social"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social_media",
+          "label": "Show social media",
+          "info": "Make sure to have properly configured your social media in the theme settings.",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "links",
+      "name": "Links",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Shop"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "info": "This menu won't show dropdown items."
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Newsletter"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Text",
+          "default": "<p>A short sentence describing what someone will receive by subscribing</p>"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "text",
+        "settings": {}
+      },
+      {
+        "type": "links",
+        "settings": {
+          "menu": "footer"
+        }
+      },
+      {
+        "type": "newsletter",
+        "settings": {}
+      }
+    ]
+  }
+}
+{% endschema %}

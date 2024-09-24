@@ -1,0 +1,27 @@
+<style>
+  /* accessiBe */
+  a.accessibility-button {
+    display: inline-flex;
+    position: fixed;
+    right: 20px;
+    z-index: 9;
+    bottom: 66px;
+}
+
+
+a.accessibility-button svg {
+    width: 35px;
+    height: 35px;
+}
+.sidebar::after {
+    background: unset;
+}
+
+@media screen and (max-width: 409px) {
+
+  a.accessibility-button {
+      bottom: 85px;
+  }
+}
+
+</style>

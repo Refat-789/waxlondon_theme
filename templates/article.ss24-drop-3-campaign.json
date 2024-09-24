@@ -1,0 +1,835 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead_Banner_f993b430-38c1-458f-b3f5-2bc3f35c011a.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Lead_Banner_38dde9df-8be4-4eb2-8fb6-db0bf63f1c59.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "SS24 Drop Three:<br><i> \"Ciao Bella\"<\/i>",
+        "blog_date": "May 14, 2024",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 850
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>A fly-on-the-wall tale of a perfect European getaway. The salty beaches, family restaurants and winding hillsides unchanged in generations.<\/p><p>We watch three friends embarking on a summer of adventure along the magnificent Sicilian coast. Late nights. Aperitivo. The smell of the oranges. A snapshot into the dream summer holiday, where friendship is at the heart.<\/p><p>Explore the full drop below.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ab5a4569-889c-44be-b320-5a4df900f602": {
+      "type": "youtube-spotify-embaded-code",
+      "blocks": {
+        "63e97539-5cd6-415b-9191-774ba5149131": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<iframe width=\"100%\" height=\"500\" src=\"https:\/\/www.youtube.com\/embed\/t-enARLjdBs?si=KhVM1n2Y5zrYBwPZ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen=\"\"><\/iframe>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 1000,
+            "mobile_block_width": 90
+          }
+        },
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "63e97539-5cd6-415b-9191-774ba5149131",
+        "cfeb7f9f-35f3-4aa8-b427-f8a9ef548dc9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "single_image_Pppki8": {
+      "type": "single_image",
+      "blocks": {
+        "single_image_block_EttDCy": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Wide_Image_1_7a395f4d-0ba5-4fe2-bb7b-b259a6634e07.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/shelly-shirt-navy-seersucker-stripe\" title=\"Shelly Shirt Navy Seersucker Stripe\">Shelly Shirt Navy Seersucker Stripe, <\/a><a href=\"\/products\/montague-vest-khaki\" title=\"Montague Vest Khaki\">Montague Vest Khaki, <\/a><a href=\"\/products\/atwood-polo-textured-blue\" title=\"Atwood Polo Textured Blue\">Atwood Polo Textured Blue, <\/a><a href=\"\/products\/kurt-trousers-stone-seersucker\" title=\"Kurt Trousers Stone Seersucker\">Kurt Trousers Stone Seersucker, <\/a><a href=\"\/products\/montague-vest-black\" title=\"Montague Vest Black\">Montague Vest Black, <\/a><a href=\"\/products\/didcot-shirt-black-green-tile-stitch\" title=\"Didcot Shirt Black\/Green Tile Stitch\">Didcot Shirt Black\/Green Tile Stitch, <\/a><a href=\"\/products\/cedar-shorts-black-denim\" title=\"Cedar Shorts Black Denim\">Cedar Shorts Black Denim.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "single_image_block_EttDCy"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6": {
+      "type": "double_image",
+      "blocks": {
+        "99b91a47-c927-49e0-9333-91ca49d56034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "99b91a47-c927-49e0-9333-91ca49d56034"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_Left_Image_1_6124271c-0bc6-4b9a-b3fc-4a4db5db4afc.png",
+            "image_2": "shopify:\/\/shop_images\/Journal_Left_Image_2_d41a2fbe-f94a-4ff3-8126-4a8d7c8c0b40.png",
+            "image_1_caption": "<p><a href=\"\/products\/whiting-overshirt-orange-multi-pike-check\" title=\"Whiting Overshirt Orange\/Multi Pike Check\">Whiting Overshirt Orange\/Multi Pike Check, <\/a><a href=\"\/products\/montague-vest-khaki\" title=\"Montague Vest Khaki\">Montague Vest Khaki, <\/a><a href=\"\/products\/loose-fit-jeans-black-denim\" title=\"Loose Fit Jeans Black Denim\">Loose Fit Jeans Black Denim.<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/didcot-shirt-ecru-blue-daisy-embroidery\" title=\"Didcot Shirt Ecru\/Blue Daisy Embroidery\">Didcot Shirt Ecru\/Blue Daisy Embroidery,<\/a><a href=\"\/products\/kurt-trousers-navy-twill\" title=\"Kurt Trousers Navy Twill\"> <\/a><a href=\"\/products\/montague-vest-white\" title=\"Montague Vest White\">Montague Vest White, <\/a><a href=\"\/products\/kurt-trousers-light-khaki-twill\" title=\"Kurt Trousers Light Khaki Twill\">Kurt Trousers Light Khaki Twill.<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "spacer_gKK4Vi": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "spacer_gKK4Vi"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b": {
+      "type": "single_image",
+      "blocks": {
+        "37952dd8-6a28-4537-831c-777cca1e7cac": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Triple_Image_1_05680406-1c25-4faa-b0cd-baea998d5fc1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Lengthways_Strip_1.png",
+            "hide_image": false,
+            "hide_image_mobile": true,
+            "image_caption": "<p>Left: <a href=\"\/products\/minori-shirt-navy-milano-stitch\" title=\"Minori Shirt Navy Milano Stitch\">Minori Shirt Navy Milano Stitch, <\/a><a href=\"\/products\/montague-vest-black\" title=\"Montague Vest Black\">Montague Vest Black, <\/a><a href=\"\/products\/kurt-trousers-off-white-heavy-twill\" title=\"Kurt Trousers Off White Heavy Twill\">Kurt Trousers Off White Heavy Twill. <\/a>Middle:<a href=\"\/products\/didcot-shirt-blue-patchwork-waffle\" title=\"Didcot Shirt Blue Patchwork Waffle\">Didcot Shirt Blue Patchwork Waffle. <\/a>Right: <a href=\"\/products\/newton-shirt-ecru-paradise-stitch\" title=\"Newton Shirt Ecru Paradise Stitch\">Newton Shirt Ecru Paradise Stitch.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_TGmg88": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_1_1.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/minori-shirt-navy-milano-stitch\" title=\"Minori Shirt Navy Milano Stitch\">Minori Shirt Navy Milano Stitch, <\/a><a href=\"\/products\/montague-vest-black\" title=\"Montague Vest Black\">Montague Vest Black, <\/a><a href=\"\/products\/kurt-trousers-off-white-heavy-twill\" title=\"Kurt Trousers Off White Heavy Twill\">Kurt Trousers Off White Heavy Twill.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "spacer_weKfNN": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_xdeTXf": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_2_1.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/didcot-shirt-blue-patchwork-waffle\" title=\"Didcot Shirt Blue Patchwork Waffle\">Didcot Shirt Blue Patchwork Waffle.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "spacer_pAGKR3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_AakMwR": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_2_2.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/newton-shirt-ecru-paradise-stitch\" title=\"Newton Shirt Ecru Paradise Stitch\">Newton Shirt Ecru Paradise Stitch.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "37952dd8-6a28-4537-831c-777cca1e7cac",
+        "90645ee2-b374-4f94-8b7e-bee7f9afcc59",
+        "single_image_block_TGmg88",
+        "spacer_weKfNN",
+        "single_image_block_xdeTXf",
+        "spacer_pAGKR3",
+        "single_image_block_AakMwR"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Printed_1.png",
+            "image_2": "shopify:\/\/shop_images\/Journal_Right_Image_2_d0ad933f-b839-4930-a15e-8272c1b2dcc3.png",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "23ec0e38-7827-4629-913b-f5dac6d709e5": {
+      "type": "single_image",
+      "blocks": {
+        "a078aff2-493a-4dc3-8668-4414c43c3026": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Narrow_Banner_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Narrow_Banner_2_Mobile.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/didcot-shirt-blue-ecru-floral-stripe\" title=\"Didcot Shirt Blue\/Ecru Floral Stripe\">Didcot Shirt Blue\/Ecru Floral Stripe, <\/a><a href=\"\/products\/montague-vest-white\" title=\"Montague Vest White\">Montague Vest White.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ae0baf25-05ae-4277-9628-4e0ab07d198b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "a078aff2-493a-4dc3-8668-4414c43c3026",
+        "ae0baf25-05ae-4277-9628-4e0ab07d198b"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1b8519ed-23ce-4876-b97a-21268876a684": {
+      "type": "double_image",
+      "blocks": {
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_Right_Image_1_378f28cc-6e35-4228-8236-0e22c60dc74d.png",
+            "image_2": "shopify:\/\/shop_images\/Printed_2.png",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "89a681dd-5ab7-4f7d-923b-1044c0a890a4",
+        "72144f37-eca5-46a7-a054-4b13a74c2bfb"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "936e5bbf-1f29-4e01-a2b5-ce26ff770809": {
+      "type": "single_image",
+      "blocks": {
+        "f67eddfd-c6b8-46b6-940f-38e04462b55f": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Triple_Image_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Lengthways_Strip_2_95d25af5-0d8d-489a-9feb-795a4dc7f136.png",
+            "hide_image": false,
+            "hide_image_mobile": true,
+            "image_caption": "<p>Left: <a href=\"\/products\/didcot-shirt-black-beige-doodle-applique\" title=\"Didcot Shirt Black\/Beige Doodle Applique\">Didcot Shirt Black\/Beige Doodle Applique <\/a>Middle: <a href=\"\/products\/corey-shirt-grey-ecru-gingham\" title=\"Corey Shirt Grey\/Ecru Gingham\">Corey Shirt Grey\/Ecru Gingham, <\/a><a href=\"\/products\/montague-vest-white\" title=\"Montague Vest White\">Montague Vest White, <\/a><a href=\"\/products\/campbell-trousers-natural\" title=\"Campbell Trousers Natural\">Campbell Trousers Natural. <\/a>Right: <a href=\"\/products\/didcot-shirt-white-corded-lace\" title=\"Didcot Shirt White Corded Lace\">Didcot Shirt White Corded Lace, <\/a><a href=\"\/products\/cedar-shorts-black-denim\" title=\"Cedar Shorts Black Denim\">Cedar Shorts Black Denim, <\/a><a href=\"\/products\/didcot-shirt-multi-pastel-stripe\" title=\"Didcot Shirt Multi Pastel Stripe\">Didcot Shirt Multi Pastel Stripe, <\/a><a href=\"\/products\/kurt-trousers-off-white-heavy-twill\" title=\"Kurt Trousers Off White Heavy Twill\">Kurt Trousers Off White Heavy Twill.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "cdc3fdf0-2b3e-40b4-ae02-6187a55dd056": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_GTAKJg": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_1_2.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/didcot-shirt-black-beige-doodle-applique\" title=\"Didcot Shirt Black\/Beige Doodle Applique\">Didcot Shirt Black\/Beige Doodle Applique.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "spacer_gmNHEJ": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_yFRicL": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_2_3.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/corey-shirt-grey-ecru-gingham\" title=\"Corey Shirt Grey\/Ecru Gingham\">Corey Shirt Grey\/Ecru Gingham, <\/a><a href=\"\/products\/montague-vest-white\" title=\"Montague Vest White\">Montague Vest White, <\/a><a href=\"\/products\/campbell-trousers-natural\" title=\"Campbell Trousers Natural\">Campbell Trousers Natural.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "spacer_hV7D6V": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "single_image_block_zNiAhD": {
+          "type": "single_image_block",
+          "settings": {
+            "mobile_image": "shopify:\/\/shop_images\/Printed_2_4.png",
+            "hide_image": true,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/didcot-shirt-white-corded-lace\" title=\"Didcot Shirt White Corded Lace\">Didcot Shirt White Corded Lace, <\/a><a href=\"\/products\/cedar-shorts-black-denim\" title=\"Cedar Shorts Black Denim\">Cedar Shorts Black Denim, <\/a><a href=\"\/products\/didcot-shirt-multi-pastel-stripe\" title=\"Didcot Shirt Multi Pastel Stripe\">Didcot Shirt Multi Pastel Stripe, <\/a><a href=\"\/products\/kurt-trousers-off-white-heavy-twill\" title=\"Kurt Trousers Off White Heavy Twill\">Kurt Trousers Off White Heavy Twill.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "spacer_7WTaGg": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f67eddfd-c6b8-46b6-940f-38e04462b55f",
+        "cdc3fdf0-2b3e-40b4-ae02-6187a55dd056",
+        "single_image_block_GTAKJg",
+        "spacer_gmNHEJ",
+        "single_image_block_yFRicL",
+        "spacer_hV7D6V",
+        "single_image_block_zNiAhD",
+        "spacer_7WTaGg"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9aac2cde-75fa-46ef-b523-92b1f7c89c46": {
+      "type": "double_image",
+      "blocks": {
+        "6c4bf901-8bf0-4c76-8523-8e20f6c8b670": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Journal_Left_Image_3.png",
+            "image_2": "shopify:\/\/shop_images\/Journal_Right_Image_3.png",
+            "image_1_caption": "",
+            "image_2_caption": "<p><a href=\"\/products\/newton-shirt-black-pintuck\" title=\"Newton Shirt Black Pintuck\">Newton Shirt Black Pintuck, <\/a><a href=\"\/products\/dean-t-shirt-textured-black\" title=\"Dean T-Shirt Textured Black\">Dean T-Shirt Textured Black, <\/a><a href=\"\/products\/milo-trousers-off-white-cotton-twill\" title=\"Milo Trousers Off White Cotton Twill\">Milo Trousers Off White Cotton Twill. <\/a><a href=\"\/products\/iggy-jacket-navy-ecru-spin-jacquard\" title=\"Iggy Jacket Navy\/Ecru Spin Jacquard\">Iggy Jacket Navy\/Ecru Spin Jacquard, <\/a><a href=\"\/products\/montague-vest-white\" title=\"Montague Vest White\">Montague Vest White, <\/a><a href=\"\/products\/milo-trousers-black-cotton-twill\" title=\"Milo Trousers Black Cotton Twill\">Milo Trousers Black Cotton Twill.<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "a4733a99-01b8-41e2-851a-baea83d635a0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "6c4bf901-8bf0-4c76-8523-8e20f6c8b670",
+        "a4733a99-01b8-41e2-851a-baea83d635a0"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "single_image_kkTKFd": {
+      "type": "single_image",
+      "blocks": {
+        "single_image_block_qPmTYT": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Triple_Image_3.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile_Lengthways_Strip_3_45b30f81-9e43-4ff1-9b74-17c265221000.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "spacer_9g6cbN": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "single_image_block_qPmTYT",
+        "spacer_9g6cbN"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c19bbec8-5602-4c53-b68a-8d22c786dbc4": {
+      "type": "single_image",
+      "blocks": {
+        "1189b1cf-638d-4610-97e9-a048c6ae95dc": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal_Wide_Image_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/Journal_Wide_Image_2_Mobile_Crop.png",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/products\/iggy-jacket-ecru-multi-botanical-jacquard\" title=\"Iggy Jacket Ecru\/Multi Botanical Jacquard\">Iggy Jacket Ecru\/Multi Botanical Jacquard, <\/a><a href=\"\/products\/didcot-shirt-blue-patchwork-waffle\" title=\"Didcot Shirt Blue Patchwork Waffle\">Didcot Shirt Blue Patchwork Waffle, <\/a><a href=\"\/products\/cedar-shorts-blue-denim\" title=\"Cedar Shorts Blue Denim\">Cedar Shorts Blue Denim.<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "a8cb6fd7-ad4c-407b-9557-1656dd2a5ea9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "1189b1cf-638d-4610-97e9-a048c6ae95dc",
+        "a8cb6fd7-ad4c-407b-9557-1656dd2a5ea9"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "ss24-drop-three",
+        "grid_items_count": 32,
+        "shop_button_text": "Explore The Drop",
+        "shop_button_url": "shopify:\/\/collections\/ss24-drop-three",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "new_blog_posts_MEj8pR": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_aDphyb": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/wax-meets-mackenzy-mackay",
+            "article_2": "journal\/ss24-drop-two-beside-the-seaside",
+            "article_3": "journal\/ss24-drop-one-come-together"
+          }
+        }
+      },
+      "block_order": [
+        "article_aDphyb"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "ab5a4569-889c-44be-b320-5a4df900f602",
+    "single_image_Pppki8",
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "d0c0ea47-7d18-4cd5-8250-6a0326d5054b",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "23ec0e38-7827-4629-913b-f5dac6d709e5",
+    "1b8519ed-23ce-4876-b97a-21268876a684",
+    "936e5bbf-1f29-4e01-a2b5-ce26ff770809",
+    "9aac2cde-75fa-46ef-b523-92b1f7c89c46",
+    "single_image_kkTKFd",
+    "c19bbec8-5602-4c53-b68a-8d22c786dbc4",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "new_blog_posts_MEj8pR"
+  ]
+}

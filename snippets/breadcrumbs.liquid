@@ -1,0 +1,126 @@
+<style>
+  .breadcrumb .item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .breadcrumb li.item span {
+    margin-right: 8px;
+}
+  .breadcrumb .item:last-child {
+    font-weight: 500;
+    margin-right: 0px;
+}
+</style>
+
+
+
+<nav
+  class="breadcrumbs"
+  aria-label="Breadcrumb"
+  data-template="{{ template.name }}"
+>
+  <ol 
+    class="breadcrumbs__list" 
+    itemtype="https://schema.org/BreadcrumbList"
+  >
+    {% if template.name == 'collection' or template.name == 'product' %}
+        <div class="breadcrumb">
+          <li class="item first-item"  itemprop="itemListElement" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item">Home</a></li>
+        </div>
+    {% elsif template.name == 'page' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: page.url
+        |  item: page.title
+        |  position: 2
+      -%}
+    {% elsif template.name == 'blog' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: blog.url
+        |  item: blog.title
+        |  position: 2
+      -%}
+    {% elsif template.name == 'article' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: blog.url
+        |  item: blog.title
+        |  position: 2
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: article.url
+        |  item: article.title
+        |  position: 3
+      -%}
+    {% elsif template.name == 'login' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: routes.account_login_url
+        |  item: 'Login'
+        |  position: 2
+      -%}
+    {% elsif template.name == 'register' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: routes.account_register_url
+        |  item: 'Register'
+        |  position: 2
+      -%}
+    {% elsif template.name == 'account' %}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: '/'
+        |  item: 'Home'
+        |  extra: 'rel="index"'
+        |  position: 1
+      -%}
+      {%- 
+        render 'breadcrumbs-item'
+        |  url: routes.account_url
+        |  item: 'Account'
+        |  position: 2
+      -%}
+    {% endif %}
+  </ol>
+</nav>
+
+
+

@@ -1,0 +1,37 @@
+
+<script>
+
+dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  'ecommerce': {
+    'detail': {
+      //'actionField': {'list': 'Apparel Gallery'},    // 'detail' actions have an optional list property.
+      'products': [{
+        'name': {{ product.title | json }},         // Name or ID is required.
+        'id': {{ product.id | json }},
+        'price': {{ product.price | money_without_currency | json }},
+        'brand': {{ product.vendor | json }},
+        'category': {{ product.type | json }},
+        'variant': {{ product.selected_or_first_available_variant.title | json }}
+       }]
+     }
+   }
+});
+
+dataLayer.push({
+      event: 'view_item',
+  	  currency: "{{ cart.currency.iso_code }}",
+  	  value: {{ product.price | money_without_currency | json }},
+      items: [
+        {
+          item_name: {{ product.title | json }},
+          item_id: {{ product.id | json }},
+          item_brand: {{ product.vendor | json }},
+          item_category: {{ product.type | json }},
+          price: {{ product.price | money_without_currency | json }},
+        }
+      ]
+    });
+
+
+</script>

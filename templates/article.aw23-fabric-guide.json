@@ -1,0 +1,1285 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop-Lead.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile-Lead.gif",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "AW23 Fabric Guide",
+        "blog_date": "October 22, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>When it comes to crafting a well-rounded wardrobe, choosing the right fabrics is paramount. Each material possesses unique qualities that affect comfort, style, and functionality. With that in mind, here is a comprehensive guide to what we’ve used in our new AW23 collection.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "fead21ca-907c-43bd-8af6-dfa7a6c40e38": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "b36e9512-3b54-439c-851e-dd7704a661c6": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Cord.jpg",
+            "title": "Corduroy",
+            "description": "<p>Crafted from high-quality cotton, this fabric is created by intricately weaving additional fibre sets into the foundation, resulting in distinctive vertical lines. These distinctive ridges are officially known as 'wales', which transform into discernible soft and tufted textures when they are trimmed into a pile at the end of the production process. Our Whiting Overshirts and Kurt Trousers are made using a jumbo irregular wale corduroy ensuring they are both comfortable and resilient.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/corduroy",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "b36e9512-3b54-439c-851e-dd7704a661c6"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "b2d25ff4-4697-4b0b-aa7d-1ea422319c66": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "corduroy",
+        "grid_items_count": 32,
+        "shop_button_text": "Shop Corduroy",
+        "shop_button_url": "shopify:\/\/collections\/corduroy",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "455277a4-1fe0-4241-8219-786002529940": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Chalk_Wool.jpg",
+            "title": "Chalk Stripe Wool",
+            "description": "<p>Chalk stripe wool is a luxurious textile known for its distinctive and sophisticated appearance. It features a subtle yet eye-catching pattern, with thin, evenly spaced vertical stripes resembling chalk lines on a blackboard, against a background of high-quality wool in brown. Chalk stripe wool holds a timeless charm and is a favourite among those who appreciate the classic aesthetics and comfort that wool offers with a touch of modern style.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/chalk-stripe-wool",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "9242cfec-7ac7-4e84-9778-c33baa2e3985": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "chalk-stripe-wool",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Chalk Stripe Wool",
+        "shop_button_url": "shopify:\/\/collections\/chalk-stripe-wool",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Denim.jpg",
+            "title": "Denim",
+            "description": "<p>Denim, a robust cotton twill textile, undergoes an indigo dyeing process that selectively imparts colour only to its outer thread layer. This unique characteristic is responsible for denim's gradual fading over time. Traditionally, denim is woven using shuttle looms, which results in its iconic diagonal twill pattern.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/denim",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "denim",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Denim",
+        "shop_button_url": "shopify:\/\/collections\/denim",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5b052504-f8f2-4091-9442-88a12612e9a8": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Flannel.jpg",
+            "title": "Flannel",
+            "description": "<p>Cotton flannel is made from carded cotton fibres that are loosely spun and then brushed, either on one or both sides. This brushing process creates a soft, fuzzy surface that is comfortable and ideal for retaining heat, making it a popular choice for colder days.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/flannel",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "918c320d-e078-4025-9f43-126ee0b03ecb": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "flannel",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Flannel",
+        "shop_button_url": "shopify:\/\/collections\/flannel",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "2a4e6486-02d3-41b4-a8f7-036e56985209": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "54b61e2d-bdf3-4fe5-af71-b2a360dcfaba": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Fleece.jpg",
+            "title": "Fleece",
+            "description": "<p>Fleece was invented in Massachusetts in the late 1970s when experimenting with the construction of terry towelling. They swapped cotton for micro-fine polyester and fleece as we know it today was born. This was first sold under the fabric name of Polartec by Malden Mills. Our fibre combination offers the wearer a cosy and versatile garment, where the performance attributes of polyester and the warmth of wool work in perfect harmony to create a comfortable and durable fleece material.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/fleece",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "54b61e2d-bdf3-4fe5-af71-b2a360dcfaba"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "c2adb00d-e681-43a2-90f4-a585ee718a25": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "fleece",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Fleece",
+        "shop_button_url": "shopify:\/\/collections\/fleece",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ee46676c-aa9a-4300-a5f0-31270091ad53": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d6a05b51-c0ac-4158-8e73-10502434fac0": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Jacquard.jpg",
+            "title": "Jacquard",
+            "description": "<p>Jacquard is a fabric known for its intricate and highly detailed patterns. The name for the fabric comes from the specialised loom used to create it, called a jacquard loom. This special loom is named after its inventor, Joseph-Marie Jacquard. The base of the fabrics for all of our jacquard pieces is a cotton blend which is then woven using this loom to create the patterns we design. The pattern is woven into the fabric, and as a result, these pieces have a different texture and depth to the design.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/jacquard",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "eb16267e-2198-44f8-ade2-2890fe5128f3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "d6a05b51-c0ac-4158-8e73-10502434fac0",
+        "eb16267e-2198-44f8-ade2-2890fe5128f3"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "jacquard",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Jacquard",
+        "shop_button_url": "shopify:\/\/collections\/jacquard",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "91d4cdb6-d76a-46a7-860b-76db90184ca9": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "2436f713-774e-412b-bd1a-f692ab9e1f4f": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Jersey_5169973d-c777-4093-933c-788765c45c4d.jpg",
+            "title": "Organic Cotton Jersey",
+            "description": "<p>All of our staple <a href=\"\/collections\/t-shirts\" target=\"_blank\" title=\"T-Shirts\">T-Shirts<\/a> and <a href=\"\/collections\/sweats\" target=\"_blank\" title=\"Sweats\">Sweats<\/a> are made from 100% organic cotton jersey because it is prized for its softness and breathability. It can be tailored in various weights to suit different seasons or design preferences. For AW23 we have used a heavyweight 200gsm organic cotton jersey.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/organic-cotton-jersey",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "2436f713-774e-412b-bd1a-f692ab9e1f4f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "c882837f-3488-4b36-929b-9da17b21d9c6": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "organic-cotton-jersey",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Organic Cotton Jersey",
+        "shop_button_url": "shopify:\/\/collections\/organic-cotton-jersey",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "07423be2-5a2e-49b2-82c9-f07ec311d319": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "22cd348f-581e-4951-a43e-34c4936dfe05": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Twill.jpg",
+            "title": "Organic Cotton Twill",
+            "description": "<p>Organic cotton twill is renowned for its unique diagonal pattern, a result of the distinctive weaving technique employed. This twill fabric stands out as an excellent option for crafting enduring garments, prized for its robustness and commonly utilised in workwear attire due to its resistance to abrasion and long-lasting qualities. We prioritise the utilisation of organic cotton wherever feasible, aiming to minimise our ecological footprint.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/organic-cotton-twill",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "22cd348f-581e-4951-a43e-34c4936dfe05"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "ac6e5e3e-54d2-42fe-a4da-2fc9c97cbe9e": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "organic-cotton-twill",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Organic Cotton Twill",
+        "shop_button_url": "shopify:\/\/collections\/organic-cotton-twill",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cc27d999-45d8-4828-aea1-a3caff127031": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "7a254e85-bb7a-466d-8726-5ee105567a19": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Nylon.jpg",
+            "title": "Nylon",
+            "description": "<p>Nylon was invented by a team of researchers at DuPont led by Wallace Carothers in the late 1930s. This revolutionary development marked a significant milestone in materials science. Nylon was initially created as an alternative to silk, which was in high demand. Nylon combines remarkable strength, resilience, and flexibility as a synthetic fibre. It quickly found its way into numerous industries, including textiles and later, as a replacement for silk in parachute production during World War II.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/nylon",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "7a254e85-bb7a-466d-8726-5ee105567a19"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "b1b663d0-9d52-42d2-8875-1d3ce6921d45": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "nylon",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop Nylon",
+        "shop_button_url": "shopify:\/\/collections\/nylon",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ef03928c-c56a-4123-aab8-a496b9cce100": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "a97f08c5-7c98-4a6b-8e5a-d17c6d91fd44": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Recycled_Cotton.jpg",
+            "title": "Recycled Cotton",
+            "description": "<p>The Whiting <a href=\"\/collections\/overshirts\" title=\"Overshirts\">Overshirts<\/a> in our classic check pattern are the stars of our collection. What makes these overshirts exceptional is that we collaborate with a family-run French mill to source the fabrics, and for our checked Whiting Overshirts, we exclusively use recycled cotton. We employ thick cotton threads, alternating thread colours in the warp (vertical) and weft (horizontal) on the loom to create our unique designs. Every fabric we use is globally exclusive to Wax.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/recycled-cotton",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a97f08c5-7c98-4a6b-8e5a-d17c6d91fd44"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "59d5609f-33bb-4b98-a5fb-19e5d756e1ff": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "recycled-cotton",
+        "grid_items_count": 32,
+        "shop_button_text": "Shop Recycled Cotton",
+        "shop_button_url": "shopify:\/\/collections\/recycled-cotton",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "1c791935-5142-4564-9655-3e0bd472d56a": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "7396023c-e66a-4a10-8521-4a67086a9642": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Wool.jpg",
+            "title": "Wool",
+            "description": "<p>Wool is one of the oldest and most versatile natural fibres. It is derived from the fleece of sheep and undergoes a meticulous production process. Shearing the sheep is the initial step, followed by cleaning, carding, and spinning the wool into yarn. Wool boasts exceptional insulating properties, keeping you warm in cold weather while also being breathable to prevent overheating. Wool fibres have natural crimps and scales that trap air, providing insulation and warmth. <\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/wool",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "7396023c-e66a-4a10-8521-4a67086a9642"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "3b0f7b7b-fec5-4d92-b810-1263e5ecc802": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "wool",
+        "grid_items_count": 32,
+        "shop_button_text": "Shop Wool",
+        "shop_button_url": "shopify:\/\/collections\/wool",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "2e1e83a7-efe5-453a-9bcb-345b15c999d4": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "a8717789-c17b-498d-8ce5-d65b400a44ee": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Herringbone.jpg",
+            "title": "Wool Herringone",
+            "description": "<p>Wool herringbone, a classic and enduring fabric, is characterised by a distinctive V-shaped pattern that resembles the skeleton of a herring. This intricate, zigzag design adds a touch of subtle sophistication to various garments and textiles. It offers both style and functionality, thanks to the natural properties of wool, including warmth, breathability, and durability.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/wool-herringbone",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a8717789-c17b-498d-8ce5-d65b400a44ee"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "c8662d6c-c431-4f84-b7cf-b1fd46fbc81d": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "wool-herringbone",
+        "grid_items_count": 32,
+        "shop_button_text": "Shop Wool Herringbone",
+        "shop_button_url": "shopify:\/\/collections\/wool-herringbone",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "fead21ca-907c-43bd-8af6-dfa7a6c40e38",
+    "b2d25ff4-4697-4b0b-aa7d-1ea422319c66",
+    "455277a4-1fe0-4241-8219-786002529940",
+    "9242cfec-7ac7-4e84-9778-c33baa2e3985",
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d",
+    "feec4e58-7b34-4fca-a588-b0e1eeee7d07",
+    "5b052504-f8f2-4091-9442-88a12612e9a8",
+    "918c320d-e078-4025-9f43-126ee0b03ecb",
+    "2a4e6486-02d3-41b4-a8f7-036e56985209",
+    "c2adb00d-e681-43a2-90f4-a585ee718a25",
+    "ee46676c-aa9a-4300-a5f0-31270091ad53",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "91d4cdb6-d76a-46a7-860b-76db90184ca9",
+    "c882837f-3488-4b36-929b-9da17b21d9c6",
+    "07423be2-5a2e-49b2-82c9-f07ec311d319",
+    "ac6e5e3e-54d2-42fe-a4da-2fc9c97cbe9e",
+    "cc27d999-45d8-4828-aea1-a3caff127031",
+    "b1b663d0-9d52-42d2-8875-1d3ce6921d45",
+    "ef03928c-c56a-4123-aab8-a496b9cce100",
+    "59d5609f-33bb-4b98-a5fb-19e5d756e1ff",
+    "1c791935-5142-4564-9655-3e0bd472d56a",
+    "3b0f7b7b-fec5-4d92-b810-1263e5ecc802",
+    "2e1e83a7-efe5-453a-9bcb-345b15c999d4",
+    "c8662d6c-c431-4f84-b7cf-b1fd46fbc81d",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "16788867009c47aca7"
+  ]
+}

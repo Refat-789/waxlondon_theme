@@ -1,0 +1,85 @@
+{% capture badges %}
+  {% if product.metafields.custom.back_in_stock_badge_active %}
+    <span class="ProductItem__Label--badge ProductItem__Label--onSale Heading badge-colour-light-grey">Back in Stock</span>
+  {% elsif product.tags contains 'restocking_soon' and product.available == false %}
+    <span class="ProductItem__Label--badge ProductItem__Label--onSale Heading badge-colour-light-grey">Restocking Soon</span>
+  {% elsif product.tags contains 'coming_soon' and product.available == false %}
+    <span class="ProductItem__Label--badge ProductItem__Label--onSale Heading badge-colour-light-grey">Coming Soon</span>
+  {%- elsif product.available -%}
+    {%- if product.compare_at_price > product.price -%}
+      <span class="ProductItem__Label--badge ProductItem__Label--onSale Heading Text--subdued badge-colour-dark-cyan">{{ 'product.labels.on_sale' | t }}</span>
+    {%- endif -%}
+  {%- else -%}
+    <span class="ProductItem__Label--badge ProductItem__Label--soldOut Heading Text--subdued badge-colour-dark-orange">{{ 'product.labels.sold_out' | t }}</span>
+  {%- endif -%}
+
+  {% for tag in product.tags %}
+    {% if tag contains 'badge' %}
+      {% assign current_tag = tag | split: '|' %}
+      {% assign current_tag_last = current_tag | last %}
+
+      {% if current_tag_last contains 'Colour' or current_tag_last contains 'colour'  %}
+        {% assign colour_class = current_tag_last | split: ':' | last | strip | prepend: 'badge-colour-' %}
+      {% else %}
+        {% assign colour_class = 'badge-colour-default' %}
+      {% endif %}
+
+      {% unless current_tag[2] contains 'right' or current_tag[3] contains 'right' %}
+        {% for badge in current_tag %}
+          {% if badge contains 'large' %}
+            {% assign large = true %}
+          {% endif %}
+        {% endfor %}
+
+        <span class="ProductItem__Label--badge Text--subdued 
+              {% if large %}ProductItem__Label--large{% endif %}
+              {{ colour_class }}"
+        >
+          {{ current_tag[1] }}
+        </span>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% capture badges_right %}
+  {% for tag in product.tags %}
+    {% if tag contains 'badge' %}
+      {% assign current_tag = tag | split: '|' %}
+      
+      {% if tag contains 'Colour' or tag contains 'colour'  %}
+        {% assign colour_class_right = tag | split: ':' | last | strip | prepend: 'badge-colour-' %}
+      {% else %}
+        {% assign colour_class_right = 'badge-colour-default' %}
+      {% endif %}
+
+      {% if current_tag[2] contains 'right' or current_tag[3] contains 'right' %}
+        {% for badge in current_tag %}
+          {% if badge contains 'large' %}
+            {% assign large_class = true %}
+          {% endif %}
+        {% endfor %}
+
+        <span class="ProductItem__Label--badge Text--subdued 
+              {% if large_class %}ProductItem__Label--large{% endif %}
+              {{ colour_class_right }}"
+        >
+          {{ current_tag[1] }}
+        </span>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% if badges != blank %}
+  <div class="ProductItem__LabelList {% if product.tags contains 'restocking_soon' and product.available == false %} ProductItem__LabelList-restocking-soon {% elsif product.tags contains 'coming_soon' and product.available == false %} ProductItem__LabelList-coming-soon  {% elsif product.available == false %} ProductItem__LabelList-sold-out {% endif %}">
+      {{ badges }}
+    </div>
+{% endif %}
+
+{%- if badges_right != blank -%}
+  <div class="ProductItem__LabelList--right">
+    {{ badges_right }}
+  </div>
+{%- endif -%}
+

@@ -1,0 +1,209 @@
+<style>
+  .welcome-popup-section{
+    opacity: 0;
+    visibility: hidden;
+    z-index: -9;
+  }
+</style>
+
+<div class="welcome-popup-section">
+    <div class="welcome-popup-overlay"></div>
+    <div class="welcome-popup-wrapper">
+        <div id="welcome-popup-CloseBtn"  >
+            <div class="welcome-popup-cross-vertical"> </div>
+            <div class="welcome-popup-cross-horizontal"></div>
+        </div>
+        <div class="welcome-popup-PopupContent">
+            <div class="welcome-popup-editor">
+                {% if localization.available_countries.size > 1 %}
+                <localization-form>
+                  <h2>We Ship To The<span class="welcome-popup-PopupContent-country"> {{ localization.country.name }}</span></h2>
+                  <p>Welcome to Wax:</p>
+                  <ul>
+                    <li>Shop in your local currency</li>
+                    <li>All duties are already included. Taxes calculated at checkout</li>
+                  </ul>
+                 </localization-form> 
+              {% endif %}
+            </div>
+            <div class="welcome-popup-Controls">
+                <button type="button" class="welcome-popup-Controls-button welcome-popup-Controls-save">Continue To Shop</button>
+                <button type="button" class="welcome-popup-Controls-button welcome-popup-Controls-cancel">Change Your Shipping Country</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+  .recommendation-modal__container {
+    display: none;
+}
+  .recommendation-modal__backdrop {
+    display: none !important;
+}
+  
+  .welcome-popup-overlay {
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+  .welcome-popup-wrapper {
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999;
+    max-height: 100vh;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    box-shadow: 0 12px 36px #0003;
+    width: 500px;
+    border-radius: 6px;
+    transition: opacity .35s,margin-top .35s,filter .35s;
+    transition-delay: .1s;
+    margin-top: 40px;
+    filter: blur(1px);
+    opacity: 0;
+    visibility: hidden;
+}
+   #welcome-popup-CloseBtn {
+    position: absolute;
+    right: 15.5px;
+    top: 15.5px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+  #welcome-popup-CloseBtn div {
+    position: absolute;
+    border-radius: 2px;
+    top: 20%;
+    width: 100%;
+    height: 10%;
+    background-color: #000;
+}
+  #welcome-popup-CloseBtn .welcome-popup-cross-vertical {
+    transform: rotate(45deg);
+}
+  #welcome-popup-CloseBtn .welcome-popup-cross-horizontal {
+    transform: rotate(-45deg);
+}
+
+  .welcome-popup-wrapper .welcome-popup-PopupContent h2 {
+    color: #333;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: ITCClearface;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.welcome-popup-wrapper .welcome-popup-PopupContent p {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+ .welcome-popup-wrapper .welcome-popup-PopupContent ul li {
+    font-size: 14px;
+    line-height: 23px;
+}
+  .welcome-popup-Controls {
+    margin-top: 25px;
+}
+  .welcome-popup-Controls .welcome-popup-Controls-button {
+    display: block;
+    width: 100%;
+    height: 46px;
+    border-radius: 80px;
+}
+  button.welcome-popup-Controls-button.welcome-popup-Controls-save {
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+}
+  button.welcome-popup-Controls-button.welcome-popup-Controls-cancel {
+    border: 1px solid #D8D8D8;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 17px;
+}
+  @media screen and (max-width: 640px) {
+    .welcome-popup-wrapper {
+    width: calc(100% - 40px);
+}
+  }
+</style>
+
+<script>
+  
+var flag = 0;
+function isPollCountry() {
+  
+     if(document.querySelector(".recommendation-modal__container")){
+       $(".welcome-popup-PopupContent-country").text(" " + $("span.recommendation-modal__message--bold").text());
+       $(".welcome-popup-section").css({"opacity":"1", "visibility":"visible", "z-index": "99" });
+       $(".welcome-popup-wrapper").css({"margin-top":"0", "filter":"blur(0)", "opacity":"1", "visibility":"visible" });
+    }
+    else {
+        flag = flag + 25;
+        if(flag < 25000){
+          setTimeout(isPollCountry, 25);
+        }
+        
+         
+    }
+};
+isPollCountry();
+  
+// var loopvalue = 0;
+// function isPollKlaviyoForm() {
+  
+//      if((document.querySelector(".newsletter-popup-section")) && (document.querySelector("li.HorizontalList__Item.Footer__CopyrightName "))){
+//        console.log("complete");
+//        var issecondpage = parseInt(sessionStorage.getItem("issecondpage"));
+//         if (issecondpage != 1) {
+//           $("section.newsletter-popup-section").css("display","none");
+//           console.log("desplay none");
+//         }
+//        console.log($("body a").length);
+//        console.log("body a");
+       
+//          $("body a").on("click", function(event){
+//               // Get the href attribute of the clicked link
+//               var href = $(this).attr("href");
+          
+//               // Check if href is not equal to "#"
+//               if (href !== "#") {
+//                   sessionStorage.setItem("issecondpage", 1);
+//                   console.log("clicked on a");
+//               }
+//           });
+
+       
+//         var klaviyoformshowed = parseInt(sessionStorage.getItem("klaviyoformshowed"));
+//         if (klaviyoformshowed != 1) {
+//           setTimeout(() => {
+//             $("section.newsletter-popup-section").attr("aria-hidden","false");
+//           }, 5000);
+//         }
+//          $("button.NewsletterPopup__Close").on("click", function(){
+//           sessionStorage.setItem("klaviyoformshowed", 1);
+//         })
+//     }
+//     else {
+//         loopvalue = loopvalue + 25;
+//         if(loopvalue < 15000){
+//           setTimeout(isPollKlaviyoForm, 25);
+//         }
+        
+         
+//     }
+// };
+// isPollKlaviyoForm();
+  
+</script>

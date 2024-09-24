@@ -1,0 +1,752 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cord-Header.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Square-Header.gif",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Corduroy: A Timeless Fabric For Longevity",
+        "blog_date": "December 12, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Corduroy is more than just a material; it's a piece of history that continues to redefine modern fashion. Its versatility, comfort, and enduring style make it a timeless fabric. Embrace the warmth and texture of corduroy and let it elevate your everyday wardrobe. <\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "8409e27e-0c1f-4dc4-b375-72bca2d4a955": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "8409e27e-0c1f-4dc4-b375-72bca2d4a955"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7c51b075-fb71-4425-a2f8-2eb4b6ee0767": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "baeaed12-907d-4712-bfef-b314fb6ac490": {
+      "type": "double_text",
+      "blocks": {
+        "1a12de56-395b-4171-a788-fc67ad61a8a5": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p><strong>History Of Corduroy<\/strong><\/p><p>Corduroy, with its distinctive ribbed texture, has a history that traces back to ancient times. However, its modern journey began in 18th-century Europe, particularly in France and England, where it was known as \"corde du roi\" or \"cord of the king.\" Its regal name spoke to its luxurious feel and was favoured by the aristocracy. Over time, corduroy evolved into a versatile fabric, beloved by people from all walks of life.<\/p><p><\/p>",
+            "text_2": "<p><strong>How Corduroy Is Made<\/strong><\/p><p>Corduroy is typically crafted from soft cotton. The fabric is woven with extra sets of filling yarns, creating distinctive ridges. The density of these ridges can vary, affecting the thickness and weight of the corduroy. These ridges are called Wales. Our Whiting Overshirt and Kurt Trouser are cut from an irregular wale jumbo cord, whereas our Trin shirt and Suit are cut from a smaller 8-wale corduroy fabric. <\/p><p><\/p><p><\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "1a12de56-395b-4171-a788-fc67ad61a8a5"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "70e04b0b-ff92-49cb-86eb-09fbd2ba6d25": {
+      "type": "single_text",
+      "blocks": {
+        "6f45bfb5-2b38-42f4-a7c3-8c0abafee31a": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p><\/p><p><strong>Why We Love Corduroy<\/strong><\/p><p>Corduroy's defining feature is its raised parallel ridges or \"cords\" that run the length of the fabric. These cords not only add a tactile quality but also provide extra insulation and durability. Corduroy is soft, warm, and incredibly comfortable, making it a superb choice for the colder seasons.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "7cb8d817-b827-4259-adcf-08c929eef9c0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "01135806-fb88-4239-8e97-eea9dc54cba8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "6f45bfb5-2b38-42f4-a7c3-8c0abafee31a",
+        "7cb8d817-b827-4259-adcf-08c929eef9c0",
+        "01135806-fb88-4239-8e97-eea9dc54cba8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f846b9f-abfd-482f-aa26-735c7dae6808": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Corduroy: By Style",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 42,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "1d3bdc5b-2959-4ecb-a8fd-f4773c703623": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 102,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "fead21ca-907c-43bd-8af6-dfa7a6c40e38": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "b36e9512-3b54-439c-851e-dd7704a661c6": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_3.png",
+            "title": "Suit",
+            "description": "<p>A corduroy suit exudes a unique blend of sophistication and casual charm. This distinctive suit, crafted from a soft corduroy fabric with its signature ribbed texture, in our popular relaxed silhouette offers a refreshing departure from traditional formal suiting. The tactile quality of corduroy adds depth and character to the ensemble, making it an ideal choice for autumn and winter occasions.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/suits",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "b36e9512-3b54-439c-851e-dd7704a661c6"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "455277a4-1fe0-4241-8219-786002529940": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_4.png",
+            "title": "Overshirts",
+            "description": "<p>Corduroy overshirts are a versatile addition to your wardrobe. Cut in our signature silhouette with their rugged yet refined appearance, they bridge the gap between outerwear and a classic shirt. Pair one with jeans for a laid-back look or layer it over a jumper for extra warmth.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/overshirts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "0f6d2fcc-a807-4c1f-a578-fa4b70174e71"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_6.png",
+            "title": "Shirts",
+            "description": "<p>A corduroy shirt exudes a sense of casual elegance. The fabric's texture adds depth to your outfit, making it a subtle statement piece. Wear it unbuttoned and layered over a t-shirt for a more casual look or done up as a shirt.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/collections\/shirts",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "d1adf4b4-21f7-4c36-b511-d9bfbb66d881"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "5b052504-f8f2-4091-9442-88a12612e9a8": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_5.png",
+            "title": "Kurt Trouser",
+            "description": "<p>Corduroy trousers are a must-have for fall and winter, and so we have issued our best-selling shape, the Kurt Trouser, in four different corduroy colourways.  They provide both style and comfort. Pair them with a crisp t-shirt and Overshirt for a sophisticated look, or layer up with a shirt and jumper as the weather gets colder.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "",
+            "button_url": "shopify:\/\/products\/kurt-trousers-brown-cord",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "spacer_tizae6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad",
+        "spacer_tizae6"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "da91ce52-4e81-4e3e-b74a-0072b51cc6d2": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "corduroy",
+        "grid_items_count": 8,
+        "shop_button_text": "Shop Corduroy",
+        "shop_button_url": "shopify:\/\/collections\/corduroy",
+        "button_text": "Shop The Look",
+        "close_button_text": "Close",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3dd2f9a4-9ba1-48f6-a5f1-7790383b22f6": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "How To Style Corduroy",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 48,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "3da1f077-93e3-446c-a548-8b8ae35e265f": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "11598e9e-8d23-4660-a6ac-aa7cc96dad21": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_8.png",
+            "title": "Business",
+            "description": "<p>Style up our navy corduroy suit<span style=\"text-decoration:underline\">,<\/span> in the same signature silhouette as our Linen suits, with a striped Oxford Trin shirt, and tie if you’re dressing to impress.<\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "17c58e1e-14c1-48f7-9e9e-8235d41ce611": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_9.png",
+            "title": "Business Casual",
+            "description": "<p>Go for a less formal suit, or co-ord, with our Kurt Trouser and matching Whiting Overshirt in corduroy. Or style our Trin Shirt or Shelly Shirt with a pair of more formal trousers, such as our Raleigh Pleat Trouser in Charcoal.<\/p>",
+            "text_max_width": 300,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        },
+        "a8d31855-e775-4cbf-bbd5-174ae0c4ca16": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Artboard_10.png",
+            "title": "Weekend Casual",
+            "description": "<p>Opt for our Kurt Trouser and pair them with a crew-neck Hayden tee, and suede sneakers for a contemporary twist. Or style up our Whiting Overshirt with a pair of jeans and a tee for a dressed-down look.  <\/p>",
+            "text_max_width": 300,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "11598e9e-8d23-4660-a6ac-aa7cc96dad21",
+        "17c58e1e-14c1-48f7-9e9e-8235d41ce611",
+        "a8d31855-e775-4cbf-bbd5-174ae0c4ca16"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "148e59a5-0372-44e8-a8d8-948b9c0b0091": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "template--16436210630821__148e59a5-0372-44e8-a8d8-948b9c0b0091-article-1": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/aw23-fabric-guide",
+            "article_2": "journal\/aw23-trouser-guide",
+            "article_3": "journal\/wax-meets-childe"
+          }
+        }
+      },
+      "block_order": [
+        "template--16436210630821__148e59a5-0372-44e8-a8d8-948b9c0b0091-article-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "7c51b075-fb71-4425-a2f8-2eb4b6ee0767",
+    "baeaed12-907d-4712-bfef-b314fb6ac490",
+    "70e04b0b-ff92-49cb-86eb-09fbd2ba6d25",
+    "3f846b9f-abfd-482f-aa26-735c7dae6808",
+    "1d3bdc5b-2959-4ecb-a8fd-f4773c703623",
+    "fead21ca-907c-43bd-8af6-dfa7a6c40e38",
+    "455277a4-1fe0-4241-8219-786002529940",
+    "df562b82-00d8-4fa3-b945-8cd5da5c3a6d",
+    "5b052504-f8f2-4091-9442-88a12612e9a8",
+    "da91ce52-4e81-4e3e-b74a-0072b51cc6d2",
+    "3dd2f9a4-9ba1-48f6-a5f1-7790383b22f6",
+    "3da1f077-93e3-446c-a548-8b8ae35e265f",
+    "148e59a5-0372-44e8-a8d8-948b9c0b0091",
+    "16788867009c47aca7"
+  ]
+}

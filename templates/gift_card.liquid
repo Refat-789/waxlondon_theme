@@ -1,0 +1,71 @@
+{%- layout 'gift_card' -%}
+
+{%- capture header_logo -%}
+<a href="{{ routes.root_url }}" class="Header__LogoLink">
+  {%- render 'icon' with 'logo', extra_class: 'Header__LogoLinkSvg' -%}
+</a>
+{%- endcapture -%}
+
+<div class="GiftCard__Header">
+  <h1 class="Header__Logo">{{ header_logo }}</h1>
+</div>
+
+<div class="GiftCard {% if gift_card.expired or gift_card.enabled != true %}GiftCard--disabled{% endif %}" data-section-id="gift-card" data-section-type="gift-card">
+  <div class="Container">
+    <div class="PageContent">
+      <h1 class="GiftCard__SubText Heading u-h3">{{ 'gift_card.issued.subtext' | t }}</h1>
+
+      {%- capture print_link -%}
+        <a href="#" id="PrintGiftCard" class="Link Link--underlineNative">{{ 'gift_card.issued.print' | t }}</a>
+      {%- endcapture -%}
+
+      <p class="GiftCard__Redeem">{{ 'gift_card.issued.redeem_html' | t: print_link: print_link }}</p>
+
+      <div class="GiftCard__Wrapper">
+
+        <div class="GiftCard__IllustrationWrapper">
+          <img src="{{ 'white-gift-card.png' | asset_img_url: '1024x1024' }}" alt="Gift card illustration">
+
+          <span class="GiftCard__CodeHolder GiftCard__Code">{{ gift_card.code | format_code }}</span>
+        </div>
+
+    
+
+        {%- if gift_card.enabled and gift_card.expired == false -%}
+          <div class="GiftCard__Expiry">
+            {%- if gift_card.expires_on -%}
+              {%- assign gift_card_expiry_date = gift_card.expires_on | date: '%d/%m/%y' -%}
+              <p>{{ 'gift_card.issued.expires_on' | t: expiry: gift_card_expiry_date }}</p>
+            {%- endif -%}
+          </div>
+
+          {%- assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency -%}
+          <p class="GiftCard__Balance">{{ 'gift_card.issued.initial_amount_html' | t: initial_amount: formatted_initial_value }}</p>
+
+          {%- if gift_card.balance != gift_card.initial_value -%}
+            {%- assign formatted_balance = gift_card.balance | money_without_trailing_zeros: gift_card.currency -%}
+            <p class="GiftCard__Balance">{{ 'gift_card.issued.remaining_balance_html' | t: balance: formatted_balance }}</p>
+          {%- endif -%}
+        {%- else -%}
+          <div class="GiftCard__Expiry">
+            {%- if gift_card.expired and gift_card.enabled -%}
+              {%- assign gift_card_expiry_date = gift_card.expires_on | date: format: 'month_day_year' -%}
+              <p>{{ 'gift_card.issued.expired' | t: expiry: gift_card_expiry_date }}</p>
+            {%- else -%}
+              <p>{{ 'gift_card.issued.disabled' | t }}</p>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        <a href="{{ shop.url }}" class="GiftCard__Button" target="_blank">{{ 'gift_card.issued.shop_link' | t }}</a>
+
+        <div id="QrCode" class="GiftCard__QrCode" data-identifier="{{ gift_card.qr_identifier }}"></div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-header').offsetHeight + 'px');
+</script>

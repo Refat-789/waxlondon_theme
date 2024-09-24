@@ -1,0 +1,529 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop-Lead.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "SS23 Team Favourites",
+        "blog_date": "June 4, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Making the most of the good weather, the marketing team donned their favourite pieces from our SS23 Collection and sauntered around our local haunt, Camden Town. Explore their looks below.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70": {
+      "type": "double_image",
+      "blocks": {
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/1_3ec006af-9598-4ea8-9859-00312b92bae8.jpg",
+            "image_2": "shopify:\/\/shop_images\/2_4d13258b-38c0-4487-b91b-3b98968bd689.jpg",
+            "image_1_caption": "<p>Nico wears <a href=\"\/products\/fintry-blazer-pale-green-linen\" target=\"_blank\" title=\"Fintry Blazer Pale Green Linen\">Fintry Blazer Pale Green Linen<\/a>, <a href=\"\/products\/dean-t-shirt-textured-ecru\" target=\"_blank\" title=\"Dean T Shirt Textured Ecru\">Dean T-Shirt Textured Ecru<\/a> & <a href=\"\/products\/alp-trousers-pale-green-linen\" target=\"_blank\" title=\"Alp Trousers Pale Green Linen\">Alp Trousers Pale Green Linen<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "d7ca0c2e-223b-41da-81d7-6f722e302d3a",
+        "47f7caea-a247-4b16-a458-c2e9dce5df7c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "57d13638-3eb1-43f1-9cb9-33afa49f2e50": {
+      "type": "double_image",
+      "blocks": {
+        "a83a5435-583b-44fa-abed-4b8076fa1cef": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/3_8f346cfd-0f77-4040-b10d-8e62f79d6acd.jpg",
+            "image_2": "shopify:\/\/shop_images\/4_87349da9-5b4a-48f8-af8b-6205ffeb4c1b.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Christian wears <a href=\"\/products\/didcot-shirt-ecru-doodle-embroidery\" target=\"_blank\" title=\"Didcot Shirt Ecru Doodle Embroidery\">Didcot Shirt Ecru Doodle Embroidery<\/a> & <a href=\"\/products\/kurt-shorts-navy-linen\" target=\"_blank\" title=\"Kurt Shorts Navy Linen\">Kurt Shorts Navy Linen<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6e7b5f68-ef0b-46f0-be8e-1772806f7a11": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "a83a5435-583b-44fa-abed-4b8076fa1cef",
+        "6e7b5f68-ef0b-46f0-be8e-1772806f7a11"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c2b71ccd-db1b-4c2d-a77a-12fd43f79c9d": {
+      "type": "double_image",
+      "blocks": {
+        "7c009542-31e4-42f4-a368-fcbff96ac6de": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10_7ceabc54-4655-4fe2-a260-539d69d30f60.jpg",
+            "image_2": "shopify:\/\/shop_images\/6_244dd216-527e-4d4f-a596-c9b29121e358.jpg",
+            "image_1_caption": "<p><a href=\"\/products\/didcot-shirt-navy-floral\" target=\"_blank\" title=\"Didcot Shirt Navy Floral\">Didcot Shirt Navy Floral<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"\/products\/whiting-overshirt-multi-pike\" target=\"_blank\" title=\"Whiting Overshirt Multi Pike\">Whiting Overshirt Multi Pike<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ae1ccfe2-3045-4c04-8e75-fc4a991a4056": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "7c009542-31e4-42f4-a368-fcbff96ac6de",
+        "ae1ccfe2-3045-4c04-8e75-fc4a991a4056"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "30a63b98-69fd-4af9-b8aa-605680828ba2": {
+      "type": "double_image",
+      "blocks": {
+        "0400bc09-1c7e-4cb4-82a5-8e844c6ba143": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/7_01af45d4-1b81-448f-ace6-34df250907fe.jpg",
+            "image_2": "shopify:\/\/shop_images\/8_f4bc2b71-d006-4d25-82b9-65be8c786497.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Lizzie wears <a href=\"\/products\/didcot-shirt-coral-trio-embroidery\" target=\"_blank\" title=\"Didcot Shirt Coral Trio Embroidery\">Didcot Shirt Coral Trio Embroidery<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "8bfdc852-4e0c-44ab-87c1-2f79ca5b2e85": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "0400bc09-1c7e-4cb4-82a5-8e844c6ba143",
+        "8bfdc852-4e0c-44ab-87c1-2f79ca5b2e85"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "2b6b36a2-9f26-41d2-997f-f35ff5d1cab1": {
+      "type": "double_image",
+      "blocks": {
+        "fc51bded-f6fc-4217-bb5e-f06d1c098c49": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/12_0f5b5958-42ec-4558-877b-f83765411d19.jpg",
+            "image_2": "shopify:\/\/shop_images\/11_1faac4c1-fd32-400b-9711-f4833dfb5d99.jpg",
+            "image_1_caption": "<p>Christian wears<a href=\"\/products\/didcot-shirt-orange-crinkle-stripe\" target=\"_blank\" title=\"Didcot Shirt Orange Crinkle Stripe\"> Didcot Shirt Orange Crinkle Stripe<\/a>, <a href=\"\/products\/montague-vest-white\" target=\"_blank\" title=\"Montague Vest White\">Montague Vest White<\/a> & <a href=\"\/products\/santo-cargo-trousers-sand\" target=\"_blank\" title=\"Santo Cargo Trousers Sand\">Santo Cargo Trousers Sand<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "0b8dedf9-586b-4beb-8955-70c21b420d42": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "fc51bded-f6fc-4217-bb5e-f06d1c098c49",
+        "0b8dedf9-586b-4beb-8955-70c21b420d42"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d425597a-0f50-4d1f-9174-3943e4d8c78e": {
+      "type": "double_image",
+      "blocks": {
+        "424223bc-382d-49f4-b0e3-031df6a11427": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/14_a68a3de5-51f1-4841-83c9-059a27f99ba8.jpg",
+            "image_2": "shopify:\/\/shop_images\/13_2bf9995e-687b-42e5-9b9c-448657cf9b70.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>Joe wears <a href=\"\/products\/tellaro-shirt-brown\" target=\"_blank\" title=\"Tellaro Shirt Brown\">Tellaro Shirt Brown<\/a>, <a href=\"\/products\/dean-t-shirt-white\" target=\"_blank\" title=\"Dean T Shirt White\">Dean T-Shirt White<\/a> & <a href=\"\/products\/kurt-trousers-stone-heavy-twill\" target=\"_blank\" title=\"Kurt Trousers Stone Heavy Twill\">Kurt Trousers Stone Heavy Twill<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "9f203391-395d-4abb-9ef1-f00ceba26bc7": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "424223bc-382d-49f4-b0e3-031df6a11427",
+        "9f203391-395d-4abb-9ef1-f00ceba26bc7"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "8fa52f01-d16a-4c84-9154-3b063461c899": {
+      "type": "double_image",
+      "blocks": {
+        "8c711635-5210-4994-8a0b-3897145ceb28": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/16_68b03f17-889c-4e1d-a995-c3ff288bf237.jpg",
+            "image_2": "shopify:\/\/shop_images\/15_988d17da-92c1-4006-8a0e-af021c073e65.jpg",
+            "image_1_caption": "<p>Lizzie wears <a href=\"\/products\/didcot-shirt-white-floral\" target=\"_blank\" title=\"Didcot Shirt White Floral\">Didcot Shirt White Floral<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "eb97c412-753a-4d10-ab42-30bf3f0de342": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "8c711635-5210-4994-8a0b-3897145ceb28",
+        "eb97c412-753a-4d10-ab42-30bf3f0de342"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "ss23-team-favourites",
+        "grid_items_count": 32,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "b66389d1-a929-4114-a948-65f003e185e7": {
+      "type": "youtube-spotify-embaded-code",
+      "disabled": true,
+      "blocks": {
+        "b18f327a-db27-4107-b063-ea08614796f5": {
+          "type": "youtube-spotify-code",
+          "settings": {
+            "video_embed": "<style>\n.image-small{background-color:#fff!important;\n<\/style>",
+            "mobile_video_embed": "",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_block_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "b18f327a-db27-4107-b063-ea08614796f5"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "7562d0da-2005-4c7f-9fb0-da3ab9028c70",
+    "57d13638-3eb1-43f1-9cb9-33afa49f2e50",
+    "c2b71ccd-db1b-4c2d-a77a-12fd43f79c9d",
+    "30a63b98-69fd-4af9-b8aa-605680828ba2",
+    "2b6b36a2-9f26-41d2-997f-f35ff5d1cab1",
+    "d425597a-0f50-4d1f-9174-3943e4d8c78e",
+    "8fa52f01-d16a-4c84-9154-3b063461c899",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "b66389d1-a929-4114-a948-65f003e185e7"
+  ]
+}

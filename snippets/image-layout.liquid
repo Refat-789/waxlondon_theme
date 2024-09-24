@@ -1,0 +1,25 @@
+{% assign component_class = class | default: 'lyt-Layout' %}
+
+<div class="{{ component_class }}__ImageWrapper">
+    {%- if image != blank -%}
+    <div
+        class="{{ component_class }}__Image Image--lazyLoad Image--fadeIn hide-no-js"
+        data-bgset="{{ image.cloudinary_src }} [(max-width: 640px)] | {{ image.cloudinary_src }}"
+        data-optimumx="1.4"
+        >
+    </div>
+
+    <span class="Image__Loader"></span>
+
+    <noscript>
+        <div class="{{ component_class }}__Image" style="background-image: url({{ image.cloudinary_src }})"></div>
+    </noscript>
+    {%- else -%}
+    <div class="{{ component_class }}__Image">
+        <div class="PlaceholderBackground">
+            {%- capture placeholder -%}{% cycle 'lifestyle-1', 'lifestyle-2' %}{%- endcapture -%}
+            {{ placeholder | placeholder_svg_tag: 'PlaceholderBackground__Svg PlaceholderSvg--dark' }}
+        </div>
+    </div>
+    {%- endif -%}
+</div>

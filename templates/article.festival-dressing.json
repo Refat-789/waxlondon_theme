@@ -1,0 +1,646 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead-F.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "The Festival Edit",
+        "blog_date": "April 16, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>As the weather heats up and festival season approaches, it's time to start thinking about your wardrobe choices for upcoming events. Whether you're a seasoned festival-goer or a first-timer, the right outfit can make all the difference. Festival dressing can be tricky, with a fine line between looking good and feeling comfortable. But fear not, we'll share some of our tips and tricks for nailing the style, from bold statement looks to practical dressing that will carry you beyond the festival, all summer long. <\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b8e4bfea-03c9-47d0-a3b0-ed13771b7b1c": {
+      "type": "single_image",
+      "blocks": {
+        "97824d52-0ca6-442b-908b-9574da74971b": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Statement_1e6658d8-0d23-4bc7-a4dd-684026c378ed.jpg",
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "6e42f85c-0b3e-41f3-a5d8-a110abf06c6e": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "97824d52-0ca6-442b-908b-9574da74971b",
+        "6e42f85c-0b3e-41f3-a5d8-a110abf06c6e"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "32ea765c-4228-4b41-aaa2-a33faa80ab2e": {
+      "type": "single_text",
+      "blocks": {
+        "10a02304-bb26-4564-8f63-84c5fdd9e26d": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 10
+          }
+        },
+        "198a9b5d-9b19-4116-91ff-3bea494724a1": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>No Such Thing As Too Much<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 48,
+            "text_line_height_mobile": 36,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "a36383d8-d157-4b47-85b8-ca1d32750d1c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "10a02304-bb26-4564-8f63-84c5fdd9e26d",
+        "198a9b5d-9b19-4116-91ff-3bea494724a1",
+        "a36383d8-d157-4b47-85b8-ca1d32750d1c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "a512666c-4c66-490c-b7f3-d4235ee86568": {
+      "type": "single_text",
+      "blocks": {
+        "81b7c528-4689-44de-992c-3eb1569f4fd7": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Embrace the \"more is more\" mentality and let your creativity run wild. Our Jacquard co-ords are perfect for bold festival dressing and will have you standing out from the crowd. The key to more outlandish festival dressing is to embrace your individuality and express yourself with confidence. Festivals are a space where people come together to celebrate music, culture, and creativity, so there's no need to play it safe with your wardrobe choices. <\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 24,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "d00bbad3-8ee2-4b27-8590-528f8d99072c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "81b7c528-4689-44de-992c-3eb1569f4fd7",
+        "d00bbad3-8ee2-4b27-8590-528f8d99072c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "all-out-looks",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "shopify:\/\/collections\/viscose",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "a863cba5-2ae5-48bb-acdb-59e5256dc1a3": {
+      "type": "single_image",
+      "blocks": {
+        "e3197128-f282-47cc-a9fc-de7bff88eee7": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "865b187b-7e06-417a-8785-c37a55bcd874": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Middle.jpg",
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "e35ac8de-9b7d-4be7-83e1-be8b2b841976": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "e3197128-f282-47cc-a9fc-de7bff88eee7",
+        "865b187b-7e06-417a-8785-c37a55bcd874",
+        "e35ac8de-9b7d-4be7-83e1-be8b2b841976"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9676e9f3-7ec0-4158-a28e-db5c47fa905d": {
+      "type": "single_text",
+      "blocks": {
+        "baf5f09e-e524-49fe-a30b-819093f73b6f": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 15
+          }
+        },
+        "049b3647-32b5-45bd-b604-8a88b958b695": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Somewhere In The Middle<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 48,
+            "text_line_height_mobile": 36,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "4c30b980-3d87-431c-a94c-590f3eeea0c1": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "baf5f09e-e524-49fe-a30b-819093f73b6f",
+        "049b3647-32b5-45bd-b604-8a88b958b695",
+        "4c30b980-3d87-431c-a94c-590f3eeea0c1"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4de7ffb5-eb14-4281-8947-6cfa94e717d0": {
+      "type": "single_text",
+      "blocks": {
+        "985896a1-9d18-4d60-bb1e-22fccec59c8e": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>If going all-out isn't your thing, choose one standout piece to elevate your outfit and add a touch of personality. Our Didcot Shirts and Ikat Trousers are great options that can be dressed up or down. <\/p><p>By choosing one accent piece, you can elevate a simple outfit and add a touch of personality to your look without feeling over the top. So, pick a piece that you love and let it do the talking for you at the festival!<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "28b42bcc-f892-481c-beec-f90f7ad517d2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "985896a1-9d18-4d60-bb1e-22fccec59c8e",
+        "28b42bcc-f892-481c-beec-f90f7ad517d2"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "59d5609f-33bb-4b98-a5fb-19e5d756e1ff": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "somewhere-in-the-middle",
+        "grid_items_count": 32,
+        "shop_button_text": "",
+        "shop_button_url": "shopify:\/\/collections\/the-festival-edit",
+        "button_text": "Shop The Look",
+        "close_button_text": "Close",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f24f9d83-18f3-4ff5-bb7b-2993d2e0c115": {
+      "type": "single_image",
+      "blocks": {
+        "58507ae9-ba41-43e2-b9af-bdceb02be4d5": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "93e522a4-0f33-4ade-a67f-719659f0ba9d": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beyond_5a3f146f-550f-49c7-aaf0-58ea231ed660.jpg",
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "bd2ea9ba-d56a-4687-9ae2-c4edeae9e12c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "58507ae9-ba41-43e2-b9af-bdceb02be4d5",
+        "93e522a4-0f33-4ade-a67f-719659f0ba9d",
+        "bd2ea9ba-d56a-4687-9ae2-c4edeae9e12c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "57196416-64d4-4375-9ece-dace9e04971b": {
+      "type": "single_text",
+      "blocks": {
+        "0f6443b9-8032-4941-9c39-dcca6e120102": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 15
+          }
+        },
+        "bd7fd3c8-54ab-4257-b2f9-0829a91ab1a7": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Style For All Summer Long<\/p>",
+            "font_size": 48,
+            "font_size_mobile": 36,
+            "text_line_height": 48,
+            "text_line_height_mobile": 36,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "bold",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        },
+        "7c4148b0-2f25-4afb-9243-e5236d19efdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "0f6443b9-8032-4941-9c39-dcca6e120102",
+        "bd7fd3c8-54ab-4257-b2f9-0829a91ab1a7",
+        "7c4148b0-2f25-4afb-9243-e5236d19efdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "160cd938-b8ed-42e2-a588-e8bab7e98cc3": {
+      "type": "single_text",
+      "blocks": {
+        "f44f0174-957f-4a4e-8ba1-093d0e6b6a81": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>If you're looking for pieces that can be worn beyond the festival season, we've got you covered there too. Opt for breathable fabrics like organic cotton or linen and loose-fitting clothing that will keep you cool in the heat. From our Didcot Shirts to Stripe T-shirts and Cargo Shorts, our edit features comfortable and practical pieces that still allow you to express your personal style and enjoy all summer events from one to the next with ease. <\/p>",
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 25,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "2600d23a-8eea-4475-abac-c5337939bd1c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        }
+      },
+      "block_order": [
+        "f44f0174-957f-4a4e-8ba1-093d0e6b6a81",
+        "2600d23a-8eea-4475-abac-c5337939bd1c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "918c320d-e078-4025-9f43-126ee0b03ecb": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "festival-beyond",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "shopify:\/\/collections\/linen",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0d3df5f-3e66-495f-881d-591fe37e1420": {
+      "type": "single_text",
+      "blocks": {
+        "70d282ea-9e1a-4cc5-b3eb-71b3e414938e": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Image Credits: James M Shelley (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">CC BY-SA 4.0<\/a>), James M Shelley (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">CC BY-SA 4.0<\/a>), Derek Redmond and Paul Campbell (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\">CC BY-SA 3.0<\/a>), Omasz (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">CC BY-SA 4.0<\/a>), Stas Namin Center (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/\">CC BY-SA 3.0<\/a>), James M Shelley (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">CC BY-SA 4.0<\/a>), Earl J McGehee (<a href=\"https:\/\/creativecommons.org\/licenses\/by\/3.0\/us\/\" title=\"https:\/\/creativecommons.org\/licenses\/by\/3.0\/us\/\">CC BY 3.0 US<\/a>), James M Shelley (<a href=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by-sa\/4.0\/\">CC BY-SA 4.0)<\/a>, Ralf Lotys (Sicherlich) (<a href=\"https:\/\/creativecommons.org\/licenses\/by\/3.0\/\" target=\"_blank\" title=\"https:\/\/creativecommons.org\/licenses\/by\/3.0\/\">CC BY 3.0<\/a>) <br\/><\/p>",
+            "font_size": 13,
+            "font_size_mobile": 12,
+            "text_line_height": 15,
+            "text_line_height_mobile": 15,
+            "text_color": "#999999",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "70d282ea-9e1a-4cc5-b3eb-71b3e414938e"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "b8e4bfea-03c9-47d0-a3b0-ed13771b7b1c",
+    "32ea765c-4228-4b41-aaa2-a33faa80ab2e",
+    "a512666c-4c66-490c-b7f3-d4235ee86568",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "a863cba5-2ae5-48bb-acdb-59e5256dc1a3",
+    "9676e9f3-7ec0-4158-a28e-db5c47fa905d",
+    "4de7ffb5-eb14-4281-8947-6cfa94e717d0",
+    "59d5609f-33bb-4b98-a5fb-19e5d756e1ff",
+    "f24f9d83-18f3-4ff5-bb7b-2993d2e0c115",
+    "57196416-64d4-4375-9ece-dace9e04971b",
+    "160cd938-b8ed-42e2-a588-e8bab7e98cc3",
+    "918c320d-e078-4025-9f43-126ee0b03ecb",
+    "b0d3df5f-3e66-495f-881d-591fe37e1420",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "16788867009c47aca7"
+  ]
+}

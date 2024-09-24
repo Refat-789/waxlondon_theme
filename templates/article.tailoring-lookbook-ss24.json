@@ -1,0 +1,725 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Web-Banner.gif",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile-Banner_b2966742-eab6-4edd-9fa1-68dd1da31b26.gif",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Suited For Summer",
+        "blog_date": "June 27, 2024",
+        "blog_author": "Tobias Wightman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 30,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>The first sign of sunshine sparks the ever-growing list of social occasions to mark on your calendar. And, naturally, the question arises: what should you wear? To help you make the most of your many warm-weather events, we’ve created a tailored style guide showcasing our <a href=\"\/collections\/linen\" title=\"Linen\"><span style=\"text-decoration:underline\">linen<\/span><\/a> and <a href=\"\/collections\/seersucker\" title=\"Seersucker\"><span style=\"text-decoration:underline\">seersucker<\/span><\/a> suits to ensure you show up and show off during each occasion.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 14,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "e3b888fd-5280-49a9-bb73-dc1d517275bb": {
+      "type": "blog-header",
+      "disabled": true,
+      "settings": {
+        "blog_title": "What To Wear To:",
+        "blog_date": "",
+        "blog_author": "",
+        "title_font_size": 36,
+        "des_font_size": 16,
+        "title_font_size_mobile": 24,
+        "des_font_size_mobile": 16,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "medium",
+        "custom_section_width": 800
+      }
+    },
+    "5b052504-f8f2-4091-9442-88a12612e9a8": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_1.png",
+            "title": "What To Wear To: Manage The Five-A-Side",
+            "description": "<p>Regardless of whether you are sitting at home shouting at the TV or on the sidelines at the Sunday five-a-side game, let's face it: you consider yourself a manager. And if you feel fit for the role, you should dress the part. After all, the beautiful game deserves an equally beautiful suit, and our Midnight Linen <a href=\"\/collections\/suits\" title=\"Suits\"><span style=\"text-decoration:underline\">Suit<\/span><\/a> is a game changer. Of course, the secret to any great football manager is a <a href=\"https:\/\/waxlondon.com\/collections\/knitwear\" title=\"https:\/\/waxlondon.com\/collections\/knitwear\"><span style=\"text-decoration:underline\">knitted polo<\/span><\/a>. Our Ecru Naples Polo Shirt is guaranteed to bring home the win. Or, at the very least, earn you a few compliments. <\/p>",
+            "text_max_width": 500,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Midnight Linen",
+            "button_url": "shopify:\/\/products\/fintry-blazer-midnight-linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "6377ecaa-4ebb-449f-ae17-06f6b44b0dad"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_YXKxVE": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "manage-the-five-a-side",
+        "grid_items_count": 4,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_9XCKz6": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_Ug8kYd": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_3.png",
+            "title": "What To Wear To: The Work Summer Party",
+            "description": "<p>You’re known as the best-dressed guy in the office, right? We thought so. That’s why you’re here, after all. The work summer party is the perfect occasion to cement your title. Black and navy suits are always essential to have, of course. But for a menswear office legend like yourself, our Rust Linen <a href=\"\/collections\/suits\" title=\"Suits\"><span style=\"text-decoration:underline\">Suit<\/span><\/a> is the way to go. And paired with the Wax x Oscar Dean <a href=\"\/collections\/accessories\" title=\"Accessories\">shades<\/a>, you’ll be all the talk amongst your admiring colleagues.<\/p>",
+            "text_max_width": 500,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Rust Linen",
+            "button_url": "shopify:\/\/products\/fintry-blazer-rust-linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_Ug8kYd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_eHM9et": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "the-work-summer-party",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_P7b6dx": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_kDGpaU": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_4.png",
+            "title": "What To Wear To: After-Dinner Drinks",
+            "description": "<p>Warm weather and after-dinner drinks are a match made in heaven. They're also the perfect excuse to dress up for an occasion; as if you need one. Our Black Suit is a sophisticated choice for both formal and casual affairs. And when you're enjoying a tipple on a warm summer’s evening, you'll be thanking us that it's made in a breathable <a href=\"\/collections\/seersucker\" title=\"Seersucker\"><span style=\"text-decoration:underline\">seersucker<\/span><\/a> fabric. It also makes for the ideal base to add a pop of colour, which you'll be in no short supply with our abstract tile <a href=\"\/collections\/short-sleeve-shirts\" title=\"Short Sleeve Shirts\"><span style=\"text-decoration:underline\">Didcot Shirt<\/span><\/a>. You're suitably dressed for a cocktail on a rooftop or a pint at the pub - cheers!<\/p>",
+            "text_max_width": 500,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Black Seersucker",
+            "button_url": "shopify:\/\/products\/fintry-blazer-black-seersucker",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_kDGpaU"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_3wEFn8": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "after-dinner-drinks",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "shopify:\/\/collections\/suits",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_LqPRXU": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_C4r3iW": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_5.png",
+            "title": "What To Wear To: The Balmy BBQ",
+            "description": "<p>If there's one occasion that’s guaranteed this summer, it’s that there will be BBQs aplenty. You’re probably already a couple deep at this point. Step up the dress code for your next grilling get-together with our Pale Green Linen Suit. And since it’s a garden affair, our Botanical Print Didcot <a href=\"\/collections\/shirts\" title=\"Shirts\">Shirt<\/a> is a no-brainer to finish the look. And don't worry, you'll still be the best-dressed guest with an apron worn over the top - let him cook!<\/p>",
+            "text_max_width": 500,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Pale Green Linen",
+            "button_url": "shopify:\/\/products\/fintry-blazer-pale-green-linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_C4r3iW"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_debwBg": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "the-balmy-bbq",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "shopify:\/\/collections\/suits",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_NWbzFU": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_pb9kg3": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_6.png",
+            "title": "What To Wear To: Visit The Amalfi Coast",
+            "description": "<p>You can’t always guarantee the weather at home will be sunny. Or hot. Or resemble anything close to a summer’s day. So, a trip abroad to a more dependably balmy location is a smart move. Our breathable Navy Seersucker Suit is made to be worn strolling through the Italian streets. Of course, you’re on holiday, so for a more casual approach, swap a shirt for our striped Dean <a href=\"\/collections\/t-shirts\" title=\"T-Shirts\"><span style=\"text-decoration:underline\">T-shirt<\/span><\/a>. And if the blazing sun is becoming a bit much, chuck on a Wax <a href=\"\/collections\/caps\" title=\"Caps\">cap<\/a> - we don't want you looking like a lobster now, do we?<\/p>",
+            "text_max_width": 500,
+            "image_right": false,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Navy Seersucker",
+            "button_url": "shopify:\/\/products\/fintry-blazer-navy-seersucker",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_pb9kg3"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_tM47Fp": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "visit-the-amalfi-coast",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "text_image_style_2_Yf9q3i": {
+      "type": "text-image-style-2",
+      "blocks": {
+        "text_image_block_rDmGxJ": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/Double_Image_2_8b0e5079-3da1-4c26-b570-2625579ad7ef.png",
+            "title": "What To Wear To: Show Up The Groom",
+            "description": "<p>Sure, it is their big day. But let’s be honest, it’s also an opportunity to dress to impress, and our Natural <a href=\"\/collections\/linen\" title=\"Linen\">Linen<\/a> Suit will ensure you will. Consider the natural colourway as a blank canvas to have fun with your shirting. We went for a classic <a href=\"\/collections\/stripes\" title=\"Stripes\">pinstripe<\/a> option, courtesy of our Shelly <a href=\"\/collections\/shirts\" title=\"Shirts\">Shirt<\/a>, which covers you whether it’s a city ceremony, a countryside affair or a destination wedding. Even if your duties aren’t that of the best man, you can still be the best-dressed man at the wedding. Sorry, groom.<\/p>",
+            "text_max_width": 500,
+            "image_right": true,
+            "show_coming_soon_form": false,
+            "bg_color": "#f7f6f9",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 24,
+            "title_line_height": 22,
+            "title_line_height_mobile": 30,
+            "title_font_family": "ITCClearface",
+            "title_font_weight": "bold",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 15,
+            "des_font_size_mobile": 14,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Fintry Blazer Natural Linen",
+            "button_url": "shopify:\/\/products\/fintry-blazer-natural-linen",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "text_image_block_rDmGxJ"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0,
+        "klaviyo_list_id": "Uz3T4R"
+      }
+    },
+    "shop_the_look_new_yMwaYn": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "show-up-the-groom",
+        "grid_items_count": 24,
+        "shop_button_text": "Shop All Suits",
+        "shop_button_url": "shopify:\/\/collections\/suits",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "new_blog_posts_T3w8zb": {
+      "type": "new-blog-posts",
+      "blocks": {
+        "article_kKXWVr": {
+          "type": "article",
+          "settings": {
+            "article_1": "journal\/ss24-shorts-fit-guide",
+            "article_2": "journal\/ss24-fabric-guide",
+            "article_3": "journal\/ss24-drop-three-ciao-bella"
+          }
+        }
+      },
+      "block_order": [
+        "article_kKXWVr"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy...",
+        "show_category": false,
+        "button_link": "",
+        "button_text": "View all articles",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "e3b888fd-5280-49a9-bb73-dc1d517275bb",
+    "5b052504-f8f2-4091-9442-88a12612e9a8",
+    "shop_the_look_new_YXKxVE",
+    "text_image_style_2_9XCKz6",
+    "shop_the_look_new_eHM9et",
+    "text_image_style_2_P7b6dx",
+    "shop_the_look_new_3wEFn8",
+    "text_image_style_2_LqPRXU",
+    "shop_the_look_new_debwBg",
+    "text_image_style_2_NWbzFU",
+    "shop_the_look_new_tM47Fp",
+    "text_image_style_2_Yf9q3i",
+    "shop_the_look_new_yMwaYn",
+    "16788867009c47aca7",
+    "new_blog_posts_T3w8zb"
+  ]
+}

@@ -1,0 +1,1319 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+        "section_width": 1000,
+        "alignment": "left"
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "055a17e5-fac9-4403-82e3-8ed8cc3be738": {
+      "type": "blog-category-list",
+      "disabled": true,
+      "blocks": {
+        "cab6894f-fe28-44cb-a4ef-ae2696bf839e": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Latest",
+            "category_link": "#"
+          }
+        },
+        "f282da22-a290-428d-9778-6d1de177c709": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Wax Meets",
+            "category_link": "#"
+          }
+        },
+        "4588bc30-c38c-4b50-b9ae-5128a9aaf1b0": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Integrity At Wax",
+            "category_link": "#"
+          }
+        },
+        "0ca4fe83-9654-4327-b77f-498712203e23": {
+          "type": "images",
+          "settings": {
+            "cat_name": "Wax Radio",
+            "category_link": ""
+          }
+        },
+        "01757799-23dd-44fd-8716-1a18b8c61830": {
+          "type": "images",
+          "disabled": true,
+          "settings": {
+            "cat_name": "Test",
+            "category_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "cab6894f-fe28-44cb-a4ef-ae2696bf839e",
+        "f282da22-a290-428d-9778-6d1de177c709",
+        "4588bc30-c38c-4b50-b9ae-5128a9aaf1b0",
+        "0ca4fe83-9654-4327-b77f-498712203e23",
+        "01757799-23dd-44fd-8716-1a18b8c61830"
+      ],
+      "settings": {
+        "title": "Journal",
+        "title_font_size": 30,
+        "cat_title_font_size": 15,
+        "title_font_size_mobile": 24,
+        "cat_title_font_size_mobile": 16,
+        "title_color": "#333333",
+        "cat_title_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 400
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0-Lead_3e39b29f-3ada-40cb-8a66-9936b9415917.jpg",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 58,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "Wax Gift Guide",
+        "blog_date": "01\/12\/22",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 66,
+        "custom_spacing_height_mobile": 20
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>It’s beginning to look a lot like Christmas here at Wax.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom",
+            "custom_block_width": 600
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>There’s no need to break the bank, or the planet this Christmas. All of our pieces are made responsibly, with the best possible materials. We’ve put a lot of thought into each item, so you don’t need to.<\/p><p>Get your gift ideas here.. From stocking fillers, to show stoppers.<\/p>",
+            "font_size": 16,
+            "font_size_mobile": 15,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 60
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "84a0cfd1-ab26-44e4-9764-55a95eddea4b": {
+      "type": "double_text",
+      "disabled": true,
+      "blocks": {
+        "deb5498a-1fff-4424-991d-b7cb1caaea20": {
+          "type": "double_text_block",
+          "settings": {
+            "text_1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero. Nunc et dolor non ex elementum varius vel ut ligula. Sed id felis ex. Aenean tristique lobortis est, vitae consequat turpis sagittis varius. Quisque pharetra, dui ornare iaculis consectetur, magna velit condimentum nulla, non tristique nisl lorem ac risus. Cras accumsan eu est in dignissim.<\/p><p><\/p>",
+            "text_2": "<p>Aenean ligula felis, rutrum in augue quis, consectetur porta libero. Sed eleifend arcu vel porta cursus. <\/p><p><\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et. Quisque a mattis turpis. Sed nisl purus, malesuada.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "2f8443e1-b760-4bef-b140-629307cc50ea": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "deb5498a-1fff-4424-991d-b7cb1caaea20",
+        "2f8443e1-b760-4bef-b140-629307cc50ea"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5ee9226d-ec1d-41b2-998e-c5f003453f69": {
+      "type": "single_image",
+      "disabled": true,
+      "blocks": {
+        "0190dff3-ba24-4574-85ce-0abc650afe0d": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom",
+            "custom_block_width": 700,
+            "mobile_image_width": 100
+          }
+        },
+        "0ed9831f-0b6c-44a1-9f66-4ff43acfcc85": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "25219d51-32c0-40e4-81b8-5d9a90259958": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 500,
+            "mobile_image_width": 100
+          }
+        },
+        "8948011e-1869-4ee7-829d-9830569368a3": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "288c7dc6-c4b2-4602-992e-144456871f42": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full",
+            "custom_block_width": 800,
+            "mobile_image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "0190dff3-ba24-4574-85ce-0abc650afe0d",
+        "0ed9831f-0b6c-44a1-9f66-4ff43acfcc85",
+        "25219d51-32c0-40e4-81b8-5d9a90259958",
+        "8948011e-1869-4ee7-829d-9830569368a3",
+        "288c7dc6-c4b2-4602-992e-144456871f42"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "575cc1b2-54fa-4e14-ad3b-5bcf8bbc3583": {
+      "type": "double_image",
+      "blocks": {
+        "8782d242-50c7-4ea9-b4cb-8694877accf4": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Oz Shirt Grey and Yellow Check<\/a> with <a href=\"#\" title=\"#\">Fisherman Beanie Khaki<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 750
+          }
+        },
+        "4b63cd02-17f0-4dfe-8a1a-6ef21aa2125d": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "52a0afd1-3a9d-4978-a927-662b2e79a727": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Oz Shirt Grey and Yellow Check<\/a> with <a href=\"#\" title=\"#\">Fisherman Beanie Khaki<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "bdd8891b-2815-4447-8c66-cca08c2370e5": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "23d9909e-b256-47f2-a8c3-7f6c99e8074d": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "c6db495d-9b0c-45dd-a295-49e3f29bdbed": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "f184162b-226e-4b58-b4d0-a3587754b82f": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Oz Shirt Grey and Yellow Check<\/a> with <a href=\"#\" title=\"#\">Fisherman Beanie Khaki<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": false,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "small",
+            "custom_block_width": 800
+          }
+        },
+        "1af24e44-4eae-4a4f-b952-6436cec055b4": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "2c9003cc-d77f-4390-9389-4a4f0f0c4542": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/1_bdb95266-37ab-42f4-a5a9-dd8a045f51e8.jpg",
+            "image_2": "shopify:\/\/shop_images\/2_e1a19d55-ce21-4033-89fa-6c3627ed94ce.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/schill-cardigan-brown-black-slant?_pos=4&_sid=fc4f22e69&_ss=r\" target=\"_blank\">Schill Cardigan Brown\/Black Slant<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "6417ab43-8b11-4550-94fa-2f19cc25ef7c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "9e8832c6-c998-45bb-a131-7c5f5e6a9d13": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/3_3a451aaf-bce3-4ca0-9aa2-a0747d4b0626.jpg",
+            "image_2": "shopify:\/\/shop_images\/4_215bcd1e-6a0d-4700-92c2-be44b34abea8.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-accessories\" target=\"_blank\">Shop Accessories<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-outerwear\" target=\"_blank\">Shop Outerwear<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "4c8e9f95-fb7f-4151-979d-6d135b45f2ea": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "27744671-f96b-48ba-9541-1bf790d68dd8": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/5_21d90333-da54-49e1-8a30-32664e24a2a5.jpg",
+            "image_2": "shopify:\/\/shop_images\/6_78b1019e-0e9f-4f3a-9ddb-766b83285549.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-knitwear\" target=\"_blank\">Shop Knitwear<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/grove-crew-bright-blue-zig-zag?_pos=5&_sid=beb2dcc51&_ss=r\" target=\"_blank\">Grove Crew Bright Blue Zig Zag<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "17282e71-60bb-4405-8d1d-8d4662d640f0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "9b8f984c-f101-46aa-b63e-662389121a07": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/8_9595b82f-4d31-43d6-8967-29008d7704f1.jpg",
+            "image_2": "shopify:\/\/shop_images\/7_4b8ff31c-0fb2-4bfa-9a3d-4dcdfbd04f03.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-trousers\" target=\"_blank\">Shop Trousers<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "83ab18a1-82bc-4bfc-a6d4-688244324034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "91254bc0-ce7e-4f64-8e0f-a96efe0c8310": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10.jpg",
+            "image_2": "shopify:\/\/shop_images\/9.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/show-stopping-gifts\" target=\"_blank\">Show Stopping Gifts<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "244bc021-496c-467d-ad35-e51061886efe": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "a395ebae-51d9-4a0d-876b-af860908338d": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/11.jpg",
+            "image_2": "shopify:\/\/shop_images\/12.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/jacobs-polo-ecru-patchwork?_pos=1&_sid=6059f6af4&_ss=r\" target=\"_blank\">Jacobs Polo Ecru Patchwork<\/a><\/p>",
+            "image_2_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/eden-scarf-navy-green?_pos=2&_sid=5a77214aa&_ss=r\" target=\"_blank\">Eden Scarf Navy\/Green<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "82c468eb-5c1a-4c10-9df6-7c88eb35651b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "8782d242-50c7-4ea9-b4cb-8694877accf4",
+        "4b63cd02-17f0-4dfe-8a1a-6ef21aa2125d",
+        "52a0afd1-3a9d-4978-a927-662b2e79a727",
+        "bdd8891b-2815-4447-8c66-cca08c2370e5",
+        "23d9909e-b256-47f2-a8c3-7f6c99e8074d",
+        "c6db495d-9b0c-45dd-a295-49e3f29bdbed",
+        "f184162b-226e-4b58-b4d0-a3587754b82f",
+        "1af24e44-4eae-4a4f-b952-6436cec055b4",
+        "2c9003cc-d77f-4390-9389-4a4f0f0c4542",
+        "6417ab43-8b11-4550-94fa-2f19cc25ef7c",
+        "9e8832c6-c998-45bb-a131-7c5f5e6a9d13",
+        "4c8e9f95-fb7f-4151-979d-6d135b45f2ea",
+        "27744671-f96b-48ba-9541-1bf790d68dd8",
+        "17282e71-60bb-4405-8d1d-8d4662d640f0",
+        "9b8f984c-f101-46aa-b63e-662389121a07",
+        "83ab18a1-82bc-4bfc-a6d4-688244324034",
+        "91254bc0-ce7e-4f64-8e0f-a96efe0c8310",
+        "244bc021-496c-467d-ad35-e51061886efe",
+        "a395ebae-51d9-4a0d-876b-af860908338d",
+        "82c468eb-5c1a-4c10-9df6-7c88eb35651b"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "e0754a5c-dcee-4ae5-9cb9-14c5d7d8b46a": {
+      "type": "single_image",
+      "blocks": {
+        "98b781c3-fdb7-4a4e-9a29-9a6bd317a02d": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13-14.jpg",
+            "image_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-overshirts\" target=\"_blank\">Shop Overshirts<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800,
+            "mobile_image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "98b781c3-fdb7-4a4e-9a29-9a6bd317a02d"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d230cc2b-0db8-4a99-808f-412d1e03f745": {
+      "type": "double_image",
+      "blocks": {
+        "65f849d1-5797-4470-8e5a-9dd1a2545734": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "4dea5e79-e6a4-4928-8051-b448a7f70006": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/15.jpg",
+            "image_2": "shopify:\/\/shop_images\/16.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "",
+            "show_caption": false,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "59226281-825d-4519-a5e6-588686169719": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "aec0cdcc-cad1-43eb-ae52-a7340de143c1": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/17.jpg",
+            "image_2": "shopify:\/\/shop_images\/18.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/products\/schill-cardigan-pink-logo?_pos=3&_sid=0c9e15250&_ss=r\" target=\"_blank\">Schill Cardigan Pink Logo<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "3e2e1c7f-e501-4873-9391-152062f623f2": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        },
+        "f49c9656-cfd7-4262-8910-7efa3248abc8": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/19.jpg",
+            "image_2": "shopify:\/\/shop_images\/20.jpg",
+            "image_1_caption": "<p><a href=\"https:\/\/waxlondon.com\/collections\/gift-guide-shirts\" target=\"_blank\">Shop Shirts<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        }
+      },
+      "block_order": [
+        "65f849d1-5797-4470-8e5a-9dd1a2545734",
+        "4dea5e79-e6a4-4928-8051-b448a7f70006",
+        "59226281-825d-4519-a5e6-588686169719",
+        "aec0cdcc-cad1-43eb-ae52-a7340de143c1",
+        "3e2e1c7f-e501-4873-9391-152062f623f2",
+        "f49c9656-cfd7-4262-8910-7efa3248abc8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f4505dd4-c642-4bf8-a3c3-dedd170d4cb0": {
+      "type": "single_text",
+      "disabled": true,
+      "blocks": {
+        "ddc09b28-3d3f-4cff-9b5b-6aeed0d353d3": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis, nulla at tempus feugiat, ligula diam tempus velit, quis semper urna sapien eu nunc. Nullam volutpat tellus ac quam convallis, sit amet tincidunt turpis hendrerit. Donec id blandit enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sed ipsum et diam tincidunt scelerisque. Integer gravida quam nibh, nec sollicitudin metus mollis nec. In vulputate, neque id fermentum scelerisque, nisi neque porttitor velit, id scelerisque purus libero ut nulla. Praesent fringilla convallis egestas. Sed maximus malesuada nibh sed ultrices.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 16,
+            "text_line_height": 29,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "regular",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 1200
+          }
+        },
+        "13039f53-acd7-47c0-8d4c-e5a7b187e97f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 80
+          }
+        }
+      },
+      "block_order": [
+        "ddc09b28-3d3f-4cff-9b5b-6aeed0d353d3",
+        "13039f53-acd7-47c0-8d4c-e5a7b187e97f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3e5271c6-8254-457f-a0eb-2b74e0d6c045": {
+      "type": "text-image-style-1",
+      "disabled": true,
+      "blocks": {
+        "b95fff14-4818-4a35-8864-7e6c97ee5c41": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero. Nunc et dolor non ex elementum varius vel ut ligula. Sed id felis ex. Aenean tristique lobortis est, vitae consequat turpis sagittis varius. Quisque pharetra, dui ornare iaculis consectetur, magna velit condimentum nulla, non tristique nisl lorem ac risus.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et.<\/p>",
+            "image_right": false,
+            "image_part_width": 50,
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "a3e08896-0e2b-4c05-ad9a-9f311c0b2fd6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "5a780828-075e-4457-b677-caa05306098e": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero. Nunc et dolor non ex elementum varius vel ut ligula. Sed id felis ex. Aenean tristique lobortis est, vitae consequat turpis sagittis varius. Quisque pharetra, dui ornare iaculis consectetur, magna velit condimentum nulla, non tristique nisl lorem ac risus.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et.<\/p>",
+            "image_right": true,
+            "image_part_width": 50,
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "caa21ee2-87e4-4bcc-8327-98f84f0e845c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "b95fff14-4818-4a35-8864-7e6c97ee5c41",
+        "a3e08896-0e2b-4c05-ad9a-9f311c0b2fd6",
+        "5a780828-075e-4457-b677-caa05306098e",
+        "caa21ee2-87e4-4bcc-8327-98f84f0e845c"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "f7b9c8f1-bf11-44ad-a6db-2f120f9532c3": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "extra_wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "539251ad-2ddb-459b-b0da-55cbbd6983c5": {
+      "type": "text-image-style-2",
+      "disabled": true,
+      "blocks": {
+        "0cd34c92-6dcf-4cd4-9cef-d417412c24ae": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "title": "Whiting Overshirt",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. <\/p>",
+            "image_right": false,
+            "bg_color": "#f2f2f2",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 16,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "Maison Neue",
+            "title_font_weight": "normal",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#333333",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "89330100-53f5-4002-95bf-5e438d0cc6b4": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "title": "Whiting Overshirt",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum<\/p><p><\/p>",
+            "image_right": true,
+            "bg_color": "#4e4e3f",
+            "title_color": "#ffffff",
+            "des_color": "#ffffff",
+            "title_font_size": 24,
+            "title_font_size_mobile": 16,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "Maison Neue",
+            "title_font_weight": "normal",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": true,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#1a1a1a",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "a3d62277-93ab-4318-8f57-c94388d9a7f2": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "title": "Whiting Overshirt",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero.<\/p>",
+            "image_right": false,
+            "bg_color": "#a8a897",
+            "title_color": "#333333",
+            "des_color": "#333333",
+            "title_font_size": 24,
+            "title_font_size_mobile": 16,
+            "title_line_height": 22,
+            "title_line_height_mobile": 22,
+            "title_font_family": "Maison Neue",
+            "title_font_weight": "normal",
+            "title_alignment": "left",
+            "title_alignment_mobile": "left",
+            "des_font_size": 16,
+            "des_font_size_mobile": 16,
+            "des_line_height": 22,
+            "des_line_height_mobile": 22,
+            "des_font_family": "Maison Neue",
+            "des_font_weight": "normal",
+            "des_alignment": "left",
+            "des_alignment_mobile": "left",
+            "show_button": false,
+            "button_text": "Shop The Look",
+            "button_url": "",
+            "open_link_new_tab": false,
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#333333",
+            "button_font_size": 15,
+            "btn_font_size_mobile": 16,
+            "btn_line_height": 22,
+            "btn_line_height_mobile": 22,
+            "btn_font_family": "Maison Neue",
+            "btn_font_weight": "normal",
+            "btn_alignment": "left",
+            "btn_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        }
+      },
+      "block_order": [
+        "0cd34c92-6dcf-4cd4-9cef-d417412c24ae",
+        "89330100-53f5-4002-95bf-5e438d0cc6b4",
+        "a3d62277-93ab-4318-8f57-c94388d9a7f2"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "4ab06e4e-8c32-4d61-9fad-aba90917c9c4": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "extra_wide_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "b97f3d84-8040-4a21-a676-eda1448f1d28": {
+      "type": "text-image-style-1",
+      "disabled": true,
+      "blocks": {
+        "f4b21395-96fb-48bb-8f69-6976c09b0dad": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1465.jpg",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero. Nunc et dolor non ex elementum varius vel ut ligula. Sed id felis ex. Aenean tristique lobortis est, vitae consequat turpis sagittis varius. Quisque pharetra, dui ornare iaculis consectetur, magna velit condimentum nulla, non tristique nisl lorem ac risus. Cras accumsan eu est in dignissim. Aenean ligula felis, rutrum in augue quis, consectetur porta libero. Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et. Sed eleifend arcu vel porta cursus. Mauris ultrices mauris vel lacus hendrerit sodales. Quisque a mattis turpis. Sed nisl purus, malesuada ac ultricies iaculis, iaculis id tellus. Morbi hendrerit ipsum sit amet lacus convallis tincidunt. Praesent quis libero rutrum, pharetra ex non, tincidunt justo. Nulla facilisi.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et. Sed eleifend arcu vel porta cursus. Mauris ultrices mauris vel lacus hendrerit sodales. Quisque a mattis turpis. Sed nisl purus, malesuada ac ultricies iaculis, iaculis id tellus. Morbi hendrerit ipsum sit amet lacus convallis tincidunt. Praesent quis libero rutrum, pharetra ex non, tincidunt justo. Nulla facilisi.<\/p>",
+            "image_right": false,
+            "image_part_width": 60,
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom",
+            "custom_block_width": 1400
+          }
+        },
+        "a32da14a-ff61-4da8-a93a-6b50b9337e87": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "8c791757-e5d8-462a-873e-dc6633a80a70": {
+          "type": "text_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1465.jpg",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum est eu eros malesuada aliquam. Aenean iaculis ligula a quam vehicula mattis. Nulla fringilla bibendum erat id molestie. Quisque id arcu in libero euismod rutrum sed ut libero. Nunc et dolor non ex elementum varius vel ut ligula. Sed id felis ex. Aenean tristique lobortis est, vitae consequat turpis sagittis varius. Quisque pharetra, dui ornare iaculis consectetur, magna velit condimentum nulla, non tristique nisl lorem ac risus. Cras accumsan eu est in dignissim. Aenean ligula felis, rutrum in augue quis, consectetur porta libero. Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et. Sed eleifend arcu vel porta cursus. Mauris ultrices mauris vel lacus hendrerit sodales. Quisque a mattis turpis. Sed nisl purus, malesuada ac ultricies iaculis, iaculis id tellus. Morbi hendrerit ipsum sit amet lacus convallis tincidunt. Praesent quis libero rutrum, pharetra ex non, tincidunt justo. Nulla facilisi.<\/p><p>Nunc faucibus ornare risus nec accumsan. Donec sed nisi rutrum, mattis diam a, tempus risus. Morbi at lectus elementum, laoreet orci sit amet, rutrum ipsum. Integer vel aliquet risus, sed pharetra justo. Pellentesque commodo eu quam vel hendrerit. Mauris non turpis fermentum, faucibus nulla quis, convallis nulla. Ut efficitur metus eros, quis consequat nunc tincidunt et. Sed eleifend arcu vel porta cursus. Mauris ultrices mauris vel lacus hendrerit sodales. Quisque a mattis turpis. Sed nisl purus, malesuada ac ultricies iaculis, iaculis id tellus. Morbi hendrerit ipsum sit amet lacus convallis tincidunt. Praesent quis libero rutrum, pharetra ex non, tincidunt justo. Nulla facilisi.<\/p>",
+            "image_right": true,
+            "image_part_width": 60,
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom",
+            "custom_block_width": 1400
+          }
+        },
+        "2630b7a1-f8b4-4a56-9953-cbf42591d7a4": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f4b21395-96fb-48bb-8f69-6976c09b0dad",
+        "a32da14a-ff61-4da8-a93a-6b50b9337e87",
+        "8c791757-e5d8-462a-873e-dc6633a80a70",
+        "2630b7a1-f8b4-4a56-9953-cbf42591d7a4"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "ff34990c-406f-4c80-8929-4dbaa0f4d583": {
+      "type": "double-image-style-2",
+      "disabled": true,
+      "blocks": {
+        "d3e4c6b2-3f7a-4ff3-be4a-69eb6d7917c4": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "left_part_width": 60,
+            "font_size": 16,
+            "font_size_mobile": 16,
+            "text_line_height": 22,
+            "text_line_height_mobile": 22,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 800
+          }
+        },
+        "19f7c17f-3fbd-4a2c-8688-ab4697123ef0": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "cab477ed-d555-430a-91cc-508d2dd599e5": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+            "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+            "image_1_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "image_2_caption": "<p>Model wears <a href=\"#\" title=\"#\">Whiting Shirt Cosmic Papaya Check<\/a> with <a href=\"#\" title=\"#\">Dean T Shirt Black<\/a> and <a href=\"#\" title=\"#\">Pleat Trousers Black<\/a><\/p>",
+            "show_caption": true,
+            "space_between": true,
+            "items_full_width_mobile": false,
+            "left_part_width": 56,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium",
+            "custom_block_width": 900
+          }
+        }
+      },
+      "block_order": [
+        "d3e4c6b2-3f7a-4ff3-be4a-69eb6d7917c4",
+        "19f7c17f-3fbd-4a2c-8688-ab4697123ef0",
+        "cab477ed-d555-430a-91cc-508d2dd599e5"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3ac83790-04d4-4034-9b47-e1c30176f540": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/04-10-2022-WAX1307.jpg",
+        "image_2": "shopify:\/\/shop_images\/04-10-2022-WAX1517.jpg",
+        "collection": "overshirts",
+        "grid_items_count": 12,
+        "button_text": "Shop The Look",
+        "close_button_text": "Close",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 14,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": true,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 400,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "055a17e5-fac9-4403-82e3-8ed8cc3be738",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "84a0cfd1-ab26-44e4-9764-55a95eddea4b",
+    "5ee9226d-ec1d-41b2-998e-c5f003453f69",
+    "b0373224-b41c-4924-a2d9-bd2db5bcad31",
+    "575cc1b2-54fa-4e14-ad3b-5bcf8bbc3583",
+    "e0754a5c-dcee-4ae5-9cb9-14c5d7d8b46a",
+    "d230cc2b-0db8-4a99-808f-412d1e03f745",
+    "f4505dd4-c642-4bf8-a3c3-dedd170d4cb0",
+    "3e5271c6-8254-457f-a0eb-2b74e0d6c045",
+    "f7b9c8f1-bf11-44ad-a6db-2f120f9532c3",
+    "539251ad-2ddb-459b-b0da-55cbbd6983c5",
+    "4ab06e4e-8c32-4d61-9fad-aba90917c9c4",
+    "b97f3d84-8040-4a21-a676-eda1448f1d28",
+    "ff34990c-406f-4c80-8929-4dbaa0f4d583",
+    "3ac83790-04d4-4034-9b47-e1c30176f540",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

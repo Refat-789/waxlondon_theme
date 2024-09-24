@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+        <meta name="referrer" content="origin">
+
+        <title>{{ page_title }}</title>
+      
+      	<!-- Google Optimize -->
+   		<script src="https://www.googleoptimize.com/optimize.js?id=OPT-56L6TFQ"></script>
+
+        <!-- Google Tag Manager -->
+        {% include 'GTM' | placement: 'head' %}
+
+        {{ content_for_header }}
+
+        {{ checkout_stylesheets }}
+        {{ checkout_scripts }}
+
+       {% comment %} {% include 'globale-css-include' %}
+        {% include 'globale-base-snippet' %}{% endcomment %}
+      
+      
+      	{% include 'gtm-page-metadata' %}
+      	<style>
+            form.edit_checkout #continue_button{
+                background: #f26924 ;
+            }
+          .btn, .sp-modal-toggle {
+              background-color: #f26924;
+          }
+          .btn:hover, .sp-modal-toggle:hover {
+              background-color: #f26924;
+          }
+        </style>
+      
+    
+ {% comment %} {% include "globale-checkout-css" %} {% endcomment %}
+</head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        {% include 'GTM' %}
+
+        {% render 'gtm-checkout' %}
+
+        {%- if settings.klarna_checkout -%}
+            {{ render 'vendor-klarna' }}
+        {%- endif -%}
+
+        {{ skip_to_content_link }}
+
+        <header class="banner" data-header role="banner">
+            <div class="wrap">
+                {{ content_for_logo }}
+            </div>
+        </header>
+
+        {{ order_summary_toggle }}
+        <div class="content" data-content>
+            <div class="wrap">
+                <div class="main">
+                    <header class="main__header" role="banner">
+                        {{ content_for_logo }}
+                        {{ breadcrumb }}
+                        {{ alternative_payment_methods }}
+                    </header>
+                    <main class="main__content" role="main">
+                        {{ content_for_layout }}
+                    </main>
+                    <footer class="main__footer" role="contentinfo">
+                        {{ content_for_footer }}
+                    </footer>
+                </div>
+                <aside class="sidebar" role="complementary">
+                    <div class="sidebar__header">
+                        {{ content_for_logo }}
+                    </div>
+                    <div class="sidebar__content">
+                        {{ content_for_order_summary }}
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        {{ tracking_code }}
+      
+
+       {% comment %} {% include 'globale-js-include' %}
+                    {% include "globale-checkout-js" %}{% endcomment %}
+
+<script> (function(){ var s = document.createElement('script'); var h = document.querySelector('head') || document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : true, disableBgProcess : false, language : 'en', position : 'right', leadColor : '#333333', triggerColor : '#333333', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'small', triggerOffsetX : 20, triggerOffsetY : 65, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; h.appendChild(s); })(); </script>
+ 
+      <a href="#" class="accessibility-button" data-acsb-custom-trigger="true"> 
+        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31">
+          <defs>
+            <style>
+              .cls-1 {
+                opacity: .5;
+              }
+        
+              .cls-1, .cls-2, .cls-3 {
+                stroke-width: 0px;
+              }
+        
+              .cls-1, .cls-3 {
+                fill: #fff;
+              }
+            </style>
+          </defs>
+          <g id="Layer_1-2" data-name="Layer 1">
+            <g>
+              <circle class="cls-1" cx="15.5" cy="15.5" r="15.5"/>
+              <circle class="cls-2" cx="15.5" cy="15.5" r="15"/>
+              <path id="Path_223" data-name="Path 223" class="cls-3" d="m18.56,23.94c.15,0,.3-.04.44-.11.52-.23.76-.84.53-1.37,0-.02-.02-.04-.03-.05-.91-2.04-1.7-4.14-2.37-6.28-.15-.95-.23-1.91-.25-2.88-.01-.24.14-.47.37-.55l4.49-1.35c.55-.18.87-.76.73-1.32-.18-.55-.76-.87-1.32-.73-1.84.63-3.74,1.08-5.66,1.35-1.9-.27-3.77-.71-5.59-1.32-.55-.16-1.14.12-1.35.66-.19.55.11,1.14.65,1.33.03,0,.05.02.08.02l4.49,1.35c.24.07.39.3.37.55-.03.96-.11,1.93-.25,2.88-.67,2.14-1.46,4.23-2.37,6.28-.24.53-.02,1.16.51,1.42.49.26,1.1.06,1.35-.43.01-.02.02-.05.04-.08l2.15-4.38,2.05,4.41c.17.37.55.6.95.6m-2.99-18.43c1.13,0,2.05.92,2.05,2.05s-.92,2.05-2.05,2.05-2.05-.92-2.05-2.05h0c0-1.13.92-2.05,2.05-2.05"/>
+            </g>
+          </g>
+        </svg>
+      </a>  
+
+          {% render 'accessibility-checkout' %}
+</body>
+</html>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],al=w.atob,
+     j=d.createElement(s),jl=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'',p=d.location.pathname;jl.async=true;
+     j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+     
+     })(window,document,'script','dataLayer','OPT-56L6TFQ');
+</script>
+<script>
+  var flag = 0;
+
+function isPollFncart() {
+  if (document.querySelectorAll("span.step__footer__previous-link-content").length > 0) {
+    
+    document.querySelector('header.main__header li.breadcrumb__item:first-child a').textContent = "Bag";
+    
+    document.querySelector('.step[data-step="contact_information"] .step__footer span.step__footer__previous-link-content').textContent = "Return to Bag";
+       
+
+  } else {
+      flag = flag + 25;
+    if(flag < 5000){
+      setTimeout(isPollFncart, 25);
+    }
+  }
+};
+isPollFncart();
+  
+</script>

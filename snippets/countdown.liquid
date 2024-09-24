@@ -1,0 +1,107 @@
+
+<div class="countdown">
+  <div class="countdown_time" id="js_set_time" >
+    <div class="timer-block">
+      <span class="countdown_number js-hours">00</span>
+      <span class="countdown_title">Hours</span>
+    </div>
+    <div class="timer-block">
+      <span class="countdown_number js-minutes">00</span>
+      <span class="countdown_title">Minutes</span>
+    </div>
+    <div class="timer-block">
+      <span class="countdown_number js-seconds">00</span>
+      <span class="countdown_title">Seconds</span>
+    </div>
+  </div>
+</div>
+<style>
+  .countdown {
+      margin-bottom: 50px;
+  }
+  .countdown-wrap h2,  .countdown-wrap h3, .countdown-wrap h4 {
+    font-family: 'ITCClearface' !important;
+}
+  .countdown-wrap h2 span {
+    color: #e37830;
+}
+  .countdown_time {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    font-family: 'ITCClearface';
+}
+  .countdown_time .timer-block {
+    font-size: 5.5vw;
+    position: relative;
+    line-height: 1;
+    margin-top: 15px;
+}
+  .countdown_time .timer-block:not(:last-child){
+    margin-right: 4vw;
+  }
+  .countdown_time .timer-block:not(:last-child)::after{
+    content: ":";
+    position: absolute;
+    right: -2.5vw;
+    top: -0.5vw;
+    color: #e37830;
+    text-shadow: 0 0 48px rgba(227, 119, 48, 0.4);
+  }
+  .countdown_time .timer-block span{
+    display: block;
+        text-align: center;
+  }
+ .countdown_time span.countdown_number {
+    text-shadow: 0 0 48px rgb(255 255 255 / 40%);
+}
+  .countdown_time .timer-block span.countdown_title {
+    font-size: 12px;
+    opacity: .8;
+  }
+</style>
+
+<script type="text/javascript">
+  var settime = "{{ date }}";
+  (function (){
+    if(settime.length  > 0 ){
+      var ending_date = new Date(settime).getTime();
+      var x = setInterval(function() { 
+        // Get todays date and time
+        var now = new Date().getTime(); 
+        // Find the distance between now an the count down date
+        var distance = ending_date - now; 
+        var hours = Math.floor(distance / (1000 * 60 * 60));
+        if(hours  < 10 )
+        {
+          var hours = '0' + hours;
+        }else{
+          hours = hours;
+        }
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        if(minutes  < 10 )
+        {
+          var minutes = '0' + minutes;
+        }else{
+          minutes = minutes;
+        }
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        if(seconds  < 10 )
+        {
+          var seconds = '0' + seconds;
+        }else{
+          seconds = seconds;
+        }
+        // document.querySelector('.js-days').innerText = days;
+        document.querySelector('.js-hours').innerText = hours;
+        document.querySelector('.js-minutes').innerText = minutes;
+        document.querySelector('.js-seconds').innerText = seconds;
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("js_set_time").innerHTML = "Out of date";
+        }
+      }, 1000);
+    }
+  })();
+</script>

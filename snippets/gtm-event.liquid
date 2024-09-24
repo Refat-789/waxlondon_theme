@@ -1,0 +1,142 @@
+<script>
+
+var flag = 0;
+
+function isPollFnproductwrap() {
+  if (document.querySelectorAll(".ProductItem").length > 0) {
+
+    var $ = window.jQuery;
+
+    $(document).on("click",".ProductItem a",function() {
+      var product_info = $(this).closest('.ProductItem').find(".ProductItem__ImageWrapper").attr("data-product-link");
+      product_info = JSON.parse(product_info);     
+      var product_name = product_info.name;
+      var product_id = product_info.id;
+      var product_price = product_info.price;
+      var product_brand = product_info.brand;
+      var product_category = product_info.category;
+      var product_variant = product_info.variant;
+
+      var parentDiv = $(this).closest('.ProductItem').parent('div');
+      var product_position = parentDiv.index();
+      product_position = product_position + 1;
+      
+      var product_list = $(this).closest('section').attr("data-section-type").trim();
+      dataLayer.push({ ecommerce: null });  
+      dataLayer.push({
+          'event': 'productClick',
+          'ecommerce': {
+          'click': {
+              'actionField': {'list': product_list},      
+              'products': [{
+                'name': product_name,                      
+                'id': product_id,
+                'price': product_price,
+                'brand': product_brand,
+                'category': product_category,
+                'variant': product_variant,
+                'position' : product_position
+                  }]
+              }
+          }
+      });
+      dataLayer.push({
+          'event': 'select_item',
+        item_list_name: product_list,
+          items: [
+            {
+              item_name: product_name,
+              item_id: product_id,
+              currency: "{{ cart.currency.iso_code }}",
+              index: product_position,
+              item_brand: product_brand,
+              item_category: product_category,
+              item_variant: product_variant,
+              price: product_price
+            }
+          ]
+      });
+    });
+    
+
+  } else {
+      flag = flag + 25;
+    if(flag < 5000){
+      setTimeout(isPollFnproductwrap, 25);
+    }
+  }
+};
+isPollFnproductwrap();
+
+
+
+function isPollFnaddtocart() {
+  if (window.jQuery != undefined && (document.querySelectorAll(".ProductForm__AddToCart").length > 0)) {
+    var $ = window.jQuery;
+    $( ".ProductForm__AddToCart" ).on( "click", function() {
+      var product_info = $(this).closest('.Product__Info').attr("data-product-link");
+      product_info = JSON.parse(product_info); 
+
+      //var product_currency = $(".ProductMeta__PriceList.Heading span.ProductMeta__Price.Price.Price--highlight").text();
+      //product_currency = product_currency.replace(/[0-9]/g, '').replace(',', '').replace('.', '');
+      var product_name = product_info.name;
+      var product_id = product_info.id;
+      var product_price = product_info.price;
+      var product_brand = product_info.brand;
+      var product_category = product_info.category;
+      var product_variant =  $('.Product__Info select option').filter(':selected').text();
+      product_variant = product_variant.split('-').shift().trim();
+      var product_quantity = $(".ProductForm__QuantitySelector input.QuantitySelector__CurrentQuantity").val();
+      dataLayer.push({ ecommerce: null });  
+      dataLayer.push({
+        'event': 'addToCart',
+        'ecommerce': {
+          'currency': "{{ cart.currency.iso_code }}",
+          'add': {                               
+            'products': [{                        
+              'name': product_name,
+              'id': product_id,
+              'price': product_price,
+              'brand': product_brand,
+              'category': product_category,
+              'variant': product_variant,
+              'quantity': product_quantity
+            }]
+          }
+        }
+      });
+
+      dataLayer.push({
+        'event': 'add_to_cart',
+         currency: "{{ cart.currency.iso_code }}",
+         value: product_price,
+         items: [
+          {
+            item_id: product_id,
+            item_name: product_name,
+            item_brand: product_brand,
+            item_category: product_category,
+            item_variant: product_variant,
+            price: product_price,
+            quantity: product_quantity
+          }
+        ]
+      });
+
+
+    });
+
+  } else {
+    flag = flag + 25;
+    if(flag < 5000){
+      setTimeout(isPollFnaddtocart, 25);
+    }
+  }
+};
+isPollFnaddtocart();
+
+
+
+
+</script>
+

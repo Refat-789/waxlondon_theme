@@ -1,0 +1,766 @@
+<section id="section-{{ section.id }}" class="Section section-width-{{ section.settings.section_width }}" data-section-id="{{ section.id }}">
+        {% for block in section.blocks %}
+            <div class="block-{{block.id}}">
+                {% case block.type %}
+                {% when 'text_image_block' %}
+                <div class="double-image-text-wrapper block-{{block.id}}-width-{{ block.settings.block_width }}">
+                  <div class="left-part">
+                    <a  {% if block.settings.open_link_new_tab %} target="_blank" {% endif %} href="{{ block.settings.button_url }}"><img src="{{ block.settings.image_1 | img_url: 'master' }}"></a>
+                  </div>
+                  <div class="right-part">
+                    <div class="text-image-style-two-cus-width">
+                      <h2 class="title"><a {% if block.settings.open_link_new_tab %} target="_blank" {% endif %} href="{{ block.settings.button_url }}">{{ block.settings.title }}</a></h2>
+                      {{ block.settings.description }}
+                      {% if block.settings.show_coming_soon_form %}
+                      <div id="coming-soon-homepage">
+                        <div class="input-button-wrapper">
+                          <input type="email" id="coming_soon_notify_email" placeholder="Email" name="EMAIL" required="">
+                          <button type="submit" id="coming-soon-homepage-notify">{{ block.settings.sign_up_button_text }}</button>
+                        </div>
+                        <div class="notify-success-message">Success! You're on the list.</div>
+                    
+                        <div class="coming_soon_bis-newsletter-signup">
+                          <input type="checkbox" checked="" id="coming_soon_bis-newsletter" name="bis-newsletter" class="coming_soon_bis-custom-checkbox">
+                          <label for="coming_soon_bis-newsletter"><span class="bn-out"><span class="bn-in"></span></span><span class="bn-txt">Sign me up
+                              for news and offers</span></label>
+                        </div>
+                      </div>
+                      {% endif  %}
+                      {% if block.settings.show_button %}
+                          <div class="button-wrapper"><a class="button" {% if block.settings.open_link_new_tab %} target="_blank" {% endif %} href="{{ block.settings.button_url }}">{{ block.settings.button_text }}</a></div>
+                      {% endif  %}
+                    </div>
+                  </div>
+                </div>
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+</section>
+  
+<style>	
+  
+  #section-{{ section.id }}{
+      padding-left: {{section.settings.section_padding_left | append: "px"}};
+      padding-right: {{section.settings.section_padding_right | append: "px"}};
+      padding-top: {{section.settings.section_padding_top | append: "px"}};
+      padding-bottom: {{section.settings.section_padding_bottom | append: "px"}};
+    }
+    {% for block in section.blocks %}
+
+          .block-{{block.id}}-width-small{
+           max-width: 600px;
+           margin: 0 auto;
+         }
+         .block-{{block.id}}-width-medium{
+           max-width: 987px;
+           margin: 0 auto;
+         }
+        .block-{{block.id}}-width-full{
+           max-width: 100%;
+         }
+         .block-{{block.id}}-width-custom{
+            max-width: 100%;
+           padding: 0 10px;
+         }
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} {
+            display: flex;
+        }
+        {% if block.settings.image_right %}
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} {
+            flex-direction: row-reverse;
+          }
+        {% endif %}
+      
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div {
+            width: 50%;
+        }
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part {
+            background-color: {{ block.settings.bg_color }};
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+        }
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part .text-image-style-two-cus-width {
+            max-width: {{block.settings.text_max_width | append: "px"}};
+            margin: 0 auto;
+        }
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part .button-wrapper {
+            text-align: {{ block.settings.btn_alignment }};
+            margin-top: 10px;
+        }
+        #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part a.button {
+            color: {{ block.settings.button_text_color }};
+            background: {{ block.settings.button_bg_color }};
+            font-size: {{block.settings.button_font_size | append: "px"}};
+            line-height: {{block.settings.btn_line_height | append: "px"}};
+            font-family: "{{ block.settings.btn_font_family }}";
+            font-weight: {{ block.settings.btn_font_weight }};
+            padding: 13px 25px;
+            border-radius: 25px;
+        }
+        #section-{{ section.id }} .block-{{block.id}} h2 {
+            font-size: {{block.settings.title_font_size | append: "px"}};
+            line-height: {{block.settings.title_line_height | append: "px"}};
+            font-family: "{{ block.settings.title_font_family }}";
+            font-weight: {{ block.settings.title_font_weight }};
+            text-align: {{ block.settings.title_alignment }};
+            color: {{ block.settings.title_color }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} p {
+            font-size: {{block.settings.des_font_size | append: "px"}};
+            line-height: {{block.settings.des_line_height | append: "px"}};
+            font-family: "{{ block.settings.des_font_family }}";
+            font-weight: {{ block.settings.des_font_weight }};
+            text-align: {{ block.settings.des_alignment }};
+            color: {{ block.settings.des_color }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} p a {
+            text-decoration: underline;
+        }
+        #section-{{ section.id }} .block-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+        @media screen and (max-width: 1007px) {
+         .block-{{block.id}}-width-medium{
+           padding: 0 10px;
+         }
+        }
+        @media screen and (max-width: 640px) {
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} {
+            flex-direction: column;
+          }
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div {
+            width: 100%;
+          }
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part {
+            padding: 40px 10px;
+        }
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part .text-image-style-two-cus-width {
+            max-width: 100%;
+          }
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part .button-wrapper {
+            text-align: {{ block.settings.btn_alignment_mobile }};
+          }
+          #section-{{ section.id }} .block-{{block.id}}-width-{{ block.settings.block_width }} > div.right-part a.button {
+              font-size: {{block.settings.btn_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.btn_line_height_mobile | append: "px"}};
+          }
+          #section-{{ section.id }} .block-{{block.id}} h2 {
+              font-size: {{block.settings.title_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.title_line_height_mobile | append: "px"}};
+              text-align: {{ block.settings.title_alignment_mobile }};
+          }
+          #section-{{ section.id }} .block-{{block.id}} p {
+              font-size: {{block.settings.des_font_size_mobile | append: "px"}};
+              line-height: {{block.settings.des_line_height_mobile | append: "px"}};
+              text-align: {{ block.settings.des_alignment_mobile }};
+          }
+        }
+        @media screen and (max-width: 620px) {
+          .block-{{block.id}}-width-small{
+           padding: 0 10px;
+         }
+        }
+    {% endfor %}
+
+  
+
+</style> 
+
+<script>
+
+  $(document).on("click", "#coming-soon-homepage #coming-soon-homepage-notify", function(e) {
+    e.preventDefault();
+    var email = $('#coming-soon-homepage #coming_soon_notify_email').val();
+    var pattern = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+    if (!pattern.test(email)) {
+      $('#coming-soon-homepage #coming_soon_notify_email').val("").attr('placeholder', 'Please enter a valid email').addClass('error');
+    } 
+    else {
+      $('#coming-soon-homepage #coming_soon_notify_email').removeClass('error');
+      var subscribe_condition = true;
+      if(document.querySelector("#coming-soon-homepage input#coming_soon_bis-newsletter").checked){
+      	subscribe_condition = true;
+      }
+      else{
+      	subscribe_condition = false;
+      }
+      
+      fetch("https://a.klaviyo.com/onsite/components/back-in-stock/subscribe", {
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+        },
+        "body": new URLSearchParams({
+            "a": "{{- settings.klaviyo_public_api_key -}}",
+            "email": email,
+            "list" : "{{- section.settings.klaviyo_list_id -}}",
+            "g" : "{{- section.settings.klaviyo_list_id -}}",
+            "platform": "shopify",
+            "variant": 1,
+            "product": 1, 
+          	"subscribe_for_newsletter" : subscribe_condition
+        }),
+        "method": "POST",
+      })
+      .then(response => {
+          $("#coming-soon-homepage .input-button-wrapper").css("display", "none");
+          $("#coming-soon-homepage .notify-success-message").css("display", "block");
+          setTimeout(function(){
+            $(" #coming-soon-homepage .notify-success-message").css("display", "none");
+            $("#coming-soon-homepage .input-button-wrapper").css("display", "block");
+          }, 5000)
+
+      })
+      .catch(err => {
+          console.error(err);
+      });
+    }
+    
+  })
+</script>
+  
+  {% schema %}
+  {
+    "name": "Text with image style 2",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_padding_left",
+        "label": "Section padding left",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_right",
+        "label": "Section padding right",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_top",
+        "label": "Section padding top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_bottom",
+        "label": "Section padding bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "text",
+        "id": "klaviyo_list_id",
+        "label": "Klaviyo List Id",
+        "default": "Uz3T4R"
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "text_image_block",
+            "name": "Text image block",
+              "settings":[
+                  {
+                      "type": "image_picker",
+                      "id": "image_1",
+                      "label": "Choose Image"
+                  },
+                  {
+                      "type": "text",
+                      "id":  "title",
+                      "label": "Add title",
+                      "default": "Whiting Overshirt"
+                  },
+                  {
+                      "type": "richtext",
+                      "id":  "description",
+                      "label": "Add description"
+                  },
+                  {
+                      "type": "text",
+                      "id":  "sign_up_button_text",
+                      "label": "Button Text",
+                      "default": "Notify Me When Back In Stock"
+                  },
+                  {
+                    "type": "range",
+                    "id": "text_max_width",
+                    "label": "Text part max width",
+                    "min": 100,
+                    "max": 500,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 300
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "image_right",
+                    "label": "Image right",
+                    "default": false
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "show_coming_soon_form",
+                    "label": "Show Coming Soon Form",
+                    "default": false
+                  },
+                  {
+                    "type": "color",
+                    "id": "bg_color",
+                    "label": "Text part background colour",
+                    "default": "#F2F2F2"
+                  },
+                  {
+                    "type": "color",
+                    "id": "title_color",
+                    "label": "Title colour",
+                    "default": "#333333"
+                  },
+                  {
+                    "type": "color",
+                    "id": "des_color",
+                    "label": "Description colour",
+                    "default": "#333333"
+                  },
+                  {
+                    "type": "range",
+                    "id": "title_font_size",
+                    "label": "Title font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 24
+                  },
+                  {
+                    "type": "range",
+                    "id": "title_font_size_mobile",
+                    "label": "Title font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "title_line_height",
+                    "label": "Title line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "title_line_height_mobile",
+                    "label": "Title line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                  "type": "select",
+                  "id": "title_font_family",
+                  "label": "Title font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "title_font_weight",
+                  "label": "Title font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "title_alignment",
+                  "label": "Title alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "title_alignment_mobile",
+                  "label": "Title alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                  {
+                    "type": "range",
+                    "id": "des_font_size",
+                    "label": "Description font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "des_font_size_mobile",
+                    "label": "Description font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "des_line_height",
+                    "label": "Description line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "des_line_height_mobile",
+                    "label": "Description line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                  "type": "select",
+                  "id": "des_font_family",
+                  "label": "Description font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "des_font_weight",
+                  "label": "Description font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "des_alignment",
+                  "label": "Description alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "des_alignment_mobile",
+                  "label": "Description alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                  {
+                    "type": "checkbox",
+                    "id": "show_button",
+                    "label": "Show button",
+                    "default": false
+                  },
+                  {
+                      "type": "text",
+                      "id":  "button_text",
+                      "label": "Button Text",
+                      "default": "Shop The Look"
+                  },
+                  {
+                      "type": "url",
+                      "id":  "button_url",
+                      "label": "Button URL"
+                  },
+                  {
+                    "type": "checkbox",
+                    "id": "open_link_new_tab",
+                    "label": "Open link in new tab",
+                    "default": false
+                  },
+                  {
+                    "type": "color",
+                    "id": "button_text_color",
+                    "label": "Button text colour",
+                    "default": "#ffffff"
+                  },
+                  {
+                    "type": "color",
+                    "id": "button_bg_color",
+                    "label": "Button background colour",
+                    "default": "#1A1A1A"
+                  },
+                  {
+                    "type": "range",
+                    "id": "button_font_size",
+                    "label": "Button font size",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 15
+                  },
+                  {
+                    "type": "range",
+                    "id": "btn_font_size_mobile",
+                    "label": "Button font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "btn_line_height",
+                    "label": "Button line height",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "btn_line_height_mobile",
+                    "label": "Button line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                  "type": "select",
+                  "id": "btn_font_family",
+                  "label": "Button font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "btn_font_weight",
+                  "label": "Button font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "btn_alignment",
+                  "label": "Button alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "btn_alignment_mobile",
+                  "label": "Button alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                  {
+                  "type": "select",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "options": [
+                  {
+                    "value": "small",
+                    "label": "Narrow Width"
+                  },
+                  {
+                    "value": "medium",
+                    "label": "Wide Width"
+                  },
+                  {
+                    "value": "full",
+                    "label": "Full Width"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Full Width with 10px padding"
+                  }
+                ],
+                "default": "medium"
+                }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Content",
+             "name": "Text with image style 2"
+           }
+      ]
+  } 
+  {% endschema %}

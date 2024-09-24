@@ -1,0 +1,114 @@
+{% render 'breadcrumbs' %}
+
+<section id="section-{{ section.id }}" class="Section Section--spacingNormal">
+  <div class="Container">
+
+      <form id="email_signup" class="klaviyo_gdpr_embed_S9VwsA Form Form--spacingTight" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" novalidate="novalidate">
+        <header class="Form__Header">
+          <h2 class="Form__Title Heading u-h1">{{ section.settings.title }}</h2>
+        </header>
+        <input type="hidden" name="g" value="S9VwsA">
+        <div class="Form__Item klaviyo_field_group">
+            <input type="text" class="Form__Input" name="first_name"  placeholder="{{ 'First name'}}" autofocus>
+            <label class="Form__FloatingLabel">{{ 'first_name' }}</label>
+          </div>
+
+          <div class="Form__Item klaviyo_field_group">
+            <input type="text" class="Form__Input" name="customer[last_name]" placeholder="{{ 'Last name' }}">
+            <label class="Form__FloatingLabel">{{ 'last_name'}}</label>
+          </div>
+        <div class="Form__Item klaviyo_field_group">
+          <input type="email" id="k_id_email" class="Form__Input" name="email" placeholder="{{ 'Email' }}" required="required">
+          <label class="Form__FloatingLabel">{{ "email" }}</label>
+        </div>
+        <div class="privacy-policy">
+          <p>By continuing, you agree to Wax London's <a href="https://waxlondon.com/policies/terms-of-service" target="_blank">Terms of Service</a> and you confirm you have read Wax London's <a href="https://waxlondon.com/policies/privacy-policy" target="_blank">Privacy Policy</a>.</p>
+        </div>
+        <div class="klaviyo_form_actions">
+          <button type="submit" class="klaviyo_submit_button Form__Submit Button Button--primary Button--full">Sign up</button></div>
+        
+          <div class="klaviyo_messages">
+            <div class="success_message" style="display:none;"></div>
+            <div class="error_message" style="display:none;"></div>
+          </div>
+      </form>
+  </div>
+</section>
+
+<style>
+   
+  #section-{{ section.id }} form#email_signup {
+    max-width: 400px;
+    margin: auto;
+}
+  #section-{{ section.id }} h2.Form__Title.Heading.u-h1 {
+    margin-bottom: 20px;
+     font-size: {{section.settings.title_font_size_mobile | append: "px"}};
+}
+ #section-{{ section.id }}  .privacy-policy p {
+    font-size: 13px;
+    line-height: 19px;
+}
+  .klaviyo_messages {
+    text-align: center;
+}
+  #section-{{ section.id }} .privacy-policy a {
+    text-decoration: underline;
+}
+  @media screen and (min-width: 641px){
+      #section-{{ section.id }} h2.Form__Title.Heading.u-h1 {
+       font-size: {{section.settings.title_font_size | append: "px"}};
+  }
+  }
+  
+  
+</style>
+<script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+  <script type="text/javascript">
+ KlaviyoSubscribe.attachToForms('#email_signup', {
+   hide_form_on_success: true,
+   success_message: "Thank you for signing up! Check your email to confirm your subscription!"
+ });
+</script>
+
+  
+{% schema %}
+  {
+    "name": "Sign up",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default":  "Sign up"
+      },
+    {
+        "type": "range",
+        "id": "title_font_size",
+        "min":  12,
+        "max": 80,
+        "step":  1,
+        "label": "Title font size",
+        "default":  50
+      },
+      {
+        "type": "range",
+        "id": "title_font_size_mobile",
+        "min":  12,
+        "max":  50,
+        "step":  1,
+        "label": "Title font size For Mobile",
+        "default":  24
+      }
+  ],
+    "presets":
+      [
+        {
+          "category": "login",
+          "name": "Sign up",
+          "settings": {}
+        }
+      ]
+  }
+{% endschema %}
+

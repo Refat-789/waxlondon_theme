@@ -1,0 +1,500 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "1effb780-d46e-4f52-a6f6-ef32442feeab": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "normal_spacing",
+        "custom_spacing_height": 100,
+        "custom_spacing_height_mobile": 50
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lead-Desktop_113d6f43-b380-487c-bd14-1ab432bac424.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Lead-Mobile_61bff17c-71a0-4280-8bef-5dece527becc.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "AW23 Gift Guide",
+        "blog_date": "November 9, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>This Christmas, you can indulge in thoughtful gift-giving without straining your budget or harming the planet. Our collection is crafted with utmost responsibility, using the finest materials. We've carefully curated each item so you won't have to worry.<\/p><p>Discover your gift inspiration here, from charming stocking fillers to awe-inspiring show-stoppers.<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9a8bb3fa-ede5-44dc-bfe2-d516c83988f7": {
+      "type": "double_image",
+      "blocks": {
+        "6eb53521-b5ba-4348-84a2-30b92d53a91e": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/1_742d8f7c-6cc0-4443-9477-b150b8ff418a.jpg",
+            "image_2": "shopify:\/\/shop_images\/2_b789acaf-08d0-4498-b60b-836025a578c9.jpg",
+            "image_1_caption": "<p><a href=\"\/collections\/gift-guide-knitwear\" title=\"Gift Guide - Knitwear\">Shop Knitwear<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "821cd60f-bd00-4bc3-8abe-10639ec7a605": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "06528d05-5e2a-4280-b312-17ba179b3c4a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4_571798fe-e73f-4c7e-a80a-25c733b1da83.jpg",
+            "image_2": "shopify:\/\/shop_images\/5_2e659450-2db5-4c45-aa76-31041e6b162f.jpg",
+            "image_1_caption": "<p><a href=\"\/collections\/coats-and-jackets\" title=\"Coats & Jackets\">Shop Coats & Jackets<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "61023996-5090-444b-a8f4-ec627a54bc7b": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "6eb53521-b5ba-4348-84a2-30b92d53a91e",
+        "821cd60f-bd00-4bc3-8abe-10639ec7a605",
+        "06528d05-5e2a-4280-b312-17ba179b3c4a",
+        "61023996-5090-444b-a8f4-ec627a54bc7b"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3f112a80-5cac-490f-9d69-33168d42381a": {
+      "type": "single_image",
+      "blocks": {
+        "823c1367-d7f2-4258-88f2-a547f6cecbe4": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_03415f96-6200-401c-9deb-f777e36992b1.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "<p><a href=\"\/collections\/accessories\" title=\"Accessories\">Shop Accessories<\/a><\/p>",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "db01af9e-6714-43a5-95ce-7412b86bb082": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "823c1367-d7f2-4258-88f2-a547f6cecbe4",
+        "db01af9e-6714-43a5-95ce-7412b86bb082"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "70a6e3f3-8dcb-4cbb-b894-e45fe45d3618": {
+      "type": "double_image",
+      "blocks": {
+        "a4203195-64b9-46c7-bae8-8b6741e4327e": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/6_7c684ba8-fcd3-45a4-a5cf-1a133cebc17c.jpg",
+            "image_2": "shopify:\/\/shop_images\/7_ec61fe18-5d18-4dab-96bc-96ff7bd1bd54.jpg",
+            "image_1_caption": "<p><a href=\"\/collections\/overshirts\" title=\"Overshirts\">Shop Overshirts<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "024e670d-a195-4696-97ff-008bd028bda9": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "76d9186b-613c-43c6-9593-6b98940b42d7": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/9_06a45053-4547-46ae-aa54-6931240b3d12.jpg",
+            "image_2": "shopify:\/\/shop_images\/8_14dcbd26-ece8-4505-a49b-e96cb5abf5b4.jpg",
+            "image_1_caption": "<p><a href=\"\/collections\/coats-and-jackets\" title=\"Coats & Jackets\">Shop Coats & Jackets<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "77ea702b-f7b6-460b-bd6f-916b69b08dca": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "eb0ae05d-04f9-40e8-a681-b75a2d323f9c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10_d9b42a37-bc2c-4921-9118-e837943c34bd.jpg",
+            "image_2": "shopify:\/\/shop_images\/11_dcf64423-dd32-4f56-93b1-d7bef394e8a1.jpg",
+            "image_1_caption": "<p><a href=\"\/collections\/overshirts\" title=\"Overshirts\">Shop Overshirts<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c50fe639-3321-4d02-bcc3-1e6552feeec4": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "6e5bdd0c-4bfc-47e8-a647-dfe2898d8934": {
+          "type": "double_image_block",
+          "disabled": true,
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/10_d9b42a37-bc2c-4921-9118-e837943c34bd.jpg",
+            "image_2": "shopify:\/\/shop_images\/11_dcf64423-dd32-4f56-93b1-d7bef394e8a1.jpg",
+            "image_1_caption": "<p>Shop Overshirts<\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": false,
+            "space_between": true,
+            "items_full_width_mobile": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "da3e6575-15cb-49be-9654-4485bc773b04": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "a4203195-64b9-46c7-bae8-8b6741e4327e",
+        "024e670d-a195-4696-97ff-008bd028bda9",
+        "76d9186b-613c-43c6-9593-6b98940b42d7",
+        "77ea702b-f7b6-460b-bd6f-916b69b08dca",
+        "eb0ae05d-04f9-40e8-a681-b75a2d323f9c",
+        "c50fe639-3321-4d02-bcc3-1e6552feeec4",
+        "6e5bdd0c-4bfc-47e8-a647-dfe2898d8934",
+        "da3e6575-15cb-49be-9654-4485bc773b04"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "6b6fae82-f377-4191-8f83-f5a1506fd685": {
+      "type": "single_image",
+      "blocks": {
+        "12bf193f-4a9c-430f-b417-20b083f26579": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_be396001-fb2a-4c6a-aed2-87a73490ee46.jpg",
+            "hide_image": false,
+            "hide_image_mobile": false,
+            "image_caption": "",
+            "show_caption": true,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "5e755338-3fcb-4ccf-8150-9ad614baaa12": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "12bf193f-4a9c-430f-b417-20b083f26579",
+        "5e755338-3fcb-4ccf-8150-9ad614baaa12"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "401c6ebd-c3f4-451c-b32d-b9ef94ce09ff": {
+      "type": "shop-the-look-new",
+      "disabled": true,
+      "settings": {
+        "collection": "gift-guide",
+        "grid_items_count": 32,
+        "shop_button_text": "Shop The Guide",
+        "shop_button_url": "shopify:\/\/collections\/gift-guide",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": false,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    },
+    "16788867009c47aca7": {
+      "type": "apps",
+      "blocks": {
+        "c962c1cd-b883-4039-aa84-93b9fd05e910": {
+          "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-rating-bar\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+          "settings": {
+            "widget_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "c962c1cd-b883-4039-aa84-93b9fd05e910"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "1effb780-d46e-4f52-a6f6-ef32442feeab",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "9a8bb3fa-ede5-44dc-bfe2-d516c83988f7",
+    "3f112a80-5cac-490f-9d69-33168d42381a",
+    "70a6e3f3-8dcb-4cbb-b894-e45fe45d3618",
+    "6b6fae82-f377-4191-8f83-f5a1506fd685",
+    "401c6ebd-c3f4-451c-b32d-b9ef94ce09ff",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa",
+    "16788867009c47aca7"
+  ]
+}

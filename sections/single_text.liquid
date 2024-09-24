@@ -1,0 +1,268 @@
+<section id="section-{{ section.id }}" class="Section" data-section-id="{{ section.id }}">
+        {% for block in section.blocks %}
+            <div class="block-{{block.id}}">
+                {% case block.type %}
+                {% when 'single-text-block' %}
+                  <div class="block-{{block.id}}-width-{{ block.settings.block_width }}">{{ block.settings.text_content }}</div>
+                {% when 'spacer' %}
+                <div class="spacer"></div>
+                {% endcase %}
+            </div>
+      {% endfor %}   
+</section>
+  
+<style>	
+    #section-{{ section.id }}{
+      padding-left: {{section.settings.section_padding_left | append: "px"}};
+      padding-right: {{section.settings.section_padding_right | append: "px"}};
+    }
+    {% for block in section.blocks %}
+        .block-{{block.id}}-width-small{
+           max-width: 600px;
+           margin: 0 auto;
+         }
+         .block-{{block.id}}-width-medium{
+           max-width: 987px;
+           margin: 0 auto;
+         }
+         .block-{{block.id}}-width-custom{
+           max-width: 100%;
+           padding: 0 10px;
+         }
+        #section-{{ section.id }} .block-{{block.id}} p {
+            font-size: {{block.settings.font_size | append: "px"}};
+            line-height: {{block.settings.text_line_height | append: "px"}};
+            font-family: "{{ block.settings.font_family }}";
+            font-weight: {{ block.settings.font_weight }};
+            color: {{ block.settings.text_color }};
+            text-align: {{ block.settings.text_alignment }};
+        }
+        #section-{{ section.id }} .block-{{block.id}} .spacer {
+            height: {{block.settings.space_height | append: "px"}};
+        }
+        @media screen and (max-width: 1007px) {
+         .block-{{block.id}}-width-medium{
+           padding: 0 10px;
+         }
+        }
+       @media screen and (max-width: 640px) {
+            #section-{{ section.id }} .block-{{block.id}} p {
+            font-size: {{block.settings.font_size_mobile | append: "px"}};
+            line-height: {{block.settings.text_line_height_mobile | append: "px"}};
+            text-align: {{ block.settings.text_alignment_mobile }};
+        }
+       }
+        @media screen and (max-width: 620px) {
+          .block-{{block.id}}-width-small{
+           padding: 0 10px;
+         }
+        }
+    {% endfor %}
+
+ 
+
+</style> 
+  
+  {% schema %}
+  {
+    "name": "Single column text",
+    "settings": [
+      {
+        "type": "range",
+        "id": "section_padding_left",
+        "label": "Section padding left",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_right",
+        "label": "Section padding right",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      }
+    ],
+
+    "blocks": [
+          {
+           "type": "single-text-block",
+            "name": "Single text block",
+              "settings":[
+                  {
+                      "type": "richtext",
+                      "id":  "text_content",
+                      "label": "Single Text"
+                  },
+                  {
+                    "type": "range",
+                    "id": "font_size",
+                    "label": "Font size",
+                    "min": 12,
+                    "max": 70,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "font_size_mobile",
+                    "label": "Font size for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 16
+                  },
+                  {
+                    "type": "range",
+                    "id": "text_line_height",
+                    "label": "Text line height",
+                    "min": 12,
+                    "max": 70,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "range",
+                    "id": "text_line_height_mobile",
+                    "label": "Text line height for mobile",
+                    "min": 12,
+                    "max": 50,
+                    "step": 1,
+                    "unit": "px",
+                    "default": 22
+                  },
+                  {
+                    "type": "color",
+                    "id": "text_color",
+                    "label": "Text colour",
+                    "default": "#333333"
+                  },
+                  {
+                  "type": "select",
+                  "id": "font_family",
+                  "label": "Font family",
+                  "options": [
+                  {
+                    "value": "Maison Neue",
+                    "label": "Maison Neue"
+                  },
+                  {
+                    "value": "ITCClearface",
+                    "label": "ITCClearface"
+                  }
+                ],
+                "default": "Maison Neue"
+                },
+                  {
+                  "type": "select",
+                  "id": "font_weight",
+                  "label": "Font weight",
+                  "options": [
+                  {
+                    "value": "normal",
+                    "label": "Normal"
+                  },
+                  {
+                    "value": "bold",
+                    "label": "Bold"
+                  }
+                ],
+                "default": "normal"
+                },
+                {
+                  "type": "select",
+                  "id": "text_alignment",
+                  "label": "Text alignment",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                {
+                  "type": "select",
+                  "id": "text_alignment_mobile",
+                  "label": "Text alignment for mobile",
+                  "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "center",
+                    "label": "Center"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "left"
+                },
+                  {
+                  "type": "select",
+                  "id": "block_width",
+                  "label": "Block width",
+                  "options": [
+                  {
+                    "value": "small",
+                    "label": "Narrow Width"
+                  },
+                  {
+                    "value": "medium",
+                    "label": "Wide Width"
+                  },
+                  {
+                    "value": "custom",
+                    "label": "Full Width with 10px padding"
+                  }
+                ],
+                "default": "medium"
+                }
+              ]
+          },
+          {
+           "type": "spacer",
+            "name": "Spacer",
+              "settings":[
+                {
+                    "type": "range",
+                    "id": "space_height",
+                    "label": "Space Height",
+                    "min": 0,
+                    "max": 200,
+                    "step": 5,
+                    "unit": "px",
+                    "default": 30
+                }
+              ]
+          }
+      ],
+      "presets":[
+           {
+             "category": "Content",
+             "name": "Single column text"
+           }
+      ]
+  } 
+  {% endschema %}
+  
+  

@@ -1,0 +1,502 @@
+
+  {%- capture flickity_config -%}
+  {
+    "prevNextButtons": true,
+    "pageDots": false,
+    "wrapAround": true,
+    "cellAlign": "left",
+    "groupCells": true,
+    "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+  }
+  {%- endcapture -%}
+
+  <section id="section-{{ section.id }}" class="Section-{{ section.id }} Container" data-section-id="{{ section.id }}" data-section-type="shop-now">
+    <div class="section-width-{{ section.settings.section_width }}">
+      {%- capture product_panel -%}
+          <div class="Panel Panel--flush Panel--withArrows {% if section.settings.single_items_mobile %} single-item-mobile {% endif %}">
+  
+            <div class="Panel__Content">
+              {%- assign collection = collections[section.settings.collection] -%}
+  
+              <div class="ProductList ProductList--shopNow {% if collection.products.count == 3 %}Product-list-has-three-products{% endif %} {% if collection.products.count == 2 %}Product-list-has-two-products{% endif %} {% if collection.products.count == 1 %}Product-list-has-one-products{% endif %}" data-desktop-count="4" data-flickity-config='{{ flickity_config }}'>
+                {%- for product in collection.products limit: section.settings.grid_items_count -%}
+                  <div class="Carousel__Cell">
+                    {%- render 'product-item', product: product, position: forloop.index, show_product_info: true, show_labels: true, hide_product_title_mobile: section.settings.hide_product_title_mobile, hide_product_price_mobile: section.settings.hide_product_price_mobile -%}
+                  </div>
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+        {%- endcapture -%}
+      {% if section.settings.show_only_slider %}
+       <div class="direct-slider"> 
+          {{ product_panel }}
+        {% if  section.settings.shop_button_text != blank %}
+          <div class="button-wrapper shop-button-text"><a class="button" href="{{ section.settings.shop_button_url }}">{{ section.settings.shop_button_text }}</a></div>
+        {% endif %}
+        </div>
+      {% else %}
+        <div class="pannel-with-image">
+            <div class="double-image-wrapper">
+                <div class="left-image image-{% if section.settings.left_image_small %}small{% else %}unset{% endif %}  space-{% if section.settings.space_between %}true{% else %}false{% endif %}">
+                  <div class="image-wrapper"><img src="{{ section.settings.image_1 | img_url: 'master' }}"></div>
+                </div>
+                <div class="right-image image-{% if section.settings.right_image_small %}small{% else %}unset{% endif %}  space-{% if section.settings.space_between %}true{% else %}false{% endif %}">
+                  <div class="image-wrapper"><img src="{{ section.settings.image_2 | img_url: 'master' }}"></div>
+                </div>
+            </div>
+           <div class="pannel-wrapper"> {{ product_panel }}</div>
+        </div>
+        <div class="button-wrapper slider-open"><a class="button slider-open-button">{{ section.settings.button_text }}</a></div>
+        <div class="button-wrapper slider-close"><a class="button slider-close-button">{{ section.settings.close_button_text }}</a></div>
+      {% endif %}
+    </div>
+  </section>
+
+
+  <style>
+    #section-{{ section.id }}{
+      padding-left: {{section.settings.section_padding_left | append: "px"}};
+      padding-right: {{section.settings.section_padding_right | append: "px"}};
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .Section-{{ section.id }} .Panel {
+      border: none;
+      padding: 0;
+    }
+    .section-width-small{
+       max-width: 600px;
+       margin: 0 auto;
+     }
+     .section-width-medium{
+       max-width: 900px;
+       margin: 0 auto;
+     }
+    .section-width-full{
+       max-width: 100%;
+     }
+     .section-width-custom{
+       max-width: {{section.settings.custom_section_width | append: "px"}};
+       margin: 0 auto;
+     }
+
+    .Section-{{ section.id }} .pannel-with-image{
+        margin-bottom: 25px;
+        overflow: hidden;
+      position: relative;
+    }
+/*     .Section-{{ section.id }} .pannel-with-image.show{
+      overflow: visible;
+      transition: .5s;
+    } */
+    .Section-{{ section.id }} .double-image-wrapper{
+        display: flex;
+        justify-content: space-between;
+        opacity : 1;
+    }
+    .Section-{{ section.id }} .double-image-wrapper.hide{
+        opacity : .05;
+        transition: .5s;
+    }
+    .Section-{{ section.id }} .double-image-wrapper > div {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .Section-{{ section.id }} .double-image-wrapper > div.space-true {
+        width: 49%;
+    }
+
+    .Section-{{ section.id }} .double-image-wrapper > div.image-small{
+      padding: 45px;
+      background: #F2F2F2;
+      display: flex;
+      align-items: center;
+    }
+    
+    .Section-{{ section.id }} .ProductList--shopNow .Carousel__Cell {
+        padding: 0 5px;
+    }
+    .Section-{{ section.id }} .button-wrapper {
+        text-align: center;
+    }
+    .Section-{{ section.id }} .button-wrapper.shop-button-text {
+        margin-top: 20px;
+    }
+    .Section-{{ section.id }} .button-wrapper  a{
+        color: {{ section.settings.button_text_color }};
+        background: {{ section.settings.button_bg_color }};
+        font-size: {{section.settings.button_font_size | append: "px"}};
+        text-align: center;
+        padding: 13px 25px;
+        border-radius: 25px;
+        line-height: 1;
+        display: inline-block;
+        cursor: pointer;
+    }
+/*     .Section-{{ section.id }} .button-wrapper  a.button.slider-close-button {
+        margin-top: 20px;
+    } */
+    .Section-{{ section.id }} .ProductList--shopNow .flickity-viewport {
+        overflow: hidden;
+    }
+    .Section-{{ section.id }} .flickity-prev-next-button {
+      box-shadow: none;
+      background: #000;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  }
+    .Section-{{ section.id }} .flickity-prev-next-button.previous {
+        transform: unset;
+        text-align: center;
+    }
+    .Section-{{ section.id }} .flickity-prev-next-button.next {
+        text-align: center;
+    }
+    .Section-{{ section.id }} .flickity-prev-next-button svg {
+        fill: #fff;
+        stroke: #fff;
+        display: inline-block;
+    }
+    .Section-{{ section.id }} .pannel-with-image .Panel{
+      position: relative;
+      margin: 0 25px;
+    }
+    .Section-{{ section.id }} .pannel-wrapper{
+      position: absolute;
+      bottom: -100%;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+      width: 100%;
+    }
+    .Section-{{ section.id }} .pannel-wrapper.show{
+      left: 0;
+      bottom: 0;
+      transition: .5s;
+      opacity: 1;
+      visibility: visible;
+    }
+    .Section-{{ section.id }} .direct-slider .Panel{
+      opacity: 1;
+      visibility: visible;
+      height: auto;
+      position: relative;
+      
+    }
+    .Section-{{ section.id }} .slider-open{
+      display: block;
+    }
+    .Section-{{ section.id }} .slider-open.hide{
+      display: none;
+    }
+    .Section-{{ section.id }} .slider-close{
+      display: none;
+    }
+    .Section-{{ section.id }} .slider-close.show{
+      display: block;
+    }
+    .Section-{{ section.id }} .ProductItem__Title {
+          font-size: {{section.settings.product_title_font_size | append: "px"}};
+    }
+    .Section-{{ section.id }} .ProductList span.ProductItem__Price {
+        font-size: {{section.settings.product_price_font_size | append: "px"}};
+    }
+    @media screen and (max-width: 640px) {
+      .Section-{{ section.id }} .double-image-wrapper{
+        padding: 0 24px;
+      }
+        .ProductList--shopNow .Carousel__Cell {
+            width: 40%;
+        }
+        .Panel.single-item-mobile .ProductList--shopNow .Carousel__Cell {
+            width: 100%;
+        }
+      .Section-{{ section.id }}.Container {
+          padding: 0;
+      }
+      .Section-{{ section.id }}.Container .Panel--withArrows {
+          margin: 0;
+      }
+      .Section-{{ section.id }} .Panel.show{
+        margin-top: -200px;
+      }
+      .Section-{{ section.id }} .ProductList--shopNow .flickity-viewport {
+          margin-left: 40px;
+      }
+      .Section-{{ section.id }} .Panel.single-item-mobile .ProductList--shopNow .flickity-viewport {
+          margin-left: 0;
+      }
+      .Section-{{ section.id }} .Panel .flickity-prev-next-button.previous {
+          left: 5px;
+      }
+      .Section-{{ section.id }} .Panel .flickity-prev-next-button.next {
+          right: 15px;
+      }
+      .Section-{{ section.id }} .Panel.single-item-mobile .flickity-prev-next-button.next {
+          right: 5px;
+      }
+      .Section-{{ section.id }} .flickity-prev-next-button {
+          width: 30px;
+          height: 30px;
+      }
+     .Section-{{ section.id }} .ProductList--shopNow .Carousel__Cell {
+          padding: 0 15px;
+      }
+     .Section-{{ section.id }} .Panel.single-item-mobile .ProductList--shopNow .Carousel__Cell {
+          padding: 0 40px;
+      }
+      .Section-{{ section.id }} h2.ProductItem__Title.hide-product-title-mobile {
+          display: none;
+      }
+      .Section-{{ section.id }} .ProductItem__PriceList.hide-product-price-mobile {
+          display: none;
+      }
+      .Section-{{ section.id }} .ProductItem__Title {
+          font-size: {{section.settings.product_title_font_size_mobile | append: "px"}};
+      }
+      .Section-{{ section.id }} .ProductList span.ProductItem__Price {
+          font-size: {{section.settings.product_price_font_size_mobile | append: "px"}};
+      }
+    }
+  </style>
+     
+  <script>
+     $( "a.button.slider-open-button" ).on( "click", function() {
+      $(".double-image-wrapper").addClass("hide");
+      $(".pannel-wrapper").addClass("show");
+      $(".pannel-with-image").addClass("show");
+      $(".slider-open").addClass("hide");
+      $(".slider-close").addClass("show");
+      
+    });
+     $( "a.button.slider-close-button" ).on( "click", function() {
+      $(".double-image-wrapper").removeClass("hide");
+      $(".pannel-wrapper").removeClass("show");
+      $(".pannel-with-image").removeClass("show");
+      $(".slider-open").removeClass("hide");
+      $(".slider-close").removeClass("show");
+      
+    });
+  </script>
+
+{% schema %}
+{
+  "name": "Shop the look new",
+  "settings": [
+    {
+        "type": "image_picker",
+        "id": "image_1",
+        "label": "Choose Image"
+    },
+    {
+        "type": "image_picker",
+        "id": "image_2",
+        "label": "Choose Image"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "grid_items_count",
+      "min": 4,
+      "max": 32,
+      "step": 4,
+      "label": "Products to show",
+      "default": 8
+    },
+    {
+        "type": "text",
+        "id":  "shop_button_text",
+        "label": "Shop Button Text",
+        "default": "Shop all"
+    },
+    {
+        "type": "url",
+        "id":  "shop_button_url",
+        "label": "Shop Button URL"
+    },
+    {
+        "type": "text",
+        "id":  "button_text",
+        "label": "Open Button Text",
+        "default": "Shop The Look"
+    },
+    {
+        "type": "text",
+        "id":  "close_button_text",
+        "label": "Close button Text",
+        "default": "Close"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text colour",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background colour",
+      "default": "#1A1A1A"
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Button font size",
+      "min": 12,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "product_title_font_size",
+      "label": "Product title font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "product_title_font_size_mobile",
+      "label": "Product title font size for mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "product_price_font_size",
+      "label": "Product price font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "product_price_font_size_mobile",
+      "label": "Product price font size for mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_slider",
+      "label": "Show slider directly",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "left_image_small",
+      "label": "Left image small",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "right_image_small",
+      "label": "Right image small",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "space_between",
+      "label": "Space between images",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "single_items_mobile",
+      "label": "Show single item in mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_product_title_mobile",
+      "label": "Hide product titile on Mobile",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_product_price_mobile",
+      "label": "Hide product price on Mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "label": "Section width",
+      "options": [
+      {
+        "value": "small",
+        "label": "Small"
+      },
+      {
+        "value": "medium",
+        "label": "Medium"
+      },
+      {
+        "value": "full",
+        "label": "Full"
+      },
+      {
+        "value": "custom",
+        "label": "Custom"
+      }
+    ],
+    "default": "medium"
+    },
+    {  
+      "type": "range",
+      "id": "custom_section_width",
+      "label": "Custom section width",
+      "min": 200,
+      "max": 1900,
+      "step": 50,
+      "unit": "px",
+      "default": 800
+    },
+    {
+        "type": "range",
+        "id": "section_padding_left",
+        "label": "Section padding left",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_padding_right",
+        "label": "Section padding right",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      }
+  ],
+  "presets":[
+       {
+         "category": "Slider",
+         "name": "Shop the look new"
+       }
+  ]
+}
+{% endschema %}

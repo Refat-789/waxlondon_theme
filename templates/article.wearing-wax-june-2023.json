@@ -1,0 +1,637 @@
+{
+  "sections": {
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de": {
+      "type": "single_image",
+      "blocks": {
+        "a6e008ab-bfad-433a-847f-5552b7b7a503": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Journal-Lead-desktop_ee6e349b-3226-4918-9bbd-cdd9ef8db034.gif",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "a6e008ab-bfad-433a-847f-5552b7b7a503"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "cd213164-19c3-42f0-a596-3a069cf3509b": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 24
+      }
+    },
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43": {
+      "type": "blog-header",
+      "settings": {
+        "blog_title": "#WearingWax: Spring 2023",
+        "blog_date": "April 30, 2023",
+        "blog_author": "Elizabeth Ehrman",
+        "title_font_size": 48,
+        "des_font_size": 12,
+        "title_font_size_mobile": 36,
+        "des_font_size_mobile": 12,
+        "title_color": "#333333",
+        "des_color": "#333333",
+        "section_width": "small",
+        "custom_section_width": 800
+      }
+    },
+    "509a124e-b711-4b10-965f-4ae96ed0c91b": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 46,
+        "custom_spacing_height_mobile": 12
+      }
+    },
+    "177d2090-81f2-4e42-b02a-84f315a7b158": {
+      "type": "spacer",
+      "settings": {
+        "spacing": "custom_spacing",
+        "custom_spacing_height": 40,
+        "custom_spacing_height_mobile": 40
+      }
+    },
+    "9d04d498-87f4-4c23-946a-464e46e51ebc": {
+      "type": "single_image",
+      "blocks": {
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0": {
+          "type": "single_image_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wearing-Wax-Mark-Desktop.gif",
+            "image_caption": "",
+            "show_caption": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "full"
+          }
+        },
+        "522371dc-b346-4659-86c5-8c0493ab3bb8": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "65e13d71-87f0-4e94-96c8-ff7573c194d0",
+        "522371dc-b346-4659-86c5-8c0493ab3bb8"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
+      "type": "single_text",
+      "blocks": {
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3": {
+          "type": "single-text-block",
+          "disabled": true,
+          "settings": {
+            "text_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu euismod ante, quis finibus odio. Aenean scelerisque consectetur pharetra. In condimentum<a href=\"#\" title=\"#\"> est eu eros <\/a>malesuada aliquam.<\/p>",
+            "font_size": 24,
+            "font_size_mobile": 20,
+            "text_line_height": 30,
+            "text_line_height_mobile": 25,
+            "text_color": "#333333",
+            "font_family": "ITCClearface",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "space_height": 20
+          }
+        },
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083": {
+          "type": "single-text-block",
+          "settings": {
+            "text_content": "<p>We're looking back on how some of you have styled your Wax pieces as we head into Spring.<\/p><p>Don't forget to tag us on socials using #wearingwax so we can see your pictures and re-share!<\/p>",
+            "font_size": 15,
+            "font_size_mobile": 15,
+            "text_line_height": 23,
+            "text_line_height_mobile": 23,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "regular",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "block_width": "small"
+          }
+        },
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 40
+          }
+        }
+      },
+      "block_order": [
+        "60036d08-da5b-4eae-ba8c-a3b7383612b3",
+        "6ff2bd6c-8caf-4002-b34e-bc36420e0de3",
+        "3ac6970b-1b2e-4276-a756-fcb5d4ee8083",
+        "724c0e67-55de-4764-ab2d-22f84fd5d8aa"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6": {
+      "type": "double_image",
+      "blocks": {
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/1_5b5126d2-2fe4-49cc-b2e7-524d7ae8493d.jpg",
+            "image_2": "shopify:\/\/shop_images\/2_7addfac1-633a-47b4-8543-4b684b378b4b.jpg",
+            "image_1_caption": "<p>@laphealsterling wears our best-selling <a href=\"\/products\/whiting-overshirt-marine-beatnik\" target=\"_blank\" title=\"Whiting Overshirt Marine Beatnik\">Whiting Overshirt Marine Beatnik<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "99b91a47-c927-49e0-9333-91ca49d56034": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "eaccc1a4-dd01-4070-a45d-9e624bc666ad",
+        "99b91a47-c927-49e0-9333-91ca49d56034"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "d49f45ba-477a-4815-8c27-b109a5cab436": {
+      "type": "double_image",
+      "blocks": {
+        "f6e4bc63-7eba-4554-812d-22da92b9432c": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/4_ea8874da-8a96-4e71-af5b-6ba9190ebb7e.jpg",
+            "image_2": "shopify:\/\/shop_images\/3_d2f67700-6210-44d3-a249-6de5f8f702f7.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@jocelynyih wears out <a href=\"\/products\/whiting-overshirt-navy-yellow-spear-check\" target=\"_blank\" title=\"Whiting Overshirt Navy\/Yellow Spear Check\">Whiting Overshirt Navy\/Yellow Spear Check<\/a> at a recent store event.<\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "f6e4bc63-7eba-4554-812d-22da92b9432c",
+        "6f308eb9-1a0e-4e8a-9219-c99266850bdd"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "c142dcad-6971-4d50-9f85-6d72dd3e9fa1": {
+      "type": "double_image",
+      "blocks": {
+        "d5e87492-64b9-4b4a-999d-2b0784f4283a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/5_6c45f9d9-db71-4868-8ae5-293289821c72.jpg",
+            "image_2": "shopify:\/\/shop_images\/6_400c8706-d6bd-4040-8268-73f4cea6fab6.jpg",
+            "image_1_caption": "<p>@stefanjohnturner wears our <a href=\"\/products\/naples-polo-white-wave\" target=\"_blank\" title=\"Naples Polo White Wave\">Naples Polo White Wave<\/a> & <a href=\"\/products\/loose-fit-jeans-black-denim\" target=\"_blank\" title=\"Loose Fit Jeans Black Denim\">Loose Jeans Black Denim<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "ef807c03-f9bb-4bcf-af50-75adad8aa42f": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 25
+          }
+        }
+      },
+      "block_order": [
+        "d5e87492-64b9-4b4a-999d-2b0784f4283a",
+        "ef807c03-f9bb-4bcf-af50-75adad8aa42f"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "433897b4-f343-41f8-bdc1-41effe388b4e": {
+      "type": "double_image",
+      "blocks": {
+        "37239c8b-18b0-483e-8a26-2f96a28712c9": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/22.jpg",
+            "image_2": "shopify:\/\/shop_images\/23.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@markafrost wears our <a href=\"\/products\/didcot-shirt-red-amalfi\" target=\"_blank\" title=\"Didcot Shirt Red Amalfi\">Didcot Shirt Red Amalfi<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "348396d2-c178-4e39-8492-7d3847bfc60a": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "20b50448-5101-4ffb-bf5e-c921ad07b721": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/16_6cb2ed50-8f3e-431d-b265-6145b1816933.jpg",
+            "image_2": "shopify:\/\/shop_images\/17_481b25e1-a67c-4afa-91a9-67bb88a33335.jpg",
+            "image_1_caption": "<p>@hansmateo_ wears our <a href=\"\/products\/loose-fit-jeans-ecru-denim\" target=\"_blank\" title=\"Loose Fit Jeans Ecru Denim\">Loose Jeans Ecru Denim<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "28b52b28-4585-428b-9880-6b0972fccb3c": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "7b1b27bf-9e52-446b-ba72-9644e78d6e58": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/15.5.jpg",
+            "image_2": "shopify:\/\/shop_images\/15_31201bcc-4b36-4681-8836-bc6f70db96e4.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@harry.sellers wears our <a href=\"\/products\/didcot-shirt-pastel-blossom\" target=\"_blank\" title=\"Didcot Shirt Pastel Blossom\">Didcot Shirt Pastel Blossom<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "521943e8-884c-42fd-bc7c-c57ca884b3d4": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "743b1721-1621-4fd8-8c53-48178ab4898a": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/18_8208db0f-1247-4277-a148-b2f7c2947b04.jpg",
+            "image_2": "shopify:\/\/shop_images\/2_7addfac1-633a-47b4-8543-4b684b378b4b.jpg",
+            "image_1_caption": "<p>@sophiefotiadou wears our best-selling <a href=\"\/products\/whiting-overshirt-marine-beatnik\" target=\"_blank\" title=\"Whiting Overshirt Marine Beatnik\">Whiting Overshirt Marine Beatnik<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "b8604419-af85-4d65-bb84-f9e0b58a1dd6": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        },
+        "03242267-48e5-445c-ab5c-7fc35ce18a69": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/21.jpg",
+            "image_2": "shopify:\/\/shop_images\/20_cb3d18ce-30d4-418e-95d3-ceb7f2744496.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@tom.samaras wears our <a href=\"\/products\/whiting-overshirt-sage-navy-park-check\" target=\"_blank\" title=\"Whiting Overshirt Sage\/Navy Park Check\">Whiting Overshirt Sage\/Navy Park Check<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "cd8af40d-3029-462d-bd49-f3b6a0fb4d96": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "37239c8b-18b0-483e-8a26-2f96a28712c9",
+        "348396d2-c178-4e39-8492-7d3847bfc60a",
+        "20b50448-5101-4ffb-bf5e-c921ad07b721",
+        "28b52b28-4585-428b-9880-6b0972fccb3c",
+        "7b1b27bf-9e52-446b-ba72-9644e78d6e58",
+        "521943e8-884c-42fd-bc7c-c57ca884b3d4",
+        "743b1721-1621-4fd8-8c53-48178ab4898a",
+        "b8604419-af85-4d65-bb84-f9e0b58a1dd6",
+        "03242267-48e5-445c-ab5c-7fc35ce18a69",
+        "cd8af40d-3029-462d-bd49-f3b6a0fb4d96"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5956ae03-8a32-4829-bf2e-3058e41a919d": {
+      "type": "double_image",
+      "blocks": {
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/7_8046fde7-b39c-4db3-8c52-5ff1c996ad25.jpg",
+            "image_2": "shopify:\/\/shop_images\/8_6537fde5-00ef-4f67-a990-7645bf62ae5f.jpg",
+            "image_1_caption": "<p>@thegoldenpapi wears our <a href=\"\/products\/whiting-overshirt-black-beatnik\" target=\"_blank\" title=\"Whiting Overshirt Black Beatnik\">Whiting Overshirt Black Beatnik<\/a> & <a href=\"\/products\/dean-t-shirt-white\" target=\"_blank\" title=\"Dean T Shirt White\">Dean T Shirt White<\/a><\/p>",
+            "image_2_caption": "",
+            "show_caption": true,
+            "left_image_small": false,
+            "right_image_small": true,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "cf57e356-66cb-4369-a4af-4ad7e3f60819",
+        "c7060284-7ef2-4d31-856a-59f3c28ffeed"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "5c4bd70a-4a50-4861-a0ed-bea1c061fd25": {
+      "type": "double_image",
+      "blocks": {
+        "1790bb42-4f72-44c4-a1ea-185e84b1463e": {
+          "type": "double_image_block",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/12_41db9a18-4282-4861-9db8-21663314f828.jpg",
+            "image_2": "shopify:\/\/shop_images\/11_4e983b55-bb5b-4af6-b5f5-110df041dd46.jpg",
+            "image_1_caption": "",
+            "image_2_caption": "<p>@dan.gigante wears our <a href=\"\/products\/whiting-overshirt-natural-beatnik\" target=\"_blank\" title=\"Whiting Overshirt Natural Beatnik\">Whiting Overshirt Natural Beatnik<\/a><\/p>",
+            "show_caption": true,
+            "left_image_small": true,
+            "right_image_small": false,
+            "space_between": false,
+            "items_full_width_mobile": false,
+            "font_size": 12,
+            "font_size_mobile": 12,
+            "text_line_height": 18,
+            "text_line_height_mobile": 18,
+            "text_color": "#333333",
+            "font_family": "Maison Neue",
+            "font_weight": "normal",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "block_width": "custom"
+          }
+        },
+        "c0be13a5-ebdf-4b0c-9593-68cab15c36ae": {
+          "type": "spacer",
+          "settings": {
+            "space_height": 30
+          }
+        }
+      },
+      "block_order": [
+        "1790bb42-4f72-44c4-a1ea-185e84b1463e",
+        "c0be13a5-ebdf-4b0c-9593-68cab15c36ae"
+      ],
+      "settings": {
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
+      "type": "shop-the-look-new",
+      "settings": {
+        "collection": "wearing-wax-spring-2023",
+        "grid_items_count": 24,
+        "shop_button_text": "",
+        "shop_button_url": "",
+        "button_text": "",
+        "close_button_text": "",
+        "button_text_color": "#ffffff",
+        "button_bg_color": "#1a1a1a",
+        "button_font_size": 15,
+        "product_title_font_size": 13,
+        "product_title_font_size_mobile": 12,
+        "product_price_font_size": 13,
+        "product_price_font_size_mobile": 12,
+        "show_only_slider": true,
+        "left_image_small": false,
+        "right_image_small": false,
+        "space_between": false,
+        "single_items_mobile": false,
+        "hide_product_title_mobile": false,
+        "hide_product_price_mobile": true,
+        "section_width": "medium",
+        "custom_section_width": 800,
+        "section_padding_left": 0,
+        "section_padding_right": 0
+      }
+    },
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "journal"
+          }
+        }
+      },
+      "block_order": [
+        "template--15903376310437__3a2a0504-7222-4743-ab8b-4d3e182ef6aa-166747528656c4db30-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You might also enjoy…",
+        "show_category": false,
+        "button_link": "shopify:\/\/blogs\/journal",
+        "button_text": "",
+        "open_link_new_tab": false,
+        "section_margin_top": 80,
+        "section_margin_bottom": 80,
+        "section_margin_top_mobile": 50,
+        "section_margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "34af7c89-8dc5-4be8-a16c-55f947e144ca",
+    "f69900c4-47cf-41b9-9ec5-0fee34ae66de",
+    "cd213164-19c3-42f0-a596-3a069cf3509b",
+    "a7074fce-4ee4-42a0-8ba2-6b8efef5eb43",
+    "509a124e-b711-4b10-965f-4ae96ed0c91b",
+    "177d2090-81f2-4e42-b02a-84f315a7b158",
+    "9d04d498-87f4-4c23-946a-464e46e51ebc",
+    "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898",
+    "9135946e-c1ca-4a6f-b27d-caa3265edfe6",
+    "d49f45ba-477a-4815-8c27-b109a5cab436",
+    "c142dcad-6971-4d50-9f85-6d72dd3e9fa1",
+    "433897b4-f343-41f8-bdc1-41effe388b4e",
+    "5956ae03-8a32-4829-bf2e-3058e41a919d",
+    "5c4bd70a-4a50-4861-a0ed-bea1c061fd25",
+    "47447fbd-1a51-4baa-a5d7-c4d16703532f",
+    "3a2a0504-7222-4743-ab8b-4d3e182ef6aa"
+  ]
+}

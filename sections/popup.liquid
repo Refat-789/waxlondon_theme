@@ -1,0 +1,100 @@
+{%- if section.settings.show_popup -%}
+  {%- unless section.settings.show_only_on_index and template != 'index' -%}
+    {%- unless section.settings.show_only_for_visitors and customer -%}
+      {% capture section_settings %}
+        {
+          "apparitionDelay": {{ section.settings.apparition_delay | json }},
+          "showOnlyOnce": {{ section.settings.show_only_once | json }}
+        }
+      {% endcapture %}
+
+      <section class="newsletter-popup-section" data-section-id="{{ section.id }}" data-section-type="newsletter-popup" data-section-settings='{{ section_settings }}' aria-hidden="true">
+          <div class="newsletter-popup-wrapper">
+              {%- if section.settings.popup_image -%}
+                <div class="image_wrapper">
+                </div>
+              {%- endif -%}
+              <aside class="NewsletterPopup" >
+                <button class="NewsletterPopup__Close" data-action="close-popup" aria-label="{{ 'general.popup.close' | t }}">{% render 'icon' with 'close' %}</button>
+        
+                <div class="klaviyo-form--popup"><div class="klaviyo-form-{{ settings.klaviyo_newsletter_form_id }}"></div></div>
+              </aside>
+            
+          </div>
+      </section>
+    {%- endunless -%}
+  {%- endunless -%}
+{%- endif -%}
+
+<style>
+  .newsletter-popup-section .image_wrapper {
+        background-image: url('{{ section.settings.popup_image | img_url: 'master' }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    }
+  @media screen and (max-width: 1139px) {
+  .newsletter-popup-section .image_wrapper {
+        display: none;
+    }
+    .newsletter-popup-wrapper {
+        width: calc(100% - 20px);
+        margin: 10px;
+        left: 0;
+        transform: translateY(-50%);
+      border-radius: 6px;
+    }
+    .newsletter-popup-wrapper form.klaviyo-form {
+      border-radius: 6px !important;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Popup",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "popup_image",
+      "label": "Choose image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_popup",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_on_index",
+      "label": "Show only on home page",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_for_visitors",
+      "label": "Show only for visitors",
+      "info": "Customers who have created an account on your shop won't see it.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_once",
+      "label": "Show only once per customer",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "apparition_delay",
+      "min": 0,
+      "max": 15,
+      "step": 1,
+      "unit": "sec",
+      "label": "Delay until the popup appears",
+      "default": 5
+    }
+  ]
+}
+{% endschema %}

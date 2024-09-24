@@ -1,0 +1,19 @@
+{% assign class = '' %}
+{% assign image_1 = page.metafields.images.image_1[index] | first %}
+{% assign image_2 = page.metafields.images.image_2[index] | first %}
+{% assign overlap = page.metafields.images.overlap_images[index] | first | default: false %}
+
+{% if page.metafields.images.image_2[index] != blank %}
+    {% assign class = '-split' %}
+{% endif %}
+
+<section class="lyt-Layout lyt-Layout--image{{ class }}{% if overlap %} lyt-Layout--overlap{% endif %}">
+    <div class="lyt-Layout__Media">
+        {% render 'image-layout' image: image_1 %}
+    </div>
+    {% if page.metafields.images.image_2[index] != blank %}
+    <div class="lyt-Layout__Media">
+        {% render 'image-layout' image: image_2 %}
+    </div>
+    {% endif %}
+</section>

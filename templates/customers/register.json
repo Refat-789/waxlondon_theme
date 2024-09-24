@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-customers-register",
+      "settings": {
+        "title_font_size": 50,
+        "title_font_size_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
