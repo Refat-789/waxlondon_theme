@@ -54,7 +54,6 @@ window.TriplePixelData={TripleName:"wax-london.myshopify.com",ver:"2.12",plat:"S
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
 
     <script>
-      console.log("marged to live");
       {%- if request.page_type == 'policy' -%}
         document.addEventListener('DOMContentLoaded', function() {
           document.querySelector('.shopify-policy__title').classList.add('PageHeader', 'Heading', 'u-h1');
