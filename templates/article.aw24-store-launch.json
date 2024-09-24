@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "34af7c89-8dc5-4be8-a16c-55f947e144ca": {
@@ -19,8 +28,8 @@
         "single_image_block_P4qw3n": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lead-Banner-ezgif.com-optimize.gif",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile-Lead-Banner.gif",
+            "image": "shopify://shop_images/Lead-Banner-ezgif.com-optimize.gif",
+            "mobile_image": "shopify://shop_images/Mobile-Lead-Banner.gif",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -34,7 +43,7 @@
             "font_weight": "normal",
             "text_alignment": "left",
             "text_alignment_mobile": "left",
-            "block_width": "medium"
+            "block_width": "custom"
           }
         }
       },
@@ -42,7 +51,7 @@
         "single_image_block_P4qw3n"
       ],
       "settings": {
-        "section_padding_left": 0,
+        "section_padding_left": 10,
         "section_padding_right": 0
       }
     },
@@ -57,7 +66,7 @@
     "blog_header_RF9Hkd": {
       "type": "blog-header",
       "settings": {
-        "blog_title": "AW24 ‘Escape The Noise’ Covent Garden Store <i>Launch Party<\/i>",
+        "blog_title": "AW24 ‘Escape The Noise’ Covent Garden Store <i>Launch Party</i>",
         "blog_date": "September 13th, 2024",
         "blog_author": "Tobias Wightman",
         "title_font_size": 44,
@@ -84,7 +93,7 @@
         "single_text_block_mbTy6g": {
           "type": "single-text-block",
           "settings": {
-            "text_content": "<p>To celebrate the launch of our AW24 ‘Escape The Noise’ collection, we recently hosted a launch party at our Covent Garden store. And, in all honesty, we were blown away by the turnout. Among a sea of 150 faces were friends of the brand, family members of our team and a host of handsome faces you can peruse below.<br\/><br\/>With a bar hosted by Casamigos and music provided by the talented Ashton Louis Gohil and Emmanuel Lawal, we couldn’t have asked for a better start to the season.<\/p>",
+            "text_content": "<p>To celebrate the launch of our AW24 ‘Escape The Noise’ collection, we recently hosted a launch party at our Covent Garden store. And, in all honesty, we were blown away by the turnout. Among a sea of 150 faces were friends of the brand, family members of our team and a host of handsome faces you can peruse below.<br/><br/>With a bar hosted by Casamigos and music provided by the talented Ashton Louis Gohil and Emmanuel Lawal, we couldn’t have asked for a better start to the season.</p>",
             "font_size": 15,
             "font_size_mobile": 15,
             "text_line_height": 23,
@@ -119,8 +128,8 @@
         "single_image_block_t97fLd": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_3.png",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_9_164e4f60-c23d-4042-bc7e-2176cc3b6f37.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_3.png",
+            "mobile_image": "shopify://shop_images/Artboard_9_164e4f60-c23d-4042-bc7e-2176cc3b6f37.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -146,7 +155,7 @@
         "single_image_block_xdADY3": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_4.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_4.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -172,8 +181,8 @@
         "single_image_block_ePjwy8": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_3_95681bbd-5d3b-4a91-9951-b697c738d6e2.png",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_9_a4ccb678-8021-42cf-a4c8-fbc1d62ac761.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_3_95681bbd-5d3b-4a91-9951-b697c738d6e2.png",
+            "mobile_image": "shopify://shop_images/Artboard_9_a4ccb678-8021-42cf-a4c8-fbc1d62ac761.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -199,7 +208,7 @@
         "single_image_block_TemKii": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/S1130145.jpg",
+            "image": "shopify://shop_images/S1130145.jpg",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -225,8 +234,8 @@
         "single_image_block_bQJBtp": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_3_45ff6f1a-b777-483b-beb0-761d9e9c20a0.png",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_9_3c4e0508-88b4-4456-bc5a-21924a345183.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_3_45ff6f1a-b777-483b-beb0-761d9e9c20a0.png",
+            "mobile_image": "shopify://shop_images/Artboard_9_3c4e0508-88b4-4456-bc5a-21924a345183.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -252,7 +261,7 @@
         "single_image_block_dQzeR9": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_4_e6ba0797-81fb-44eb-bed6-8eb5c3d93721.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_4_e6ba0797-81fb-44eb-bed6-8eb5c3d93721.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -278,7 +287,7 @@
         "single_image_block_qMJpjr": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_7.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_7.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -304,8 +313,8 @@
         "single_image_block_tpipcM": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_8_57494b84-1b2d-4645-b8eb-2c3d99f9fb0b.png",
-            "mobile_image": "shopify:\/\/shop_images\/Artboard_10_2f628abf-1675-431d-8dc2-e3f7c6f9bf04.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_8_57494b84-1b2d-4645-b8eb-2c3d99f9fb0b.png",
+            "mobile_image": "shopify://shop_images/Artboard_10_2f628abf-1675-431d-8dc2-e3f7c6f9bf04.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -331,7 +340,7 @@
         "single_image_block_LefABB": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Journal_Left_Image_3_7_40077d9c-fc96-40f5-9587-61cf317e002f.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_7_40077d9c-fc96-40f5-9587-61cf317e002f.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -386,7 +395,7 @@
         "collection": "aw24",
         "grid_items_count": 32,
         "shop_button_text": "Shop All AW24",
-        "shop_button_url": "shopify:\/\/collections\/aw24",
+        "shop_button_url": "shopify://collections/aw24",
         "button_text": "",
         "close_button_text": "",
         "button_text_color": "#ffffff",
@@ -426,7 +435,7 @@
         "subheading": "",
         "title": "You might also enjoy…",
         "show_category": false,
-        "button_link": "shopify:\/\/blogs\/journal",
+        "button_link": "shopify://blogs/journal",
         "button_text": "",
         "open_link_new_tab": false,
         "section_margin_top": 80,
