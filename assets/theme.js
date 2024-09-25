@@ -3683,6 +3683,7 @@
           credentials: 'same-origin',
           method: 'GET'
         }).then(function (content) {
+          console.log(content);
           // If there is an element to animate, we animate it using a transition
           if (_this4.options['drawer'] && elementToAnimate) {
             var timelineLite = new TimelineLite({
@@ -3717,7 +3718,6 @@
       value: function _replaceContent(html) {
         var _this5 = this;
         console.log("replace content");
-        console.log(html.querySelector(".Cart__Checkout").innerText);
 
         var tempElement = document.createElement('div');
         tempElement.innerHTML = html;
