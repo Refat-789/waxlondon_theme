@@ -541,6 +541,7 @@
         ],
         "default": "drawer"
       },
+      
       {
         "type": "checkbox",
         "id": "cart_enable_notes",
@@ -560,6 +561,18 @@
         "label": "Free shipping minimum amount",
         "info": "Only write a number, no letters",
         "default": "50"
+      },
+      {
+        "type": "text",
+        "id": "cart_gift_product_threshold",
+        "label": "Minimum amount to purchase for gift product",
+        "info": "Only write a number, no letters",
+        "default": "200"
+      },
+      {
+        "type": "product",
+        "id": "gift_product",
+        "label": "Select gift Product"
       }
     ]
   },
