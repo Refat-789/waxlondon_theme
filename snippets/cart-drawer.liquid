@@ -8,7 +8,7 @@
 {%- endcapture -%}
 
 <div id="sidebar-cart" class="Drawer Drawer--fromRight" aria-hidden="true" data-section-id="cart" data-section-type="cart" data-section-settings='{{ section_settings }}'>
-  <div class="Drawer__Header Drawer__Header--bordered Drawer__Container" data-gift-threshold="{{ settings.cart_gift_product_threshold }}" data-gift-product="{{ settings.gift_product.selected_or_first_available_variant }}" >
+  <div class="Drawer__Header Drawer__Header--bordered Drawer__Container" data-gift-threshold="{{ settings.cart_gift_product_threshold }}" data-gift-product="{{ settings.gift_product.selected_or_first_available_variant.id }}" >
       <span class="Drawer__Title Heading u-h4">{{ 'cart.general.title' | t }}</span>
 
       <button class="Drawer__Close Icon-Wrapper--clickable" data-action="close-drawer" data-drawer-id="sidebar-cart" aria-label="{{ 'header.navigation.close_cart' | t }}">
