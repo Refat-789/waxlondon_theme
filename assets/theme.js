@@ -3717,7 +3717,7 @@
       value: function _replaceContent(html) {
         var _this5 = this;
         console.log("replace content");
-        console.log(html.querySelector("Cart__Checkout").val());
+        console.log(html.querySelector(".Cart__Checkout").val());
 
         var tempElement = document.createElement('div');
         tempElement.innerHTML = html;
