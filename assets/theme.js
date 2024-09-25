@@ -2618,7 +2618,7 @@
 
           if (response.ok) {
             addToCartButton.removeAttribute('disabled'); // We simply trigger an event so the mini-cart can re-render
-
+            console.log("add to cart content", response);
             _this4.element.dispatchEvent(new CustomEvent('product:added', {
               bubbles: true,
               detail: {
@@ -2628,7 +2628,7 @@
             }));
           } else {
             response.json().then(function (content) {
-              console.log("add to cart content", content);
+              
               var errorMessageElement = document.createElement('span');
               errorMessageElement.className = 'ProductForm__Error Alert Alert--error';
               errorMessageElement.innerHTML = content['description'];
