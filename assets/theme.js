@@ -3685,7 +3685,6 @@
           credentials: 'same-origin',
           method: 'GET'
         }).then(function (content) {
-          console.log("content", content.text());
           // If there is an element to animate, we animate it using a transition
           if (_this4.options['drawer'] && elementToAnimate) {
             var timelineLite = new TimelineLite({
