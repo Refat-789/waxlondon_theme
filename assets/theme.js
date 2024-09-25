@@ -2628,6 +2628,7 @@
             }));
           } else {
             response.json().then(function (content) {
+              console.log("add to cart content", content);
               var errorMessageElement = document.createElement('span');
               errorMessageElement.className = 'ProductForm__Error Alert Alert--error';
               errorMessageElement.innerHTML = content['description'];
