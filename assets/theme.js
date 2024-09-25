@@ -3596,7 +3596,6 @@
       }
     }, {
       key: "_updateItemQuantity",
-      console.log("updated cart");
       value: function _updateItemQuantity(event, target) {
         var _this2 = this;
 
