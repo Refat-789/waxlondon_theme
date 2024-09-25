@@ -3634,6 +3634,7 @@
             _this2.itemCount = content['item_count'];
 
             _this2._rerenderCart(elementToAnimate);
+            console.log("contentcontentcontent", content);
 
             document.dispatchEvent(new CustomEvent('theme:loading:end'));
           });
