@@ -29,7 +29,7 @@
           "type": "single_image_block",
           "settings": {
             "image": "shopify://shop_images/Fracap-Web-Banner.jpg",
-            "mobile_image": "shopify://shop_images/Fracap-Web-Banner.jpg",
+            "mobile_image": "shopify://shop_images/Fracap-Mobile-Banner_e1be162e-9c6b-47f3-94c3-8934ce3d4548.jpg",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
