@@ -3675,6 +3675,9 @@
       value: function _rerenderCart(elementToAnimate) {
         var _this4 = this;
 
+        
+      console.log("rerender content");
+
         // Note: appending a timestamp is necessary as the polyfill on IE11 and lower does not support the "cache" property
         return fetch("".concat(window.routes.cartUrl, "?section_id=").concat(this.options['drawer'] && window.theme.pageType !== 'cart' ? 'mini-cart' : 'main-cart', "&timestamp=").concat(Date.now()), {
           credentials: 'same-origin',
