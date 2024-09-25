@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "klaviyo_public_api_key": "WkTqs3",
@@ -43,15 +52,15 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "95",
-    "social_facebook": "https:\/\/www.facebook.com\/waxlondonclothing\/",
-    "social_pinterest": "https:\/\/www.pinterest.co.uk\/WaxLondonClothing\/",
-    "social_instagram": "https:\/\/www.instagram.com\/waxlondonclothing\/",
-    "social_youtube": "https:\/\/www.youtube.com\/@waxlondon",
-    "social_tiktok": "https:\/\/www.tiktok.com\/@waxlondon",
-    "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
+    "social_facebook": "https://www.facebook.com/waxlondonclothing/",
+    "social_pinterest": "https://www.pinterest.co.uk/WaxLondonClothing/",
+    "social_instagram": "https://www.instagram.com/waxlondonclothing/",
+    "social_youtube": "https://www.youtube.com/@waxlondon",
+    "social_tiktok": "https://www.tiktok.com/@waxlondon",
+    "favicon": "shopify://shop_images/favicon-96x96.png",
     "gtag_id": "AW-658457914",
     "klarna_checkout": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/Wax-London-Logo-144.gif",
+    "checkout_logo_image": "shopify://shop_images/Wax-London-Logo-144.gif",
     "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -64,7 +73,7 @@
         "type": "sidebar-menu",
         "settings": {
           "primary_menu": "main-menu",
-          "secondary_menu": "test-menu",
+          "secondary_menu": "",
           "show_social_media": true,
           "mobile_menu_item_color": "#000000",
           "mobile_submenu_item_color": "#000000",
@@ -80,7 +89,7 @@
             "settings": {
               "content": "AW24 NOW LIVE!",
               "link_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/aw24",
+              "link": "shopify://collections/aw24",
               "text_color": "#000000",
               "text_font_size": 12,
               "text_font_size_mobile": 12
@@ -92,7 +101,7 @@
             "settings": {
               "content": "SALE: ADDED LINES + UP TO 50% OFF",
               "link_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/summer-sale",
+              "link": "shopify://collections/summer-sale",
               "text_color": "#000000",
               "text_font_size": 12,
               "text_font_size_mobile": 12
@@ -104,7 +113,7 @@
             "settings": {
               "content": "EXPLORE SS24 DROP THREE",
               "link_text": "SHOP NOW",
-              "link": "shopify:\/\/collections\/ss24-drop-three",
+              "link": "shopify://collections/ss24-drop-three",
               "text_color": "#000000",
               "text_font_size": 12,
               "text_font_size_mobile": 12
@@ -145,70 +154,60 @@
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Featured",
-              "push_1_image": "shopify:\/\/shop_images\/New_Arrivals_2_bee91d70-6730-4896-9633-0fd26d0868f9.jpg",
               "push_1_heading": "Shop AW24",
               "push_1_subheading": "",
-              "push_1_url": "shopify:\/\/collections\/aw24",
-              "push_2_image": "shopify:\/\/shop_images\/Overshirts_2_3cbd2a4b-714a-447c-a0bd-96f735cddd3c.jpg",
+              "push_1_url": "shopify://collections/aw24",
               "push_2_heading": "Shop Overshirts",
               "push_2_subheading": "",
-              "push_2_url": "shopify:\/\/collections\/overshirts"
+              "push_2_url": "shopify://collections/overshirts"
             }
           },
           "59481125-b289-4d49-8cb7-92a2639bb191": {
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Clothing",
-              "push_1_image": "shopify:\/\/shop_images\/Outerwear_2_05474f3a-c87f-4e2d-8e14-46c430a6a77f.jpg",
               "push_1_heading": "Shop Outerwear",
               "push_1_subheading": "",
-              "push_1_url": "shopify:\/\/collections\/coats-and-jackets",
-              "push_2_image": "shopify:\/\/shop_images\/Knitwear_2_66687707-b159-4180-9490-470462cd04a4.jpg",
+              "push_1_url": "shopify://collections/coats-and-jackets",
               "push_2_heading": "Shop Knitwear",
               "push_2_subheading": "",
-              "push_2_url": "shopify:\/\/collections\/knitwear"
+              "push_2_url": "shopify://collections/knitwear"
             }
           },
           "347fd6f8-576e-4519-bbde-e7ef04be1506": {
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Accessories",
-              "push_1_image": "shopify:\/\/shop_images\/ACCESSORIES.jpg",
               "push_1_heading": "Shop All Accessories",
               "push_1_subheading": "",
-              "push_1_url": "shopify:\/\/collections\/accessories",
-              "push_2_image": "shopify:\/\/shop_images\/BEANIES_c8b353e0-0a41-4987-a185-4e607198b405.jpg",
+              "push_1_url": "shopify://collections/accessories",
               "push_2_heading": "Shop Hats",
               "push_2_subheading": "",
-              "push_2_url": "shopify:\/\/collections\/hats"
+              "push_2_url": "shopify://collections/hats"
             }
           },
           "fcb71bf6-7741-4f8d-b170-250ca1b19361": {
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Archive Sale",
-              "push_1_image": "shopify:\/\/shop_images\/Untitled-2_b70f6d78-ba5e-4358-85bc-3b757ef4d338.png",
               "push_1_heading": "Shop Sale Shirts",
               "push_1_subheading": "",
-              "push_1_url": "shopify:\/\/collections\/archive-sale-shirts",
-              "push_2_image": "shopify:\/\/shop_images\/Archive-Sale_Square_Sill_365330e5-21e1-41bc-9248-45f4d2d2812a.jpg",
+              "push_1_url": "shopify://collections/archive-sale-shirts",
               "push_2_heading": "Shop All Sale",
               "push_2_subheading": "",
-              "push_2_url": "shopify:\/\/collections\/archive-sale"
+              "push_2_url": "shopify://collections/archive-sale"
             }
           },
           "894a49d0-fc0b-43ac-a1ce-d2f553a30f4b": {
             "type": "mega_menu",
             "settings": {
               "navigation_mega_menu": "Journal",
-              "push_1_image": "shopify:\/\/shop_images\/Thumbnail_ccd6364e-b21c-418b-9083-80abceddb9c5.jpg",
               "push_1_heading": "AW24: 'Escape The Noise'",
               "push_1_subheading": "",
-              "push_1_url": "shopify:\/\/blogs\/journal\/aw24-escape-the-noise",
-              "push_2_image": "shopify:\/\/shop_images\/Untitled-2_7bfe55c0-c874-47e8-a9c5-42ec0119ed67.png",
+              "push_1_url": "shopify://blogs/journal/aw24-escape-the-noise",
               "push_2_heading": "AW24 Store Party",
               "push_2_subheading": "",
-              "push_2_url": "shopify:\/\/blogs\/journal\/aw24-store-launch-event"
+              "push_2_url": "shopify://blogs/journal/aw24-store-launch-event"
             }
           },
           "e475eaa0-0ce5-4cd2-8642-7e6d1d10ba19": {
@@ -216,10 +215,9 @@
             "disabled": true,
             "settings": {
               "navigation_mega_menu": "Winter Sale",
-              "push_1_image": "shopify:\/\/shop_images\/Winter-Sale_Now-50-Off-SQ.jpg",
               "push_1_heading": "",
               "push_1_subheading": "Shop Winter Sale",
-              "push_1_url": "shopify:\/\/collections\/winter-sale",
+              "push_1_url": "shopify://collections/winter-sale",
               "push_2_heading": "",
               "push_2_subheading": "",
               "push_2_url": ""
@@ -240,7 +238,7 @@
           "mobile_logo_max_width": 90,
           "show_currency_selector": false,
           "show_locale_selector": false,
-          "navigation_menu": "main-menu",
+          "navigation_menu": "main-menu-desktop",
           "navigation_style": "logoLeft",
           "show_icons": true,
           "desktop_menu_item_color": "#000000",
@@ -262,14 +260,14 @@
             "type": "text",
             "settings": {
               "title": "",
-              "content": "<p>Wax London - A British label committed to creating quality, contemporary menswear with sustainability at our core.<\/p>"
+              "content": "<p>Wax London - A British label committed to creating quality, contemporary menswear with sustainability at our core.</p>"
             }
           },
           "footer-1": {
             "type": "links",
             "settings": {
               "title": "Shop",
-              "menu": "footer-menu-desktop"
+              "menu": ""
             }
           },
           "c449afe3-3ee1-48f3-b8c1-fa5cb0caa440": {
@@ -283,7 +281,7 @@
             "type": "links",
             "settings": {
               "title": "About",
-              "menu": "test-menu"
+              "menu": ""
             }
           },
           "bafb3dd4-f441-458b-a1bc-5732d71c46d8": {
@@ -304,8 +302,6 @@
         "settings": {
           "footer_links": "footer-copyright-links",
           "show_payment_methods": true,
-          "background_image": "shopify:\/\/shop_images\/Footer_2_adb53e0e-4d3a-4005-8fae-9c20d6e0562f.png",
-          "mobile_background_image": "shopify:\/\/shop_images\/Mobile_Footer_2_2_cd0f41db-4462-47a3-a8c0-cd995b3a7044.png",
           "show_currency_selector": false,
           "show_locale_selector": true
         }
@@ -313,7 +309,6 @@
       "popup": {
         "type": "popup",
         "settings": {
-          "popup_image": "shopify:\/\/shop_images\/Suits_e0b1ea8d-dc1e-4179-acec-93105a33ea8d.jpg",
           "show_popup": true,
           "show_only_on_index": false,
           "show_only_for_visitors": false,
@@ -413,8 +408,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
-                "show_social_media": true
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -427,7 +421,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
@@ -528,8 +522,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
-                "show_social_media": true
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -542,7 +535,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
@@ -644,8 +637,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
-                "show_social_media": true
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -658,7 +650,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.</p>"
               }
             }
           },
