@@ -2481,7 +2481,7 @@
               addToCartButton.setAttribute('data-action', 'add-to-cart');
 
               if (undefined === this.options['showPriceInButton'] || this.options['showPriceInButton']) {
-                addToCartButton.innerHTML = "\n            <span>".concat(window.languages.productFormAddToCart, "</span>\n            <span class=\"Button__SeparatorDot\"></span>\n            <span data-money-convertible>").concat(Currency.formatMoney(newVariant['price'], window.theme.moneyFormat), "</span>\n          ");
+                addToCartButton.innerHTML = "\n            <span>".concat(window.languages.productFormAddToCart, "</span>\n            <span class=\"Button__SeparatorDoted\"></span>\n            <span data-money-convertible>").concat(Currency.formatMoney(newVariant['price'], window.theme.moneyFormat), "</span>\n          ");
               } else {
                 addToCartButton.innerHTML = "<span>".concat(window.languages.productFormAddToCart, "</span>");
               }
