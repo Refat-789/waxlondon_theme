@@ -3597,6 +3597,9 @@
     }, {
       key: "_updateItemQuantity",
       value: function _updateItemQuantity(event, target) {
+
+        
+      console.log("updated cart");
         var _this2 = this;
 
         document.dispatchEvent(new CustomEvent('theme:loading:start'));
