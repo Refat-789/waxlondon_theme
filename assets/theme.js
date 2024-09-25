@@ -3734,6 +3734,7 @@
 
 
         var cartResult = JSON.parse(tempElement.querySelector('[data-section-type="cart"]').getAttribute('data-section-settings'));
+        console.log(cartResult);
         var cartDot = Dom.nodeListToArray(document.querySelectorAll('.Header__CartDot'));
             // cartQuantity = Dom.nodeListToArray(document.querySelectorAll('.Header__CartCount'));
         this.itemCount = cartResult['itemCount'];
