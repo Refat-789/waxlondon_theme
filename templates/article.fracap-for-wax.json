@@ -28,8 +28,8 @@
         "single_image_block_P4qw3n": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify://shop_images/Lead-Banner-ezgif.com-optimize.gif",
-            "mobile_image": "shopify://shop_images/Mobile-Lead-Banner.gif",
+            "image": "shopify://shop_images/Fracap-Web-Banner.jpg",
+            "mobile_image": "shopify://shop_images/Fracap-Web-Banner.jpg",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -66,7 +66,7 @@
     "blog_header_RF9Hkd": {
       "type": "blog-header",
       "settings": {
-        "blog_title": "AW24 ‘Escape The Noise’ Covent Garden Store <i>Launch Party</i>",
+        "blog_title": "Fracap For Wax",
         "blog_date": "September 13th, 2024",
         "blog_author": "Tobias Wightman",
         "title_font_size": 44,
@@ -109,7 +109,7 @@
         "spacer_wV4RTE": {
           "type": "spacer",
           "settings": {
-            "space_height": 30
+            "space_height": 40
           }
         }
       },
@@ -128,8 +128,8 @@
         "single_image_block_t97fLd": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_3.png",
-            "mobile_image": "shopify://shop_images/Artboard_9_164e4f60-c23d-4042-bc7e-2176cc3b6f37.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_3_a300a0ea-c9bc-4b62-a399-b75ca65785c5.png",
+            "mobile_image": "shopify://shop_images/Top_Image_5e61f021-a518-4c33-a9e9-d7ff91abee75.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -152,169 +152,11 @@
             "space_height": 20
           }
         },
-        "single_image_block_xdADY3": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_4.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_KYjrc9": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
         "single_image_block_ePjwy8": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_3_95681bbd-5d3b-4a91-9951-b697c738d6e2.png",
-            "mobile_image": "shopify://shop_images/Artboard_9_a4ccb678-8021-42cf-a4c8-fbc1d62ac761.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_Xx8zzg": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
-        "single_image_block_TemKii": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/S1130145.jpg",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_AfUp6h": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
-        "single_image_block_bQJBtp": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_3_45ff6f1a-b777-483b-beb0-761d9e9c20a0.png",
-            "mobile_image": "shopify://shop_images/Artboard_9_3c4e0508-88b4-4456-bc5a-21924a345183.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_Dcpepz": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
-        "single_image_block_dQzeR9": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_4_e6ba0797-81fb-44eb-bed6-8eb5c3d93721.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_ycQcjJ": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
-        "single_image_block_qMJpjr": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_7.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_NMwkRL": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
-        },
-        "single_image_block_tpipcM": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_8_57494b84-1b2d-4645-b8eb-2c3d99f9fb0b.png",
-            "mobile_image": "shopify://shop_images/Artboard_10_2f628abf-1675-431d-8dc2-e3f7c6f9bf04.png",
+            "image": "shopify://shop_images/Journal_Left_Image_3_9.png",
+            "mobile_image": "shopify://shop_images/Artboard_9_ec8ac249-da38-4569-8a8b-4fcd8868fbf9.png",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
@@ -336,53 +178,13 @@
           "settings": {
             "space_height": 20
           }
-        },
-        "single_image_block_LefABB": {
-          "type": "single_image_block",
-          "settings": {
-            "image": "shopify://shop_images/Journal_Left_Image_3_7_40077d9c-fc96-40f5-9587-61cf317e002f.png",
-            "hide_image": false,
-            "hide_image_mobile": false,
-            "image_caption": "",
-            "show_caption": true,
-            "font_size": 12,
-            "font_size_mobile": 12,
-            "text_line_height": 18,
-            "text_line_height_mobile": 18,
-            "text_color": "#333333",
-            "font_family": "Maison Neue",
-            "font_weight": "normal",
-            "text_alignment": "left",
-            "text_alignment_mobile": "left",
-            "block_width": "custom"
-          }
-        },
-        "spacer_ktBffr": {
-          "type": "spacer",
-          "settings": {
-            "space_height": 20
-          }
         }
       },
       "block_order": [
         "single_image_block_t97fLd",
         "spacer_bB7BMj",
-        "single_image_block_xdADY3",
-        "spacer_KYjrc9",
         "single_image_block_ePjwy8",
-        "spacer_Xx8zzg",
-        "single_image_block_TemKii",
-        "spacer_AfUp6h",
-        "single_image_block_bQJBtp",
-        "spacer_Dcpepz",
-        "single_image_block_dQzeR9",
-        "spacer_ycQcjJ",
-        "single_image_block_qMJpjr",
-        "spacer_NMwkRL",
-        "single_image_block_tpipcM",
-        "spacer_igGehW",
-        "single_image_block_LefABB",
-        "spacer_ktBffr"
+        "spacer_igGehW"
       ],
       "settings": {
         "section_padding_left": 10,
@@ -394,7 +196,7 @@
       "settings": {
         "collection": "aw24",
         "grid_items_count": 32,
-        "shop_button_text": "Shop All AW24",
+        "shop_button_text": "Shop All Footwear",
         "shop_button_url": "shopify://collections/aw24",
         "button_text": "",
         "close_button_text": "",
