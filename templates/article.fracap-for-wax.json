@@ -194,10 +194,10 @@
     "47447fbd-1a51-4baa-a5d7-c4d16703532f": {
       "type": "shop-the-look-new",
       "settings": {
-        "collection": "aw24",
+        "collection": "boots",
         "grid_items_count": 32,
         "shop_button_text": "Shop All Footwear",
-        "shop_button_url": "shopify://collections/aw24",
+        "shop_button_url": "shopify://collections/footwear",
         "button_text": "",
         "close_button_text": "",
         "button_text_color": "#ffffff",
