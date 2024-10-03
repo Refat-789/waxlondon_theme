@@ -83,8 +83,8 @@
       "type": "spacer",
       "settings": {
         "spacing": "custom_spacing",
-        "custom_spacing_height": 40,
-        "custom_spacing_height_mobile": 12
+        "custom_spacing_height": 26,
+        "custom_spacing_height_mobile": 20
       }
     },
     "13e9db9b-9e6d-4acd-b1f1-7b92e2cb6898": {
