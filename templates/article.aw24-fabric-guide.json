@@ -28,8 +28,8 @@
         "a6e008ab-bfad-433a-847f-5552b7b7a503": {
           "type": "single_image_block",
           "settings": {
-            "image": "shopify://shop_images/Banner-ezgif.com-optimize.gif",
-            "mobile_image": "shopify://shop_images/Mobile-Banner_750ffe07-e13a-45bb-8673-8f880c9c0662.gif",
+            "image": "shopify://shop_images/Desktop-Banner_e4d72cb8-8a9e-494d-b002-21ba53956e80.gif",
+            "mobile_image": "shopify://shop_images/Mobile-Banner_e6cac9d9-7cb7-4d6a-90bf-3ab713727e82.gif",
             "hide_image": false,
             "hide_image_mobile": false,
             "image_caption": "",
