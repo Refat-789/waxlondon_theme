@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1a44783c-3228-46d2-a6d4-69e9afb1224a": {
@@ -659,7 +659,7 @@
         "title": "",
         "content": "<p>Discover Our Integrity Initiative</p>",
         "button_label": "Get To Know",
-        "button_link": "shopify://pages/integrity",
+        "button_link": "shopify://pages/integrity-old",
         "background": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "button_text_color": "#ffffff",
