@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "klaviyo_public_api_key": "WkTqs3",
@@ -101,7 +101,7 @@
             "settings": {
               "content": "SALE: ADDED LINES + UP TO 50% OFF",
               "link_text": "SHOP NOW",
-              "link": "shopify://collections/summer-sale",
+              "link": "shopify://collections/summer-sale-early-access",
               "text_color": "#000000",
               "text_font_size": 12,
               "text_font_size_mobile": 12
@@ -331,9 +331,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Allure": {
