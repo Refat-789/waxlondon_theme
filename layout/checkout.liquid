@@ -12,7 +12,7 @@
    		<script src="https://www.googleoptimize.com/optimize.js?id=OPT-56L6TFQ"></script>
 
         <!-- Google Tag Manager -->
-        {% include 'GTM' | placement: 'head' %}
+        {% include 'GTM', placement: 'head' %}
 
         {{ content_for_header }}
 
@@ -46,7 +46,7 @@
         {% render 'gtm-checkout' %}
 
         {%- if settings.klarna_checkout -%}
-            {{ render 'vendor-klarna' }}
+            {{ render }}
         {%- endif -%}
 
         {{ skip_to_content_link }}
@@ -150,3 +150,16 @@ function isPollFncart() {
 isPollFncart();
   
 </script>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'GTM' | placement: 'head' %}"
+  to: "{% include 'GTM', placement: 'head' %}"
+  position: 611..649
+- from: "{{ render 'vendor-klarna' }}"
+  to: "{{ render }}"
+  position: 1515..1527
+{% endcomment %}

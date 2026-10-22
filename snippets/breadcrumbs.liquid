@@ -29,95 +29,96 @@
           <li class="item first-item"  itemprop="itemListElement" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item">Home</a></li>
         </div>
     {% elsif template.name == 'page' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: page.url
-        |  item: page.title
-        |  position: 2
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: page.url, item: page.title, position: 2 -%}
     {% elsif template.name == 'blog' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: blog.url
-        |  item: blog.title
-        |  position: 2
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: blog.url, item: blog.title, position: 2 -%}
     {% elsif template.name == 'article' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: blog.url
-        |  item: blog.title
-        |  position: 2
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: article.url
-        |  item: article.title
-        |  position: 3
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: blog.url, item: blog.title, position: 2 -%}
+      {%- render 'breadcrumbs-item', url: article.url, item: article.title, position: 3 -%}
     {% elsif template.name == 'login' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: routes.account_login_url
-        |  item: 'Login'
-        |  position: 2
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: routes.account_login_url, item: 'Login', position: 2 -%}
     {% elsif template.name == 'register' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: routes.account_register_url
-        |  item: 'Register'
-        |  position: 2
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: routes.account_register_url, item: 'Register', position: 2 -%}
     {% elsif template.name == 'account' %}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: '/'
-        |  item: 'Home'
-        |  extra: 'rel="index"'
-        |  position: 1
-      -%}
-      {%- 
-        render 'breadcrumbs-item'
-        |  url: routes.account_url
-        |  item: 'Account'
-        |  position: 2
-      -%}
+      {%- render 'breadcrumbs-item', url: '/', item: 'Home', extra: 'rel="index"', position: 1 -%}
+      {%- render 'breadcrumbs-item', url: routes.account_url, item: 'Account', position: 2 -%}
     {% endif %}
   </ol>
 </nav>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 732..824
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: page.url\n        |
+    \ item: page.title\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: page.url, item: page.title, position: 2
+    -%}"
+  position: 831..910
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 957..1049
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: blog.url\n        |
+    \ item: blog.title\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: blog.url, item: blog.title, position: 2
+    -%}"
+  position: 1056..1135
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 1185..1277
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: blog.url\n        |
+    \ item: blog.title\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: blog.url, item: blog.title, position: 2
+    -%}"
+  position: 1284..1363
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: article.url\n        |
+    \ item: article.title\n        |  position: 3\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: article.url, item: article.title, position:
+    3 -%}"
+  position: 1370..1455
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 1503..1595
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: routes.account_login_url\n
+    \       |  item: 'Login'\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: routes.account_login_url, item: 'Login',
+    position: 2 -%}"
+  position: 1602..1694
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 1745..1837
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: routes.account_register_url\n
+    \       |  item: 'Register'\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: routes.account_register_url, item: 'Register',
+    position: 2 -%}"
+  position: 1844..1942
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: '/'\n        |  item:
+    'Home'\n        |  extra: 'rel=\"index\"'\n        |  position: 1\n      -%}"
+  to: '{%- render ''breadcrumbs-item'', url: ''/'', item: ''Home'', extra: ''rel="index"'',
+    position: 1 -%}'
+  position: 1992..2084
+- from: "{%- \n        render 'breadcrumbs-item'\n        |  url: routes.account_url\n
+    \       |  item: 'Account'\n        |  position: 2\n      -%}"
+  to: "{%- render 'breadcrumbs-item', url: routes.account_url, item: 'Account', position:
+    2 -%}"
+  position: 2091..2179
+{% endcomment %}
